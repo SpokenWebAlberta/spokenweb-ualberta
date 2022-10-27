@@ -109,8 +109,8 @@ menu:
         link: '/about/'
       - label: 'Documentation'
         link: 'https://cmiya.github.io/my-wax-site/'
-      - label: 'Credits'
-        link: '/credits/'
+      - label: 'Our Team'
+        link: '/team/'
   - label: 'Exhibits'
     sub:
       - label: 'Inline Parallax Image'
