@@ -18,11 +18,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
-copyright:        'Example copyright org, 2019'
+title:            'SpokenWeb Alberta'
+description:      'Audiotextual Collection'
+url:              'https://cmiya.github.io'
+baseurl:          '/my-wax-site'
+copyright:        'copyright SpokenWeb, 2022'
 logo:             '/assets/logo.png'
 
 # ---------------------------------------------------------------
@@ -69,9 +69,9 @@ collections:
     output: true # makes sure pages are output as html files
     layout: 'qatar_item' # the layout for the pages to use
     metadata:
-      source: 'qatar.csv' # path to the metadata file within `_data`
+      source: 'spokenweb.csv' # path to the metadata file within `_data`
     images:
-      source: 'raw_images/qatar' # path to the directory of images within `_data`
+      source: 'raw_images/poets' # path to the directory of images within `_data`
 
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
@@ -108,7 +108,7 @@ menu:
       - label: 'Wax'
         link: '/about/'
       - label: 'Documentation'
-        link: 'https://minicomp.github.io/wiki/wax/'
+        link: 'https://cmiya.github.io/my-wax-site/'
       - label: 'Credits'
         link: '/credits/'
   - label: 'Exhibits'
@@ -132,12 +132,12 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://github.com/minicomp/wax'
+      link: 'https://github.com/cmiya/my-wax-site'
     - label: 'Credits'
       link: '/credits'
     - label: 'Contact'
-      link: 'https://gitter.im/minicomp/wax/'
+      link: 'https://github.com/cmiya/my-wax-site'
   logos:
-    - img: '/img/logo.png'
+    - img: '/img/logo2.png'
 
 # FIN
