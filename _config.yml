@@ -18,7 +18,7 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'SpokenWeb Alberta'
+title:            'SpokenWeb UAlberta'
 description:      'Audiotextual Collection'
 url:              'https://cmiya.github.io'
 baseurl:          '/my-wax-site'
@@ -133,10 +133,10 @@ footer:
   links:
     - label: 'GitHub'
       link: 'https://github.com/cmiya/my-wax-site'
-    - label: 'Credits'
-      link: '/credits'
+    - label: 'Our Team'
+      link: '/team'
     - label: 'Contact'
-      link: 'https://github.com/cmiya/my-wax-site'
+      link: 'spokenweb@ualberta.ca'
   logos:
     - img: '/img/logo2.png'
 

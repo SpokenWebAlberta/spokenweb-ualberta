@@ -1,11 +1,7 @@
 ---
 layout: page
-title: Credits
-permalink: '/credits/'
+title: Our Team
+permalink: '/team/'
 ---
 
-Wax is a minimal computing ([minicomp](https://github.com/minicomp)) project led by [Marii Nyröp](http://marii.info/). The project is currently maintained by Marii Nyröp at New York University and [Alex Gil](https://github.com/elotroalex) at Columbia University Libraries. It uses open source libraries and frameworks including [Jekyll](https://jekyllrb.com), [IIIF](http://iiif.io), [OpenSeaDragon](https://openseadragon.github.io/), [Rake](https://ruby.github.io/rake/), and [ElasticLunr](http://elasticlunr.com/). Wax builds upon work by [Peter Binkley](https://github.com/pbinkley), [David Newbury](https://github.com/workergnome), and others.
-
-We welcome and encourage contributors and maintainers. Please get in touch, or [fork the project on GitHub](https://github.com/minicomp/wax). If you encounter any issue with the software, please [create an issue](https://github.com/minicomp/wax/issues) on our repository or post a comment on [Gitter](https://gitter.im/minicomp/wax/).
-
-For more on working with Wax, visit our [documentation wiki](https://minicomp.github.io/wiki/wax/).
+We are an interdisciplinary team of literary scholars and digital humanists, librarians and archivists, media historians, sound artists, oral historians, linguists, designers, programmers, poets, musicians, photographers, cultural activists, and performers, focused on preserving, describing, restoring,reviving, performing, reshaping, and re-imagining archives of literary sound, and literary and archival practice. We are 13 institutions, 7 partner institutions, 5 community and organizational partners, 50+ researchers, 14 collections, and growing.
