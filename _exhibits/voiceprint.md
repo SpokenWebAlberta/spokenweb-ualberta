@@ -11,6 +11,8 @@ permalink: /exhibits/voiceprint/
   <img src="{{ '/img/VoiceprintTape.jpg' | absolute_url }}" style="display: block; margin: 0 auto"/>
 </a>
 
+<div style="padding: 100% 0 0 0;position: relative;overflow: hidden;width: 100%;" ><iframe title="VoicePrint: Speech and its Characteristics" style="position:absolute;top:0;left:0;bottom: 0;right: 0;width:100%;height:100%;" src="https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59265?embed=true" allow="fullscreen" frameborder="0"></iframe></div>
+
 
 **Voiceprint: Speech, Language, Communications Technology, and Literary Arts in a Changing World** was a University of Alberta campus radio show that aired on CKUA from 1980 to 1983 (UAlberta Archives, No. 88-47). The series was created and hosted by then-masters student Jars Balan. Terri Wynnyk, a political science student, was the production assistant. Notable guests included: Stephen Scobie, Douglas Barbour, Ann Cameron, and Margaret Atwood.
 

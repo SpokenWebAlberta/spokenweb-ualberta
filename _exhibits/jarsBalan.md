@@ -8,7 +8,7 @@ permalink: /exhibits/jarsBalan/
 
 
 <a href="{{ '/img/JarsBalan.jpg' | absolute_url }}">
-  <img src="{{ '/img/JarsBalan.jpg' | absolute_url }}"/>
+  <img src="{{ '/img/JarsBalan.jpg' | absolute_url }}" width="500"/>
 </a>
 
 
