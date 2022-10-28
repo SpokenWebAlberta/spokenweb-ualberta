@@ -25,7 +25,7 @@ The series creators’ prided themselves on the shows interdisciplinarity. Jars 
 **The radio show’s “holistic” blend of communications theory, literary arts, and politics earned praise in the local media.** The Edmonton Journal, quoting Onufrijchuk, likened the series to “Sesame Street for adults.”[^4] In the words of reviewer Myrna Kostash, “These programs are most assuredly not straightforward lectures, not a solitary patrician (male) voice droning on into the fog of the airwaves. Voiceprint is, in the jargon of electronic media, a magazine show. The format is the montage: many voices, recurring theme segments, a bit of music, readings, interviews.”[^5]
 
 <a href="{{ '/img/RomanO.jpg' | absolute_url }}">
-  <img src="{{ '/img/RomanO.jpg' | absolute_url }}" width="375" style="float: right;margin-right: 7px;margin-top: 7px;"/>
+  <img src="{{ '/img/RomanO.jpg' | absolute_url }}" width="375" style="float: right;margin-left: 10px;margin-top: 10px;"/>
 </a>
 
 Radio historians Erika Engstrom[^6], Caroline Mitchell[^7], Susan Carter[^8], Stacey Copeland[^9], and others have pointed out the role of campus and community radio stations in building safe spaces for marginalized communities, particularly during the peak of alternative radio in the early 1980s. Along these lines, Voiceprint was notable for its progressive politics, particularly the producers’ unflinching and nuanced engagement with women’s issues, a topic that scholars Barbara Freeman and Susan Carter point out was often ignored on mainstream public and commercial stations. The episode “Women’s Language and Literature: A Room and Voice of One’s Own” digs into how misogyny becomes normalized through our language habits. Poet Ann Cameron, in an interview with Balan, describes her frustration with being labeled a “masculine” writer, pointing out how feminized versions of titles, like “poetess,” are used to condescend to and diminish women who participate in male-dominant spheres.[^10]
@@ -33,7 +33,7 @@ Radio historians Erika Engstrom[^6], Caroline Mitchell[^7], Susan Carter[^8], St
 **Reflecting on Voiceprint’s forward-thinking politics**, Balan explained that he was not just a radio host but an activist and a “proud feminst\[s\].”[^11] While producing the series, he and show contributor Anna Altman organized literary readings at the Edmonton feminist bookstore Erewhon Books. Wynnyk, the “tech guru” of the Voiceprint team, has in turn spoken about the challenges of being a woman in traditionally male fields like radio and film and television.[^12][^13]
 
 <a href="{{ '/img/TerriW.jpg' | absolute_url }}">
-  <img src="{{ '/img/TerriW.jpg' | absolute_url }}" width="375" style="float: left;margin-left: 7px;margin-top: 7px;"/>
+  <img src="{{ '/img/TerriW.jpg' | absolute_url }}" width="375" style="float: left;margin-right: 10px;margin-top: 10px;"/>
 </a>
 
 **Voiceprint came to an abrupt end in 1983**, after the final episode was “banned” by CKUA. The episode, “Linguistic Taboos and Censorship in Literature,” included a clip from comedian George Carlin’s infamous sketch, “Seven Words You Can Never Say on Television.” According to CKUA, the airing of “swear words” violated the station’s decency rules (Remington). In an interview with The Edmonton Journal, show producer Ken Bolton decried CKUA’s “cowardly” decision to take the show off the air.[^14] Yet, looking back on the incident years later, Balan conceded that it was “better to go out with a bang.”[^15]
