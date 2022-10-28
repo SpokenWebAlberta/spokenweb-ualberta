@@ -10,7 +10,7 @@ The audio textual items in this collection are housed at The University of Alber
 
 ### Browse the Collection
 
-{% include collection_gallery.html facet_by='object_type' collection='qatar' %}
+{% include collection_gallery.html facet_by='object_type' collection='spokenweb' %}
 
 
-{% include collection_gallery.html collection='qatar' facet_by='object_type' %}
+{% include collection_gallery.html collection='spokenweb' facet_by='object_type' %}
