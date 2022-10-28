@@ -113,8 +113,8 @@ menu:
         link: '/team/'
   - label: 'Exhibits'
     sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
+      - label: 'Voiceprint'
+        link: '/exhibits/voiceprint/'
       - label: 'Inline Image References'
         link: '/exhibits/b/'
   - label: 'Browse'
