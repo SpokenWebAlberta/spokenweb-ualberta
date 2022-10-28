@@ -107,22 +107,18 @@ menu:
     sub:
       - label: 'Background'
         link: '/about/'
-      - label: 'Documentation'
-        link: 'https://cmiya.github.io/my-wax-site/'
       - label: 'Our Team'
         link: '/team/'
-  - label: 'Exhibits'
+  - label: 'Featured Audio'
     sub:
       - label: 'Voiceprint'
         link: '/exhibits/voiceprint/'
-      - label: 'Inline Image References'
-        link: '/exhibits/b/'
+      - label: 'Jars Balan'
+        link: '/exhibits/jarsBalan/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
     link: '/search/'
-  - label: 'Reuse'
-    link: '/reuse/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
