@@ -65,7 +65,7 @@ kramdown:
 collections:
   exhibits:
     output: true
-  qatar: # name of collection
+  spokenweb: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'qatar_item' # the layout for the pages to use
     metadata:
@@ -85,12 +85,12 @@ search:
   main:
     index: '/search/index.json' # file the index will get written to
     collections:
-      qatar:
+      spokenweb:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
-          - artist
+          - contributers
           - location
-          - label
+          - title
           - _date
           - object_type
           - current_location
