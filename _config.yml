@@ -115,10 +115,12 @@ menu:
         link: '/exhibits/voiceprint/'
       - label: 'Jars Balan'
         link: '/exhibits/jarsBalan/'
-  - label: 'Browse'
-    link: '/collection/'
-  - label: 'Search'
-    link: '/search/'
+  - label: 'Explore'
+    sub:
+      - label: 'Browse'
+        link: '/collection/'
+      - label: 'Search'
+        link: '/search/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
