@@ -14,9 +14,15 @@ permalink: /about/
 
 **The recordings, featuring resident and visiting creative authors, were mostly collected by professors and students** on the University of Alberta campus and consist of literary readings, lectures, interviews, and classroom sessions. A subset of several dozen recordings were recorded and produced by UAlberta faculty and staff for broadcast by [CKUA Radio](https://ckua.com/) during its affiliation with the University of Alberta.
 
-**These unique historical objects are not only important artifacts of cultural heritage deserving of preservation, they are also a valuable resource** for literary scholars, teachers, students, artists, and interested members of the public. The University of Alberta collection, in particular, documents several decades of Western Canadian literary activity, and the intersection of those creative authors with a national and international network of writers and scholars. 
+**These unique historical objects are not only important artifacts of cultural heritage deserving of preservation, they are also a valuable resource** for literary scholars, teachers, students, artists, and interested members of the public. The University of Alberta collection, in particular, documents several decades of Western Canadian literary activity, and the intersection of those creative authors with a national and international network of writers and scholars.
 
 
+<a href="{{ '/img/digtape.jpg' | absolute_url }}">
+  <img src="{{ '/img/digtape.jpg' | absolute_url }}"/>
+</a>
+
+<!---
 <a href="{{ '/img/wax_workflow.jpg' | absolute_url }}">
   <img src="{{ '/img/wax_workflow.jpg' | absolute_url }}"/>
 </a>
+-->
