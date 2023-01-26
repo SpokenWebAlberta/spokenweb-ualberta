@@ -6,11 +6,6 @@
     <time datetime='{{ 'now' | date: '%Y-%m-%d %H:%M' }}'></time>
     {% include header.html %}
 
-    {% if page.banner %}
-      {% assign b = page.banner %}
-      {% include parallax_image.html collection=b.collection pid=b.pid y=b.y height=b.height image=b.image %}
-    {% endif %}
-
     <div id='wax-main'>
       <div id='wax-content' class='wax-inline-container'>
         {{ content }}
