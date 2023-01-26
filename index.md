@@ -14,6 +14,7 @@ Welcome to The SpokenWeb at the University of Alberta in Edmonton, Canada. This 
 
 The audio textual items in this collection are housed at The University of Alberta and made available through [UAlberta Library's Aviary Online Collection](https://ualberta.aviaryplatform.com/).
 
-### Featured Authors
+[More About Us](about/){: .btn2}
 
+### Featured Authors
 {% include featured_authors.html facet_by='object_type' collection='spokenweb' %}

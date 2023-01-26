@@ -21,7 +21,7 @@
 title:            'SpokenWeb UAlberta'
 description:      'Audiotextual Collection'
 url:              'https://cmiya.github.io'
-baseurl:          '/my-wax-site'
+baseurl:          '/spokenweb-ualberta'
 copyright:        'copyright SpokenWeb, 2023'
 logo:             '/assets/logo-red.png'
 
@@ -105,22 +105,22 @@ search:
 menu:
   - label: 'About'
     sub:
-      - label: 'Background'
-        link: '/about/'
       - label: 'Our Team'
         link: '/team/'
+      - label: 'Background'
+        link: '/about/'
+      - label: 'Collection'
+        link: '/collection/'
+  - label: 'Events'
+    sub:
+      - label: '2023 Symposium-Institute'
+        link: '/symposium/'
   - label: 'Featured Audio'
     sub:
       - label: 'Voiceprint'
         link: '/exhibits/voiceprint/'
       - label: 'Jars Balan'
         link: '/exhibits/jarsBalan/'
-  - label: 'Explore'
-    sub:
-      - label: 'Browse'
-        link: '/collection/'
-      - label: 'Search'
-        link: '/search/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
@@ -130,7 +130,7 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://github.com/cmiya/my-wax-site'
+      link: 'https://github.com/cmiya/spokenweb-ualberta'
     - label: 'Our Team'
       link: '/team'
     - label: 'Contact'

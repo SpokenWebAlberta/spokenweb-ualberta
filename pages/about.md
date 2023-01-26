@@ -1,12 +1,8 @@
 ---
 layout: page
-title: About SpokenWeb UAlberta
+title: History
 permalink: /about/
 ---
-
-**The University of Alberta is an institutional member of the SSHRC SpokenWeb Partnership**, which aims to develop collaborative approaches to literary historical study, digital development, and critical and pedagogical engagement with diverse collections of literary sound recordings from across Canada and beyond. The local, multidisciplinary team includes experts from the University of Alberta Libraries, programs in English and Film Studies, Digital Humanities, Art & Design, and Library and Information Studies.
-
-## History
 
 **Ever wonder what happened to all those reel-to-reel or cassette recordings made decades ago that were tucked into cardboard boxes to await future audiences?** In and around university campuses across Canada, thousands of such recordings were made when local or visiting authors presented and discussed their work. However, most of those recordings have never been made publicly available, until now. 
 

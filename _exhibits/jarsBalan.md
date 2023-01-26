@@ -7,17 +7,18 @@ permalink: /exhibits/jarsBalan/
 ---
 
 
-<a href="{{ '/img/JarsBalan.jpg' | absolute_url }}">
+<figure>
   <img src="{{ '/img/JarsBalan.jpg' | absolute_url }}" width="500"/>
-</a>
+  <figcaption>Jars Balan reads <i>Voiceprint</i> script, 1981?</figcaption>
+</figure>
 
 
 
-**From 1980 to 1984, Jars Balan produced the campus radio shows Voiceprint, Celebrations, and Paper Tygers for the University of Alberta’s Radio and Television Department.** These series aired on CKUA, the Edmonton-based community radio station, and were broadcast across the province. Jars interviewed numerous Canadian literary stars, including Ann Cameron, Margaret Atwood, Bill Bisset, Stephen Scobie, and Douglas Barbour.
+**From 1980 to 1984, Jars Balan produced the campus radio shows <i>Voiceprint</i>, <i>Celebrations</i>, and <i>Paper Tygers</i> for the University of Alberta’s Radio and Television Department.** These series aired on CKUA, the Edmonton-based community radio station, and were broadcast across the province. Jars interviewed numerous Canadian literary stars, including Ann Cameron, Margaret Atwood, Bill Bisset, Stephen Scobie, and Douglas Barbour.
 
 **Balan was a master's student in UAlberta’s English Department when he was recruited by producer Roman Onufrijchuk** to help generate educational content for CKUA. Though a novice to radio, Balan found he had a knack for interviewing. He became skilled, as well, at audio editing and sound design, which in the pre-digital era was a hands-on process, involving cutting and splicing tape by hand using reel-to-reel decks.[^1]
 
-Of the three radio shows Balan produced for RTV/CKUA, Voiceprint had the most popular appeal. The series explored contemporary art and culture through the lens of communications theory and earned a glowing review in The Edmonton Journal (Kostash). The Celebrations series, also hosted by Balan, marked the 75th anniversary of the University of Alberta and featured interviews and performances with writers-in-residence. Finally, Paper Tygers explored the ins and outs of the publishing industry, offering practical advice for aspiring authors.[^2][^3]
+Of the three radio shows Balan produced for RTV/CKUA, <i>Voiceprint</i> had the most popular appeal. The series explored contemporary art and culture through the lens of communications theory and earned a glowing review in The Edmonton Journal (Kostash). The <i>Celebrations</i> series, also hosted by Balan, marked the 75th anniversary of the University of Alberta and featured interviews and performances with writers-in-residence. Finally, <i>Paper Tygers</i> explored the ins and outs of the publishing industry, offering practical advice for aspiring authors.[^2][^3]
 
 **Balan was not only a radio host, but a poet and performer in his own right**, who shared the stage with the likes of bpNichol, George Bowering, and Stephen Scobie. Paper Tygers was inspired by Balan’s experience as an artist-in-residence at The Banff Centre for Performing Arts.[^4]
 

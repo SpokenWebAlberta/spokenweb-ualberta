@@ -203,6 +203,86 @@ content section
       }
     }
 
+    .event-meta {
+      margin-bottom: $margin;
+
+      .event-location {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      .event-title {
+        margin: 0rem;
+        padding-bottom: $less-margin;
+      }
+      .event-start {
+        margin: 0rem;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        
+      }
+      .event-end {
+        margin: 0rem;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        
+      }
+
+    }
+
+    .btn2 {
+      display: inline-block;
+      font-size: 0.5rem;
+      background-color: $brand-red;
+      margin-top: $more-margin;
+      margin-bottom: $super-margin;
+      padding: 8px 24px;
+      font-size: small;
+      cursor: pointer;
+      color: white;
+      text-transform: uppercase;
+      box-shadow: 3px 3px 6px #00000040;
+      letter-spacing: 0.39px;
+      transition-duration: 0.4s;
+          }
+    .btn2:hover {
+      background-color: $brand-red-dark;
+      text-decoration: none;
+    }
+
+    /*
+
+Image Captions
+
+*/
+    
+    figure {
+      display: table;
+    }
+
+    figure2 {
+      display: table;
+      float: right;
+      margin: $less-margin;
+    }
+
+    figure3 {
+      display: table;
+      float: left;
+      margin: $less-margin;
+    }
+    
+    figcaption {
+      display: table-caption;
+      caption-side: bottom;
+      background-color: $caption-color;
+      padding: 4px;
+    }
+
     .inline-image-reference {
       background-color: $neutral;
       margin-top: $more-margin;
@@ -295,10 +375,6 @@ content section
 
 .wax-parallax.inline-parallax {
   margin-top: $more-margin;
-}
-
-.wax-parallax.top-banner {
-
 }
 
 .wax-parallax {

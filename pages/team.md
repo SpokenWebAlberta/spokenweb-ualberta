@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Our Team
+title: About SpokenWeb UAlberta
 permalink: '/team/'
 ---
 
-We are an interdisciplinary team of literary scholars and digital humanists, librarians and archivists, media historians, sound artists, oral historians, linguists, designers, programmers, poets, musicians, photographers, cultural activists, and performers, focused on preserving, describing, restoring,reviving, performing, reshaping, and re-imagining archives of literary sound, and literary and archival practice. We are 13 institutions, 7 partner institutions, 5 community and organizational partners, 50+ researchers, 14 collections, and growing.
+**The University of Alberta is an institutional member of the SSHRC SpokenWeb Partnership**, which aims to develop collaborative approaches to literary historical study, digital development, and critical and pedagogical engagement with diverse collections of literary sound recordings from across Canada and beyond. The local, multidisciplinary team includes experts from the University of Alberta Libraries, programs in English and Film Studies, Digital Humanities, Art & Design, and Library and Information Studies.
 
 <a href="{{ '/img/team.jpg' | absolute_url }}">
   <img src="{{ '/img/team.jpg' | absolute_url }}"/>
