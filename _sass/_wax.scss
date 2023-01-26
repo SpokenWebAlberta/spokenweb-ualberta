@@ -47,18 +47,28 @@ header & nav bar
 */
 
 #wax-header {
-  background-color: $bg-color;
-  border-bottom: 1px solid $text-color;
+  background-color: $neutral;
+  text-transform: uppercase;
   font-family: $heading-font;
   color: $text-color;
   z-index: 100000;
-  padding: $margin;
+  padding: $super-margin;
   letter-spacing: 0.075rem;
+  
+  .header-logos {
+    margin: $margin 0 $margin 0;
+    a {
+      text-decoration: none;
+    }
+    img {
+      height: 60px
+    }
+  }
 
   .navbar-brand {
-    font-weight: 700;
+    font-weight: 400;
     color: $accent-light;
-    font-size: 2rem;
+    font-size: 1.8rem;
     white-space: normal;
   }
 
@@ -67,22 +77,26 @@ header & nav bar
   }
 
   .navbar-toggler {
-    background-color: $bg-color;
+    background-color: #404040;
   }
 
   .navbar-nav {
     .nav-item {
       z-index: 1000000;
-      background-color: $bg-color;
+      background-color: $neutral;
+
     }
     .nav-link {
-      color: $text-color;
+      font-weight: 400;
+      color: $text-color-dark;
+      letter-spacing: 1px;
     }
     .nav-link:hover {
-      color: $accent-dark;
+      background-color: #343434;
+
     }
     .nav-link:active {
-      background-color: $bg-color;
+      background-color: #343434;
     }
     .dropdown-menu {
       background-color: $bg-color;
@@ -115,18 +129,25 @@ content section
 
   h1 {
     font-size: 2.5rem;
-    font-weight: 300;
+    color: $brand-red;
+    font-weight: 500;
+    letter-spacing: 0.72px;
+
   }
 
   h2 {
     font-size: 2rem;
+    color: $brand-red;
     letter-spacing: 0.1rem;
+    font-weight: 500;
   }
 
   h3 {
     font-size: 1.5rem;
-    font-weight: 700;
+    color: $brand-red;
+    font-weight: 600;
     letter-spacing: 0.077rem;
+
   }
 
   h4 {
@@ -162,14 +183,18 @@ content section
       margin-bottom: $super-margin;
 
       .exhibit-author {
-        margin-top: $more-margin;
-        margin-bottom: 1em;
+        margin-top: 0rem;
+        margin-bottom: $more-margin;
         padding-bottom: 0;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
       }
       .exhibit-title {
         margin-top: 0;
         padding-top: 0;
-        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom: 0rem;
       }
       .exhibit-date {
         margin: 0;
@@ -211,24 +236,28 @@ content section
     min-width: 250px;
   }
   .footer-title {
-    font-weight: bold;
+    font-weight: 500;
     font-family: $heading-font;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     margin: 0;
+    color: #FFFFFF;
   }
   .footer-description {
     font-family: $heading-font;
     margin: 0;
     font-size: .9em;
     line-height: 1.2;
+    color: #FFFFFF;
   }
   .footer-copyright {
     margin: $margin 0 $margin 0;
     font-size: .9em;
     line-height: 1.2;
+    color: #FFFFFF;
   }
   .footer-links {
     font-family: $heading-font;
+    color: #FFFFFF;
     margin: 0;
     font-size: .9em;
     line-height: 1.2;
@@ -239,7 +268,7 @@ content section
       text-decoration: none;
     }
     img {
-      height: 35px
+      height: 40px
     }
   }
 }
@@ -420,8 +449,6 @@ search box
     }
   }
 }
-
-
 
 .wax-gallery-container {
   .facet-buttons {

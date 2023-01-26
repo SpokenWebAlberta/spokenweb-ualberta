@@ -6,12 +6,12 @@ variable declaration
 */
 
 /* branding */
-$logo: url("{{ '/assets/logo.png' | absolute_url }}");
+$logo: url("{{ '/assets/logo-red.png' | absolute_url }}");
 
 /* text */
 
-$body-font:       'Open Sans', 'sans-serif';
-$heading-font:    'Open Sans', 'sans-serif';
+$body-font:       'Montserrat', 'sans-serif';
+$heading-font:    'Montserrat', 'sans-serif'; 
 
 
 /* Image Size */
@@ -21,9 +21,11 @@ $thumbnail-width: 140px;
 
 /* colors */
 
-$text-color:      #100c01;
+$text-color:      #414141;
+$text-color-dark: #ffffff;
 $bg-color:        #ffffff;
-$neutral:         #eae7de;
+$brand-red:       #F53E3E;
+$neutral:         #404040;
 $accent-light:    #966d09;
 $accent-dark:     #644906;
 
