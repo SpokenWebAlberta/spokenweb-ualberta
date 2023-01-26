@@ -11,7 +11,8 @@ $logo: url("{{ '/assets/logo-red.png' | absolute_url }}");
 /* text */
 
 $body-font:       'Montserrat', 'sans-serif';
-$heading-font:    'Montserrat', 'sans-serif'; 
+$heading-font:    'Montserrat', 'sans-serif';
+$sub-font:  'Lato', 'sans-serif';
 
 
 /* Image Size */
@@ -25,11 +26,11 @@ $text-color:      #414141;
 $text-color-dark: #ffffff;
 $bg-color:        #ffffff;
 $caption-color:   #f5efef;
+$banner-color:    #868684;
 $brand-red:       #F53E3E;
-$brand-red-dark:  #d13333;
 $neutral:         #404040;
-$accent-light:    #966d09;
-$accent-dark:     #644906;
+$accent-light:    #cd6952;
+$accent-dark:     #d13333;
 
 /* viewport sizes */
 

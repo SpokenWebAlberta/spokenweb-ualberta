@@ -250,7 +250,7 @@ content section
       transition-duration: 0.4s;
           }
     .btn2:hover {
-      background-color: $brand-red-dark;
+      background-color: $accent-dark;
       text-decoration: none;
     }
 
@@ -260,20 +260,19 @@ Image Captions
 
 */
     
-    figure {
+    .figure {
       display: table;
+      margin-bottom: $less-margin;
     }
 
-    figure2 {
-      display: table;
+    .figure.right {
       float: right;
-      margin: $less-margin;
+      margin-left: $less-margin;
     }
 
-    figure3 {
-      display: table;
+    .figure.left {
+      margin-right: $less-margin;
       float: left;
-      margin: $less-margin;
     }
     
     figcaption {
@@ -302,11 +301,38 @@ Image Captions
   }
 }
 
+.banner {
+  width: 100vw;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: $brand-red;
+  color: white;
+  text-align:center;
+  font-weight: 600;
+  font-size: small;
+  letter-spacing: 1px;
+  font-family: $sub-font;
+  opacity: 1;
+  overflow: flex-wrap;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner a {
+  color: white;
+}
+
+.banner a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 #wax-footer {
   width: 100vw;
   padding-bottom: 5rem;
   padding-top: 3rem;
   background-color: $neutral;
+  
   col {
     flex-basis: 0;
     flex-shrink: 0;
@@ -314,6 +340,13 @@ Image Captions
     max-width: 100%;
     justify-items: space-between;
     min-width: 250px;
+  }
+  a {
+    color: grey;
+  }
+
+  a:hover {
+    color: $accent-light;
   }
   .footer-title {
     font-weight: 500;
@@ -353,6 +386,15 @@ Image Captions
   }
 }
 
+.wax-inline-container-footer {
+  @extend .container;
+
+  margin: 0 auto;
+  max-width: 90%;
+  width: 2000px;
+  overflow: flex-wrap;
+  text-align: center;
+}
 
 .wax-inline-container {
   @extend .container;

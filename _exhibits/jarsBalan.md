@@ -7,10 +7,10 @@ permalink: /exhibits/jarsBalan/
 ---
 
 
-<figure>
+<div class = "figure">
   <img src="{{ '/img/JarsBalan.jpg' | absolute_url }}" width="500"/>
   <figcaption>Jars Balan reads <i>Voiceprint</i> script, 1981?</figcaption>
-</figure>
+</div>
 
 
 
