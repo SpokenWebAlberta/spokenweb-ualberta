@@ -1,5 +1,5 @@
 # SpokenWeb UAlberta
-Welcome to the public-facing website for the SpokenWeb Research Network at the University of ALberta.
+Welcome to the public-facing website for the SpokenWeb Research Network at the University of Alberta.
 
 # About Us
 The University of Alberta is an institutional member of the SSHRC [SpokenWeb Partnership](https://spokenweb.ca/), which aims to develop collaborative approaches to literary historical study, digital development, and critical and pedagogical engagement with diverse collections of literary sound recordings from across Canada and beyond. The local, multidisciplinary team includes experts from the University of Alberta Libraries, programs in English and Film Studies, Digital Humanities, Art & Design, and Library and Information Studies.
