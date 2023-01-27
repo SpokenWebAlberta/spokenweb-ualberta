@@ -115,7 +115,7 @@ menu:
     sub:
       - label: '2023 Symposium-Institute'
         link: '/symposium/'
-  - label: 'Featured Audio'
+  - label: 'Featured Exhibits'
     sub:
       - label: 'Voiceprint'
         link: '/exhibits/voiceprint/'

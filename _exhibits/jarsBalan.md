@@ -7,14 +7,14 @@ permalink: /exhibits/jarsBalan/
 ---
 
 
-<div class = "figure">
+<div class = "figure left">
   <img src="{{ '/img/JarsBalan.jpg' | absolute_url }}" width="500"/>
   <figcaption>Jars Balan reads <i>Voiceprint</i> script, 1981?</figcaption>
 </div>
 
 
 
-**From 1980 to 1984, Jars Balan produced the campus radio shows <i>Voiceprint</i>, <i>Celebrations</i>, and <i>Paper Tygers</i> for the University of Alberta’s Radio and Television Department.** These series aired on CKUA, the Edmonton-based community radio station, and were broadcast across the province. Jars interviewed numerous Canadian literary stars, including Ann Cameron, Margaret Atwood, Bill Bisset, Stephen Scobie, and Douglas Barbour.
+**From 1980 to 1984, Jars Balan produced the campus radio shows <i>Voiceprint</i>, <i>Celebrations</i>, and <i>Paper Tygers</i> for the University of Alberta’s Radio and Television Department.** These series aired on CKUA, the Edmonton-based community radio station, and were broadcast across the province. Jars interviewed numerous Canadian literary stars, including Ann Cameron, Margaret Atwood, Bill Bisset, Stephen Scobie, and Douglas Barbour. 
 
 **Balan was a master's student in UAlberta’s English Department when he was recruited by producer Roman Onufrijchuk** to help generate educational content for CKUA. Though a novice to radio, Balan found he had a knack for interviewing. He became skilled, as well, at audio editing and sound design, which in the pre-digital era was a hands-on process, involving cutting and splicing tape by hand using reel-to-reel decks.[^1]
 

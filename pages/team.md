@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: team
 title: Our Team
-show_title: false
 permalink: '/team/'
 ---
-## Our Team
-<br>
 
 ### Affiliated Faculty
 

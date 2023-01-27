@@ -9,7 +9,14 @@ This collection is made available for non-commercial research and educational pu
 Any recordings that have been cleared for public streaming can be found in the [University of Alberta’s Aviary Repository](https://ualberta.aviaryplatform.com/). 
 
 
+[Browse Collection](https://ualberta.aviaryplatform.com/collections/1783){: .btn2}
+
+
+<!--
+
 ### Browse Audio
 
 
 {% include collection_gallery.html collection='spokenweb' facet_by='object_type' %}
+
+-->

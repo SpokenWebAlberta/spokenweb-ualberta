@@ -16,5 +16,8 @@ The audio textual items in this collection are housed at The University of Alber
 
 [More About Us](about/){: .btn2}
 
+<!--
 ### Featured Authors
 {% include featured_authors.html facet_by='object_type' collection='spokenweb' %}
+
+-->
