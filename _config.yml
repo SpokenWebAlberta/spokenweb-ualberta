@@ -23,7 +23,7 @@ description:      'Audiotextual Collection'
 url:              'https://cmiya.github.io'
 baseurl:          '/spokenweb-ualberta'
 copyright:        'copyright SpokenWeb, 2023'
-logo:             '/assets/logo-red.png'
+logo:             '/assets/logo-white.png'
 
 # ---------------------------------------------------------------
 # BUILD SETTINGS
