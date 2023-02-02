@@ -29,9 +29,3 @@ permalink: /about/
   <img src="{{ '/img/digtape.jpg' | absolute_url }}"/>
   <figcaption>Original recordings of Canadian author Rudy Wiebe marked for digitization.</figcaption>
 </div>
-
-<!---
-<a href="{{ '/img/wax_workflow.jpg' | absolute_url }}">
-  <img src="{{ '/img/wax_workflow.jpg' | absolute_url }}"/>
-</a>
--->

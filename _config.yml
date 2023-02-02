@@ -134,7 +134,7 @@ footer:
     - label: 'Our Team'
       link: '/team'
     - label: 'Contact'
-      link: 'spokenweb@ualberta.ca'
+      link: '/contact'
   logos:
     - img: '/img/logo-white.png'
 
