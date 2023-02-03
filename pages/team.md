@@ -45,3 +45,12 @@ permalink: '/team/'
 <div class = "figure bio">
   <img src="{{ '/img/bio/Morrison.jpg' | absolute_url }}" />
 </div> **Zach Morrison** is a PhD student in the department of English and Film Studies at the University of Alberta. His research interests include late twentieth century American culture and criticism, psychoanalytic and post-psychoanalytic theory, anti-psychiatry, and affect theory.
+<br><br><br>
+
+**Maia Trotter** (she/her) lives, studies and works on Treaty 6 territory. Maia is a second-year Master of Library and Information Studies student at the University of Alberta. She received her Bachelor of English Honours from Simon Fraser University. Her current research interests are focused on community and feminist-driven metadata practices in digital initiatives, and the emotive evocations of sounds of public spaces like libraries.
+
+### Graphic Designer
+
+<div class = "figure bio">
+  <img src="{{ '/img/bio/Ambarani.jpg' | absolute_url }}" />
+</div> **Tejas Ambarani** is a Canadian-based Product and Visual designer with a Master’s in Visual Communication (M.Des). In his professional career, he has been involved in several research-led projects and collaborated with professionals from numerous fields. He incorporates a multidisciplinary approach with a holistic design view to create user-centric experiences for people’s needs.
