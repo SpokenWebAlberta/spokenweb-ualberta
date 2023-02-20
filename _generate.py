@@ -32,6 +32,9 @@ if __name__ == "__main__":
     df_data = pd.read_csv("_data/data.csv")
 
     for index, row in df_data.iterrows():
+        if index > 5:
+            break
+
         new = template.format(
             iden=fix(row["aviary ID"]),
             title=fix(row["Title"]),
