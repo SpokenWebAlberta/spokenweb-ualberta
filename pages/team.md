@@ -1,8 +1,9 @@
 ---
-layout: team
-title: Our Team
+layout: default
 permalink: '/team/'
 ---
+
+<h6 class = 'page-title'>Our Team</h6>
 
 ### Affiliated Faculty
 

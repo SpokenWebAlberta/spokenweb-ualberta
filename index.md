@@ -1,11 +1,5 @@
 ---
-layout: page
-show_title: false
-banner:
-  collection: spokenweb
-  pid: obj4
-  y: 25%
-  height: '500px'
+layout: default
 ---
 
 ## Sounding Literature
