@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 permalink: /exhibits/
 title: Featured Exhibits
 ---
+
+<h2 class='page-title'>Featured Exhibits</h2>
 
 {% assign exhibits = site.exhibits | where: 'layout','exhibit' %}
 <ul>

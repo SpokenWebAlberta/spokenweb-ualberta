@@ -135,6 +135,8 @@ footer:
       link: '/team'
     - label: 'Contact'
       link: '/contact'
+    - label: 'Objects'
+      link: '/objects'
   logos:
     - img: '/img/logo-white.png'
 

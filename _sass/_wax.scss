@@ -9,6 +9,7 @@ main body & containers
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
   background-color: $bg-color;
   font-family: $body-font;
   font-display: auto;
@@ -54,7 +55,7 @@ header & nav bar
   color: $text-color;
   z-index: 100000;
   letter-spacing: 0.075rem;
-  
+
   .header-logos {
     padding-top: 1rem;
     a {
@@ -112,7 +113,14 @@ header & nav bar
 content section
 
 */
+#sp-fullscreen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 #wax-main {
+  flex-grow: 1;
   background-color: $bg-color;
   width: 100vw;
   max-width: 100%;
@@ -184,8 +192,6 @@ content section
   }
 
   #wax-content {
-    min-height: 70vh;
-
     .exhibit-meta {
       margin-top: $margin;
       margin-bottom: $super-margin;
@@ -231,14 +237,14 @@ content section
         font-size: 1rem;
         font-weight: 500;
         text-transform: uppercase;
-        
+
       }
       .event-end {
         margin: 0rem;
         font-size: 1rem;
         font-weight: 500;
         text-transform: uppercase;
-        
+
       }
 
     }
@@ -268,12 +274,12 @@ content section
 Image Captions
 
 */
-    
+
     .figure {
       display: table;
       margin-bottom: $less-margin;
     }
-    
+
     .figure.right {
       max-width: 400px;
       float: right;
@@ -299,7 +305,7 @@ Image Captions
       margin-right: auto;
       text-align: center;
     }
-    
+
     figcaption {
       display: table-caption;
       caption-side: bottom;
@@ -357,7 +363,7 @@ Image Captions
   padding-bottom: 5rem;
   padding-top: 3rem;
   background-color: $neutral;
-  
+
   col {
     flex-basis: 0;
     flex-shrink: 0;

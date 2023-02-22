@@ -13,3 +13,5 @@ Gemfile.lock
 
 # wax things
 wax_tasks
+.gems/
+.~lock.*
