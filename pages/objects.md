@@ -11,7 +11,7 @@ title: All Objects
   {% for exhibit in exhibits %}
     <li>
       <a href='{{ exhibit.url | absolute_url }}'>
-        l: {{ exhibit.title }}
+        {{ site.data.objects[exhibit.iden].title }}
       </a>
     </li>
   {% endfor %}

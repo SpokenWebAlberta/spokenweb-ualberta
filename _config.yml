@@ -111,6 +111,8 @@ menu:
         link: '/about/'
       - label: 'Collection'
         link: '/collection/'
+      - label: 'Objects'
+        link: '/objects'
   - label: 'Events'
     sub:
       - label: '2023 Symposium-Institute'
@@ -135,8 +137,6 @@ footer:
       link: '/team'
     - label: 'Contact'
       link: '/contact'
-    - label: 'Objects'
-      link: '/objects'
   logos:
     - img: '/img/logo-white.png'
 
