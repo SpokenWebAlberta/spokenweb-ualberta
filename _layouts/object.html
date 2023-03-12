@@ -8,10 +8,7 @@
       {% include audio_player.html %}
 
       <div id='wax-main'>
-        <div id='wax-content' class='wax-inline-container'>
-          <div>
-              {{ site.data.objects[page.iden].media2 }}
-          </div>
+        <div>
           <div class="sp-objects-content">
             <div class="sp-metadata">
               {% for metadata in site.data.objects[page.iden].metadata %}
@@ -22,8 +19,8 @@
               <h3>Time Stamped Sections</h3>
               {% for annotation in site.data.objects[page.iden].annotations %}
               <div class="sp-timestamp">
-                <p>{{ annotation.value }}</p>
-                <p>({{ annotation.start_minutes}}:{{ annotation.start_seconds }})</p>
+                <p></p>
+                <p>({{ annotation.start_minutes}}:{{ annotation.start_seconds }}): {{ annotation.value }}</p>
               </div>
               {% endfor %}
             </div>

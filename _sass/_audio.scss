@@ -1,52 +1,47 @@
-.sp-timestamp {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
-  margin-bottom: 1em;
-
-  p {
-    margin-bottom: 0.5em;
-  }
-}
-
 .sp-objects-content {
   display: flex;
   flex-direction: row;
-}
+  flex-wrap: wrap;
+  justify-content: center;
 
-.sp-metadata {
-  max-width: 25%;
-}
+  div {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: $max-width;
+  }
 
-.sp-annotations {
-  border-left: 1px solid black;
-  padding-left: 2em;
+  .sp-annotations {
+    border-left: 1px solid black;
+    padding-left: 2em;
+  }
 }
 
 #sp-audio-player {
   background-color: $text-color;
-  flex-shrink: 0;
   display: flex;
   flex-direction: row;
-  padding-top: 5em;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.sp-audio-featured-image {
+  margin: 1em;
+}
+
+.sp-audio-controls {
+  margin: 1em;
+
+  * {
+    margin-bottom: 2em;
+  }
 
   h1 {
     color: $brand-red;
   }
 
-  button {
-    border-radius: 50px;
-    height: 50px;
-    width: 50px;
-    background-color: $brand-red;
-    border: 0;
-    box-shadow: 2px 2px 5px black;
-  }
-
   .sp-time-display {
     color: white;
+    text-align: center;
   }
 
   .sp-runtime {
@@ -57,17 +52,16 @@
 
   .sp-white {
     background-color: white;
+    height: 5px;
     width: 50%;
+    margin: 0;
   }
 
   .sp-red {
     background-color: $brand-red;
     width: 50%;
-  }
-
-  button {
-    width: 50px;
-    height: 50px;
+    height: 5px;
+    margin: 0;
   }
 
   .sp-featured-image {
@@ -75,4 +69,37 @@
     width: 400px;
   }
 
+  .sp-timestamp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+  }
+}
+
+.sp-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+
+  button {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 45px;
+    font-family: Montserrat;
+    color: $bg-color;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+    background-color: $brand-red;
+    border: 0;
+    box-shadow: 2px 2px 5px black;
+  }
 }

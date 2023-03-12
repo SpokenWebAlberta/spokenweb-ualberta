@@ -1,14 +1,21 @@
+{% assign audio_object = site.data.objects[page.iden] %}
+
 <div id="sp-audio-player">
-    <img class="sp-featured-image" src="{{ site.data.objects[page.iden].thumbnail }}">
-    <div>
-        <h1>{{ site.data.objects[page.iden].title }}</h1>
+<!--    <img class="sp-featured-image" src="{{ site.data.objects[page.iden].thumbnail }}">-->
+    <div class="sp-audio-featured-image">
+        {{ audio_object.media2 }}
+    </div>
+    <div class="sp-audio-controls">
+        <h1>{{ audio_object.title }}</h1>
         <div class="sp-runtime">
             <div class="sp-red"></div>
             <div class="sp-white"></div>
         </div>
-        <div class="sp-time-display">8:00 / 18:51</div>
-        <div>
-            <button>Play</button>
+        <div class="sp-time-display">00:00:00 / {{ audio_object.duration.hours }}:{{ audio_object.duration.minutes }}:{{ audio_object.duration.seconds }}</div>
+        <div class="sp-buttons">
+            <button>&#11120;</button>
+            <button>&#9654;</button>
+            <button>&#11122;</button>
         </div>
     </div>
 </div>

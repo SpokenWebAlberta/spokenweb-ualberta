@@ -4,6 +4,8 @@ import sys
 import shutil
 import requests
 import yaml
+import json
+from math import ceil
 
 template = """---
 layout: object
@@ -56,16 +58,28 @@ if __name__ == "__main__":
 
             # Metadata
             metadata = []
-            for item in manifest["metadata"]:
+            for meta in manifest["metadata"]:
                 metadata.append({
-                    "key": item["label"]["en"][0],
-                    "value": item["value"]["en"][0],
+                    "key": meta["label"]["en"][0],
+                    "value": meta["value"]["en"][0],
                 })
+
+            # Duration
+            hours = int(item["duration"] // 3600)
+            seconds = item["duration"] % 3600
+            minutes = int(seconds // 60)
+            seconds = ceil(seconds % 60)
 
             manifest_data[row["aviary ID"]] = {
                 "thumbnail": thumbnail,
                 "annotations": annotations,
                 "metadata": metadata,
+                "duration": {
+                    "hours": hours,
+                    "minutes": minutes,
+                    "seconds": seconds,
+                },
+                "seconds": item["duration"],
                 "date": row["Date"],
                 "title": row["Title"],
                 "media": row["Embed"],

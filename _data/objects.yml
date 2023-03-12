@@ -91,6 +91,10 @@
     start_seconds: 36
     value: "Webb performs \u201CBreaking\u201D "
   date: Performed::1972/03/09
+  duration:
+    hours: 0
+    minutes: 53
+    seconds: 15
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59182?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/133995' height='400'
@@ -136,11 +140,16 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Students' Union Building Art Gallery
+  seconds: 3194.94966
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/133/995/small/SW008_01.jpeg?1667282788
   title: Phyllis Webb at University of Alberta, 1972
 59183:
   annotations: []
   date: Performed::1982/02/15
+  duration:
+    hours: 0
+    minutes: 46
+    seconds: 32
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59183?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/174070' height='400'
@@ -179,6 +188,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2791.3015
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: Barry McKinnon at University of Alberta, 1982
 59184:
@@ -330,6 +340,10 @@
     start_seconds: 28
     value: Applause
   date: Performed::1982/03/03
+  duration:
+    hours: 0
+    minutes: 40
+    seconds: 32
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59184?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/133997' height='400'
@@ -368,6 +382,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2431.94195
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/133/997/small/SW030_03.jpg?1663046634
   title: Leona Gom at University of Alberta, 1982
 59188:
@@ -500,6 +515,10 @@
     start_seconds: 32
     value: Applause
   date: Performed::1978/11/23
+  duration:
+    hours: 1
+    minutes: 13
+    seconds: 50
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59188?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134001' height='400'
@@ -538,6 +557,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 4429.48499
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/001/small/SW018_03.jpg?1669708818
   title: Robert Kroetsch at University of Alberta, 1978
 59189:
@@ -812,6 +832,10 @@
     start_seconds: 17
     value: Applause and closing remarks
   date: Performed::1979/03/08
+  duration:
+    hours: 0
+    minutes: 53
+    seconds: 60
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59189?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134002' height='400'
@@ -849,6 +873,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 3239.29977
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/002/small/SW020_03.jpg?1667281764
   title: Fred Wah at University of Alberta, 1979
 59190:
@@ -1058,6 +1083,10 @@
     start_seconds: 25
     value: Applause and closing remarks
   date: Performed::1980/02/21
+  duration:
+    hours: 0
+    minutes: 47
+    seconds: 47
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59190?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134003' height='400'
@@ -1100,6 +1129,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2866.6195
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/003/small/SW024_03.jpg?1669137181
   title: Leona Gom at University of Alberta, 1980
 59191:
@@ -1236,6 +1266,10 @@
     start_seconds: 21
     value: Applause and closing remarks
   date: Performed::1981/03/19
+  duration:
+    hours: 0
+    minutes: 38
+    seconds: 15
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59191?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134004' height='400'
@@ -1275,6 +1309,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 2294.41016
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/004/small/SW026_03.jpg?1669700297
   title: John Newlove at University of Alberta, 1981
 59193:
@@ -1400,6 +1435,10 @@
     start_seconds: 7
     value: Unknown speaker makes closing remarks + applause
   date: Performed::1976/12/02
+  duration:
+    hours: 0
+    minutes: 46
+    seconds: 28
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59193?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134006' height='400'
@@ -1453,6 +1492,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2787.7181
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/006/small/SW035_04.jpg?1663640372
   title: Jeni Couzyn at University of Alberta, 1976
 59194:
@@ -1539,6 +1579,10 @@
     start_seconds: 31
     value: Applaulse
   date: Performed::1982/01/26
+  duration:
+    hours: 0
+    minutes: 27
+    seconds: 44
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59194?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134007' height='400'
@@ -1577,6 +1621,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 4
+  seconds: 1663.61687
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/007/small/SW036_03.jpg?1663641393
   title: Lorne Daniel at University of Alberta, 1982
 59196:
@@ -1624,6 +1669,10 @@
     start_seconds: 14
     value: Applause
   date: Performed::1978/01/27
+  duration:
+    hours: 0
+    minutes: 44
+    seconds: 30
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59196?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134009' height='400'
@@ -1663,6 +1712,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2669.83039
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/009/small/SW051_03.jpg?1669705467
   title: Myrna Kostash at University of Alberta, 1978
 59197:
@@ -1697,6 +1747,10 @@
     start_seconds: 49
     value: Applause
   date: Performed::1977/02/14
+  duration:
+    hours: 0
+    minutes: 48
+    seconds: 3
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59197?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134010' height='400'
@@ -1735,6 +1789,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 2882.08399
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/010/small/SW052_03.jpg?1669709785
   title: Rudy Wiebe at University of Alberta, 1977
 59198:
@@ -1908,6 +1963,10 @@
     start_seconds: 44
     value: Audience Q&amp;A
   date: Performed::1980/01/31
+  duration:
+    hours: 0
+    minutes: 46
+    seconds: 36
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59198?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134011' height='400'
@@ -1947,6 +2006,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2795.19492
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/011/small/SW023_01.jpeg?1668499548
   title: Glen Sorestad at University of Alberta, 1980
 59206:
@@ -2025,6 +2085,10 @@
     start_seconds: 5
     value: Applause
   date: Performed::1978/01/01
+  duration:
+    hours: 0
+    minutes: 47
+    seconds: 31
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59206?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134019' height='400'
@@ -2063,6 +2127,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 6
+  seconds: 2850.85315
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/019/small/SW038_01.jpeg?1663644726
   title: Tom Wayman at University of Alberta, 197?
 59208:
@@ -2170,6 +2235,10 @@
     start_seconds: 33
     value: Unknown host reminds audience about upcoming readings and thanks Webb
   date: Performed::1981/01/29
+  duration:
+    hours: 0
+    minutes: 41
+    seconds: 4
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59208?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134021' height='400'
@@ -2209,6 +2278,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 2463.54431
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/021/small/SW041_03.jpg?1665099475
   title: Phyllis Webb at University of Alberta, 1981
 59210:
@@ -2244,6 +2314,10 @@
     start_seconds: 49
     value: Applause
   date: Performed::1973/10/26
+  duration:
+    hours: 0
+    minutes: 15
+    seconds: 15
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59210?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134023' height='400'
@@ -2286,6 +2360,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 914.93587
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/023/small/SW042_04.jpg?1669701778
   title: Margaret Laurence at University of Alberta, 1974
 59211:
@@ -2456,6 +2531,10 @@
     start_seconds: 46
     value: Applause
   date: Performed::1981/03/12
+  duration:
+    hours: 0
+    minutes: 58
+    seconds: 28
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59211?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134024' height='400'
@@ -2495,6 +2574,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 3507.11873
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/024/small/SW041_03.jpg?1667965073
   title: David Donnell at University of Alberta, 1981
 59212:
@@ -2621,6 +2701,10 @@
     start_seconds: 10
     value: Lane sells his books
   date: Performed::1977/01/14
+  duration:
+    hours: 0
+    minutes: 47
+    seconds: 20
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59212?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134025' height='400'
@@ -2659,6 +2743,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities A/V Centre
+  seconds: 2839.70757
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/025/small/SW013_01.jpeg?1668499805
   title: Patrick Lane at University of Alberta, 1977
 59213:
@@ -2761,6 +2846,10 @@
     start_seconds: 11
     value: Barbour addresses the audience
   date: Performed::1977/02/11
+  duration:
+    hours: 0
+    minutes: 50
+    seconds: 30
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59213?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134026' height='400'
@@ -2799,6 +2888,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 3029.1824
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/026/small/SW014_03.jpg?1669709623
   title: Roy Kiyooka at University of Alberta, 1977
 59214:
@@ -2837,6 +2927,10 @@
     start_seconds: 54
     value: Barbour addresses the audience
   date: Performed::1977/02/18
+  duration:
+    hours: 0
+    minutes: 50
+    seconds: 11
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59214?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134027' height='400'
@@ -2873,6 +2967,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 3010.9083
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/027/small/SW015_03.jpg?1665467636
   title: Penny Chalmers at University of Alberta, 1977
 59215:
@@ -2890,6 +2985,10 @@
     start_seconds: 29
     value: Host addresses the audience
   date: Performed::1977/11/04
+  duration:
+    hours: 0
+    minutes: 41
+    seconds: 1
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59215?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134028' height='400'
@@ -2929,6 +3028,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2460.59537
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/028/small/SW017_01.jpeg?1669702344
   title: Marian Engel at University of Alberta, 1977
 59216:
@@ -3018,6 +3118,10 @@
     value: Q/A, what she means by referencing her "Canadian books" and accessibility
       to international audience [incomplete]
   date: Performed::1973/10/25
+  duration:
+    hours: 0
+    minutes: 48
+    seconds: 24
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59216?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134029' height='400'
@@ -3060,6 +3164,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 1
+  seconds: 2903.56245
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/029/small/SW042_01.jpeg?1665100074
   title: Margaret Laurence at University of Alberta, 1973
 59223:
@@ -3168,6 +3273,10 @@
     start_seconds: 36
     value: Harrison addresses the audience
   date: Performed::1971/01/29
+  duration:
+    hours: 0
+    minutes: 52
+    seconds: 5
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59223?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134036' height='400'
@@ -3211,6 +3320,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 3124.68608
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/036/small/SW058_03.jpg?1669708197
   title: Robert Kroetsch at University of Alberta, 1971
 59225:
@@ -3241,6 +3351,10 @@
     start_seconds: 5
     value: Applause and closing remarks
   date: Performed::1977/02/25
+  duration:
+    hours: 0
+    minutes: 45
+    seconds: 53
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59225?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134038' height='400'
@@ -3276,6 +3390,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 2752.09869
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/038/small/SW053_03.jpg?1669703411
   title: Matt Cohen at University of Alberta, 1977
 59226:
@@ -3430,6 +3545,10 @@
     start_seconds: 13
     value: Applause and closing remarks
   date: Performed::1979/03/22
+  duration:
+    hours: 0
+    minutes: 57
+    seconds: 46
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59226?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134039' height='400'
@@ -3468,6 +3587,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 3465.99619
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/039/small/SW021_03.jpg?1665506067
   title: bpNichol at University of Alberta, 1979
 59228:
@@ -3596,6 +3716,10 @@
     start_seconds: 45
     value: "Lochhead performs \u201CThe Last Hag\u201D"
   date: Performed::1979/10/18
+  duration:
+    hours: 0
+    minutes: 44
+    seconds: 56
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59228?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134041' height='400'
@@ -3630,6 +3754,7 @@
     value: '2020-08-27'
   - key: Event Location
     value: University of Alberta
+  seconds: 2695.3259
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/041/small/SW022_03.jpg?1669130960
   title: Elizabeth Lochhead at University of Alberta, 1979
 59230:
@@ -3653,6 +3778,10 @@
     start_seconds: 27
     value: Outro, theme music, and credits
   date: Publication::1984/01/18|production::1982/03
+  duration:
+    hours: 0
+    minutes: 29
+    seconds: 17
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59230?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134043' height='400'
@@ -3690,6 +3819,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1756.33415
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/043/small/audio-default.png?1640835829
   title: 'Celebrations: Marian Engel'
 59235:
@@ -3773,6 +3903,10 @@
     start_seconds: 56
     value: Outro, theme music, and credits
   date: Publication::1983/12/14|production::1982
+  duration:
+    hours: 0
+    minutes: 30
+    seconds: 27
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59235?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134048' height='400'
@@ -3810,6 +3944,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1826.29587
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/048/small/audio-default.png?1640836601
   title: 'Celebrations: Patrick Lane'
 59239:
@@ -3845,6 +3980,10 @@
     start_seconds: 40
     value: Outro, theme music, and credits
   date: Publication::1984/01/25|production::1982/03
+  duration:
+    hours: 0
+    minutes: 30
+    seconds: 16
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59239?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134052' height='400'
@@ -3882,6 +4021,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1815.82367
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/052/small/audio-default.png?1640837224
   title: 'Celebrations: Matt Cohen'
 59242:
@@ -3953,6 +4093,10 @@
     start_seconds: 8
     value: Outro, theme music, and credits
   date: Performed::1983/11/16
+  duration:
+    hours: 0
+    minutes: 30
+    seconds: 8
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59242?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134055' height='400'
@@ -3988,6 +4132,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1807.48771
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/055/small/audio-default.png?1640837699
   title: 'Celebrations: Phyllis Webb'
 59248:
@@ -4027,6 +4172,10 @@
     start_seconds: 39
     value: Outro, theme music, and credits
   date: Publication::1984/02/29|production::1983/02
+  duration:
+    hours: 0
+    minutes: 29
+    seconds: 42
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59248?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134061' height='400'
@@ -4064,6 +4213,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1781.89932
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/061/small/audio-default.png?1640838627
   title: 'Celebrations: Aritha van Herk'
 59250:
@@ -4156,6 +4306,10 @@
     start_seconds: 46
     value: Outro, theme music, and credits
   date: Publication::1984/03/14|production::1983/01
+  duration:
+    hours: 0
+    minutes: 30
+    seconds: 52
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59250?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134063' height='400'
@@ -4193,6 +4347,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1851.16444
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/063/small/audio-default.png?1640838943
   title: 'Celebrations: Leona Gom'
 59251:
@@ -4255,6 +4410,10 @@
     start_seconds: 21
     value: Outro, theme music, and credits
   date: Publication::1984/03/21
+  duration:
+    hours: 0
+    minutes: 30
+    seconds: 11
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59251?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134064' height='400'
@@ -4294,6 +4453,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1810.64562
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/064/small/audio-default.png?1640839107
   title: 'Celebrations: Rudy Wiebe'
 59253:
@@ -4326,6 +4486,10 @@
     start_seconds: 12
     value: Outro, theme music, and credits
   date: Publication::1983/11/23
+  duration:
+    hours: 0
+    minutes: 30
+    seconds: 27
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59253?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134066' height='400'
@@ -4362,6 +4526,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1826.36553
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/066/small/audio-default.png?1640839419
   title: 'Celebrations: Robert Kroetsch'
 59257:
@@ -4409,6 +4574,10 @@
     start_seconds: 39
     value: Outro, theme music, and credits
   date: Publication::1983/11/30
+  duration:
+    hours: 0
+    minutes: 30
+    seconds: 4
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59257?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134070' height='400'
@@ -4446,6 +4615,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1803.56354
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/070/small/audio-default.png?1640840256
   title: 'Celebrations: Tom Wayman'
 59261:
@@ -4500,6 +4670,10 @@
     start_seconds: 3
     value: Ambient Sound
   date: production::1980/08/21
+  duration:
+    hours: 1
+    minutes: 0
+    seconds: 22
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59261?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134074' height='400'
@@ -4538,6 +4712,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 3621.50023
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/074/small/audio-default.png?1640841430
   title: Interview with Doug Barbour on science fiction
 59266:
@@ -4619,6 +4794,10 @@
     start_seconds: 50
     value: Outro and Credits
   date: Publication::1981/09/16
+  duration:
+    hours: 0
+    minutes: 28
+    seconds: 35
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/59266?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/134079' height='400'
@@ -4656,6 +4835,7 @@
     value: '2021-02-11'
   - key: Event Location
     value: University of Alberta
+  seconds: 1714.00417
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/079/small/audio-default.png?1640842446
   title: 'Paper Tygers: Creative Writing'
 82576:
@@ -4781,6 +4961,10 @@
     start_seconds: 32
     value: Applause
   date: Performed::1988/03/14
+  duration:
+    hours: 0
+    minutes: 45
+    seconds: 55
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/82576?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/170880' height='400'
@@ -4813,6 +4997,7 @@
     value: 'Reading: Poetry (SpokenWeb)'
   - key: Event Location
     value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2754.43842
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/880/small/SW075_01.jpeg?1668812618
   title: Phyllis Webb at University of Alberta, 1988
 82577:
@@ -5058,6 +5243,10 @@
     start_seconds: 46
     value: Doug Barbour and Fred Wah address the audience
   date: Performed::1979/03/09
+  duration:
+    hours: 0
+    minutes: 51
+    seconds: 51
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/82577?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/170882' height='400'
@@ -5090,6 +5279,7 @@
     value: Talk (SpokenWeb)
   - key: Event Location
     value: University of Alberta
+  seconds: 3110.82272
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/882/small/IMG_7906.jpeg?1668813392
   title: Fred Wah In Class Conversation at University of Alberta, 1979
 82578:
@@ -5355,6 +5545,10 @@
     start_seconds: 3
     value: Doug Barbour addresses the audience
   date: Performed::1977/02/18
+  duration:
+    hours: 0
+    minutes: 46
+    seconds: 13
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/82578?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/170883' height='400'
@@ -5387,11 +5581,16 @@
     value: Interview (SpokenWeb)
   - key: Event Location
     value: University of Alberta
+  seconds: 2772.38766
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/883/small/image0.jpeg?1669134491
   title: Penny Chalmers Interview, 1977
 85594:
   annotations: []
   date: .nan
+  duration:
+    hours: 0
+    minutes: 58
+    seconds: 13
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/85594?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/173834' height='400'
@@ -5423,11 +5622,16 @@
     value: University of Alberta (Edmonton)
   - key: Format Physical Description
     value: Analogue (Recording Type)
+  seconds: 3492.74682
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: Steve McCaffery at University of Alberta
 85598:
   annotations: []
   date: Performance Date::1986-03-15
+  duration:
+    hours: 1
+    minutes: 1
+    seconds: 11
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/85598?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/173832' height='400'
@@ -5464,11 +5668,16 @@
     value: Jubilee Auditorium, Edmonton
   - key: Format Physical Description
     value: Analogue (Recording Type)
+  seconds: 3670.84599
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: The Bards of March at University of Alberta, 1986 Part II
 85610:
   annotations: []
   date: Performance Date::1975-01
+  duration:
+    hours: 1
+    minutes: 24
+    seconds: 18
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/85610?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/173854' height='400'
@@ -5505,11 +5714,16 @@
     value: University of Alberta (Edmonton)
   - key: Format Physical Description
     value: Analogue (Recording Type)
+  seconds: 5057.08412
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: Ray Smith at University of Alberta, 1975
 85617:
   annotations: []
   date: Performance Date::1978-03-31
+  duration:
+    hours: 0
+    minutes: 46
+    seconds: 30
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/85617?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/173861' height='400'
@@ -5530,7 +5744,7 @@
   - key: Agent
     value: Engel, Marian (Presenter)
   - key: Date
-    value: 1978-03-31 (Performance Date)
+    value: 1978-03-31 (Performed)
   - key: Language
     value: English
   - key: Identifier
@@ -5540,17 +5754,22 @@
   - key: Type
     value: Talk (SpokenWeb)
   - key: Note
-    value: 'Handwritten on spine and on back: "Marion Engel, visit to English 210,
-      J. Hedenstrom, March 31/78" (General)'
+    value: '<p>Handwritten on spine and on back: "Marion Engel, visit to English 210,
+      J. Hedenstrom, March 31/78"</p> (General)'
   - key: Event Location
     value: University of Alberta (Edmonton)
   - key: Format Physical Description
     value: Analogue (Recording Type)
+  seconds: 2789.7104
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: Marian Engel Classroom Visit at University of Alberta, 1978
 85618:
   annotations: []
   date: Performance Date::1978-03-29
+  duration:
+    hours: 0
+    minutes: 49
+    seconds: 24
   media: '<iframe src=''https://ualberta.aviaryplatform.com/collections/1783/collection_resources/85618?embed=true''
     height=''400'' width=''1200'' style=''width: 100%''></iframe>'
   media2: <iframe src='https://ualberta.aviaryplatform.com/embed/media/173862' height='400'
@@ -5587,5 +5806,6 @@
     value: University of Alberta (Edmonton)
   - key: Format Physical Description
     value: Analogue (Recording Type)
+  seconds: 2963.2253
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: Rudy Wiebe Classroom Visit at University of Alberta, 1978
