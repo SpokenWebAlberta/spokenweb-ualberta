@@ -4,12 +4,15 @@ title: 'Jars Balan'
 author: Chelsea Miya
 publish_date: 2022-10-27
 permalink: /exhibits/jarsBalan/
-featured: 
+featured_objects: 
   - 59182
   - 59182
   - 59182
-  - 59182
-  - 59182
+  - 59214
+  - 59214
+  - 59214
+  - 59214
+  - 59214
 ---
 
 
@@ -29,8 +32,6 @@ Of the three radio shows Balan produced for RTV/CKUA, <i>Voiceprint</i> had the 
 **Balan was not only a radio host, but a poet and performer in his own right**, who shared the stage with the likes of bpNichol, George Bowering, and Stephen Scobie. Paper Tygers was inspired by Balan’s experience as an artist-in-residence at The Banff Centre for Performing Arts.[^4]
 
 **Today, Balan is best known for his work as an activist and leader in the Ukrainian community.** He is the former Director of the Canadian Institute of Ukrainian Studies (CIUS) at the University of Alberta, a position he held from 2017-2020, and he currently serves as the administrative coordinator of the Peter and Doris Kule Ukrainian Canadian Studies Centre at CIUS.[^5] His editorials on the Russian invasion of the Ukraine have appeared in The Edmonton Journal and The Conversation. Though his days as a campus radio host are past, Balan never lost his love of radio and of literature, and lately he has been experimenting with visual poems that celebrate his Ukrainian heritage.
-
-{% include featured_authors.html %}
 
 ---
 

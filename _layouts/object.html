@@ -6,28 +6,31 @@
     <div id='sp-fullscreen'>
       {% include header.html %}
       {% include audio_player.html %}
+      {% assign object_data = site.data.objects[page.iden] %}
 
       <div id='wax-main'>
         <div>
           <div class="sp-objects-content">
             <div class="sp-metadata">
-              {% for metadata in site.data.objects[page.iden].metadata %}
+              <h3>About</h3>
+              {% for metadata in object_data.metadata %}
               <p><b>{{ metadata.key }}:</b><br> {{ metadata.value }}</p>
               {% endfor %}
             </div>
+            {% if object_data.annotations.size > 0 %}
             <div class="sp-annotations">
               <h3>Time Stamped Sections</h3>
-              {% for annotation in site.data.objects[page.iden].annotations %}
+              {% for annotation in object_data.annotations %}
               <div class="sp-timestamp">
                 <p></p>
-                <p>({{ annotation.start_minutes}}:{{ annotation.start_seconds }}): {{ annotation.value }}</p>
+                <p>{{ annotation.value }}: ({{ annotation.start_minutes | prepend: '00' | slice: -2, 2  }}:{{ annotation.start_seconds | prepend: '00' | slice: -2, 2 }})</p>
               </div>
               {% endfor %}
             </div>
+            {% endif %}
           </div>
         </div>
       </div>
-
       {% include footer.html %}
     </div>
   </body>

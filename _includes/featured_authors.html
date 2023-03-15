@@ -1,7 +1,8 @@
 <div id='wax-gallery-objects-container' class='wax-gallery-container full-width'>
   <div class='wax-inline-container'>
+    <h3>Featured Objects</h3>
     <div id="wax-gallery-objects" class="wax-gallery">
-      {% for item_id in page.featured %}
+      {% for item_id in page.featured_objects %}
           {% assign data = site.data.objects[item_id] %}
           <div class='gallery-item all'>
             <a href='{{ "objects/" | append: item_id | relative_url }}'>

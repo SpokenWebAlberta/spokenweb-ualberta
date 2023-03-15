@@ -11,6 +11,9 @@
         <div id='wax-content' class='wax-inline-container'>
           {{ content }}
         </div>
+        {% if page.featured_objects != nil %}
+          {% include featured_authors.html %}
+        {% endif %}
       </div>
 
       {% include footer.html %}
