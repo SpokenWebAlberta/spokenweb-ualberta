@@ -93,5 +93,25 @@ if __name__ == "__main__":
             with open(f"objects/{row['aviary ID']}.md", "w+") as f:
                 print(new, file=f)
 
+    # Create main data index
     with open("_data/objects.yml", "w+") as f:
         yaml.dump(manifest_data, f)
+
+    objects_index = []
+    for name, entry in manifest_data.items():
+        objects_index.append({
+            "iden": name,
+            "title": entry["title"],
+            "thumbnail": entry["thumbnail"],
+            "date": entry["date"] if entry["date"] == entry["date"] else None,
+            "lunr_id": len(objects_index),
+            "permalink": f"/objects/{name}",
+            **{i["key"]: i["value"] for i in entry["metadata"]}
+        })
+
+    # Create objects search index.
+    with open("search/objects.json", "w+") as f:
+        print("---", file=f)
+        print("layout: none", file=f)
+        print("---", file=f)
+        print(json.dumps(objects_index, indent=4), file=f)

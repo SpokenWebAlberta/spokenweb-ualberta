@@ -1,0 +1,29 @@
+<div id='wax-gallery-objects-container' class='wax-gallery-container full-width'>
+  <div class='wax-inline-container'>
+    <h3>Featured Pages</h3>
+    <div id="wax-gallery-objects" class="wax-gallery">
+      {% for item_id in page.featured_pages %}
+
+        {% for new_page in site.pages %}
+          {% if new_page.title == item_id %}
+            {% assign featured_page = new_page %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign thumbnail = page.featured_image | default: 'img/digtape.jpg' | relative_url %}
+
+        <div class='gallery-item all'>
+          <a href='{{ page.url | relative_url }}'>
+            <div class='hovereffect'>
+              <img class='img-responsive gallery-thumb' src='{{ thumbnail }}' />
+              <div class='overlay'>
+                <p class='info'>{{ page.title }}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

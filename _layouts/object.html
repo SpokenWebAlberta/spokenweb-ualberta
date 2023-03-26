@@ -11,6 +11,8 @@
       <div id='wax-main'>
         <div>
           <div class="sp-objects-content">
+            <input class="sp-annotation-checkbox-input" type="checkbox" name="" id="" />
+            <div class="sp-annotation-checkbox"></div>
             <div class="sp-metadata">
               <h3>About</h3>
               {% for metadata in object_data.metadata %}
@@ -18,6 +20,7 @@
               {% endfor %}
             </div>
             {% if object_data.annotations.size > 0 %}
+            <div class="sp-divider"></div>
             <div class="sp-annotations">
               <h3>Time Stamped Sections</h3>
               {% for annotation in object_data.annotations %}
