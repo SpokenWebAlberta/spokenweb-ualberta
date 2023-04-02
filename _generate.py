@@ -81,8 +81,6 @@ if __name__ == "__main__":
                 "seconds": duration,
                 "date": row["Date"],
                 "title": row["Title"],
-                "media": row["Embed"],
-                "media2": row["Media Embed 1"],
                 "stream": stream_link.split("?")[0],
             }
 
