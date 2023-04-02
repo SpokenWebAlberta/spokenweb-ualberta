@@ -87,12 +87,18 @@
   background-color: $text-color;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.sp-audio-featured-image {
-  margin: 1em;
+.sp-audio-featured-image img {
+  width: 350px;
+  height: 350px;
+  margin-right: 5em;
+}
+
+.sp-audio-seek {
+  cursor: pointer;
 }
 
 .sp-audio-controls {
@@ -126,9 +132,13 @@
 
   .sp-red {
     background-color: $brand-red;
-    width: 50%;
+    width: 0;
     height: 5px;
     margin: 0;
+  }
+
+  .sp-white {
+    flex-grow: 1;
   }
 
   .sp-featured-image {
@@ -150,12 +160,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0;
+  align-items: center;
+  height: 105px;
 
   button {
-    margin-left: 1em;
-    margin-right: 1em;
-    font-size: 45px;
+    margin: 0px 25px;
+
     font-family: Montserrat, serif;
     color: $bg-color;
     display: inline-flex;
@@ -163,10 +173,22 @@
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    height: 75px;
-    width: 75px;
-    background-color: $brand-red;
     border: 0;
     box-shadow: 2px 2px 5px black;
   }
+
+  .sp-scrub {
+    height: 64px;
+    width: 64px;
+    font-size: 30px;
+    background-color: #8F8F8F;
+  }
+
+  .sp-play {
+    height: 104px;
+    width: 104px;
+    font-size: 80px;
+    background-color: $brand-red;
+  }
+
 }

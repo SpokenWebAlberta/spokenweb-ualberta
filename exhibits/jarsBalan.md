@@ -13,6 +13,17 @@ featured_objects:
   - 59214
   - 59214
   - 59214
+featured_pages:
+  - Jars Balan
+  - Jars Balan
+  - Jars Balan
+  - Jars Balan
+  - Jars Balan
+  - Jars Balan
+  - Jars Balan
+  - Jars Balan
+  - Jars Balan
+  - Jars Balan
 ---
 
 

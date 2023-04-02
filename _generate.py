@@ -1,3 +1,5 @@
+import math
+
 import pandas as pd
 import os
 import sys
@@ -37,24 +39,28 @@ if __name__ == "__main__":
             manifest_url = row["PURL"].replace("/r/", "/iiif/") + "/manifest"
             manifest = requests.get(manifest_url).json()
 
-            item = manifest["items"][0]
-
-            thumbnail = item["thumbnail"][0]["id"]
+            thumbnail = manifest["thumbnail"][0]["id"]
 
             # Get annotations
             annotations = []
-            if len(item["annotations"]) > 0:
-                for annot in item["annotations"][0]["items"]:
+            annotation_data = manifest["items"][0]["annotations"]
+            if len(annotation_data) > 0:
+                for annot in annotation_data[0]["items"]:
                     time = annot["target"].split("=")[-1].split(",")
 
-                    minutes = float(time[0]) // 60
-                    seconds = float(time[0]) - (minutes * 60)
+                    secs = float(time[0])
+
+                    hours = int(secs // 3600)
+                    minutes = int(secs // 60)
+                    seconds = int(secs % 60)
 
                     annotations.append({
                         "value": annot["body"][0]["value"],
-                        "start_minutes": int(minutes),
-                        "start_seconds": int(seconds),
+                        "time": secs,
+                        "formatted": f"({hours:02}:{minutes:02}:{seconds:02})"
                     })
+
+            stream_link = manifest["items"][0]["items"][0]["items"][0]["body"]["id"]
 
             # Metadata
             metadata = []
@@ -65,25 +71,19 @@ if __name__ == "__main__":
                 })
 
             # Duration
-            hours = int(item["duration"] // 3600)
-            seconds = item["duration"] % 3600
-            minutes = int(seconds // 60)
-            seconds = ceil(seconds % 60)
+            hours = int(manifest["items"][0]["duration"] // 3600)
+            duration = manifest["items"][0]["duration"]
 
             manifest_data[row["aviary ID"]] = {
                 "thumbnail": thumbnail,
                 "annotations": annotations,
                 "metadata": metadata,
-                "duration": {
-                    "hours": hours,
-                    "minutes": minutes,
-                    "seconds": seconds,
-                },
-                "seconds": item["duration"],
+                "seconds": duration,
                 "date": row["Date"],
                 "title": row["Title"],
                 "media": row["Embed"],
                 "media2": row["Media Embed 1"],
+                "stream": stream_link.split("?")[0],
             }
 
             new = template.format(

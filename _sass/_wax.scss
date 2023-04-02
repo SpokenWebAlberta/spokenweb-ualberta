@@ -599,37 +599,49 @@ search box
 }
 
 .wax-gallery-container {
-  .facet-buttons {
-    .facet {
-      @extend .btn-outline-secondary;
-      margin-right: .5em;
-      margin-top: 1rem;
-      font-family: $heading-font;
-      border-color: $text-color;
-    }
-    .active{
-      @extend .facet;
-      background-color: $text-color;
-      color: $bg-color;
-    }
-  }
   .wax-gallery {
+    position: relative;
     margin: $margin auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow: hidden;
+
+    .sp-carousel-control {
+      position: absolute;
+      z-index: 99;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
+      border: 1px solid black;
+      opacity: 75%;
+
+      &:hover {
+        opacity: 95%;
+      }
+
+    }
+
+    .sp-carousel-right-control {
+      right: 0;
+    }
+
+    .sp-carousel-left-control {
+      left: 0;
+    }
 
     .gallery-item {
       padding: 0;
       margin: .25rem;
       background-color: #ffffff;
-      max-height: $thumbnail-height;
-      max-width: $thumbnail-width;
+      height: $thumbnail-height;
+      width: $thumbnail-width;
       border: 1px grey solid;
+      flex-shrink: 0;
+      transition: translate 0.25s ease-in-out;
 
       .gallery-thumb {
-        object-position: 50% 20%;
-        object-fit: cover;
         width: 100%;
         height: 100%;
       }
@@ -637,7 +649,6 @@ search box
       .hovereffect {
         width: 100%;
         height: 100%;
-        float: left;
         overflow: hidden;
         position: relative;
         text-align: center;
@@ -658,45 +669,16 @@ search box
           }
         }
 
-        .info {
+        .overlay {
+          width: 100%;
+          height: 100%;
+          position: absolute;
           text-decoration: none;
           font-family: $heading-font !important;
           color: $bg-color !important;
-          background-color: transparent;
-          opacity: 0;
-          filter: alpha(opacity=0);
-          -webkit-transform: scale(0);
-          -ms-transform: scale(0);
-          transform: scale(0);
+          font-size: 1rem;
           font-weight: normal;
-          font-size: .9rem;
           line-height: 1rem;
-          overflow: hidden;
-          display: table-cell;
-          padding: .4rem;
-          vertical-align: center;
-        }
-
-        // .info {
-        //   text-decoration: none;
-        //   font-family: $heading-font !important;
-        //   color: $bg-color !important;
-        //   background-color: transparent;
-        //   opacity: 0;
-        //   filter: alpha(opacity=0);
-        //   -webkit-transform: scale(0);
-        //   -ms-transform: scale(0);
-        //   transform: scale(0);
-        //   font-weight: normal;
-        //   overflow: hidden;
-        //   display: table-cell;
-        //   vertical-align: middle;
-        //   padding: 0 $margin 0 $margin;
-        // }
-
-        .overlay {
-          width: 100%;
-          position: absolute;
           overflow: hidden;
           top: 0;
           left: 0;
@@ -704,8 +686,9 @@ search box
           opacity: 0;
           -webkit-transition:opacity 0.5s ease-in-out;
           transition: opacity 0.5s ease-in-out;
-          display: table;
-          height: 200px;
+          display: flex;
+          text-align: center;
+          align-items: center;
         }
       }
     }
