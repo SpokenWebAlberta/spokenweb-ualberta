@@ -242,7 +242,7 @@ button {
 
 button:focus {
   outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto grey;
 }
 
 input,
@@ -549,10 +549,10 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  // padding-right: 15px;
+  // padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
 }
 
 @media (min-width: 576px) {
@@ -3969,7 +3969,10 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  /*padding: 0.5rem 1rem; 
+  remove padding from navbar
+  */
+
 }
 
 .navbar > .container,
@@ -4069,6 +4072,7 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 576px) {
+  
   .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4111,6 +4115,8 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 768px) {
+
+  
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4153,6 +4159,7 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 992px) {
+  
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4195,6 +4202,7 @@ input[type="button"].btn-block {
 }
 
 @media (min-width: 1200px) {
+  
   .navbar-expand-xl {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
