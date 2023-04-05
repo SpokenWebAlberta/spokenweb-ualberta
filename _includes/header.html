@@ -35,6 +35,6 @@
           {% endfor %}
         </ul>
     </div>
-    <div class='search-block'><input type="text" placeholder=""></div>
+    <form class='search-block' onsubmit="submit_test()" method="GET" action="{{ 'search/' | absolute_url }}"><input type="text" placeholder="" name="search" id="sp-search-form"></form>
   </div>
  </nav>

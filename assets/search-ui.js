@@ -44,7 +44,7 @@ function startSearchUI(fields, indexFile, url) {
     for (i in fields) { index.addField(fields[i]); }
     for (i in store)  { index.addDoc(store[i]); }
 
-    $('input#search').on('keyup', function() {
+    $('input#search').on('input', function() {
       var results_div = $('#results');
       var query       = $(this).val();
       var results     = index.search(query, { boolean: 'AND', expand: true });
@@ -60,5 +60,14 @@ function startSearchUI(fields, indexFile, url) {
         results_div.append(result);
       }
     });
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const myParam = urlParams.get('search');
+
+    if (myParam !== null) {
+      let el = document.getElementById('search');
+      el.value = myParam;
+      el.dispatchEvent(new Event('input', {'bubbles': true}));
+    }
   });
 }
