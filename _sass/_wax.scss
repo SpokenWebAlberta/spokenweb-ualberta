@@ -65,7 +65,7 @@ responsive header
   .search-block {display: none !important; }
 }
 
-  
+
 /*
 
 header & nav bar
@@ -124,7 +124,7 @@ header & nav bar
     border-color: $accent-dark;
     vertical-align: middle;
     margin: 2rem;
-    
+
   }
 
   button:focus {
@@ -646,14 +646,16 @@ input:focus {
   margin-right: $more-margin;
   margin-left: 0;
 
-  #search{
+  #search {
     border-width: 2px;
     margin-bottom: $more-margin;
+  }
 
   #results {
     margin: 0;
     .result {
       padding: 1em;
+
       a {
         color: $text-color;
         text-decoration: none;
@@ -661,26 +663,30 @@ input:focus {
         justify-content: flex-start;
         align-items: center;
         flex-wrap: nowrap;
+
         img {
           float: left;
           width: 50px;
         }
+
         p {
           margin: 0 !important;
           padding: 0;
-          .title{
+
+          .title {
             color: $accent-light;
           }
         }
       }
+
       &:hover {
         background-color: $neutral;
-      
-      }
 
+      }
     }
   }
 }
+
 
 .wax-gallery-container {
   .wax-gallery {
@@ -785,11 +791,10 @@ input:focus {
   margin: $super-margin 0 $super-margin 0;
 }
 
-.sq-thumb-sm{
+.sq-thumb-sm {
   object-fit: cover;
   object-position: 50% 20%;
   margin-right: 1em;
   width: 80px;
   height: 80px;
-}
 }
