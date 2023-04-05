@@ -1,37 +1,40 @@
 <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
- <div class='wax-inline-container'>
-    <p class='header-logos'>
-      {% for item in site.footer.logos %}
-      {% assign link = item.link | default: '#' %}
-      <a href="{{ link | absolute_url }}" aria-label="Logo link to resource">
-        <img src='{{ item.img | absolute_url }}' alt="logo"/>
-      </a>
-      {% endfor %}
-    </p>
-    <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
-      <span class='navbar-toggler-icon'></span>
-    </button>
-    <div class='collapse navbar-collapse' id="wax-header-navbar">
-      <ul class='nav navbar-nav ml-auto justify-content-end'>
-        {% for item in site.menu %}
-          {% if item.sub %}
-            <li class='nav-item dropdown'>
-              <a class='nav-link dropdown-toggle' href='#' id='wax-{{ item.label | slugify }}-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-                {{ item.label }}
-              </a>
-              <div class='dropdown-menu' aria-labelledby='wax-{{ item.label | slugify }}-dropdown'>
-                {% for sub in item.sub %}
-                  <a class='dropdown-item' href='{{ sub.link | absolute_url }}'>{{ sub.label }}</a>
-                {% endfor %}
-              </div>
-            </li>
-          {% else %}
-            <li class='nav-item'>
-              <a class='nav-link' href='{{ item.link | absolute_url }}'>{{ item.label }}</a>
-            </li>
-          {% endif %}
+  <div class='wax-inline-container-header'>
+    <div class='col-header'>
+      <p class='header-logos'>
+        {% for item in site.footer.logos %}
+        {% assign link = item.link | default: '#' %}
+        <a href="{{ link | absolute_url }}" aria-label="Logo link to resource">
+          <img src='{{ item.img | absolute_url }}' alt="logo"/>
+        </a>
         {% endfor %}
-      </ul>
+      </p>
     </div>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class='collapse navbar-collapse' id="wax-header-navbar">
+        <ul class='nav navbar-nav justify-content-end'>
+          {% for item in site.menu %}
+            {% if item.sub %}
+              <li class='nav-item dropdown'>
+                <a class='nav-link dropdown-toggle' href='#' id='wax-{{ item.label | slugify }}-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                  {{ item.label }}
+                </a>
+                <div class='dropdown-menu' aria-labelledby='wax-{{ item.label | slugify }}-dropdown'>
+                  {% for sub in item.sub %}
+                    <a class='dropdown-item' href='{{ sub.link | absolute_url }}'>{{ sub.label }}</a>
+                  {% endfor %}
+                </div>
+              </li>
+            {% else %}
+              <li class='nav-item'>
+                <a class='nav-link' href='{{ item.link | absolute_url }}'>{{ item.label }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+    </div>
+    <div class='search-block'><input type="text" placeholder=""></div>
   </div>
  </nav>
