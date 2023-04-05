@@ -1,18 +1,134 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<h3>{{ page.date }}</h3>
-<h4>{{ page.location }}</h4>
+<!DOCTYPE html>
+<html lang='en-us'>
+  {% include head.html %}
+  <body>
+    <time datetime='{{ 'now' | date: '%Y-%m-%d %H:%M' }}'></time>
+    <div id='sp-fullscreen'>
+      {% include header.html %}
+      {% assign audio_object = site.data.objects[page.iden] %}
 
-<div>
-  {{ page.media }}
-</div>
+      <script>
+          function format_time(seconds) {
+              let hours = Math.floor(seconds / 3600).toString().padStart(2, "0");
+              let minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
+              let new_seconds = Math.floor(seconds % 60).toString().padStart(2, "0");
+              return hours + ":" + minutes + ":" + new_seconds;
+          }
 
-<p>
-  {{ page.location }}
-</p>
+          function seek(time) {
+              let audio = document.getElementById("sp-audio-stream");
+              audio.currentTime = time;
+          }
 
-<p>
-  {{ page.rights }}
-</p>
+          function init() {
+              let audio = document.getElementById("sp-audio-stream");
+              audio.addEventListener("play", function() {document.getElementById("sp-play-button").innerText = '\u23F8';});
+              audio.addEventListener("pause", function() {document.getElementById("sp-play-button").innerText = '\u23F5';});
+              audio.addEventListener("timeupdate", progress);
+          }
+
+          function progress() {
+              let progress = document.getElementById("sp-red-progress");
+              let audio = document.getElementById("sp-audio-stream");
+
+              document.getElementById("sp-audio-current-time").innerText = format_time(audio.currentTime);
+              document.getElementById("sp-audio-duration").innerText = format_time(audio.duration);
+
+              progress.style.width = (Math.round(audio.currentTime / audio.duration * 100).toString()) + "%";
+          }
+
+          function forward() {
+              let audio = document.getElementById("sp-audio-stream");
+              let timestamps = [
+                {% for annotation in audio_object.annotations %}
+                    {{ annotation.time }},
+                {% endfor %}
+              ]
+              let current = audio.currentTime;
+              audio.currentTime = timestamps.find(x => x > current);
+          }
+
+          function rewind() {
+              let audio = document.getElementById("sp-audio-stream");
+              let timestamps = [
+                {% for annotation in audio_object.annotations %}
+                    {{ annotation.time }},
+                {% endfor %}
+              ]
+              let current = audio.currentTime;
+              let index = timestamps.findIndex(x => x > current);
+              audio.currentTime = timestamps[index - 1];
+          }
+
+          function play() {
+              let audio = document.getElementById("sp-audio-stream");
+              if (audio.paused) {
+                  audio.play();
+              } else {
+                  audio.pause();
+              }
+          }
+
+          window.addEventListener("DOMContentLoaded", init);
+
+
+      </script>
+
+      <div id="sp-audio-player">
+      <!--    <img class="sp-featured-image" src="{{ site.data.objects[page.iden].thumbnail }}">-->
+          <div class="sp-audio-featured-image">
+              <img src="{{ audio_object.thumbnail }}">
+          </div>
+          <div class="sp-audio-controls">
+              <h1>{{ audio_object.title }}</h1>
+              <div class="sp-runtime">
+                  <div id="sp-red-progress" class="sp-red"></div>
+                  <div class="sp-white"></div>
+              </div>
+              <div class="sp-time-display">
+                  <span id="sp-audio-current-time">00:00:00</span> <span id="sp-audio-duration">00:00:00</span>
+              </div>
+              <div class="sp-buttons">
+                  <button class="sp-scrub" onclick="rewind()">&#9198;</button>
+                  <button class="sp-play" onclick="play()" id="sp-play-button">&#9205;</button>
+                  <button class="sp-scrub" onclick="forward()">&#9197;</button>
+              </div>
+              <audio id="sp-audio-stream" src="{{ audio_object.stream }}"></audio>
+          </div>
+      </div>
+      <div id='wax-main'>
+        <div>
+          <div class="sp-objects-content">
+            <input class="sp-annotation-checkbox-input" type="checkbox" name="" id="" />
+            <div class="sp-annotation-checkbox"></div>
+            <div class="sp-metadata">
+              <h3>About</h3>
+              {% for metadata in audio_object.metadata %}
+              <p><b>{{ metadata.key }}:</b><br> {{ metadata.value }}</p>
+              {% endfor %}
+            </div>
+            {% if audio_object.annotations.size > 0 %}
+            <div class="sp-divider"></div>
+            <div class="sp-annotations">
+              <h3>Time Stamped Sections</h3>
+              {% for annotation in audio_object.annotations %}
+              <div class="sp-timestamp">
+                <p>{{ annotation.value }}: <a class="sp-audio-seek" onclick="seek({{ annotation.time }})">{{ annotation.formatted }}</a></p>
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% include footer.html %}
+    </div>
+  </body>
+
+
+  <script type='text/javascript' async defer src='{{ "/assets/bootstrap/bootstrap.min.js" | absolute_url }}'></script>
+  <script type='text/javascript' async defer src='{{ "/assets/popper.min.js" | absolute_url }}'></script>
+</html>
+
+
+

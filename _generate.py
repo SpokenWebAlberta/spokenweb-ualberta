@@ -1,16 +1,17 @@
+import math
+
 import pandas as pd
 import os
 import sys
 import shutil
+import requests
+import yaml
+import json
+from math import ceil
 
 template = """---
 layout: object
-permalink: /objects/{iden}/
-title: "{title}"
-date: "{date}"
-location: "{location}"
-media: "{media}"
-rights: "{rights}"
+iden: {iden}
 ---
 """
 
@@ -31,18 +32,84 @@ if __name__ == "__main__":
 
     df_data = pd.read_csv("_data/data.csv")
 
+    manifest_data = {}
+
     for index, row in df_data.iterrows():
-        if index > 5:
-            break
+        if row["Access"] == "access_public":
+            manifest_url = row["PURL"].replace("/r/", "/iiif/") + "/manifest"
+            manifest = requests.get(manifest_url).json()
 
-        new = template.format(
-            iden=fix(row["aviary ID"]),
-            title=fix(row["Title"]),
-            date=fix(row["Date"]),
-            location=fix(row["Event Location"]),
-            rights=fix(row["Rights Statement"]),
-            media=fix(row["Media Embed 1"]),
-        )
+            thumbnail = manifest["thumbnail"][0]["id"]
 
-        with open(f"objects/{row['aviary ID']}.md", "w+") as f:
-            print(new, file=f)
+            # Get annotations
+            annotations = []
+            annotation_data = manifest["items"][0]["annotations"]
+            if len(annotation_data) > 0:
+                for annot in annotation_data[0]["items"]:
+                    time = annot["target"].split("=")[-1].split(",")
+
+                    secs = float(time[0])
+
+                    hours = int(secs // 3600)
+                    minutes = int(secs // 60)
+                    seconds = int(secs % 60)
+
+                    annotations.append({
+                        "value": annot["body"][0]["value"],
+                        "time": secs,
+                        "formatted": f"({hours:02}:{minutes:02}:{seconds:02})"
+                    })
+
+            stream_link = manifest["items"][0]["items"][0]["items"][0]["body"]["id"]
+
+            # Metadata
+            metadata = []
+            for meta in manifest["metadata"]:
+                metadata.append({
+                    "key": meta["label"]["en"][0],
+                    "value": meta["value"]["en"][0],
+                })
+
+            # Duration
+            hours = int(manifest["items"][0]["duration"] // 3600)
+            duration = manifest["items"][0]["duration"]
+
+            manifest_data[row["aviary ID"]] = {
+                "thumbnail": thumbnail,
+                "annotations": annotations,
+                "metadata": metadata,
+                "seconds": duration,
+                "date": row["Date"],
+                "title": row["Title"],
+                "stream": stream_link.split("?")[0],
+            }
+
+            new = template.format(
+                iden=fix(row["aviary ID"]),
+            )
+
+            with open(f"objects/{row['aviary ID']}.md", "w+") as f:
+                print(new, file=f)
+
+    # Create main data index
+    with open("_data/objects.yml", "w+") as f:
+        yaml.dump(manifest_data, f)
+
+    objects_index = []
+    for name, entry in manifest_data.items():
+        objects_index.append({
+            "iden": name,
+            "title": entry["title"],
+            "thumbnail": entry["thumbnail"],
+            "date": entry["date"] if entry["date"] == entry["date"] else None,
+            "lunr_id": len(objects_index),
+            "permalink": f"/objects/{name}",
+            **{i["key"]: i["value"] for i in entry["metadata"]}
+        })
+
+    # Create objects search index.
+    with open("search/objects.json", "w+") as f:
+        print("---", file=f)
+        print("layout: none", file=f)
+        print("---", file=f)
+        print(json.dumps(objects_index, indent=4), file=f)

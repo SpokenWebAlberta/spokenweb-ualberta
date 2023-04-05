@@ -1,0 +1,194 @@
+.sp-objects-content {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  div {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: $max-width / 1.25;
+  }
+
+  .sp-divider {
+    border: 1px solid $text-color;
+    align-self: stretch;
+    flex-basis: 2px;
+    flex-grow: 0;
+  }
+
+  .sp-metadata {
+    padding: 0 1em;
+  }
+
+  .sp-annotations {
+    text-align: right;
+    padding: 0 1em;
+  }
+
+  input[type="checkbox"]:checked ~ div.sp-metadata {
+      display: none;
+    }
+
+  input[type="checkbox"]:checked ~ div.sp-divider {
+    display: none;
+  }
+
+  input[type="checkbox"] ~ div.sp-annotation-checkbox:after {
+    content: "About ▼";
+  }
+
+  input[type="checkbox"]:checked ~ div.sp-annotation-checkbox:after {
+    content: "About ▶";
+  }
+
+  input {
+    flex-basis: 20px;
+    flex-grow: 0;
+    opacity: 0;
+    z-index: 5;
+    display: none;
+  }
+
+  .sp-annotation-checkbox {
+    flex-basis: 20px;
+    flex-grow: 0;
+    background-color: $brand-red;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 0;
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .sp-objects-content {
+    flex-direction: column;
+
+    .sp-annotation-checkbox {
+      display: block;
+    }
+
+    .sp-annotation-checkbox-input {
+      display: block;
+    }
+
+    .sp-annotations {
+      text-align: left;
+    }
+  }
+}
+
+
+#sp-audio-player {
+  background-color: $text-color;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sp-audio-featured-image img {
+  width: 350px;
+  height: 350px;
+  margin-right: 5em;
+}
+
+.sp-audio-seek {
+  cursor: pointer;
+}
+
+.sp-audio-controls {
+  margin: 1em;
+
+  * {
+    margin-bottom: 2em;
+  }
+
+  h1 {
+    color: $brand-red;
+  }
+
+  .sp-time-display {
+    color: white;
+    text-align: center;
+  }
+
+  .sp-runtime {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+  }
+
+  .sp-white {
+    background-color: white;
+    height: 5px;
+    width: 50%;
+    margin: 0;
+  }
+
+  .sp-red {
+    background-color: $brand-red;
+    width: 0;
+    height: 5px;
+    margin: 0;
+  }
+
+  .sp-white {
+    flex-grow: 1;
+  }
+
+  .sp-featured-image {
+    height: 400px;
+    width: 400px;
+  }
+
+  .sp-timestamp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+  }
+}
+
+.sp-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 105px;
+
+  button {
+    margin: 0px 25px;
+
+    font-family: Montserrat, serif;
+    color: $bg-color;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px 2px 5px black;
+  }
+
+  .sp-scrub {
+    height: 64px;
+    width: 64px;
+    font-size: 30px;
+    background-color: #8F8F8F;
+  }
+
+  .sp-play {
+    height: 104px;
+    width: 104px;
+    font-size: 80px;
+    background-color: $brand-red;
+  }
+
+}

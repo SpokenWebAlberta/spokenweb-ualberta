@@ -1,0 +1,52 @@
+<script>
+  function move_carousel_page(amount) {
+    const chunk = 148;
+    const offset = 15;
+    let items = document.querySelectorAll(".sp-page-item");
+    const size = items.length - 1;
+
+    items.forEach(x => {
+      let current = parseInt(x.style.translate);
+      let new_amount = current + (amount * chunk);
+      if (new_amount > offset) {
+        new_amount = offset;
+      }
+
+      if (new_amount < -(chunk * size)) {
+        new_amount = -chunk * size + offset;
+      }
+
+      x.style.translate = new_amount.toString() + "px"
+    });
+  }
+</script>
+
+<div id='wax-gallery-objects-container' class='wax-gallery-container full-width'>
+  <div class='wax-inline-container'>
+    <h3>Featured Pages</h3>
+    <div id="wax-gallery-objects" class="wax-gallery">
+      <button class="sp-carousel-right-control sp-carousel-control" onClick="move_carousel_page(-1)">&gt;</button>
+      <button class="sp-carousel-left-control sp-carousel-control" onClick="move_carousel_page(1)">&lt;</button>
+      {% for item_id in page.featured_objects %}
+        {% for new_page in site.pages %}
+          {% if new_page.title == item_id %}
+            {% assign featured_page = new_page %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign thumbnail = page.featured_image | default: 'img/digtape.jpg' | relative_url %}
+        <div class='gallery-item sp-page-item all' style="translate: 15px;">
+          <a href='{{ "objects/" | append: item_id | relative_url }}'>
+            <div class='hovereffect'>
+              <img class='img-responsive gallery-thumb' src='{{ data.thumbnail }}'/>
+              <div class='overlay'>
+                {{ data.title }}
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -52,27 +52,6 @@ kramdown:
  smart_quotes:   lsquo,rsquo,ldquo,rdquo
  enable_coderay: false
 
-
-# --------------------------------------------------------------
-# COLLECTION SETTINGS
-# --------------------------------------------------------------
-# Wax leverages Jekyll collections for much of its
-# functionality, therefor some of the keys below are from
-# Jekyll while others are Wax-specific.
-# For more info, refer to:
-# ~> https://jekyllrb.com/docs/collections/
-
-collections:
-  exhibits:
-    output: true
-  spokenweb: # name of collection
-    output: true # makes sure pages are output as html files
-    layout: 'qatar_item' # the layout for the pages to use
-    metadata:
-      source: 'spokenweb.csv' # path to the metadata file within `_data`
-    images:
-      source: 'raw_images/poets' # path to the directory of images within `_data`
-
 # --------------------------------------------------------------
 # SEARCH INDEX SETTINGS
 # --------------------------------------------------------------
@@ -82,18 +61,18 @@ collections:
 # and running `$ bundle exec rake wax:search` .
 
 search:
-  main:
-    index: '/search/index.json' # file the index will get written to
-    collections:
-      spokenweb:
-        content: false # whether or not to index page content
-        fields: # the metadata fields to index
-          - contributers
-          - location
-          - title
-          - _date
-          - object_type
-          - current_location
+  objects:
+    index: '/search/objects.json' # file the index will get written to
+    fields: # the metadata fields to index
+      - title
+      - date
+      - Agent
+      - Language
+      - Format
+      - Subject
+      - Identifier
+      - Type
+      - Event Location
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
@@ -111,6 +90,10 @@ menu:
         link: '/about/'
       - label: 'Collection'
         link: '/collection/'
+      - label: 'Audio'
+        link: '/audio'
+      - label: 'Search'
+        link: '/search'
   - label: 'Events'
     sub:
       - label: '2023 Symposium-Institute'
@@ -135,8 +118,6 @@ footer:
       link: '/team'
     - label: 'Contact'
       link: '/contact'
-    - label: 'Objects'
-      link: '/objects'
   logos:
     - img: '/img/logo-white.png'
 

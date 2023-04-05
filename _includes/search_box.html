@@ -1,19 +1,18 @@
 {% assign placeholder = include.placeholder | default: 'Search... ' %}
-{% assign key = include.search | default: 'main' %}
+
+{% assign key = page.search | default: 'objects' %}
 {% assign config = site.search[key] %}
 {% assign index = config.index | absolute_url %}
 {%- capture fields -%}
-  {%- for collection in config.collections -%}
-    {%- for field in collection[1].fields -%}
-      {{ field }}{% unless forloop.last %}|||{% endunless %}
-    {%- endfor -%}
+  {%- for field in config.fields -%}
+    {{ field }}{% unless forloop.last %}|||{% endunless %}
   {%- endfor -%}
 {%- endcapture -%}
 {% assign fields = fields | split: '|||' | uniq %}
 
 <div class='search-block'>
   <div class='input-group'>
-    <input type='text' class='form-control' id='search' name='x' placeholder='{{ placeholder }}'>
+    <input type='text' class='form-control' id='search' name='search' placeholder='{{ placeholder }}'>
   </div>
   <div id='results'></div>
 </div>

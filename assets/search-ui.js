@@ -11,7 +11,7 @@ function excerptedString(str) {
 
 function getThumbnail(item, url) {
   if ('thumbnail' in item) {
-    return `<img class='sq-thumb-sm' src='${url}${item.thumbnail}'/>&nbsp;&nbsp;&nbsp;`
+    return `<img class='sq-thumb-sm' src='${item.thumbnail}'/>`
   }
   else {
     return '';
@@ -19,8 +19,8 @@ function getThumbnail(item, url) {
 }
 
 function displayResult(item, fields, url) {
-  var pid   = item.pid;
-  var label = item.label || 'Untitled';
+  var pid   = item.iden;
+  var label = item.title || 'Untitled';
   var link  = item.permalink;
   var thumb = getThumbnail(item, url);
   var meta  = []
@@ -31,7 +31,7 @@ function displayResult(item, fields, url) {
       meta.push(`<b>${fieldLabel}:</b> ${excerptedString(item[fieldLabel])}`);
     }
   }
-  return `<div class="result"><a href="${url}${link}">${thumb}<p><span class="title">${item.label}</span><br><span class="meta">${meta.join(' | ')}</span></p></a></div>`;
+  return `<div class="result"><a href="${url}${link}">${thumb} <p><span class="title">${item.title}</span></p></a></div>`;
 }
 
 function startSearchUI(fields, indexFile, url) {
@@ -44,7 +44,7 @@ function startSearchUI(fields, indexFile, url) {
     for (i in fields) { index.addField(fields[i]); }
     for (i in store)  { index.addDoc(store[i]); }
 
-    $('input#search').on('keyup', function() {
+    $('input#search').on('input', function() {
       var results_div = $('#results');
       var query       = $(this).val();
       var results     = index.search(query, { boolean: 'AND', expand: true });
@@ -60,5 +60,14 @@ function startSearchUI(fields, indexFile, url) {
         results_div.append(result);
       }
     });
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const myParam = urlParams.get('search');
+
+    if (myParam !== null) {
+      let el = document.getElementById('search');
+      el.value = myParam;
+      el.dispatchEvent(new Event('input', {'bubbles': true}));
+    }
   });
 }

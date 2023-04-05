@@ -11,13 +11,3 @@ Any recordings that have been cleared for public streaming can be found in the [
 
 
 [Browse Collection](https://ualberta.aviaryplatform.com/collections/1783){: .btn2}
-
-
-<!--
-
-### Browse Audio
-
-
-{% include collection_gallery.html collection='spokenweb' facet_by='object_type' %}
-
--->
