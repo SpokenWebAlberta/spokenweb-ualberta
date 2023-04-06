@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  {% include head.html %}
+
+  <body>
+    <time datetime='{{ 'now' | date: '%Y-%m-%d %H:%M' }}'></time>
+    <div id='sp-fullscreen'>
+      {% include header.html %}
+      <div id='splash-main'>
+        <div id="splash-red"></div>
+        <div id='wax-content' class='wax-inline-container'>
+          {{ content }}
+        </div>
+      </div>
+      <div id='wax-main' >
+        <div id='wax-content' class='wax-inline-container'>
+          <h1>Curated Audio Exhibits</h1>
+          <p>Our special exhibits frame and contextualise the histories of the recordings in our collection, and will direct you to further resources held in our repository and curated by institutions across the SpokenWeb Network.</p>
+          <p><a href="/spokenweb-ualberta/exhibits/" class="btn2">Browse Exhibits</a></p>
+        </div>
+      </div>
+      {% include footer.html %}
+      </div>
+    </div>
+  </body>
+
+  <script type='text/javascript' async defer src='{{ "/assets/bootstrap/bootstrap.min.js" | absolute_url }}'></script>
+  <script type='text/javascript' async defer src='{{ "/assets/popper.min.js" | absolute_url }}'></script>
+</html>
