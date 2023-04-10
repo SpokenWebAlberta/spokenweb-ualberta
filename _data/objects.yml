@@ -91,6 +91,7 @@
     time: 2976.0
     value: "Webb performs \u201CBreaking\u201D "
   date: Performed::1972/03/09
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/133/995/medium/SW008_01.jpeg?1667282788
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -134,11 +135,12 @@
     value: University of Alberta Students' Union Building Art Gallery
   seconds: 3194.94966
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/133/995/original/SW008-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/133/995/medium/SW008_01.jpeg?1667282788
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/133/995/small/SW008_01.jpeg?1667282788
   title: Phyllis Webb at University of Alberta, 1972
 59183:
   annotations: []
   date: Performed::1982/02/15
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -326,6 +328,7 @@
     time: 2428.0
     value: Applause
   date: Performed::1982/03/03
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/133/997/medium/SW030_03.jpg?1663046634
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -362,7 +365,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 3
   seconds: 2431.94195
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/133/997/original/SW030-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/133/997/medium/SW030_03.jpg?1663046634
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/133/997/small/SW030_03.jpg?1663046634
   title: Leona Gom at University of Alberta, 1982
 59188:
   annotations:
@@ -494,6 +497,7 @@
     time: 4412.0
     value: Applause
   date: Performed::1978/11/23
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/001/medium/SW018_03.jpg?1669708818
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -530,7 +534,7 @@
     value: University of Alberta
   seconds: 4429.48499
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/001/original/SW018-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/001/medium/SW018_03.jpg?1669708818
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/001/small/SW018_03.jpg?1669708818
   title: Robert Kroetsch at University of Alberta, 1978
 59189:
   annotations:
@@ -804,6 +808,7 @@
     time: 3137.0
     value: Applause and closing remarks
   date: Performed::1979/03/08
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/002/medium/SW020_03.jpg?1667281764
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -839,7 +844,7 @@
     value: University of Alberta
   seconds: 3239.29977
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/002/original/SW020-b-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/002/medium/SW020_03.jpg?1667281764
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/002/small/SW020_03.jpg?1667281764
   title: Fred Wah at University of Alberta, 1979
 59190:
   annotations:
@@ -1048,6 +1053,7 @@
     time: 2845.0
     value: Applause and closing remarks
   date: Performed::1980/02/21
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/003/medium/SW024_03.jpg?1669137181
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -1088,7 +1094,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 3
   seconds: 2866.6195
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/003/original/SW024-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/003/medium/SW024_03.jpg?1669137181
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/003/small/SW024_03.jpg?1669137181
   title: Leona Gom at University of Alberta, 1980
 59191:
   annotations:
@@ -1224,6 +1230,7 @@
     time: 2241.0
     value: Applause and closing remarks
   date: Performed::1981/03/19
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/004/medium/SW026_03.jpg?1669700297
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -1261,7 +1268,7 @@
     value: University of Alberta
   seconds: 2294.41016
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/004/original/SW026-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/004/medium/SW026_03.jpg?1669700297
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/004/small/SW026_03.jpg?1669700297
   title: John Newlove at University of Alberta, 1981
 59193:
   annotations:
@@ -1386,6 +1393,7 @@
     time: 2767.0
     value: Unknown speaker makes closing remarks + applause
   date: Performed::1976/12/02
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/006/medium/SW035_04.jpg?1663640372
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -1437,7 +1445,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 3
   seconds: 2787.7181
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/006/original/SW035-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/006/medium/SW035_04.jpg?1663640372
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/006/small/SW035_04.jpg?1663640372
   title: Jeni Couzyn at University of Alberta, 1976
 59194:
   annotations:
@@ -1523,6 +1531,7 @@
     time: 1651.0
     value: Applaulse
   date: Performed::1982/01/26
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/007/medium/SW036_03.jpg?1663641393
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -1559,7 +1568,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 4
   seconds: 1663.61687
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/007/original/SW036-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/007/medium/SW036_03.jpg?1663641393
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/007/small/SW036_03.jpg?1663641393
   title: Lorne Daniel at University of Alberta, 1982
 59196:
   annotations:
@@ -1606,6 +1615,7 @@
     time: 2654.0
     value: Applause
   date: Performed::1978/01/27
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/009/medium/SW051_03.jpg?1669705467
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -1643,7 +1653,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 3
   seconds: 2669.83039
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/009/original/SW051-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/009/medium/SW051_03.jpg?1669705467
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/009/small/SW051_03.jpg?1669705467
   title: Myrna Kostash at University of Alberta, 1978
 59197:
   annotations:
@@ -1677,6 +1687,7 @@
     time: 2869.0
     value: Applause
   date: Performed::1977/02/14
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/010/medium/SW052_03.jpg?1669709785
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -1713,7 +1724,7 @@
     value: University of Alberta
   seconds: 2882.08399
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/010/original/SW052-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/010/medium/SW052_03.jpg?1669709785
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/010/small/SW052_03.jpg?1669709785
   title: Rudy Wiebe at University of Alberta, 1977
 59198:
   annotations:
@@ -1886,6 +1897,7 @@
     time: 2504.0
     value: Audience Q&amp;A
   date: Performed::1980/01/31
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/011/medium/SW023_01.jpeg?1668499548
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -1923,7 +1935,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 3
   seconds: 2795.19492
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/011/original/SW023-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/011/medium/SW023_01.jpeg?1668499548
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/011/small/SW023_01.jpeg?1668499548
   title: Glen Sorestad at University of Alberta, 1980
 59206:
   annotations:
@@ -2001,6 +2013,7 @@
     time: 2825.0
     value: Applause
   date: Performed::1978/01/01
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/019/medium/SW038_01.jpeg?1663644726
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -2037,7 +2050,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 6
   seconds: 2850.85315
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/019/original/SW038-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/019/medium/SW038_01.jpeg?1663644726
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/019/small/SW038_01.jpeg?1663644726
   title: Tom Wayman at University of Alberta, 197?
 59208:
   annotations:
@@ -2144,6 +2157,7 @@
     time: 2433.0
     value: Unknown host reminds audience about upcoming readings and thanks Webb
   date: Performed::1981/01/29
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/021/medium/SW041_03.jpg?1665099475
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -2181,7 +2195,7 @@
     value: University of Alberta
   seconds: 2463.54431
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/021/original/SW041-a1A-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/021/medium/SW041_03.jpg?1665099475
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/021/small/SW041_03.jpg?1665099475
   title: Phyllis Webb at University of Alberta, 1981
 59210:
   annotations:
@@ -2216,6 +2230,7 @@
     time: 889.0
     value: Applause
   date: Performed::1973/10/26
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/023/medium/SW042_04.jpg?1669701778
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -2256,7 +2271,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 3
   seconds: 914.93587
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/023/original/SW042-b-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/023/medium/SW042_04.jpg?1669701778
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/023/small/SW042_04.jpg?1669701778
   title: Margaret Laurence at University of Alberta, 1974
 59211:
   annotations:
@@ -2426,6 +2441,7 @@
     time: 3466.0
     value: Applause
   date: Performed::1981/03/12
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/024/medium/SW041_03.jpg?1667965073
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -2463,7 +2479,7 @@
     value: University of Alberta
   seconds: 3507.11873
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/024/original/SW041-b-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/024/medium/SW041_03.jpg?1667965073
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/024/small/SW041_03.jpg?1667965073
   title: David Donnell at University of Alberta, 1981
 59212:
   annotations:
@@ -2589,6 +2605,7 @@
     time: 2830.0
     value: Lane sells his books
   date: Performed::1977/01/14
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/025/medium/SW013_01.jpeg?1668499805
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -2625,7 +2642,7 @@
     value: University of Alberta Humanities A/V Centre
   seconds: 2839.70757
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/025/original/SW013-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/025/medium/SW013_01.jpeg?1668499805
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/025/small/SW013_01.jpeg?1668499805
   title: Patrick Lane at University of Alberta, 1977
 59213:
   annotations:
@@ -2727,6 +2744,7 @@
     time: 3011.0
     value: Barbour addresses the audience
   date: Performed::1977/02/11
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/026/medium/SW014_03.jpg?1669709623
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -2763,7 +2781,7 @@
     value: University of Alberta
   seconds: 3029.1824
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/026/original/SW014-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/026/medium/SW014_03.jpg?1669709623
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/026/small/SW014_03.jpg?1669709623
   title: Roy Kiyooka at University of Alberta, 1977
 59214:
   annotations:
@@ -2801,6 +2819,7 @@
     time: 2994.0
     value: Barbour addresses the audience
   date: Performed::1977/02/18
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/027/medium/SW015_03.jpg?1665467636
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -2835,7 +2854,7 @@
     value: University of Alberta
   seconds: 3010.9083
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/027/original/SW015-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/027/medium/SW015_03.jpg?1665467636
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/027/small/SW015_03.jpg?1665467636
   title: Penny Chalmers at University of Alberta, 1977
 59215:
   annotations:
@@ -2852,6 +2871,7 @@
     time: 2429.0
     value: Host addresses the audience
   date: Performed::1977/11/04
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/028/medium/SW017_01.jpeg?1669702344
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -2889,7 +2909,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 3
   seconds: 2460.59537
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/028/original/SW017-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/028/medium/SW017_01.jpeg?1669702344
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/028/small/SW017_01.jpeg?1669702344
   title: Marian Engel at University of Alberta, 1977
 59216:
   annotations:
@@ -2978,6 +2998,7 @@
     value: Q/A, what she means by referencing her "Canadian books" and accessibility
       to international audience [incomplete]
   date: Performed::1973/10/25
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/029/medium/SW042_01.jpeg?1665100074
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3018,7 +3039,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 1
   seconds: 2903.56245
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/029/original/SW042-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/029/medium/SW042_01.jpeg?1665100074
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/029/small/SW042_01.jpeg?1665100074
   title: Margaret Laurence at University of Alberta, 1973
 59223:
   annotations:
@@ -3126,6 +3147,7 @@
     time: 3096.0
     value: Harrison addresses the audience
   date: Performed::1971/01/29
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/036/medium/SW058_03.jpg?1669708197
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3167,7 +3189,7 @@
     value: University of Alberta
   seconds: 3124.68608
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/036/original/SW058-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/036/medium/SW058_03.jpg?1669708197
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/036/small/SW058_03.jpg?1669708197
   title: Robert Kroetsch at University of Alberta, 1971
 59225:
   annotations:
@@ -3197,6 +3219,7 @@
     time: 2705.0
     value: Applause and closing remarks
   date: Performed::1977/02/25
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/038/medium/SW053_03.jpg?1669703411
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3230,7 +3253,7 @@
     value: University of Alberta
   seconds: 2752.09869
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/038/original/SW053-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/038/medium/SW053_03.jpg?1669703411
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/038/small/SW053_03.jpg?1669703411
   title: Matt Cohen at University of Alberta, 1977
 59226:
   annotations:
@@ -3384,6 +3407,7 @@
     time: 3433.0
     value: Applause and closing remarks
   date: Performed::1979/03/22
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/039/medium/SW021_03.jpg?1665506067
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3420,7 +3444,7 @@
     value: University of Alberta
   seconds: 3465.99619
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/039/original/SW021-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/039/medium/SW021_03.jpg?1665506067
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/039/small/SW021_03.jpg?1665506067
   title: bpNichol at University of Alberta, 1979
 59228:
   annotations:
@@ -3548,6 +3572,7 @@
     time: 2565.0
     value: "Lochhead performs \u201CThe Last Hag\u201D"
   date: Performed::1979/10/18
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/041/medium/SW022_03.jpg?1669130960
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3580,7 +3605,7 @@
     value: University of Alberta
   seconds: 2695.3259
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/041/original/SW020-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/041/medium/SW022_03.jpg?1669130960
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/041/small/SW022_03.jpg?1669130960
   title: Elizabeth Lochhead at University of Alberta, 1979
 59230:
   annotations:
@@ -3603,6 +3628,7 @@
     time: 1647.0
     value: Outro, theme music, and credits
   date: Publication::1984/01/18|production::1982/03
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/043/medium/audio-default.png?1640835829
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3638,7 +3664,7 @@
     value: University of Alberta
   seconds: 1756.33415
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/043/original/1985-99-15-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/043/medium/audio-default.png?1640835829
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/043/small/audio-default.png?1640835829
   title: 'Celebrations: Marian Engel'
 59235:
   annotations:
@@ -3721,6 +3747,7 @@
     time: 1736.0
     value: Outro, theme music, and credits
   date: Publication::1983/12/14|production::1982
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/048/medium/audio-default.png?1640836601
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3756,7 +3783,7 @@
     value: University of Alberta
   seconds: 1826.29587
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/048/original/1985-99-10-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/048/medium/audio-default.png?1640836601
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/048/small/audio-default.png?1640836601
   title: 'Celebrations: Patrick Lane'
 59239:
   annotations:
@@ -3791,6 +3818,7 @@
     time: 1720.0
     value: Outro, theme music, and credits
   date: Publication::1984/01/25|production::1982/03
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/052/medium/audio-default.png?1640837224
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3826,7 +3854,7 @@
     value: University of Alberta
   seconds: 1815.82367
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/052/original/1985-99-16-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/052/medium/audio-default.png?1640837224
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/052/small/audio-default.png?1640837224
   title: 'Celebrations: Matt Cohen'
 59242:
   annotations:
@@ -3897,6 +3925,7 @@
     time: 1688.0
     value: Outro, theme music, and credits
   date: Performed::1983/11/16
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/055/medium/audio-default.png?1640837699
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -3930,7 +3959,7 @@
     value: University of Alberta
   seconds: 1807.48771
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/055/original/1985-99-6-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/055/medium/audio-default.png?1640837699
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/055/small/audio-default.png?1640837699
   title: 'Celebrations: Phyllis Webb'
 59248:
   annotations:
@@ -3969,6 +3998,7 @@
     time: 1719.0
     value: Outro, theme music, and credits
   date: Publication::1984/02/29|production::1983/02
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/061/medium/audio-default.png?1640838627
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -4004,7 +4034,7 @@
     value: University of Alberta
   seconds: 1781.89932
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/061/original/1985-99-21-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/061/medium/audio-default.png?1640838627
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/061/small/audio-default.png?1640838627
   title: 'Celebrations: Aritha van Herk'
 59250:
   annotations:
@@ -4096,6 +4126,7 @@
     time: 1726.0
     value: Outro, theme music, and credits
   date: Publication::1984/03/14|production::1983/01
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/063/medium/audio-default.png?1640838943
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -4131,7 +4162,7 @@
     value: University of Alberta
   seconds: 1851.16444
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/063/original/1985-99-23-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/063/medium/audio-default.png?1640838943
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/063/small/audio-default.png?1640838943
   title: 'Celebrations: Leona Gom'
 59251:
   annotations:
@@ -4193,6 +4224,7 @@
     time: 1701.0
     value: Outro, theme music, and credits
   date: Publication::1984/03/21
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/064/medium/audio-default.png?1640839107
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -4230,7 +4262,7 @@
     value: University of Alberta
   seconds: 1810.64562
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/064/original/1985-99-24-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/064/medium/audio-default.png?1640839107
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/064/small/audio-default.png?1640839107
   title: 'Celebrations: Rudy Wiebe'
 59253:
   annotations:
@@ -4262,6 +4294,7 @@
     time: 1752.0
     value: Outro, theme music, and credits
   date: Publication::1983/11/23
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/066/medium/audio-default.png?1640839419
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -4296,7 +4329,7 @@
     value: University of Alberta
   seconds: 1826.36553
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/066/original/1985-99-7-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/066/medium/audio-default.png?1640839419
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/066/small/audio-default.png?1640839419
   title: 'Celebrations: Robert Kroetsch'
 59257:
   annotations:
@@ -4343,6 +4376,7 @@
     time: 1719.0
     value: Outro, theme music, and credits
   date: Publication::1983/11/30
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/070/medium/audio-default.png?1640840256
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -4378,7 +4412,7 @@
     value: University of Alberta
   seconds: 1803.56354
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/070/original/1985-99-8-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/070/medium/audio-default.png?1640840256
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/070/small/audio-default.png?1640840256
   title: 'Celebrations: Tom Wayman'
 59261:
   annotations:
@@ -4432,6 +4466,7 @@
     time: 3543.0
     value: Ambient Sound
   date: production::1980/08/21
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/074/medium/audio-default.png?1640841430
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -4468,7 +4503,7 @@
     value: University of Alberta
   seconds: 3621.50023
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/074/original/88-47-377-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/074/medium/audio-default.png?1640841430
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/074/small/audio-default.png?1640841430
   title: Interview with Doug Barbour on science fiction
 59266:
   annotations:
@@ -4549,6 +4584,7 @@
     time: 1670.0
     value: Outro and Credits
   date: Publication::1981/09/16
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/079/medium/audio-default.png?1640842446
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -4584,7 +4620,7 @@
     value: University of Alberta
   seconds: 1714.00417
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/079/original/88-47-464-a.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/079/medium/audio-default.png?1640842446
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/079/small/audio-default.png?1640842446
   title: 'Paper Tygers: Creative Writing'
 82576:
   annotations:
@@ -4709,6 +4745,7 @@
     time: 2732.0
     value: Applause
   date: Performed::1988/03/14
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/880/medium/SW075_01.jpeg?1668812618
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -4739,7 +4776,7 @@
     value: University of Alberta Humanities Centre Lecture Theatre 3
   seconds: 2754.43842
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/170/880/original/SW075-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/880/medium/SW075_01.jpeg?1668812618
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/880/small/SW075_01.jpeg?1668812618
   title: Phyllis Webb at University of Alberta, 1988
 82577:
   annotations:
@@ -4984,6 +5021,7 @@
     time: 3106.0
     value: Doug Barbour and Fred Wah address the audience
   date: Performed::1979/03/09
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/882/medium/IMG_7906.jpeg?1668813392
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -5014,7 +5052,7 @@
     value: University of Alberta
   seconds: 3110.82272
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/170/882/original/SW155-a-b-cleaned-merged.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/882/medium/IMG_7906.jpeg?1668813392
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/882/small/IMG_7906.jpeg?1668813392
   title: Fred Wah In Class Conversation at University of Alberta, 1979
 82578:
   annotations:
@@ -5279,6 +5317,7 @@
     time: 2763.0
     value: Doug Barbour addresses the audience
   date: Performed::1977/02/18
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/883/medium/image0.jpeg?1669134491
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -5309,11 +5348,12 @@
     value: University of Alberta
   seconds: 2772.38766
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/170/883/original/SW161-a-cleaned.wav
-  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/883/medium/image0.jpeg?1669134491
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/883/small/image0.jpeg?1669134491
   title: Penny Chalmers Interview, 1977
 85594:
   annotations: []
   date: .nan
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="http://rightsstatements.org/vocab/InC/1.0/">In
@@ -5348,6 +5388,7 @@
 85598:
   annotations: []
   date: Performance Date::1986-03-15
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -5387,6 +5428,7 @@
 85610:
   annotations: []
   date: Performance Date::1975-01
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -5426,6 +5468,7 @@
 85617:
   annotations: []
   date: Performance Date::1978-03-31
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
@@ -5465,6 +5508,7 @@
 85618:
   annotations: []
   date: Performance Date::1978-03-29
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   metadata:
   - key: Rights Statement
     value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In

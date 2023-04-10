@@ -42,7 +42,7 @@ if __name__ == "__main__":
             with open("test.json", "w+") as f:
                 json.dump(manifest, f, indent=4)
 
-            thumbnail = manifest["thumbnail"][0]["id"].replace("small", "medium")
+            thumbnail = manifest["thumbnail"][0]["id"]
 
             # Get annotations
             annotations = []
@@ -79,6 +79,7 @@ if __name__ == "__main__":
 
             manifest_data[row["aviary ID"]] = {
                 "thumbnail": thumbnail,
+                "medium": thumbnail.replace("small", "medium"),
                 "annotations": annotations,
                 "metadata": metadata,
                 "seconds": duration,

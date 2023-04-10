@@ -116,7 +116,6 @@
 }
 
 .sp-audio-featured-image img {
-  width: 350px;
   height: 350px;
 }
 
@@ -126,6 +125,7 @@
 
 .sp-audio-controls {
   margin: 1em;
+  max-width: $max-width;
 
   * {
     margin-bottom: 2em;
