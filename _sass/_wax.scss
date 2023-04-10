@@ -48,7 +48,7 @@ responsive header
 
 */
 
-@media (max-width: 991px) {
+@media (max-width: $format-switch) {
   .wax-inline-container-header { background-color: $brand-red !important; }
   .nav-link:hover {background-color: $accent-dark !important; }
   .nav-link:active {background-color: $accent-dark !important; }

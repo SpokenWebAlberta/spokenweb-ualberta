@@ -5,25 +5,32 @@ author: Chelsea Miya
 publish_date: 2022-10-27
 permalink: /exhibits/jarsBalan/
 featured_objects: 
-  - 59182
-  - 59182
-  - 59182
-  - 59214
-  - 59214
-  - 59214
-  - 59214
-  - 59214
-featured_pages:
-  - Jars Balan
-  - Jars Balan
-  - Jars Balan
-  - Jars Balan
-  - Jars Balan
-  - Jars Balan
-  - Jars Balan
-  - Jars Balan
-  - Jars Balan
-  - Jars Balan
+  - 59239
+  - 59263
+  - 59241
+  - 59240
+  - 59242
+  - 59229
+  - 59256
+  - 59257
+  - 59252
+  - 59253
+  - 59251
+  - 59230
+  - 59235
+  - 59234
+  - 59233
+  - 59236
+  - 59238
+  - 59237
+  - 59248
+  - 59250
+  - 59245
+  - 59249
+  - 59246
+  - 59243
+  - 59244
+  - 59247
 ---
 
 
