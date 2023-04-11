@@ -8,6 +8,8 @@
       {% assign audio_object = site.data.objects[page.iden] %}
 
       <script>
+          let mouse_x = 0.0;
+
           function format_time(seconds) {
               let hours = Math.floor(seconds / 3600).toString().padStart(2, "0");
               let minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
@@ -69,6 +71,21 @@
               }
           }
 
+          function move(e) {
+              mouse_x = e.clientX;
+          }
+
+          function scrub() {
+              let bar = document.getElementById("scrub-bar");
+              let rect = bar.getBoundingClientRect();
+              let percent = (mouse_x - rect.left) / (rect.right - rect.left);
+              let audio = document.getElementById("sp-audio-stream");
+              audio.currentTime = audio.duration * percent;
+              let progress = document.getElementById("sp-red-progress");
+              progress.style.width = (Math.round(percent * 100).toString()) + "%";
+          }
+
+          document.onmousemove = move;
           window.addEventListener("DOMContentLoaded", init);
 
 
@@ -83,7 +100,7 @@
               </div>
               <div class="sp-audio-controls">
                   <h1>{{ audio_object.title }}</h1>
-                  <div class="sp-runtime">
+                  <div id="scrub-bar" class="sp-runtime" onclick="scrub()">
                       <div id="sp-red-progress" class="sp-red"></div>
                       <div class="sp-white"></div>
                   </div>
