@@ -9,4 +9,5 @@ title: All Exhibits
 <ul>
 <li><a href="../exhibits/voiceprint/">Voiceprint</a></li>
 <li><a href="../exhibits/jarsBalan/">Jars Balan</a></li>
+<li><a href="../exhibits/celebrations/">Celebrations</a></li>
 </ul>

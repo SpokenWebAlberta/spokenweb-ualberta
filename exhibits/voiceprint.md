@@ -6,8 +6,9 @@ publish_date: 2022-10-27
 permalink: /exhibits/voiceprint/
 featured_objects:
   - 59254
-  - 59254
+  - 59258
   - 59265
+  
 ---
 
 

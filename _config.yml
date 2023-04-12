@@ -104,6 +104,8 @@ menu:
         link: '/exhibits/voiceprint/'
       - label: 'Jars Balan'
         link: '/exhibits/jarsBalan/'
+      - label: 'Celebrations'
+        link: '/exhibits/celebrations/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS

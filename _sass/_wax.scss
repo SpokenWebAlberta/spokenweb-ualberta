@@ -453,6 +453,10 @@ Image Captions
     .figure {
       display: table;
       margin-bottom: $less-margin;
+      @media (max-width: 700px) {
+        float: none !important;
+      }
+
     }
 
     .figure.right {
@@ -748,7 +752,7 @@ input {
   background-image: url("../img/search.png");
   background-repeat: no-repeat;
   background-position: right 1em center;
-  background-size: 30px;
+  background-size: 20px;
   border: none;
 }
 
