@@ -39,6 +39,9 @@ if __name__ == "__main__":
             manifest_url = row["PURL"].replace("/r/", "/iiif/") + "/manifest"
             manifest = requests.get(manifest_url).json()
 
+            with open("test.json", "w+") as f:
+                json.dump(manifest, f, indent=4)
+
             thumbnail = manifest["thumbnail"][0]["id"]
 
             # Get annotations
@@ -76,6 +79,7 @@ if __name__ == "__main__":
 
             manifest_data[row["aviary ID"]] = {
                 "thumbnail": thumbnail,
+                "medium": thumbnail.replace("small", "medium"),
                 "annotations": annotations,
                 "metadata": metadata,
                 "seconds": duration,

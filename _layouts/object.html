@@ -8,6 +8,8 @@
       {% assign audio_object = site.data.objects[page.iden] %}
 
       <script>
+          let mouse_x = 0.0;
+
           function format_time(seconds) {
               let hours = Math.floor(seconds / 3600).toString().padStart(2, "0");
               let minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
@@ -22,8 +24,8 @@
 
           function init() {
               let audio = document.getElementById("sp-audio-stream");
-              audio.addEventListener("play", function() {document.getElementById("sp-play-button").innerText = '\u23F8';});
-              audio.addEventListener("pause", function() {document.getElementById("sp-play-button").innerText = '\u23F5';});
+              audio.addEventListener("play", function() {document.getElementById("sp-play-button").innerHTML = '<img src="{{ '/img/play-button.svg' | absolute_url }}">';});
+              audio.addEventListener("pause", function() {document.getElementById("sp-play-button").innerHTML = '<img src="{{ '/img/play-button.svg' | absolute_url }}">';});
               audio.addEventListener("timeupdate", progress);
           }
 
@@ -69,31 +71,49 @@
               }
           }
 
+          function move(e) {
+              mouse_x = e.clientX;
+          }
+
+          function scrub() {
+              let bar = document.getElementById("scrub-bar");
+              let rect = bar.getBoundingClientRect();
+              let percent = (mouse_x - rect.left) / (rect.right - rect.left);
+              let audio = document.getElementById("sp-audio-stream");
+              audio.currentTime = audio.duration * percent;
+              let progress = document.getElementById("sp-red-progress");
+              progress.style.width = (Math.round(percent * 100).toString()) + "%";
+          }
+
+          document.onmousemove = move;
           window.addEventListener("DOMContentLoaded", init);
 
 
       </script>
 
-      <div id="sp-audio-player">
-      <!--    <img class="sp-featured-image" src="{{ site.data.objects[page.iden].thumbnail }}">-->
-          <div class="sp-audio-featured-image">
-              <img src="{{ audio_object.thumbnail }}">
-          </div>
-          <div class="sp-audio-controls">
-              <h1>{{ audio_object.title }}</h1>
-              <div class="sp-runtime">
-                  <div id="sp-red-progress" class="sp-red"></div>
-                  <div class="sp-white"></div>
+      <div class="sp-audio-red-wrapper">
+          <div class="sp-audio-red-block"></div>
+
+          <div class="sp-audio-player">
+              <div class="sp-audio-featured-image">
+                  <img src="{{ audio_object.medium }}">
               </div>
-              <div class="sp-time-display">
-                  <span id="sp-audio-current-time">00:00:00</span> <span id="sp-audio-duration">00:00:00</span>
+              <div class="sp-audio-controls">
+                  <h1>{{ audio_object.title }}</h1>
+                  <div id="scrub-bar" class="sp-runtime" onclick="scrub()">
+                      <div id="sp-red-progress" class="sp-red"></div>
+                      <div class="sp-white"></div>
+                  </div>
+                  <div class="sp-time-display">
+                      <span id="sp-audio-current-time">00:00:00</span> <span id="sp-audio-duration">00:00:00</span>
+                  </div>
+                  <div class="sp-buttons">
+                      <button class="sp-back" onclick="rewind()"><img src="{{ '/img/fast-forward.svg' | absolute_url }}"></button>
+                      <button class="sp-play" onclick="play()" id="sp-play-button"><img src="{{ '/img/play-button.svg' | absolute_url }}"></button>
+                      <button class="sp-forward" onclick="forward()"><img src="{{ '/img/fast-forward.svg' | absolute_url }}"></button>
+                  </div>
+                  <audio id="sp-audio-stream" src="{{ audio_object.stream }}"></audio>
               </div>
-              <div class="sp-buttons">
-                  <button class="sp-scrub" onclick="rewind()">&#9198;</button>
-                  <button class="sp-play" onclick="play()" id="sp-play-button">&#9205;</button>
-                  <button class="sp-scrub" onclick="forward()">&#9197;</button>
-              </div>
-              <audio id="sp-audio-stream" src="{{ audio_object.stream }}"></audio>
           </div>
       </div>
       <div id='wax-main'>
@@ -124,8 +144,6 @@
       {% include footer.html %}
     </div>
   </body>
-
-
   <script type='text/javascript' async defer src='{{ "/assets/bootstrap/bootstrap.min.js" | absolute_url }}'></script>
   <script type='text/javascript' async defer src='{{ "/assets/popper.min.js" | absolute_url }}'></script>
 </html>

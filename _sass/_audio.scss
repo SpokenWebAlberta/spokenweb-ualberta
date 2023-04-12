@@ -2,13 +2,12 @@
   display: flex;
   position: relative;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
 
   div {
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: $max-width / 1.25;
+    flex-basis: $max-width * 0.75;
   }
 
   .sp-divider {
@@ -64,7 +63,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: $format-switch) {
   .sp-objects-content {
     flex-direction: column;
 
@@ -80,21 +79,44 @@
       text-align: left;
     }
   }
+
+  div.sp-audio-red-block {
+    background-color: $text-color;
+  }
 }
 
+.sp-audio-red-wrapper {
+  position: relative;
+}
 
-#sp-audio-player {
+.sp-audio-red-block {
+  position: absolute;
+  height: 100%;
+  min-width: 297.33px;
+  background-color: $brand-red;
+  left: 0;
+  z-index: 0;
+}
+
+.sp-audio-player {
   background-color: $text-color;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+
+  div {
+    margin: 2em;
+  }
+
+  * {
+    z-index: 5;
+  }
+
 }
 
 .sp-audio-featured-image img {
-  width: 350px;
   height: 350px;
-  margin-right: 5em;
 }
 
 .sp-audio-seek {
@@ -103,6 +125,7 @@
 
 .sp-audio-controls {
   margin: 1em;
+  max-width: $max-width;
 
   * {
     margin-bottom: 2em;
@@ -121,6 +144,7 @@
     display: flex;
     flex-direction: row;
     height: 10px;
+    cursor: pointer;
   }
 
   .sp-white {
@@ -128,6 +152,7 @@
     height: 5px;
     width: 50%;
     margin: 0;
+    flex-basis: 0px;
   }
 
   .sp-red {
@@ -161,34 +186,56 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 105px;
+
+  button:focus {
+    outline: none;
+  }
 
   button {
-    margin: 0px 25px;
-
-    font-family: Montserrat, serif;
-    color: $bg-color;
+    cursor: pointer;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: $bg-color;
+    margin: 0 1em;
+    height: 84px;
+    width: 84px;
+    border: 1px solid black;
     border-radius: 50px;
-    border: 0;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 2px black;
+
+    img {
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+      object-fit: contain;
+
+      margin: 0;
+      padding: 0;
+    }
   }
 
-  .sp-scrub {
-    height: 64px;
-    width: 64px;
-    font-size: 30px;
-    background-color: #8F8F8F;
+  .sp-back {
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 2px black;
+
+    img {
+      width: 70px;
+      height: 70px;
+      transform: scaleX(-1);
+    }
   }
 
-  .sp-play {
-    height: 104px;
-    width: 104px;
-    font-size: 80px;
-    background-color: $brand-red;
-  }
+  .sp-forward {
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 2px black;
 
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
 }
