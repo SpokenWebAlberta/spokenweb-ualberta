@@ -19,6 +19,9 @@
           <p><a href="/spokenweb-ualberta/exhibits/" class="btn2">Browse Exhibits</a></p>
         </div>
       </div>
+      {% if page.featured_pages != nil %}
+        {% include featured_pages.html %}
+      {% endif %}
       {% include footer.html %}
       </div>
     </div>

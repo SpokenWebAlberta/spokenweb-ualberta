@@ -836,6 +836,10 @@ input:focus {
         opacity: 95%;
       }
 
+      &:focus {
+        outline: none;
+      }
+
     }
 
     .sp-carousel-right-control {
@@ -904,6 +908,7 @@ input:focus {
           display: flex;
           text-align: center;
           align-items: center;
+          justify-content: center;
         }
       }
     }
