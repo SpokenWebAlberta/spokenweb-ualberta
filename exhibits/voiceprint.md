@@ -14,7 +14,7 @@ featured_objects:
 
 <div class = "figure">
   <img src="{{ '/img/VoiceprintTape.jpg' | absolute_url }}"/>
-  <figcaption><i>Voiceprint</i> recording on Ampex</figcaption>
+  <figcaption>Fig. 1. <i>Voiceprint</i> recording on Ampex</figcaption>
 </div>
 
 
@@ -24,7 +24,7 @@ featured_objects:
 
 <div class = "figure">
   <img src="{{ '/img/pappesBalan.jpg' | absolute_url }}"/>
-  <figcaption>RTV Producer Ken Pappes and Host Jars Balan, 198-.</figcaption>
+  <figcaption>Fig. 2. RTV Producer Ken Pappes and Host Jars Balan, 198-.</figcaption>
 </div>
 
 The series creators’ prided themselves on the shows interdisciplinarity. Jars recruited faculty and staff from various departments—including linguistics, anthropology, and library studies—to lend their expertise and their voices to the series. Ana Altman, who went on to become Director of UAlberta’s School of Library and Information Science, contributed a recurring segment on recommended books, while classics scholar Richard Braun shared his etymology knowledge in a bit called “Words Worth.”[^3]
@@ -33,7 +33,7 @@ The series creators’ prided themselves on the shows interdisciplinarity. Jars 
 
 <div class = "figure right">
   <img src="{{ '/img/RomanO.jpg' | absolute_url }}" width="375" style="float: right;"/>
-<figcaption>Roman Onufrijchuk, Exec. Producer of RTV.</figcaption>
+<figcaption>Fig. 3. Roman Onufrijchuk, Exec. Producer of RTV, 198-.</figcaption>
 </div>
 
 Radio historians Erika Engstrom[^6], Caroline Mitchell[^7], Susan Carter[^8], Stacey Copeland[^9], and others have pointed out the role of campus and community radio stations in building safe spaces for marginalized communities, particularly during the peak of alternative radio in the early 1980s. Along these lines, Voiceprint was notable for its progressive politics, particularly the producers’ unflinching and nuanced engagement with women’s issues, a topic that scholars Barbara Freeman and Susan Carter point out was often ignored on mainstream public and commercial stations. The episode “Women’s Language and Literature: A Room and Voice of One’s Own” digs into how misogyny becomes normalized through our language habits. Poet Ann Cameron, in an interview with Balan, describes her frustration with being labeled a “masculine” writer, pointing out how feminized versions of titles, like “poetess,” are used to condescend to and diminish women who participate in male-dominant spheres.[^10]
@@ -42,7 +42,7 @@ Radio historians Erika Engstrom[^6], Caroline Mitchell[^7], Susan Carter[^8], St
 
 <div class = "figure left">
   <img src="{{ '/img/TerriW.jpg' | absolute_url }}" width="375"/>
-  <figcaption>Terri Wynnyk, Production Assistant.</figcaption>
+  <figcaption>Fig. 4. Terri Wynnyk, Production Assistant, 198-.</figcaption>
 </div>
 
 **Voiceprint came to an abrupt end in 1983**, after the final episode was “banned” by CKUA. The episode, “Linguistic Taboos and Censorship in Literature,” included a clip from comedian George Carlin’s infamous sketch, “Seven Words You Can Never Say on Television.” According to CKUA, the airing of “swear words” violated the station’s decency rules (Remington). In an interview with The Edmonton Journal, show producer Ken Bolton decried CKUA’s “cowardly” decision to take the show off the air.[^14] Yet, looking back on the incident years later, Balan conceded that it was “better to go out with a bang.”[^15]
@@ -53,6 +53,14 @@ Radio historians Erika Engstrom[^6], Caroline Mitchell[^7], Susan Carter[^8], St
 ---
 
 ### Notes
+
+Fig. 1. Photograph of <i>Voiceprint</i> recording on Ampex. SpokenWeb UAlberta Archives.
+
+Fig. 2. Photograph of RTV Producer Ken Pappes and Host Jars Balan. 198-. Courtesy of Terri Wynnyk, from her personal collection.
+
+Fig. 3. Photograph of Roman Onufrijchuk, Executive Producer of RTV. 198-. Courtesy of Terri Wynnyk, from her personal collection.
+
+Fig. 4. Photograph of Terri Wynnyk, Production Assistant at RTV. 198-. Courtesy of Terri Wynnyk, from her personal collection.
 
 [^1]: Fauteux, Brian. “The Canadian Campus Radio Sector Takes Shape.” Music in Range: The Culture of Canadian Campus Radio. Wilfrid Laurier University Press, 2015, pp. 37-64.
 

@@ -36,7 +36,7 @@ featured_objects:
 
 <div class = "figure left">
   <img src="{{ '/img/JarsBalan.jpg' | absolute_url }}" width="500"/>
-  <figcaption>Jars Balan reads <i>Voiceprint</i> script, 1981?</figcaption>
+  <figcaption>Fig. 1. Jars Balan reads <i>Voiceprint</i> script, 1981?</figcaption>
 </div>
 
 
@@ -49,13 +49,15 @@ Of the three radio shows Balan produced for RTV/CKUA, <i>Voiceprint</i> had the 
 
 **Balan was not only a radio host, but a poet and performer in his own right**, who shared the stage with the likes of bpNichol, George Bowering, and Stephen Scobie. Paper Tygers was inspired by Balan’s experience as an artist-in-residence at The Banff Centre for Performing Arts.[^4]
 
-**Today, Balan is best known for his work as an activist and leader in the Ukrainian community.** He is the former Director of the Canadian Institute of Ukrainian Studies (CIUS) at the University of Alberta, a position he held from 2017-2020, and he currently serves as the administrative coordinator of the Peter and Doris Kule Ukrainian Canadian Studies Centre at CIUS.[^5] His editorials on the Russian invasion of the Ukraine have appeared in The Edmonton Journal and The Conversation. Though his days as a campus radio host are past, Balan never lost his love of radio and of literature, and lately he has been experimenting with visual poems that celebrate his Ukrainian heritage.
+**Today, Balan is best known for his work as an activist and leader in the Ukrainian community.** He is the former Director of the Canadian Institute of Ukrainian Studies (CIUS) at the University of Alberta, a position he held from 2017-2020, and he currently serves as the administrative coordinator of the Peter and Doris Kule Ukrainian Canadian Studies Centre at CIUS.[^5] His editorials on the Russian invasion of the Ukraine have appeared in <i>The National Post</i>,[^6] <i>The Edmonton Journal</i>,[^7] and <i>The Conversation</i>.[^8] Though his days as a campus radio host are past, Balan never lost his love of radio and of literature, and lately he has been experimenting with visual poems that celebrate his Ukrainian heritage.
 
 ---
 
 ### Notes
 
-[^1]: Kroon, Ariel, Nick Beauchesne, and Chelsea Miya, producers. “Academics on Air.” SpokenWeb Podcast, season 3, 2 May 2022, https://spokenweb.ca/podcast/episodes/academics-on-air/.
+Fig. 1. Photograph of Jars Balan. 1981? Courtesy of Terri Wynnyk, from her personal collection.
+
+[^1]: Kroon, Ariel, Nick Beauchesne, and Chelsea Miya, producers. “Academics on Air.” <i>SpokenWeb Podcast</i>, season 3, 2 May 2022, https://spokenweb.ca/podcast/episodes/academics-on-air/.
 
 [^2]: “A Descriptive Inventory of the Sound Recordings of the Department of Radio and Television: 1978-1987.” University of Alberta Archives. Department of Radio and Television, 1978-1987. No. 88-47.
 
@@ -64,3 +66,9 @@ Of the three radio shows Balan produced for RTV/CKUA, <i>Voiceprint</i> had the 
 [^4]: Kroon, et al.
 
 [^5]: “A Changing of the Guard at CIUS.” Canadian Institute of Ukranian Studies, 2 July 2020, https://www.ualberta.ca/canadian-institute-of-ukrainian-studies/news-and-events/news-at-the-cius/2020/a-changing-of-the-guard-at-cius.html.
+
+[^6]: Balan, Jars. "Opinion: West must not give in to Russian demands on Ukraine." <i>The National Post</i>, 16 Dec. 2021. https://edmontonjournal.com/opinion/columnists/opinion-west-must-not-give-in-to-russian-demands-on-ukraine.
+
+[^7]: Balan, Jars. "Opinion: No alternative facts about Ukraine's Holodomor." <i>The Edmonton Journal</i>, 29 Nov. 2019. https://edmontonjournal.com/opinion/columnists/opinion-no-alternative-facts-about-ukraines-holodomor.
+
+[^8]: Balan, Jars. "Why did Russia invade Ukraine? FAQs about the conflict that has shocked the world." The Conversation, 26 Feb. 2022. https://theconversation.com/why-did-russia-invade-ukraine-faqs-about-the-conflict-that-has-shocked-the-world-177963.
