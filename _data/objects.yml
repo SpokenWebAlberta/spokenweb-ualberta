@@ -1270,6 +1270,215 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/004/original/SW026-a-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/004/small/SW026_03.jpg?1669700297
   title: John Newlove at University of Alberta, 1981
+59192:
+  annotations:
+  - formatted: (00:00:00)
+    time: 0.0
+    value: "Stephen Scrivner introduces himself and the poem \u201CGoin Down\u201D"
+  - formatted: (00:00:30)
+    time: 30.0
+    value: "Scrivner reads \u201CGoin Down\u201D"
+  - formatted: (00:01:16)
+    time: 76.0
+    value: "Scrivner introduces \u201CHot Shot\u201D"
+  - formatted: (00:01:33)
+    time: 93.0
+    value: "Scrivner reads \u201CHot Shot\u201D"
+  - formatted: (00:02:41)
+    time: 161.0
+    value: "Scrivner introduces \u201CThe Way It Was\u201D"
+  - formatted: (00:02:50)
+    time: 170.0
+    value: "Scrivner reads \u201CThe Way It Was\u201D"
+  - formatted: (00:03:45)
+    time: 225.0
+    value: "Scrivner further discusses \u201CThe Way It Was\u201D"
+  - formatted: (00:04:29)
+    time: 269.0
+    value: "Scrivner introduces \u201CI Always Had It\u201D"
+  - formatted: (00:04:47)
+    time: 287.0
+    value: "Scrivner reads \u201CI Always Had It\u201D"
+  - formatted: (00:05:58)
+    time: 358.0
+    value: "Scrivner introduces \u201CJust a Job\u201D"
+  - formatted: (00:06:07)
+    time: 367.0
+    value: "Scrivner reads \u201CJust a Job\u201D"
+  - formatted: (00:06:52)
+    time: 412.0
+    value: "Scrivner introduces \u201CMarty Coulda Made \u2018Er\u201D"
+  - formatted: (00:07:27)
+    time: 447.0
+    value: "Scrivner reads \u201CMarty Coulda Made \u2018Er\u201D"
+  - formatted: (00:08:36)
+    time: 516.0
+    value: "Scrivner introduces \u201COasis\u201D"
+  - formatted: (00:09:27)
+    time: 567.0
+    value: "Scrivner reads \u201COasis\u201D"
+  - formatted: (00:10:39)
+    time: 639.0
+    value: "Scrivner introduces \u201CJohnny\u201D"
+  - formatted: (00:11:08)
+    time: 668.0
+    value: "Scrivner reads \u201CJohnny\u201D"
+  - formatted: (00:12:23)
+    time: 743.0
+    value: "Scrivner introduces \u201CA Cold Bugger\u201D"
+  - formatted: (00:12:36)
+    time: 756.0
+    value: "Scrivner reads \u201CA Cold Bugger\u201D"
+  - formatted: (00:13:32)
+    time: 812.0
+    value: "Scrivner introduces \u201CPinball\u201D"
+  - formatted: (00:13:41)
+    time: 821.0
+    value: "Scrivner reads \u201CPinball\u201D"
+  - formatted: (00:14:32)
+    time: 872.0
+    value: "Scrivner introduces \u201CAnother Round\u201D"
+  - formatted: (00:14:39)
+    time: 879.0
+    value: "Scrivner reads \u201CAnother Round\u201D"
+  - formatted: (00:15:05)
+    time: 905.0
+    value: "Scrivner further discusses \u201CAnother Round\u201D and introduces \"\
+      One More Time\""
+  - formatted: (00:15:34)
+    time: 934.0
+    value: "Scrivner reads \u201COne More Time\u201D"
+  - formatted: (00:16:02)
+    time: 962.0
+    value: "Scrivner further discusses \u201COne More Time\u201D and introduces \"\
+      This Actually Happened\""
+  - formatted: (00:16:40)
+    time: 1000.0
+    value: "Scrivner reads \u201CThis Actually Happened\u201D"
+  - formatted: (00:17:24)
+    time: 1044.0
+    value: Scrivner further discusses "This Actually Happened" and introduces "You
+      Oughta Write a Poem"
+  - formatted: (00:17:49)
+    time: 1069.0
+    value: "Scrivner reads \u201CYou Oughta Write a Poem\""
+  - formatted: (00:18:28)
+    time: 1108.0
+    value: "Scrivner introduces \u201CKnuckles\u201D"
+  - formatted: (00:18:41)
+    time: 1121.0
+    value: "Scrivner reads \u201CKnuckles\u201D"
+  - formatted: (00:19:24)
+    time: 1164.0
+    value: "Scrivner introduces \u201CThe Slap Shot\u201D"
+  - formatted: (00:19:50)
+    time: 1190.0
+    value: "Scrivner reads \u201CThe Slap Shot\u201D"
+  - formatted: (00:20:12)
+    time: 1212.0
+    value: "Scrivner further discusses \u201CThe Slap Shot\u201D and introduces \"\
+      King\""
+  - formatted: (00:21:31)
+    time: 1291.0
+    value: Scrivner reads "King"
+  - formatted: (00:22:20)
+    time: 1340.0
+    value: "Scrivner further discusses \"King\" and introduces \u201COnce Is Once\
+      \ Too Many\u201D"
+  - formatted: (00:23:19)
+    time: 1399.0
+    value: "Scrivner reads \u201COnce Is Once Too Many\u201D"
+  - formatted: (00:24:10)
+    time: 1450.0
+    value: "Scrivner further discusses \u201COnce Is Once Too Many\u201D"
+  - formatted: (00:25:48)
+    time: 1548.0
+    value: "Scrivner introduces \u201CBetween the Second and Third\u201D"
+  - formatted: (00:27:12)
+    time: 1632.0
+    value: "Scrivner reads \u201CBetween the Second and Third\u201D"
+  - formatted: (00:28:38)
+    time: 1718.0
+    value: Scrivner introduces "Rookie"
+  - formatted: (00:28:56)
+    time: 1736.0
+    value: "Scrivner reads \u201CRookie\""
+  - formatted: (00:29:56)
+    time: 1796.0
+    value: "Scrivner introduces \u201CThe Coach\u201D"
+  - formatted: (00:30:10)
+    time: 1810.0
+    value: "Scrivner reads \u201CThe Coach\u201D"
+  - formatted: (00:30:48)
+    time: 1848.0
+    value: "Scrivner introduces \u201CClearing\u201D"
+  - formatted: (00:31:19)
+    time: 1879.0
+    value: "Scrivner reads \u201CClearing\u201D"
+  - formatted: (00:32:01)
+    time: 1921.0
+    value: "Scrivner introduces \u201CStanislowski versus Grenfeld\u201D"
+  - formatted: (00:32:46)
+    time: 1966.0
+    value: "Scrivner reads \u201CStanislowski versus Grenfeld\u201D"
+  - formatted: (00:33:14)
+    time: 1994.0
+    value: "Scrivner introduces \u201CYa Call This Stuff Poetry?\u201D"
+  - formatted: (00:33:29)
+    time: 2009.0
+    value: "Scrivner reads \u201CYa Call This Stuff Poetry?\u201D"
+  - formatted: (00:34:10)
+    time: 2050.0
+    value: "Scrivner further discusses \u201CYa Call This Stuff Poetry?\u201D and\
+      \ comments on his readership"
+  - formatted: (00:35:07)
+    time: 2107.0
+    value: "Scrivner introduces \u201CShowdown \u201876\u201D"
+  - formatted: (00:35:30)
+    time: 2130.0
+    value: "Scrivner reads \u201CShowdown \u201876\u201D"
+  - formatted: (00:37:49)
+    time: 2269.0
+    value: Applause and closing remarks
+  date: Performed::1981/10/29
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/005/medium/SW027_03.jpg?1669740182
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes. The University of Alberta wishes to hear from any copyright owner,
+      or their representative, who believes that this recording has been used without
+      authorization. Please contact <a title="erahelp@ualberta.ca" href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 00:38:20
+  - key: Agent
+    value: Scriver, Stephen (Author)
+  - key: Date
+    value: 1981/10/29 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: 4x51hj94t (avalonid)
+  - key: Subject
+    value: Oral interpretation of poetry (Topical)
+  - key: Type
+    value: 'Reading: Poetry (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from back of reel case: Oct. 29/81, HCL-1, Duration Time
+      (0.40 hrs), start 12:40, end 1:30</p>'
+  - key: Date First Ingested
+    value: '2020-08-27'
+  - key: Event Location
+    value: University of Alberta
+  seconds: 2300.84209
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/005/original/SW027-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/005/small/SW027_03.jpg?1669740182
+  title: Stephen Scrivner at University of Alberta, 1981
 59193:
   annotations:
   - formatted: (00:00:03)
@@ -1570,6 +1779,269 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/007/original/SW036-a-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/007/small/SW036_03.jpg?1663641393
   title: Lorne Daniel at University of Alberta, 1982
+59195:
+  annotations:
+  - formatted: (00:00:01)
+    time: 1.0
+    value: Sharon Thesen discusses [inaudible]
+  - formatted: (00:00:18)
+    time: 18.0
+    value: 'Thesen discusses how she will read: from collection ARTEMIS HATES ROMANCE,
+      then from series "Radio New France Radio", then recent work'
+  - formatted: (00:00:52)
+    time: 52.0
+    value: Thesen introduces "Japanese Movies"
+  - formatted: (00:01:36)
+    time: 96.0
+    value: Thesen performs "Japanese Movies"
+  - formatted: (00:02:28)
+    time: 148.0
+    value: Thesen performs "Jack and Jill"
+  - formatted: (00:03:17)
+    time: 197.0
+    value: "Thesen introduces \"Kirk Lonegren's Home Movie Taking Place Just North\
+      \ of Prince George, with Sound\u201D"
+  - formatted: (00:04:13)
+    time: 253.0
+    value: "Thesen performs \"Kirk Lonegren's Home Movie Taking Place Just North of\
+      \ Prince George, with Sound\u201D "
+  - formatted: (00:07:13)
+    time: 433.0
+    value: "Thesen discusses \"Kirk Lonegren's Home Movie Taking Place Just North\
+      \ of Prince George, with Sound\u201D "
+  - formatted: (00:07:57)
+    time: 477.0
+    value: Thesen introduces "Thanks for the Party"
+  - formatted: (00:08:11)
+    time: 491.0
+    value: Thesen performs "Thanks for the Party"
+  - formatted: (00:08:34)
+    time: 514.0
+    value: Thesen performs "Getting On with It"
+  - formatted: (00:09:06)
+    time: 546.0
+    value: Thesen introduces "Confession"
+  - formatted: (00:09:11)
+    time: 551.0
+    value: Thesen performs "Confession"
+  - formatted: (00:09:38)
+    time: 578.0
+    value: "Thesen introduces \"[\u2018the other\u2019] Japanese Movies\u201D"
+  - formatted: (00:09:50)
+    time: 590.0
+    value: "Thesen performs \"[\u2018the other\u2019] Japanese Movies\u201D"
+  - formatted: (00:10:57)
+    time: 657.0
+    value: Thesen introduces "Po-It-Tree"
+  - formatted: (00:11:34)
+    time: 694.0
+    value: Thesen performs "Po-It-Tree"
+  - formatted: (00:12:29)
+    time: 749.0
+    value: Thesen introduces series "Parts of Speech"
+  - formatted: (00:12:42)
+    time: 762.0
+    value: Thesen introduces "The"
+  - formatted: (00:12:50)
+    time: 770.0
+    value: Theses performs "The"
+  - formatted: (00:13:19)
+    time: 799.0
+    value: Thesen introduces "This and That'
+  - formatted: (00:13:51)
+    time: 831.0
+    value: Thesen performs "This and That"
+  - formatted: (00:15:04)
+    time: 904.0
+    value: Thesen introduces "Usage"
+  - formatted: (00:15:18)
+    time: 918.0
+    value: Thesen performs "Usage"
+  - formatted: (00:16:12)
+    time: 972.0
+    value: Thesen performs "After [Jack] Spicer"
+  - formatted: (00:16:58)
+    time: 1018.0
+    value: Thesen introduces "Magic"
+  - formatted: (00:17:47)
+    time: 1067.0
+    value: Thesen performs "Magic"
+  - formatted: (00:18:51)
+    time: 1131.0
+    value: Thesen introduces "Echolocation"
+  - formatted: (00:19:10)
+    time: 1150.0
+    value: Thesen performs "Echolocation"
+  - formatted: (00:20:12)
+    time: 1212.0
+    value: Thesen introduces "Loose Woman Poem" dedicated to Victoria Walker and Penn
+      Kemp
+  - formatted: (00:20:30)
+    time: 1230.0
+    value: Thesen performs "Loose Woman Poem"
+  - formatted: (00:21:47)
+    time: 1307.0
+    value: Thesen introduces poems from "Radio France Radio"
+  - formatted: (00:22:36)
+    time: 1356.0
+    value: Thesen performs "Tracks in the ice..."
+  - formatted: (00:23:19)
+    time: 1399.0
+    value: Thesen performs "The sky over the bus station..."
+  - formatted: (00:24:27)
+    time: 1467.0
+    value: "Thesen introduces \"At the typewriter, thinking something up\u2026\u201D"
+  - formatted: (00:24:41)
+    time: 1481.0
+    value: "Thesen performs \"\u201CAt the typewriter, thinking something up\u2026\
+      \u201D"
+  - formatted: (00:25:11)
+    time: 1511.0
+    value: "Thesen introduces \"On Saturday Mornings we meet to talk\u2026\u201D"
+  - formatted: (00:26:12)
+    time: 1572.0
+    value: "Thesen performs \"On Saturday Mornings we meet to talk\u2026\u201D"
+  - formatted: (00:27:04)
+    time: 1624.0
+    value: Thesen introduces "Fort Net"
+  - formatted: (00:27:12)
+    time: 1632.0
+    value: Thesen begins performing "Fort Net"
+  - formatted: (00:27:17)
+    time: 1637.0
+    value: Thesen discusses referendum
+  - formatted: (00:27:35)
+    time: 1655.0
+    value: Thesen resumes "Fort Net"
+  - formatted: (00:28:35)
+    time: 1715.0
+    value: Thesen introduces "Til Then"
+  - formatted: (00:29:01)
+    time: 1741.0
+    value: Thesen performs "Til Then"
+  - formatted: (00:30:29)
+    time: 1829.0
+    value: Thesen introduces selections from series called "Sheet Music"
+  - formatted: (00:30:39)
+    time: 1839.0
+    value: Thesen performs "Libretto"
+  - formatted: (00:31:26)
+    time: 1886.0
+    value: Thesen performs "Before Choice"
+  - formatted: (00:32:17)
+    time: 1937.0
+    value: Thesen performs "Discourse"
+  - formatted: (00:33:08)
+    time: 1988.0
+    value: Thesen introduces epigraph to "Zones"
+  - formatted: (00:33:38)
+    time: 2018.0
+    value: Thesen performs "Zones"
+  - formatted: (00:34:24)
+    time: 2064.0
+    value: Thesen introduces "Spiritual"
+  - formatted: (00:34:55)
+    time: 2095.0
+    value: Thesen performs "Spiritual"
+  - formatted: (00:35:35)
+    time: 2135.0
+    value: Thesen introduces "Song"
+  - formatted: (00:35:46)
+    time: 2146.0
+    value: Thesen performs "Song"
+  - formatted: (00:36:49)
+    time: 2209.0
+    value: Thesen introduces individual poems
+  - formatted: (00:36:58)
+    time: 2218.0
+    value: Thesen reads "A Sad Story"
+  - formatted: (00:37:42)
+    time: 2262.0
+    value: 'Thesen introduces "French Poem" '
+  - formatted: (00:37:56)
+    time: 2276.0
+    value: Thesen performs "French Poem"
+  - formatted: (00:38:46)
+    time: 2326.0
+    value: Thesen introduces "When the Moon is Few" from series "The Beautiful View"
+  - formatted: (00:39:51)
+    time: 2391.0
+    value: Thesen performs "When the Moon is Few"
+  - formatted: (00:40:17)
+    time: 2417.0
+    value: Thesen performs "Lecture Noir"
+  - formatted: (00:41:32)
+    time: 2492.0
+    value: Thesen performs "When Push Comes to Shove"
+  - formatted: (00:42:25)
+    time: 2545.0
+    value: Thesen performs "Twisted"
+  - formatted: (00:43:29)
+    time: 2609.0
+    value: Thesen introduces "On an Island, Swinging at Night From a Rope that Hangs
+      from a Tree"
+  - formatted: (00:43:54)
+    time: 2634.0
+    value: Thesen performs ""On an Island, Swinging at Night From a Rope that Hangs
+      from a Tree"
+  - formatted: (00:44:36)
+    time: 2676.0
+    value: Thesen introduces "Easter Sunday
+  - formatted: (00:44:57)
+    time: 2697.0
+    value: Thesen performs "Easter Sunday"
+  - formatted: (00:45:56)
+    time: 2756.0
+    value: Thesen performs "Jest du Grace"
+  - formatted: (00:46:50)
+    time: 2810.0
+    value: 'Thesen introduces "X: For Jacobo Timmerman"'
+  - formatted: (00:47:58)
+    time: 2878.0
+    value: 'Thesen performs "X: For Jacobo Timmerman"'
+  - formatted: (00:50:34)
+    time: 3034.0
+    value: Applause
+  date: Performed::1982/03/09
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/008/medium/SW037_03.jpg?1669710862
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 00:50:45
+  - key: Agent
+    value: Thesen, Sharon (Author)
+  - key: Date
+    value: 1982/03/09 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: cv43nz06n (avalonid)
+  - key: Subject
+    value: Oral interpretation of poetry (Topical)
+  - key: Type
+    value: 'Reading: Poetry (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from back of reel case: Sharon Thesen: A Poetry Reading,
+      Tuesday March 9/82, Side #1 only, HC AV L-3, 50 minutes</p> (general)'
+  - key: Date First Ingested
+    value: '2020-08-27'
+  - key: Event Location
+    value: University of Alberta Humanities Centre Lecture Theatre 5
+  seconds: 3045.27383
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/008/original/SW037-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/008/small/SW037_03.jpg?1669710862
+  title: Sharon Thesen at University of Alberta, 1982
 59196:
   annotations:
   - formatted: (00:00:02)
@@ -1937,6 +2409,162 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/011/original/SW023-a-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/011/small/SW023_01.jpeg?1668499548
   title: Glen Sorestad at University of Alberta, 1980
+59201:
+  annotations:
+  - formatted: (00:00:01)
+    time: 1.0
+    value: Douglas Barbour introduces George Bowering
+  - formatted: (00:00:30)
+    time: 30.0
+    value: "George Bowering introduces \u201CRoad Games\u201D"
+  - formatted: (00:01:45)
+    time: 105.0
+    value: "Bowering performs \u201CRoad Games\u201D"
+  - formatted: (00:05:50)
+    time: 350.0
+    value: "Bowering introduces \u201CStuck Wasps\u201D"
+  - formatted: (00:06:41)
+    time: 401.0
+    value: "Bowering performs \u201CStuck Wasps\u201D"
+  - formatted: (00:07:16)
+    time: 436.0
+    value: "Bowering discusses \u201CStuck Wasps\u201D"
+  - formatted: (00:08:28)
+    time: 508.0
+    value: "Bowering introduces \u201CThis Is One of Those Days\u201D"
+  - formatted: (00:08:49)
+    time: 529.0
+    value: "Bowering performs \u201CThis Is One of Those Days\u201D"
+  - formatted: (00:10:00)
+    time: 600.0
+    value: Bowering introduces selections from Allophanes; commentary interspersed
+  - formatted: (00:12:14)
+    time: 734.0
+    value: "Bowering performs \u201CI\u201D"
+  - formatted: (00:13:16)
+    time: 796.0
+    value: "Bowering performs \u201CIII\u201D"
+  - formatted: (00:14:39)
+    time: 879.0
+    value: "Bowering performs \u201CV\u201D"
+  - formatted: (00:16:12)
+    time: 972.0
+    value: "Bowering performs \u201CVII\u201D"
+  - formatted: (00:17:59)
+    time: 1079.0
+    value: "Bowering performs \u201CIX\u201D"
+  - formatted: (00:19:08)
+    time: 1148.0
+    value: "Bowering performs \u201CXI\u201D"
+  - formatted: (00:20:39)
+    time: 1239.0
+    value: "Bowering performs \u201CXV\u201D"
+  - formatted: (00:22:08)
+    time: 1328.0
+    value: "Bowering performs \u201CXVII\u201D"
+  - formatted: (00:23:46)
+    time: 1426.0
+    value: "Bowering performs \u201CXXIII\u201D"
+  - formatted: (00:25:12)
+    time: 1512.0
+    value: "Bowering performs \u201CXXV\u201D"
+  - formatted: (00:26:15)
+    time: 1575.0
+    value: Bowering introduces selections from Another Mouth
+  - formatted: (00:27:25)
+    time: 1645.0
+    value: "Bowering performs \u201CNew Love\u201D"
+  - formatted: (00:28:26)
+    time: 1706.0
+    value: "Bowering introduces \u201CLast Lyrics\u201D"
+  - formatted: (00:29:45)
+    time: 1785.0
+    value: "Bowering performs \u201CLast Lyrics: From the Mystery\u201D"
+  - formatted: (00:30:35)
+    time: 1835.0
+    value: "Bowering introduces \u201COld Standards\u201D; commentary interspersed"
+  - formatted: (00:31:50)
+    time: 1910.0
+    value: "Bowering performs \u201COld Standards: Preface\u201D"
+  - formatted: (00:32:11)
+    time: 1931.0
+    value: "Bowering performs \u201CI\u201D"
+  - formatted: (00:33:36)
+    time: 2016.0
+    value: "Bowering performs \u201CII\u201D"
+  - formatted: (00:34:58)
+    time: 2098.0
+    value: "Bowering performs \u201CIII\u201D"
+  - formatted: (00:36:12)
+    time: 2172.0
+    value: "Bowering performs \u201CIV\u201D"
+  - formatted: (00:37:08)
+    time: 2228.0
+    value: "Bowering performs \u201CV\u201D"
+  - formatted: (00:38:38)
+    time: 2318.0
+    value: "Bowering performs \u201CVI\u201D"
+  - formatted: (00:39:58)
+    time: 2398.0
+    value: "Bowering performs \u201CVII\u201D"
+  - formatted: (00:40:54)
+    time: 2454.0
+    value: "Bowering performs \u201CVIII\u201D"
+  - formatted: (00:42:12)
+    time: 2532.0
+    value: "Bowering introduces \u201CUncle Louie\u201D"
+  - formatted: (00:43:34)
+    time: 2614.0
+    value: "Bowering and Barbour read \u201CUncle Louie\u201D"
+  - formatted: (00:59:50)
+    time: 3590.0
+    value: Applause
+  - formatted: (00:59:56)
+    time: 3596.0
+    value: Concluding remarks by Barbour and Bowering
+  date: Performed::1980/02/12
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/014/medium/SW002_04.jpg?1669133605
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes. The University of Alberta wishes to hear from any copyright owner,
+      or their representative, who believes that this recording has been used without
+      authorization. Please contact <a title="erahelp@ualberta.ca" href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 01:00:30
+  - key: Agent
+    value: Bowering, George (Author)
+  - key: Date
+    value: 1980/02/12 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: v118rf66q (avalonid)
+  - key: Subject
+    value: Oral interpretation of poetry (Topical)
+  - key: Type
+    value: 'Reading: Poetry (SpokenWeb)'
+  - key: Note
+    value: '<p>Liner notes: February 12/80, George Bowering - Poet and novelist, AV
+      L-3 H-C; "Road Games" - a short story; "Stuck Wasps" - a short poem; "This is
+      one of those days" - a short poem; Allophanes - readings from this poem; Another
+      Mouth: Poems - readings from - last lyrics - and other poems; Uncle Louis -
+      Douglas Barbour - reading with G. Bowering; Louis St. Laurent. Reel case also
+      includes a signed release form.</p> (general)'
+  - key: Date First Ingested
+    value: '2020-08-27'
+  - key: Event Location
+    value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 3630.16127
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/014/original/SW002-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/014/small/SW002_04.jpg?1669133605
+  title: George Bowering at University of Alberta, 1980
 59206:
   annotations:
   - formatted: (00:00:01)
@@ -2272,7 +2900,7 @@
   seconds: 914.93587
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/023/original/SW042-b-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/023/small/SW042_04.jpg?1669701778
-  title: Margaret Laurence at University of Alberta, 1974
+  title: Margaret Laurence at University of Alberta, 1973 Part II
 59211:
   annotations:
   - formatted: (00:00:03)
@@ -3040,7 +3668,299 @@
   seconds: 2903.56245
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/029/original/SW042-a-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/029/small/SW042_01.jpeg?1665100074
-  title: Margaret Laurence at University of Alberta, 1973
+  title: Margaret Laurence at University of Alberta, 1973, Part I
+59218:
+  annotations:
+  - formatted: (00:00:03)
+    time: 3.0
+    value: Sheila Watson introduces reading, discusses original cover of THE DOUBLE
+      HOOK and idea for novel
+  - formatted: (00:11:21)
+    time: 681.0
+    value: Watson performs excerpt from THE DOUBLE HOOK
+  - formatted: (00:17:09)
+    time: 1029.0
+    value: Watson discusses character of Greta and the old lady
+  - formatted: (00:17:56)
+    time: 1076.0
+    value: "Watson performs an excerpt from The Double Hook (\u201CFelix saw the old\
+      \ lady\u2026\u201D)"
+  - formatted: (00:21:30)
+    time: 1290.0
+    value: Watson discusses what is happening to the other characters in the meanwhile
+  - formatted: (00:22:25)
+    time: 1345.0
+    value: "Watson performs an excerpt from THE DOUBLE HOOK (\u201CDear god, she said,\
+      \ what does she want\u2026\u201D)"
+  - formatted: (00:24:18)
+    time: 1458.0
+    value: Watson introduces next excerpt
+  - formatted: (00:24:41)
+    time: 1481.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK (\u201CAs Kip moved off\u2026\
+      \u201D)"
+  - formatted: (00:25:54)
+    time: 1554.0
+    value: Watson introduces next excerpt
+  - formatted: (00:26:03)
+    time: 1563.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK (\u201CHe gathered up the\u2026\
+      \u201D)"
+  - formatted: (00:26:38)
+    time: 1598.0
+    value: Watson introduces next excerpt
+  - formatted: (00:27:02)
+    time: 1622.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK (\u201CAnd when she remembers\
+      \ James\u2026\u201D)"
+  - formatted: (00:27:19)
+    time: 1639.0
+    value: Watson discusses part of what she just read
+  - formatted: (00:27:30)
+    time: 1650.0
+    value: "Watson resumes reading (\u201CIf Lenchen had been looking down from the\
+      \ hill just then\u2026\u201D)"
+  - formatted: (00:30:36)
+    time: 1836.0
+    value: Watson introduces next excerpt
+  - formatted: (00:31:06)
+    time: 1866.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK (\u201COverhead the sky was\
+      \ tight as rawhide\u201D)"
+  - formatted: (00:33:57)
+    time: 2037.0
+    value: Watson introduces next excerpt
+  - formatted: (00:35:02)
+    time: 2102.0
+    value: "Watson performs excerpt (\u201CThe girl stood\u2026\u201D)"
+  - formatted: (00:37:17)
+    time: 2237.0
+    value: Watson introduces next excerpt
+  - formatted: (00:37:36)
+    time: 2256.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK (\u201CAll around the hollow\u2026\
+      \u201D)"
+  - formatted: (00:38:07)
+    time: 2287.0
+    value: Watson introduces next excerpt
+  - formatted: (00:38:20)
+    time: 2300.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK \u201CHe went to the door\
+      \ of the barn\u2026\u201D)"
+  - formatted: (00:41:16)
+    time: 2476.0
+    value: Watson introduces next excerpt
+  - formatted: (00:41:59)
+    time: 2519.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK (\u201CHe wondered, 'If a\
+      \ bitch crept in\u2026'\u201D)"
+  - formatted: (00:43:01)
+    time: 2581.0
+    value: '[Unknown audio event]'
+  - formatted: (00:43:03)
+    time: 2583.0
+    value: Watson continues reading
+  - formatted: (00:43:21)
+    time: 2601.0
+    value: Watson introduces next excerpt
+  - formatted: (00:46:44)
+    time: 2804.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK \u201CJames had forbidden\
+      \ her to come\u2026\u201D"
+  - formatted: (00:50:06)
+    time: 3006.0
+    value: Applause
+  date: Performed::1973/11/01
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/031/medium/SW046_01.jpeg?1665470338
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 00:50:25
+  - key: Agent
+    value: Watson, Sheila (Author)
+  - key: Date
+    value: 1973/11/01 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: s7526d619 (avalonid)
+  - key: Subject
+    value: Oral interpretation of fiction (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from sticker on front of reel case: Sheila Watson - for
+      Nov. booking (Scobie)</p> (general)'
+  - key: Date First Ingested
+    value: '2020-08-27'
+  - key: Event Location
+    value: University of Alberta
+  seconds: 3025.65297
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/031/original/SW046-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/031/small/SW046_01.jpeg?1665470338
+  title: Sheila Watson at University of Alberta, 1973
+59219:
+  annotations:
+  - formatted: (00:01:51)
+    time: 111.0
+    value: Host introduces Sheila Watson
+  - formatted: (00:02:10)
+    time: 130.0
+    value: "Watson introduces short story \u201CBe Fruitful and Multiply\u201D by\
+      \ Madeline Ferron"
+  - formatted: (00:04:09)
+    time: 249.0
+    value: "Watson performs \u201CBe Fruitful and Multiply\u201D"
+  - formatted: (00:12:51)
+    time: 771.0
+    value: Watson introduces THE DOUBLE HOOK
+  - formatted: (00:13:23)
+    time: 803.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK (\u201CIn the folds of the\
+      \ hills\u2026\u201D)"
+  - formatted: (00:43:35)
+    time: 2615.0
+    value: Watson introduces excerpt from THE DOUBLE HOOK
+  - formatted: (00:44:55)
+    time: 2695.0
+    value: "Watson performs excerpt from THE DOUBLE HOOK (\u201CI broke my word\u2026\
+      \u201D)"
+  - formatted: (00:48:56)
+    time: 2936.0
+    value: Watson addresses host
+  - formatted: (00:49:05)
+    time: 2945.0
+    value: Host thanks Watson
+  - formatted: (00:49:08)
+    time: 2948.0
+    value: Applause
+  date: Performed::1977/01/28
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/032/medium/SW048_03.jpg?1665470944
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 00:49:16
+  - key: Agent
+    value: Watson, Sheila (Author)
+  - key: Date
+    value: 1977/01/28 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: qn59q511z (avalonid)
+  - key: Subject
+    value: Oral interpretation of fiction (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from back of reel case: Sheila Watson, Reading, HCL-3,
+      Jan 28/77, The Double Hook</p> (general)'
+  - key: Date First Ingested
+    value: '2020-08-27'
+  - key: Event Location
+    value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 2956.20209
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/032/original/SW048-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/032/small/SW048_03.jpg?1665470944
+  title: Sheila Watson at University of Alberta, 1977
+59220:
+  annotations:
+  - formatted: (00:00:01)
+    time: 1.0
+    value: Douglas Barbour introduces Robert Harlow
+  - formatted: (00:00:38)
+    time: 38.0
+    value: Harlow discusses MAKING ARRANGEMENTS
+  - formatted: (00:01:57)
+    time: 117.0
+    value: Harlow introduces SCANN
+  - formatted: (00:06:22)
+    time: 382.0
+    value: Harlow performs excerpt from SCANN
+  - formatted: (00:22:05)
+    time: 1325.0
+    value: Harlow discusses excerpt
+  - formatted: (00:22:54)
+    time: 1374.0
+    value: Harlow introduces THE LOVER
+  - formatted: (00:24:56)
+    time: 1496.0
+    value: Harlow performs chapter one of THE LOVER
+  - formatted: (00:48:05)
+    time: 2885.0
+    value: Applause
+  - formatted: (00:48:24)
+    time: 2904.0
+    value: Q/A, on THE LOVER
+  - formatted: (00:49:37)
+    time: 2977.0
+    value: Q/A, on the title of MAKING ARRANGEMENTS
+  - formatted: (00:50:09)
+    time: 3009.0
+    value: Barbour promotes next reading in series
+  date: Performed::1978/11/02
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/033/medium/SW049_01.jpeg?1669707681
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes. The University of Alberta wishes to hear from any copyright owner,
+      or their representative, who believes that this recording has been used without
+      authorization. Please contact <a title="erahelp@ualberta.ca" href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 00:50:33
+  - key: Agent
+    value: Harlow, Robert (Author)
+  - key: Date
+    value: 1978/11/02 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: 1n79h551d (avalonid)
+  - key: Subject
+    value: Oral interpretation of fiction (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from back of reel case: Canadian Author, Robert Harlow,
+      reading from his novel, Scann, and from an unpublished novel, (tentatively titled)
+      The Lovers. Recorded on Thursday, November 2, 1978. Approximate length: 50 minutes</p>
+      (general)'
+  - key: Date First Ingested
+    value: '2020-08-31'
+  - key: Event Location
+    value: University of Alberta Humanities Centre Lecture Theatre 3
+  seconds: 3033.75674
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/033/original/SW049-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/033/small/SW049_01.jpeg?1669707681
+  title: Robert Harlow at University of Alberta, 1978
 59223:
   annotations:
   - formatted: (00:00:00)
@@ -3191,6 +4111,86 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/036/original/SW058-a-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/036/small/SW058_03.jpg?1669708197
   title: Robert Kroetsch at University of Alberta, 1971
+59224:
+  annotations:
+  - formatted: (00:00:00)
+    time: 0.0
+    value: W. P. Kinsella thanks host Rudy Wiebe
+  - formatted: (00:00:15)
+    time: 15.0
+    value: Kinsella introduces "Electrico utensilio" from The Alligator Report
+  - formatted: (00:00:28)
+    time: 28.0
+    value: Kinsella performs "Electrico utensilio"
+  - formatted: (00:02:28)
+    time: 148.0
+    value: Kinsella introduces "The Vancouver Chapter of the Howard G. Scharff Memorial
+      Society" from The Alligator Report
+  - formatted: (00:02:38)
+    time: 158.0
+    value: Kinsella performs "The Vancouver Chapter of the Howard G. Scharff Memorial
+      Society"
+  - formatted: (00:04:12)
+    time: 252.0
+    value: Kinsella introduces "I am airport" from The Alligator Report
+  - formatted: (00:04:23)
+    time: 263.0
+    value: Kinsella performs "I am airport"
+  - formatted: (00:06:36)
+    time: 396.0
+    value: Kinsella introduces "Illiana comes home" from Dance Me Outside
+  - formatted: (00:09:42)
+    time: 582.0
+    value: Kinsella performs "Illiana comes home"
+  - formatted: (00:32:27)
+    time: 1947.0
+    value: 'Kinsella introduces "Pretend Dinners" '
+  - formatted: (00:32:50)
+    time: 1970.0
+    value: Kinsella performs "Pretend Dinners"
+  - formatted: (00:48:18)
+    time: 2898.0
+    value: Applause and closing remarks
+  date: Performed::1977/10/20
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/037/medium/SW054_01.jpeg?1669741843
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 00:48:36
+  - key: Agent
+    value: Kinsella, W.P. (Author)
+  - key: Date
+    value: 1977/10/20 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: f1881m95w (avalonid)
+  - key: Subject
+    value: Oral interpretation of fiction (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from receipe card inside reel case: W.P. "Bill" Kinsella,
+      Thurs. Oct. 20, 1977, 12:30-1:30</p> (general)'
+  - key: Date First Ingested
+    value: '2020-08-27'
+  - key: Event Location
+    value: University of Alberta
+  seconds: 2916.75138
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/037/original/SW054-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/037/small/SW054_01.jpeg?1669741843
+  title: W.P. Kinsella at University of Alberta, 1977
 59225:
   annotations:
   - formatted: (00:00:00)
@@ -3856,6 +4856,79 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/052/original/1985-99-16-a.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/052/small/audio-default.png?1640837224
   title: 'Celebrations: Matt Cohen'
+59241:
+  annotations:
+  - formatted: (00:00:02)
+    time: 2.0
+    value: Intro and theme music
+  - formatted: (00:00:44)
+    time: 44.0
+    value: 'Jars Balan introduces W.O. Mitchell '
+  - formatted: (00:01:30)
+    time: 90.0
+    value: Balan and Mitchell discuss Mitchell's personal background
+  - formatted: (00:03:57)
+    time: 237.0
+    value: Balan and Mitchell discuss childhood memories
+  - formatted: (00:06:51)
+    time: 411.0
+    value: Balan and Mitchell discuss his introduction to literature
+  - formatted: (00:10:30)
+    time: 630.0
+    value: Balan and Mitchell discuss childhood and youth favourite literary works
+  - formatted: (00:14:50)
+    time: 890.0
+    value: Balan and Mitchell discuss reading as escapism
+  - formatted: (00:16:50)
+    time: 1010.0
+    value: Balan and Mitchell discuss inspirational teachers / role models + route
+      to writing
+  - formatted: (00:24:13)
+    time: 1453.0
+    value: Balan and Mitchell discuss first "serious" writing; considering self as
+      a writer
+  - formatted: (00:28:41)
+    time: 1721.0
+    value: Outro, theme music, and credits
+  date: Publication::1983/11/02
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/054/medium/audio-default.png?1640837542
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 00:30:34
+  - key: Agent
+    value: Mitchell, W.O. (Author)
+  - key: Date
+    value: 1983/11/02 (Publication)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: 9019s363h (avalonid)
+  - key: Subject
+    value: Interviews (Topical)
+  - key: Type
+    value: Interview (SpokenWeb)
+  - key: Note
+    value: '<p>Title Source: Title was written on tape.</p>'
+  - key: Date First Ingested
+    value: '2021-02-11'
+  - key: Event Location
+    value: University of Alberta
+  seconds: 1834.2371
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/054/original/1985-99-4-a.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/054/small/audio-default.png?1640837542
+  title: 'Celebrations: W.O. Mitchell'
 59242:
   annotations:
   - formatted: (00:00:00)
@@ -4331,6 +5404,181 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/066/original/1985-99-7-a.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/066/small/audio-default.png?1640839419
   title: 'Celebrations: Robert Kroetsch'
+59254:
+  annotations:
+  - formatted: (00:00:00)
+    time: 0.0
+    value: Intro and theme music
+  - formatted: (00:00:35)
+    time: 35.0
+    value: Jars Balan introduces topic "Canadian English and Canlit"
+  - formatted: (00:01:20)
+    time: 80.0
+    value: Intro to "Word Works"
+  - formatted: (00:01:22)
+    time: 82.0
+    value: Don Harron performs comedic sketch about beaver as Canada's national symbol
+  - formatted: (00:01:59)
+    time: 119.0
+    value: Anna Altman discusses Canadian pronunciations and spellings
+  - formatted: (00:02:59)
+    time: 179.0
+    value: Balan and Jack Chambers discuss history of Canadian English
+  - formatted: (00:09:03)
+    time: 543.0
+    value: Balan and Chambers discuss Canadian English as sub-dialect
+  - formatted: (00:09:56)
+    time: 596.0
+    value: Balan and Chambers discuss difference between Canadian and American English
+  - formatted: (00:15:48)
+    time: 948.0
+    value: Intro to "Parenthesis"
+  - formatted: (00:15:59)
+    time: 959.0
+    value: Roman Onufrijchuk discusses Bungi creole dialect of Manitoba
+  - formatted: (00:16:55)
+    time: 1015.0
+    value: Balan and Chambers discuss regional Canadian dialects
+  - formatted: (00:20:20)
+    time: 1220.0
+    value: Intro to "Dictionary Definitions"
+  - formatted: (00:20:28)
+    time: 1228.0
+    value: Altman discusses Canadian vocabulary
+  - formatted: (00:20:51)
+    time: 1251.0
+    value: Richard Brown discusses history of Canadian words
+  - formatted: (00:24:27)
+    time: 1467.0
+    value: Intro to "Words Worth Listening To"
+  - formatted: (00:24:36)
+    time: 1476.0
+    value: Altman discusses class dialect
+  - formatted: (00:25:13)
+    time: 1513.0
+    value: Balan and Grace Jolly discuss dialect in literature
+  - formatted: (00:26:42)
+    time: 1602.0
+    value: Balan and Jolly discusses and perform passage from W. O. Mitchell
+  - formatted: (00:29:32)
+    time: 1772.0
+    value: Intro to "Apostrophe"
+  - formatted: (00:29:36)
+    time: 1776.0
+    value: Balan discusses how immigration affects dialect
+  - formatted: (00:30:08)
+    time: 1808.0
+    value: Intro to "Footnote"
+  - formatted: (00:30:14)
+    time: 1814.0
+    value: Terry Winnick discusses further reading
+  - formatted: (00:31:25)
+    time: 1885.0
+    value: 'Ambient sound: music and station identification'
+  - formatted: (00:32:32)
+    time: 1952.0
+    value: Intro to "Literary Supplement"
+  - formatted: (00:32:36)
+    time: 1956.0
+    value: Onufrijchuk performs "Laurentian Shield" by F. R. Scott
+  - formatted: (00:34:16)
+    time: 2056.0
+    value: Onufrijchuk performs "The Call of the Wild" by Scott
+  - formatted: (00:34:55)
+    time: 2095.0
+    value: Onufrijchuk performs "National Identity" by Scott
+  - formatted: (00:35:39)
+    time: 2139.0
+    value: Onufrijchuk performs "The Canadian Authors Meet" by Scott
+  - formatted: (00:37:06)
+    time: 2226.0
+    value: 'Ambient sound: music'
+  - formatted: (00:37:21)
+    time: 2241.0
+    value: Intro to "Symposium"
+  - formatted: (00:37:24)
+    time: 2244.0
+    value: Balan introduces Margaret Atwood
+  - formatted: (00:38:17)
+    time: 2297.0
+    value: Balan and Atwood discuss Canadian literary community
+  - formatted: (00:41:28)
+    time: 2488.0
+    value: Balan and Atwood discuss development of Canadian literary style in 1960s
+  - formatted: (00:43:35)
+    time: 2615.0
+    value: Balan and Atwood discuss challenges of writing Canlit
+  - formatted: (00:44:53)
+    time: 2693.0
+    value: Balan and Atwood discuss literary scene on campus
+  - formatted: (00:46:35)
+    time: 2795.0
+    value: Balan and Atwood discuss nationalist politics
+  - formatted: (00:48:59)
+    time: 2939.0
+    value: Intro to "Popular Poetics"
+  - formatted: (00:49:07)
+    time: 2947.0
+    value: Winnick discusses loyalist poets
+  - formatted: (00:51:25)
+    time: 3085.0
+    value: Intro to "Synthesis"
+  - formatted: (00:51:29)
+    time: 3089.0
+    value: Balan discusses how Canlit is underappreciated
+  - formatted: (00:52:16)
+    time: 3136.0
+    value: Intro to "Bibliography"
+  - formatted: (00:52:22)
+    time: 3142.0
+    value: Winnick discusses further reading
+  - formatted: (00:53:52)
+    time: 3232.0
+    value: Intro to "Last Word"
+  - formatted: (00:53:53)
+    time: 3233.0
+    value: Stringband performs "The Maple Leaf Dog"
+  - formatted: (00:58:20)
+    time: 3500.0
+    value: Outro and credits
+  date: Publication::1981/02/04
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/067/medium/audio-default.png?1640839719
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes. The University of Alberta wishes to hear from any copyright owner,
+      or their representative, who believes that this recording has been used without
+      authorization. Please contact <a title="erahelp@ualberta.ca" href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 00:59:45
+  - key: Agent
+    value: Harron, Don (Author)
+  - key: Date
+    value: 1981/02/04 (Publication)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: xk81jm62j (avalonid)
+  - key: Subject
+    value: Interviews (Topical)
+  - key: Type
+    value: Documentary (SpokenWeb)
+  - key: Note
+    value: '<p>Title Source: Title was written on tape.</p> (general)'
+  - key: Date First Ingested
+    value: '2021-02-11'
+  - key: Event Location
+    value: University of Alberta
+  seconds: 3585.81116
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/067/original/88-47-210-a.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/067/small/audio-default.png?1640839719
+  title: 'VoicePrint: Canadian English & Literature'
 59257:
   annotations:
   - formatted: (00:00:00)
@@ -4414,6 +5662,277 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/070/original/1985-99-8-a.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/070/small/audio-default.png?1640840256
   title: 'Celebrations: Tom Wayman'
+59258:
+  annotations:
+  - formatted: (00:00:00)
+    time: 0.0
+    value: Intro and theme music
+  - formatted: (00:00:29)
+    time: 29.0
+    value: 'Jars Balan introduces "Fast Forward" segment "Women''s Language and Literature:
+      A Voice and a Room of One''s Own"'
+  - formatted: (00:01:17)
+    time: 77.0
+    value: Intro to "Word Works"
+  - formatted: (00:01:20)
+    time: 80.0
+    value: Anna Altman discusses discrimination against women's voices in audio media
+  - formatted: (00:02:03)
+    time: 123.0
+    value: Darryl Oldring discusses mechanics of vocal variety in humans
+  - formatted: (00:02:47)
+    time: 167.0
+    value: Altman introduces Balan interview with Lois Marckworth
+  - formatted: (00:03:03)
+    time: 183.0
+    value: Balan and Marckworth discuss linguistic differences in men's and women's
+      speech
+  - formatted: (00:07:28)
+    time: 448.0
+    value: Intro to "Parenthesis"
+  - formatted: (00:07:39)
+    time: 459.0
+    value: Roman Onofrijchuk discusses censorship, profanity, and women's access to
+      coarse language in literature
+  - formatted: (00:08:43)
+    time: 523.0
+    value: Outro to "Parenthesis"
+  - formatted: (00:08:53)
+    time: 533.0
+    value: Balan and Marckworth discuss language usage as gender and class identity
+  - formatted: (00:11:56)
+    time: 716.0
+    value: 'Intro to "Dictionary Definitions" '
+  - formatted: (00:12:02)
+    time: 722.0
+    value: Altman introduces topic of origins and evolutions of the words "male" and
+      "female"
+  - formatted: (00:13:58)
+    time: 838.0
+    value: Unknown speaker and Richard Braun discuss etymology of the words "male"
+      and "female"
+  - formatted: (00:15:45)
+    time: 945.0
+    value: Intro to "Words Worth Listening To"
+  - formatted: (00:15:55)
+    time: 955.0
+    value: Terri Winnick discusses gender roles and language and sexist language in
+      publishing
+  - formatted: (00:16:49)
+    time: 1009.0
+    value: Roman Onofrijchuk introduces Balan and Jo-anne Combs
+  - formatted: (00:17:06)
+    time: 1026.0
+    value: Balan and Combs discuss feminist approaches to language in publishing
+  - formatted: (00:23:23)
+    time: 1403.0
+    value: 'Intro to "Apostrophe" '
+  - formatted: (00:23:27)
+    time: 1407.0
+    value: Balan discusses solutions to problems of sexist language
+  - formatted: (00:24:16)
+    time: 1456.0
+    value: Intro to "Footnote"
+  - formatted: (00:24:23)
+    time: 1463.0
+    value: Terri Winnick discusses recommendations for further reading
+  - formatted: (00:26:07)
+    time: 1567.0
+    value: 'Ambient sound: sound effects and station identification'
+  - formatted: (00:27:19)
+    time: 1639.0
+    value: Intro to "Literary Supplement"
+  - formatted: (00:27:35)
+    time: 1655.0
+    value: Pat Clements performs selection from A Room of One's Own by Virginia Woolf
+  - formatted: (00:32:53)
+    time: 1973.0
+    value: Intro to "Symposium"
+  - formatted: (00:32:55)
+    time: 1975.0
+    value: Balan and Anne Cameron discuss motherhood, marriage and writing
+  - formatted: (00:38:33)
+    time: 2313.0
+    value: Balan discusses Cameron's background
+  - formatted: (00:39:06)
+    time: 2346.0
+    value: Balan and Cameron discuss sexist labels for women writers
+  - formatted: (00:40:20)
+    time: 2420.0
+    value: Balan and Cameron discuss community of women writers
+  - formatted: (00:42:10)
+    time: 2530.0
+    value: Balan and Cameron discuss the concepts of brotherhood and sisterhood
+  - formatted: (00:44:54)
+    time: 2694.0
+    value: Balan introduces Barbara Martineau
+  - formatted: (00:45:10)
+    time: 2710.0
+    value: Balan and Martineau discuss sexism in academia
+  - formatted: (00:49:50)
+    time: 2990.0
+    value: Intro to "Popular Poetics"
+  - formatted: (00:49:57)
+    time: 2997.0
+    value: 'Terri Winnick discusses masculine and feminine rhymes and endings '
+  - formatted: (00:51:55)
+    time: 3115.0
+    value: Intro to "Synthesis"
+  - formatted: (00:52:00)
+    time: 3120.0
+    value: Balan discusses difficulties in the writing profession for women
+  - formatted: (00:52:41)
+    time: 3161.0
+    value: Intro to "Bibliography"
+  - formatted: (00:52:48)
+    time: 3168.0
+    value: Terri Winnick discusses additional sources
+  - formatted: (00:54:04)
+    time: 3244.0
+    value: Intro to "Last Word"
+  - formatted: (00:54:06)
+    time: 3246.0
+    value: Judy Collins performs "Bread and Roses" from So Early in the Spring (Electra
+      Asylum)
+  - formatted: (00:57:18)
+    time: 3438.0
+    value: Intro to "Applause"
+  - formatted: (00:57:20)
+    time: 3440.0
+    value: Outro and credits
+  date: Publication::1981/03/04
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/071/medium/audio-default.png?1640840551
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes. The University of Alberta wishes to hear from any copyright owner,
+      or their representative, who believes that this recording has been used without
+      authorization. Please contact <a title="erahelp@ualberta.ca" href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 00:59:20
+  - key: Agent
+    value: Cameron, Barbara Ann (Author; Performer)
+  - key: Date
+    value: 1981/03/04 (Publication)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: 5712m780h (avalonid)
+  - key: Subject
+    value: Interviews (Topical)
+  - key: Type
+    value: Documentary (SpokenWeb)
+  - key: Note
+    value: '<p>Title Source: Title was written on tape.</p> (general)'
+  - key: Date First Ingested
+    value: '2021-02-11'
+  - key: Event Location
+    value: University of Alberta
+  seconds: 3560.84971
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/071/original/88-47-216-a.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/071/small/audio-default.png?1640840551
+  title: 'VoicePrint: Women''s Language and Literature'
+59259:
+  annotations:
+  - formatted: (00:00:05)
+    time: 5.0
+    value: Diane Bessai introduces W.O. Mitchell
+  - formatted: (00:00:47)
+    time: 47.0
+    value: Mitchell discusses "unconscious absorption" necessary to writing autobiographically
+      as a "western artist"
+  - formatted: (00:07:34)
+    time: 454.0
+    value: Unknown audience member asks Mitchell to speak up and microphone is adjusted
+  - formatted: (00:07:45)
+    time: 465.0
+    value: Mitchell introduces first reading
+  - formatted: (00:08:16)
+    time: 496.0
+    value: Mitchell performs unknown autobiographical story
+  - formatted: (00:17:42)
+    time: 1062.0
+    value: Mitchell discusses autobiographical writing material and influence on fiction
+      writing
+  - formatted: (00:18:42)
+    time: 1122.0
+    value: Mitchell introduces Carlyle Sinclair from THE VANISHING POINT
+  - formatted: (00:19:52)
+    time: 1192.0
+    value: Mitchell performs excerpt from THE VANISHING POINT
+  - formatted: (00:20:04)
+    time: 1204.0
+    value: Mitchell interrupts himself, discusses character of Archie Nicotine
+  - formatted: (00:20:26)
+    time: 1226.0
+    value: Mitchell resumes performing excerpt from THE VANISHING POINT
+  - formatted: (00:26:08)
+    time: 1568.0
+    value: Mitchell introduces next excerpt from THE VANISHING POINT
+  - formatted: (00:26:16)
+    time: 1576.0
+    value: Mitchell performs excerpt from THE VANISHING POINT
+  - formatted: (00:45:33)
+    time: 2733.0
+    value: Mitchell discusses plot of THE VANISHING POINT and character of Archie
+  - formatted: (00:47:58)
+    time: 2878.0
+    value: Mitchell resumes performing excerpt from THE VANISHING POINT
+  - formatted: (00:59:49)
+    time: 3589.0
+    value: Mitchell introduces last excerpt from THE VANISHING POINT
+  - formatted: (01:61:09)
+    time: 3669.0
+    value: Mitchell performs excerpt from THE VANISHING POINT [incomplete]
+  date: Performed::1973/03/20
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/072/medium/SW050_01.jpeg?1669741319
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 01:30:25
+  - key: Agent
+    value: Mitchell, W.O. (Author)
+  - key: Date
+    value: 1973/03/20 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: j9602160s (avalonid)
+  - key: Subject
+    value: Oral interpretation of fiction (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from back of reel case: W.O. Mitchell reads in TBL 2, Tuesday
+      March 20/73, Track #1 0-256, Track #2 0-178, Questions 179-331; Track 1: 0 D.
+      Bessai introduction; 9 Mitchell talking; 93 reads of the house he lived in;
+      250-end reads from V.P.; Track 2: 0-158 (cont''d) reads from V.P.; 160-295 answers
+      questions on Alien Thunder</p> (General)'
+  - key: Date First Ingested
+    value: '2020-08-27'
+  - key: Event Location
+    value: University of Alberta Tory Lecture Theatre 2
+  seconds: 3927.00517
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/072/original/SW050-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/072/small/SW050_01.jpeg?1669741319
+  title: W.O. Mitchell at University of Alberta, 1973 Part I & II
 59261:
   annotations:
   - formatted: (00:00:26)
@@ -4505,6 +6024,165 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/074/original/88-47-377-a.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/074/small/audio-default.png?1640841430
   title: Interview with Doug Barbour on science fiction
+59265:
+  annotations:
+  - formatted: (00:00:00)
+    time: 0.0
+    value: Intro and theme music
+  - formatted: (00:00:30)
+    time: 30.0
+    value: '"Fast-Forward" segment: Jars Balan introduces episode "Speech and Its
+      Characteristics"'
+  - formatted: (00:01:18)
+    time: 78.0
+    value: 'Ambient sound: sound effects'
+  - formatted: (00:01:24)
+    time: 84.0
+    value: '"Word Works" segment: Terri Winnick introduces Terry Nearey'
+  - formatted: (00:02:17)
+    time: 137.0
+    value: Balan and Nearey discuss the differences between phonetics and phonology
+  - formatted: (00:05:25)
+    time: 325.0
+    value: Balan and Nearey discuss pitch, tone, suprasegmentals, stress, duration,
+      and other qualities of sound
+  - formatted: (00:11:40)
+    time: 700.0
+    value: Winnick discusses Nearey's background
+  - formatted: (00:11:45)
+    time: 705.0
+    value: 'Ambient sound: sound effects'
+  - formatted: (00:11:55)
+    time: 715.0
+    value: '"Parenthesis" segment: Roman  Onufrijchuk introduces and discusses spelling
+      reform'
+  - formatted: (00:12:41)
+    time: 761.0
+    value: 'Ambient sound: sound effects'
+  - formatted: (00:12:51)
+    time: 771.0
+    value: Winnick introduces Gary Prideaux
+  - formatted: (00:13:15)
+    time: 795.0
+    value: Balan and Prideaux discuss the linguist's tools of sound analysis
+  - formatted: (00:15:07)
+    time: 907.0
+    value: Balan and Prideaux discuss phonemes
+  - formatted: (00:16:41)
+    time: 1001.0
+    value: Winnick discusses Prideaux's background
+  - formatted: (00:16:48)
+    time: 1008.0
+    value: 'Ambient sound: sound effects'
+  - formatted: (00:16:55)
+    time: 1015.0
+    value: Winnick introduces "Dictionary Definitions" segment and introduces Richard
+      Braun
+  - formatted: (00:17:43)
+    time: 1063.0
+    value: Balan and Braun discuss the etymology of the word "cry"
+  - formatted: (00:19:36)
+    time: 1176.0
+    value: Winnick discusses Braun's background
+  - formatted: (00:19:41)
+    time: 1181.0
+    value: 'Ambient sound: sound effects'
+  - formatted: (00:19:49)
+    time: 1189.0
+    value: '"Words Worth Listening To" segment: Onufrijchuk introduces John Hogan'
+  - formatted: (00:20:03)
+    time: 1203.0
+    value: Balan and Hogan discuss how technology has affected linguistics
+  - formatted: (00:26:02)
+    time: 1562.0
+    value: Onufrijchuk discusses Hogan's background
+  - formatted: (00:26:07)
+    time: 1567.0
+    value: 'Ambient sound: sound effects'
+  - formatted: (00:26:11)
+    time: 1571.0
+    value: Winnick introduces "Footnote" segment and recommends several books on linguistics
+      for further reading
+  - formatted: (00:27:34)
+    time: 1654.0
+    value: 'Ambient sound: sound effects'
+  - formatted: (00:27:51)
+    time: 1671.0
+    value: Balan introduces the "Four Horsemen" of Canadian sound poetry, the "Poets
+      of Resounding"
+  - formatted: (00:28:12)
+    time: 1692.0
+    value: 'Ambient sound: sound effects, station ID'
+  - formatted: (00:28:41)
+    time: 1721.0
+    value: '"Literary Supplement" segment: the Four Horsemen perform "Mayakovsky"
+      from album "Live in the West" (1977), Starborne Productions'
+  - formatted: (00:29:41)
+    time: 1781.0
+    value: Balan introduces "Symposium" and Stephen Scobie and Douglas Barbour
+  - formatted: (00:36:00)
+    time: 2160.0
+    value: Balan, Scobie, and Barbour discuss sound poetry
+  - formatted: (00:49:49)
+    time: 2989.0
+    value: Balan discusses Scobie's and Barbour's backgrounds
+  - formatted: (00:50:00)
+    time: 3000.0
+    value: 'Ambient sound: sound effects'
+  - formatted: (00:50:10)
+    time: 3010.0
+    value: Winnick introduces "Popular Poetics" segment, discusses onomatopoeia, and
+      recommends books about sound and sound poetry
+  - formatted: (00:55:58)
+    time: 3358.0
+    value: '"Last Word" Segment: Barbour and Scobie perform "Opening the Cage: 14
+      Variations on 14 Words"'
+  - formatted: (00:57:55)
+    time: 3475.0
+    value: 'Barbour and Scobie perform "Further Out of the Cage: 7 Variations of 7
+      Words" '
+  - formatted: (00:58:40)
+    time: 3520.0
+    value: '"Applause" Segment: outro, theme music, and credits'
+  date: Publication::1981/03/18
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/078/medium/audio-default.png?1640842299
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 01:01:10
+  - key: Agent
+    value: The Four Horsemen (Author; Performer)
+  - key: Date
+    value: 1981/03/18 (Publication)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: 8336h328h (avalonid)
+  - key: Subject
+    value: Interviews (Topical)
+  - key: Type
+    value: Documentary (SpokenWeb)
+  - key: Note
+    value: '<p>Title Source: Title was written on tape.</p> (general)'
+  - key: Date First Ingested
+    value: '2021-02-11'
+  - key: Event Location
+    value: University of Alberta
+  seconds: 3670.49433
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/134/078/original/88-47-221-a.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/134/078/small/audio-default.png?1640842299
+  title: 'VoicePrint: Speech and its Characteristics'
 59266:
   annotations:
   - formatted: (00:00:00)
@@ -5020,7 +6698,7 @@
   - formatted: (00:51:46)
     time: 3106.0
     value: Doug Barbour and Fred Wah address the audience
-  date: Performed::1979/03/09
+  date: Performance Date::1979/03/09
   medium: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/882/medium/IMG_7906.jpeg?1668813392
   metadata:
   - key: Rights Statement
@@ -5350,6 +7028,99 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/170/883/original/SW161-a-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/collection_resource_files/thumbnails/000/170/883/small/image0.jpeg?1669134491
   title: Penny Chalmers Interview, 1977
+85592:
+  annotations: []
+  date: Performed::1971-02-11
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 01:00:31
+  - key: Agent
+    value: Page, P.K. (Author)
+  - key: Date
+    value: 1971-02-11 (Performed)
+  - key: Language
+    value: English
+  - key: Identifier
+    value: AT-625 (local)
+  - key: Subject
+    value: Oral interpretation of poetry. (Topical)
+  - key: Type
+    value: 'Reading: Poetry (Spoken Web)'
+  - key: Note
+    value: '<p>Typed reading list fron inside cassette case: 1. The Landlady, 2. The
+      Band and the Beautiful Children, 3. Man With One Small Hand, 4. Stories for
+      Snow, 5. Photographs of a Salt Mine, 6. Nightmare, 7. The Snowman, 8. Images
+      of Angels; Side B: 8. (cont''d) Images of Angels, 9. Bark Drawing, 10. On Educating
+      the Natives, 11. Travellers'' Palm, 12. Brazillian Fazenda, 13. Arras, 14. The
+      Glass Air, 15. If a Boy Eats an Apple, 16. The Wind, 17. For Stefan, 18. Leather
+      Jacket</p> (General)'
+  - key: Event Location
+    value: University of Alberta Students' Union Building Art Gallery (Edmonton)
+  - key: Format Physical Description
+    value: Analogue (Recording Type)
+  seconds: 3631.84515
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/829/original/SW069-a-b-merged-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: P.K. Page at University of Alberta, 1971
+85593:
+  annotations: []
+  date: Performance Date::1978-02-16
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 00:49:50
+  - key: Agent
+    value: P.K. Page (Author)
+  - key: Date
+    value: 1978-02-16 (Performance Date)
+  - key: Language
+    value: English
+  - key: Identifier
+    value: AT-626 (local)
+  - key: Subject
+    value: Oral interpretation of poetry. (Topcial)
+  - key: Type
+    value: 'Reading: Poetry (SpokenWeb)'
+  - key: Note
+    value: '<p>Typed reading list from inside cassette case: 1. On Brushing My Hair,
+      2. Cooks Mountain, 3. After Rain, 4. Arras, 5. Leather Jacket, 6. After Reading
+      Albino Pheasants, 7. Images of Angels, 8. For Stefan, 9. A Backwards Journey,
+      10. Motel Pool, 11. A Domestic Poem for a Summer Afternoon, 12. Phone Call From
+      Mexico, 13. Evening Dance of Grey Flies, 14. Masqueraders, 15. The Flowerbed,
+      16. Untitled (Dream Poem), 17. Another Space, 18. The Landlady, 19. The Band
+      and the Beautiful Children, 20. The Man With One Small Hand, 21. Photographs
+      of a Salt Mine, 22. Noghtmare, 23. The Snowman, 24. Bark Drawing, 25. On Educating
+      the Natives, 26. The Glass Air, 27. If a Boy Eats an Apple, 28. The Wind, 29.
+      For Stefan</p> (General)'
+  - key: Event Location
+    value: University of Alberta (Edmonton)
+  - key: Format Physical Description
+    value: Analogue (Recording Type)
+  seconds: 2990.35122
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/830/original/SW070-a-b-merged-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: P.K. Page at University of Alberta, 1978
 85594:
   annotations: []
   date: .nan
@@ -5385,6 +7156,47 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/834/original/SW071-a-b-cleaned-merged.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: Steve McCaffery at University of Alberta
+85596:
+  annotations: []
+  date: Performance Date::1981-10-07
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 00:45:44
+  - key: Agent
+    value: Buckley, Vincent (Author)
+  - key: Date
+    value: 1981-10-07 (Performance Date)
+  - key: Language
+    value: English
+  - key: Identifier
+    value: AT-677 (local)
+  - key: Subject
+    value: Oral interpretation of poetry. (Topical)
+  - key: Type
+    value: 'Reading: Poetry (SpokenWeb)'
+  - key: Note
+    value: '<p>Typed on front of cassette case: Vincent Buckley reads his new poetry,
+      Oct. 7 ''81. Typed on back of cassette case: Most of side #1 and side #2 Handwritten
+      from cassette: Vincent Buckley reads his new poetry, Oct. 7 ''81 (HCL-3), Side
+      1 &amp; 2; Master</p>'
+  - key: Event Location
+    value: University of Alberta Humanities Centre Lecture Theatre 3 (Edmonton)
+  - key: Format Physical Description
+    value: Analogue (Recording Type)
+  seconds: 2744.96556
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/835/original/SW076-a-b-cleaned-merged.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: Vince Buckley at University of Alberta, 1981
 85598:
   annotations: []
   date: Performance Date::1986-03-15
@@ -5425,6 +7237,45 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/832/original/SW080a-b.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: The Bards of March at University of Alberta, 1986 Part II
+85600:
+  annotations: []
+  date: Performed::1978-04-13
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes. The University of Alberta wishes to hear from any copyright owner,
+      or their representative, who believes that this recording has been used without
+      authorization. Please contact <a title="erahelp@ualberta.ca" href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 01:17:41
+  - key: Agent
+    value: Hodgins, Jack (Author)
+  - key: Date
+    value: 1978-04-13 (Performed)
+  - key: Language
+    value: English
+  - key: Identifier
+    value: AT-221 (local)
+  - key: Subject
+    value: Oral interpretation of fiction. (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from back of reel case: Crossing Frontiers, April 13/78,
+      Readings by: Jack Hidgins, William Stafford, Wallce Stegner</p> (General)'
+  - key: Event Location
+    value: Banff Centre (Banff)
+  - key: Format Physical Description
+    value: Analogue (Recording Type)
+  seconds: 4661.97221
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/841/original/SW086-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: Jack Hodgins, William Stafford, and Wallace Stegner at Banff Centre, 1978
 85610:
   annotations: []
   date: Performance Date::1975-01
@@ -5465,9 +7316,90 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/854/original/SW119-a-b-merged-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: Ray Smith at University of Alberta, 1975
+85611:
+  annotations: []
+  date: Performed::1975-01
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 01:03:43
+  - key: Agent
+    value: Mitchell, Ken (Author)
+  - key: Date
+    value: 1975-01 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: AT - 687, Tape 7 (local)
+  - key: Subject
+    value: Oral interpretation of fiction. (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: <p>Side 1 - reading and discussion by Ken Mitchell, introduced by R. Harrison,
+      reads "The Great Electrical Revolution"; Side 2 - cont'd, "The Coming of Age,"
+      "The Village Idiots of Greece," "The Witch," "The Stolen ___"</p>
+  - key: Event Location
+    value: University of Alberta (Edmonton)
+  seconds: 3823.671
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/856/original/SW122a-b_merged.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: Ken Mitchell at University of Alberta, 1975
+85614:
+  annotations: []
+  date: Performed::1975-01
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a title="In Copyright" href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a title="erahelp@ualberta.ca"
+      href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>. You may display/perform
+      this material for non-commercial research or teaching purposes. For all other
+      reproduction, performance or distribution uses, please contact the copyright
+      holders</p>
+  - key: Duration
+    value: 00:48:21
+  - key: Agent
+    value: Thompson, Kent (Author)
+  - key: Date
+    value: 1975-01 (Performed)
+  - key: Language
+    value: English
+  - key: Identifier
+    value: AT - 691, Tape 11 (local)
+  - key: Subject
+    value: Oral interpretation of fiction. (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: <p>Side 1 - Kent Thompson, introduced by Sara Stambaugh, reads "The Broken
+      Bottle," discussion, "Shotgun," discussion</p> (General)
+  - key: Event Location
+    value: University of Alberta (Edmonton)
+  - key: Format Physical Description
+    value: Analogue (Recording Type)
+  seconds: 2901.19117
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/858/original/SW126-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: Kent Thompson at University of Alberta, 1975
 85617:
   annotations: []
-  date: Performance Date::1978-03-31
+  date: Performed::1978-03-31
   medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   metadata:
   - key: Rights Statement
@@ -5545,3 +7477,202 @@
   stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/173/862/original/SW139-a-cleaned.wav
   thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
   title: Rudy Wiebe Classroom Visit at University of Alberta, 1978
+85919:
+  annotations: []
+  date: Performance Date::1984-11-19
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes. The University of Alberta wishes to hear from any copyright owner,
+      or their representative, who believes that this recording has been used without
+      authorization. Please contact <a href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 01:02:03
+  - key: Agent
+    value: Mitchell, W.O. (Author)
+  - key: Date
+    value: 1984-11-19 (Performance Date)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: AT-760 (local)
+  - key: Subject
+    value: Interview (Topical)
+  - key: Type
+    value: Interview (SpokenWeb)
+  - key: Note
+    value: 'Written on cassette front: W.O. Mitchell. Interview at Aspen Book Store
+      Edmonton Nov 19/84 M (General)'
+  - key: Event Location
+    value: Aspen Book Shop
+  seconds: 3723.18742
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/174/133/original/SW159-a-b-cleaned-merged.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: W.O. Mitchell Interview, 1984
+86292:
+  annotations: []
+  date: Performance Date::1973-10-10
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 00:59:49
+  - key: Agent
+    value: Wiebe, Rudy (Author)
+  - key: Date
+    value: 1973-10-10 (Performance Date)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: AT-623 (local)
+  - key: Subject
+    value: Oral interpretation of fiction. (Topical)
+  - key: Type
+    value: 'Reading: Fiction (SpokenWeb)'
+  - key: Note
+    value: 'Notes from R2R case: Rudy Wiebe talks &amp; reads. Side I "The Fish caught
+      in the Battle River"; Talks about "Big Bear"; Reads from "Big Bear" (Kingbird
+      incident); Big Bear''s Last Buffalo Hunt. Cont''d on Side II. [but no further
+      notes on content] (General)'
+  - key: Event Location
+    value: Grant MacEwan
+  seconds: 3589.03615
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/174/592/original/SW152-a-b-cleaned-merged.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: Rudy Wiebe Reading at Grant MacEwan, 1973
+86293:
+  annotations: []
+  date: Performance Date::1977-02-04
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 00:40:20
+  - key: Agent
+    value: Wiebe, Rudy (Author)
+  - key: Date
+    value: 1977-02-04 (Performance Date)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: AT-568 (local)
+  - key: Subject
+    value: Classroom Visit (Topical)
+  - key: Type
+    value: Interview (SpokenWeb)
+  - key: Event Location
+    value: University of Alberta
+  seconds: 2420.66068
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/174/591/original/SW158-a-b-cleaned-merged.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: Rudy Wiebe Interview, 1977
+86294:
+  annotations: []
+  date: Performed::1969-01-16
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: "<p>This recording is <a title=\"In Copyright\" href=\"https://rightsstatements.org/page/InC/1.0/?language=en\"\
+      >In Copyright</a>\_and is made available for non-commercial research and educational\
+      \ purposes, with permission from the rights holder(s). The University of Alberta\
+      \ wishes to hear from any copyright owner, or their representative, who believes\
+      \ that this recording has been used without authorization. Please contact <a\
+      \ title=\"erahelp@ualberta.ca\" href=\"mailto:erahelp@ualberta.ca\">erahelp@ualberta.ca</a>.\
+      \ You may display/perform this material for non-commercial research or teaching\
+      \ purposes. For all other reproduction, performance or distribution uses, please\
+      \ contact the copyright holders</p>"
+  - key: Duration
+    value: 01:45:35
+  - key: Agent
+    value: Reaney, James (Author)
+  - key: Date
+    value: 1969-01-16 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: AT-440 (local)
+  - key: Subject
+    value: Oral interpretation of poetry. (Topical)
+  - key: Type
+    value: 'Reading: Poetry (SpokenWeb)'
+  - key: Note
+    value: '<p>Handwritten from back of reel case: noisy tape, voice keeps losing
+      mike. Dept. of english reading, James Reaney, Jan. 16, 1969. 0 - comments on
+      - plays collage tapes; 45 - The Things in a Rendition of a Swinburne Ode; 97
+      - From Colours in the Dark, comments on &amp; reads, not all his own; 97 - "Sundog";
+      190 - "Royal Visit"; 206 - "The World of Childhood"; 216 - Little Orphan Annie";
+      225 - "Trip Up Town From the Farm"; 249 - "Ode to the Mammoth Cheese"; 273 -
+      "Rock Group With Homemade Instruments"; 371 - "The Humming Bird"; 389 - "The
+      Killdeer"; 420 - Emblem Poems (with visuals on board). MO NOTE: "The Things"
+      named here is actually "The Fugs"--poet Ed Sanders band.</p> (General)'
+  seconds: 2630.77438
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/174/593/original/SW147-a-cleaned.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: James Reaney Reading, 1969
+86577:
+  annotations: []
+  date: Performed::1970
+  medium: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  metadata:
+  - key: Rights Statement
+    value: <p>This recording is <a href="https://rightsstatements.org/page/InC/1.0/?language=en">In
+      Copyright</a> and is made available for non-commercial research and educational
+      purposes, with permission from the rights holder(s). The University of Alberta
+      wishes to hear from any copyright owner, or their representative, who believes
+      that this recording has been used without authorization. Please contact <a href="mailto:erahelp@ualberta.ca">erahelp@ualberta.ca</a>.
+      You may display/perform this material for non-commercial research or teaching
+      purposes. For all other reproduction, performance or distribution uses, please
+      contact the copyright holders</p>
+  - key: Duration
+    value: 00:57:13
+  - key: Agent
+    value: Mitchell, W.O. (Author)
+  - key: Date
+    value: 1970 (Performed)
+  - key: Language
+    value: English
+  - key: Format
+    value: Analogue (Recording Type)
+  - key: Identifier
+    value: AT-616 (local)
+  - key: Type
+    value: Reading (SpokenWeb)
+  - key: Note
+    value: '<p>W.O. Mitchell 1970 -- Side A: 1. ____ introduction, 2. gladys ridge
+      home makers, 3. letter to _____, 4. a writer''s "notebook. Side B: mostly old
+      K. &amp; the V.P.</p>'
+  - key: Event Location
+    value: University of Alberta
+  seconds: 3433.26299
+  stream: https://aviary-p-ualberta.s3.wasabisys.com/collection_resource_files/resource_files/000/174/826/original/SW132a-b.wav
+  thumbnail: https://d9jk7wjtjpu5g.cloudfront.net/public/images/audio-default.png
+  title: W.O. Mitchell at University of Alberta, 1970

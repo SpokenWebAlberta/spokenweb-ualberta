@@ -24,6 +24,17 @@
   .sp-annotations {
     text-align: right;
     padding: 0 1em;
+    a {
+      color: $accent-light;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: $accent-dark;
+      cursor: pointer;
+    }
   }
 
   input[type="checkbox"]:checked ~ div.sp-metadata {
@@ -187,10 +198,6 @@
   justify-content: center;
   align-items: center;
 
-  button:focus {
-    outline: none;
-  }
-
   button {
     cursor: pointer;
     display: inline-flex;
@@ -201,41 +208,36 @@
     margin: 0 1em;
     height: 84px;
     width: 84px;
-    border: 1px solid black;
     border-radius: 50px;
+    border: 0;
     box-shadow: 2px 2px 2px black;
+    background-image: url("../img/play-button.svg");
+    background-size: 125%;
+    background-position: center;
 
-    img {
-      height: 100px;
-      width: 100px;
-      border-radius: 50px;
-      object-fit: contain;
+    &:focus {
+      outline: none;
+    }
 
-      margin: 0;
-      padding: 0;
+    &:hover {
+      opacity: 50%;
+      transition-duration: 0.4s;
     }
   }
 
   .sp-back {
-    width: 50px;
-    height: 50px;
-    box-shadow: 5px 5px 2px black;
-
-    img {
-      width: 70px;
-      height: 70px;
-      transform: scaleX(-1);
-    }
+    width: 58px;
+    height: 58px;
+    box-shadow: -2px 2px 2px black;
+    background-image: url("../img/fast-forward.svg");
+    transform: scaleX(-1);
   }
 
   .sp-forward {
-    width: 50px;
-    height: 50px;
-    box-shadow: 5px 5px 2px black;
+    width: 58px;
+    height: 58px;
+    box-shadow: 2px 2px 2px black;
+    background-image: url("../img/fast-forward.svg");
 
-    img {
-      width: 70px;
-      height: 70px;
-    }
   }
 }

@@ -24,8 +24,8 @@
 
           function init() {
               let audio = document.getElementById("sp-audio-stream");
-              audio.addEventListener("play", function() {document.getElementById("sp-play-button").innerHTML = '<img src="{{ '/img/play-button.svg' | absolute_url }}">';});
-              audio.addEventListener("pause", function() {document.getElementById("sp-play-button").innerHTML = '<img src="{{ '/img/play-button.svg' | absolute_url }}">';});
+              audio.addEventListener("play", function() {document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/pause-button.svg' | absolute_url }}')"});
+              audio.addEventListener("pause", function() {document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/play-button.svg' | absolute_url }}')"});
               audio.addEventListener("timeupdate", progress);
           }
 
@@ -108,9 +108,9 @@
                       <span id="sp-audio-current-time">00:00:00</span> <span id="sp-audio-duration">00:00:00</span>
                   </div>
                   <div class="sp-buttons">
-                      <button class="sp-back" onclick="rewind()"><img src="{{ '/img/fast-forward.svg' | absolute_url }}"></button>
-                      <button class="sp-play" onclick="play()" id="sp-play-button"><img src="{{ '/img/play-button.svg' | absolute_url }}"></button>
-                      <button class="sp-forward" onclick="forward()"><img src="{{ '/img/fast-forward.svg' | absolute_url }}"></button>
+                      <button class="sp-back" onclick="rewind()"></button>
+                      <button class="sp-play" onclick="play()" id="sp-play-button"></button>
+                      <button class="sp-forward" onclick="forward()"></button>
                   </div>
                   <audio id="sp-audio-stream" src="{{ audio_object.stream }}"></audio>
               </div>
@@ -133,7 +133,7 @@
               <h3>Time Stamped Sections</h3>
               {% for annotation in audio_object.annotations %}
               <div class="sp-timestamp">
-                <p>{{ annotation.value }}: <a class="sp-audio-seek" onclick="seek({{ annotation.time }})">{{ annotation.formatted }}</a></p>
+                <p>{{ annotation.value }}: <a onclick="seek({{ annotation.time }})">{{ annotation.formatted }}</a></p>
               </div>
               {% endfor %}
             </div>
