@@ -10,6 +10,10 @@
     let num_visible = Math.floor(container.offsetWidth / chunk) - 1;
     let max_offset = ((size - num_visible) * chunk) - offset;
 
+    if (num_visible >= items.length) {
+      Array.from(document.getElementsByClassName("sp-carousel-control")).forEach(x => x.style.visibility = "hidden");
+    }
+
     items.forEach(x => {
       let current = parseInt(x.style.translate);
       let new_amount = current + (amount * chunk);
@@ -27,6 +31,8 @@
       x.style.translate = new_amount.toString() + "px"
     });
   }
+
+  document.addEventListener("DOMContentLoaded", () => move_carousel_object(0));
 </script>
 
 <div id='wax-gallery-objects-container' class='wax-gallery-container full-width'>
@@ -39,7 +45,7 @@
           {% assign data = site.data.objects[item_id] %}
             {% if data != null %}
 
-            <div class='gallery-item sp-object-item all' style="translate: 15px;">
+            <div class='gallery-item sp-object-item all'>
               <a href='{{ "objects/" | append: item_id | relative_url }}'>
                 <div class='hovereffect'>
                   <img class='img-responsive gallery-thumb' src='{{ data.thumbnail }}'/>
