@@ -1,32 +1,36 @@
 <script>
   function move_carousel_page(amount) {
     const chunk = 148;
-    const offset = 15;
+    let offset = 15;
     let items = document.querySelectorAll(".sp-page-item");
     const size = items.length - 1;
-
 
     let container = document.getElementById("wax-gallery-pages");
     let num_visible = Math.floor(container.offsetWidth / chunk) - 1;
     let max_offset = ((size - num_visible) * chunk) - offset;
 
+    if (num_visible >= items.length) {
+      Array.from(document.getElementsByClassName("sp-carousel-control")).forEach(x => x.style.visibility = "hidden");
+    }
+
     items.forEach(x => {
       let current = parseInt(x.style.translate);
       let new_amount = current + (amount * chunk);
-
-      // Check for left overflow
-      if (new_amount > offset) {
-        new_amount = offset;
-      }
 
       // Check for right overflow
       if (new_amount < -max_offset) {
         new_amount = -max_offset;
       }
 
+      // Check for left overflow
+      if (new_amount > offset) {
+        new_amount = offset;
+      }
+
       x.style.translate = new_amount.toString() + "px"
     });
   }
+  document.addEventListener("DOMContentLoaded", () => move_carousel_page(0));
 </script>
 
 <div id='wax-gallery-objects-container' class='wax-gallery-container full-width'>
@@ -38,7 +42,7 @@
         {% for new_page in site.pages %}
           {% if new_page.title == item_id %}
             {% assign thumbnail = new_page.featured_image | default: 'img/digtape.jpg' | relative_url %}
-            <div class='gallery-item sp-page-item all' style="translate: 15px;">
+            <div class='gallery-item sp-page-item all'>
               <a href='{{ new_page | relative_url }}'>
                 <div class='hovereffect'>
                   <img class='img-responsive gallery-thumb' src='{{ thumbnail }}'/>
