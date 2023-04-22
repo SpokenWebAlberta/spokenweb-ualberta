@@ -71,16 +71,36 @@
               }
           }
 
+          function mouse_over() {
+              let info = document.getElementById("scrub-info");
+              let bar = document.getElementById("scrub-bar");
+              let rect = bar.getBoundingClientRect();
+              let currentTime = get_current_time(mouse_x);
+
+              info.textContent = format_time(currentTime);
+              info.style.visibility = "visible";
+              info.style.left = (mouse_x - rect.x).toString() + "px";
+          }
+
+          function mouse_off() {
+              document.getElementById("scrub-info").style.visibility = "hidden";
+          }
+
           function move(e) {
               mouse_x = e.clientX;
           }
 
-          function scrub() {
+          function get_current_time(mouse_x) {
               let bar = document.getElementById("scrub-bar");
               let rect = bar.getBoundingClientRect();
               let percent = (mouse_x - rect.left) / (rect.right - rect.left);
               let audio = document.getElementById("sp-audio-stream");
-              audio.currentTime = audio.duration * percent;
+              return audio.duration * percent;
+          }
+
+          function scrub() {
+              let audio = document.getElementById("sp-audio-stream");
+              audio.currentTime = get_current_time(mouse_x);
               let progress = document.getElementById("sp-red-progress");
               progress.style.width = (Math.round(percent * 100).toString()) + "%";
           }
@@ -100,7 +120,8 @@
               </div>
               <div class="sp-audio-controls">
                   <h1>{{ audio_object.title }}</h1>
-                  <div id="scrub-bar" class="sp-runtime" onclick="scrub()">
+                  <div id="scrub-bar" class="sp-runtime" onclick="scrub()" onmousemove="mouse_over()" onmouseout="mouse_off()">
+                      <div id="scrub-info">This is a test</div>
                       <div id="sp-red-progress" class="sp-red"></div>
                       <div class="sp-white"></div>
                   </div>
