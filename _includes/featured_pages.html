@@ -43,7 +43,7 @@
           {% if new_page.title == item_id %}
             {% assign thumbnail = new_page.featured_image | default: 'img/digtape.jpg' | relative_url %}
             <div class='gallery-item sp-page-item all'>
-              <a href='{{ new_page | relative_url }}'>
+              <a href='{{ new_page.url | relative_url }}'>
                 <div class='hovereffect'>
                   <img class='img-responsive gallery-thumb' src='{{ thumbnail }}'/>
                   <div class='overlay'>
