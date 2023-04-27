@@ -11,9 +11,9 @@
   }
 
   .sp-divider {
-    border: 1px solid $text-color;
+    border: 0.5px solid lightgray;
     align-self: stretch;
-    flex-basis: 2px;
+    flex-basis: 1px;
     flex-grow: 0;
   }
 

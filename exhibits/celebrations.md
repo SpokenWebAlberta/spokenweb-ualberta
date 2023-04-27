@@ -4,6 +4,7 @@ title: 'Celebrations'
 author: Ariel Kroon
 publish_date: 2023-04-14
 permalink: /exhibits/celebrations/
+featured_image: /img/celebrations-icon.png
 featured_objects:
   - 59248
   - 59263
@@ -19,10 +20,9 @@ featured_objects:
 
 ---
 
-
-<div class = "figure">
-  <img src="{{ '/img/Calendar_EJ.jpeg' | absolute_url }}"/>
-  <figcaption>Fig. 1. <i>Celebrations</i> advertised in U Alberta's 75th Anniversary Calendar of Events [bottom-left]. <i>The Edmonton Journal</i>, 3 Jan. 1983.</figcaption>
+<div class = "figure left">
+  <img src="{{ '/img/celebrations-portraits.png' | absolute_url }}"/>
+  <figcaption>Fig. 1. University of Alberta's Writers-in-Residence Alumni. <i>The Edmonton Journal</i>, 19 Mar. 1983.</figcaption>
 </div>
 
 **<i>Celebrations</i> was a University of Alberta campus radio show that aired on CKUA from 1983-84, and was a year-long series of interviews between host Jars Balan and past Writers-In-Residence, who had gathered in Edmonton to celebrate the university’s 75th anniversary.**[^1] Balan, a masters student in the Department of English at the time, described the interview process akin to “shooting fish in a barrel,” as these writers – many of whom had gone on to become stars in the Canadian literary scene – were present to give readings and be part of the university’s celebration. You can access the recordings that SpokenWeb has digitized and made available on Aviary.[^2]
@@ -38,6 +38,11 @@ featured_objects:
 
 **The SpokenWeb team first encountered these tapes when going through the archive of reel-to-reel tapes held in the Department of English and Film Studies collection** and, according to Michael O’Driscoll, “noticing that a few of the reel to reel tapes in the collection had a ‘CKUA’ marking on them and that was a clue that there might be more audio recordings related to CKUA’s presence on campus."[^4] Together, O’Driscoll and SpokenWeb graduate student intern Nicholas Beauchesne reached out to CKUA—although the COVID-19 pandemic quickly put that collaboration on the back-burner—as well as visited the University of Alberta archives to see what could be found therein. The tapes had been stored for years in the Archives; even in the best storage conditions, magnetic tapes will degrade, which was the case with several episodes in the collection, but the team managed to digitize all 26 episodes of the show. 
 
+<div class = "figure left">
+  <img src="{{ '/img/Calendar_EJ.jpeg' | absolute_url }}"/>
+  <figcaption>Fig. 3. <i>Celebrations</i> advertised in U Alberta's 75th Anniversary Calendar of Events [bottom-left]. <i>The Edmonton Journal</i>, 3 Jan. 1983.</figcaption>
+</div>
+
 **In some episodes of <i>Celebrations</i>, the degradation of the reel-to-reel tape is evident and no more so than in the opening and closing theme music to each episode,** which at times warps and stutters due to the condition of the material. In the days before searchable archives of royalty-free music and sounds, Balan used his Edmonton Public Library card to take out classical music records that he thought might contain appropriate music, and picked “Fanfare La Péri” by Paul Dukas, performed by the Gallic Brass for Argo Records, because “that brassy upbeat” was a perfect fit.[^5]
 
 **After the tapes were digitized** and the audio was “cleaned up” as much as possible to try to mitigate any background buzzing, noises, or output infelicities, SpokenWeb graduate student intern Alex Ventimillia-Sanchez took over, studiously “timestamping” the file: documenting when speakers changed topics or asked questions, and what those topics and questions were, looking up who was doing the speaking, and researching any references made in the audio so that researchers and casual listeners would be able to place the audio in its context. In September 2020, SpokenWeb graduate student intern Ariel Kroon took over from Alex just as he was finishing the <i>Celebrations</i> series and transitioning into timestamping Balan’s other radio shows. Fascinated by this chunk of graduate student radio history at the University of Alberta, Kroon—along with fellow interns and then-graduate-students Beauchesne and Chelsea Miya—did what humanities PhD students do best and researched as much as they could about these tapes. You can listen to their <i>SpokenWeb Podcast</i> episode about <i>VoicePrint</i>, “Academics on Air” [here](https://spokenweb.ca/podcast/episodes/academics-on-air/).[^6]
@@ -50,9 +55,11 @@ featured_objects:
 
 ### Notes
 
-Fig. 1. Advertisement for The University of Alberta's 75th Anniversary Calendar of Events. Published in <i>The Edmonton Journal</i>, a division of Postmedia Network Inc. 3 Jan. 1983, p. 14.
+Fig. 1. Portraits of The University of Alberta's Writers-in-Residence. Published in <i>The Edmonton Journal</i>, a division of Postmedia Network Inc. 19 Mar. 1983, p. H1.
 
 Fig. 2. Photograph of the U Alberta Humanities Centre. Published in <i>Folio</i>. Sept 23, 1982, p. 15.
+
+Fig. 3. Advertisement for The University of Alberta's 75th Anniversary Calendar of Events. Published in <i>The Edmonton Journal</i>, a division of Postmedia Network Inc. 3 Jan. 1983, p. 14.
 
 [^1]: “Celebrations Radio Program.” University of Alberta Archives. Department of Radio and Television, Department of English and CKUA Radio Station, 1983-1984. No. 85-99.
 
