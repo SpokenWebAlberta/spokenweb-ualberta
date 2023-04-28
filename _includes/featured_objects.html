@@ -1,13 +1,13 @@
 <script>
   function move_carousel_object(amount) {
     const chunk = 224;
-    const offset = 15;
+    const offset = 0;
     let items = document.querySelectorAll(".sp-object-item");
-    const size = items.length - 1;
+    const size = items.length;
 
 
     let container = document.getElementById("wax-gallery-objects");
-    let num_visible = Math.floor(container.offsetWidth / chunk) - 1;
+    let num_visible = Math.floor(container.offsetWidth / chunk);
     let max_offset = ((size - num_visible) * chunk) - offset;
 
     if (num_visible >= items.length) {

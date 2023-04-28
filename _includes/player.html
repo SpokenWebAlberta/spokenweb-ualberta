@@ -34,7 +34,7 @@
                 let rect = bar.getBoundingClientRect();
                 let percent = (mouse_x - rect.left) / (rect.right - rect.left);
                 let audio = document.getElementById("sp-audio-stream");
-                return audio.duration * percent;
+                return Math.min(audio.duration, {{ end }} - {{ start }}) * percent;
             }
 
             function update() {
@@ -142,7 +142,7 @@
 
             function scrub() {
                 let audio = document.getElementById("sp-audio-stream");
-                audio.currentTime = get_current_time(mouse_x);
+                audio.currentTime = get_current_time(mouse_x) + {{ start }};
                 update();
             }
 
