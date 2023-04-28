@@ -7,135 +7,9 @@
       {% include header.html %}
       {% assign audio_object = site.data.objects[page.iden] %}
 
-      <script>
-          let mouse_x = 0.0;
-
-          function format_time(seconds) {
-              let hours = Math.floor(seconds / 3600).toString().padStart(2, "0");
-              let minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
-              let new_seconds = Math.floor(seconds % 60).toString().padStart(2, "0");
-              return hours + ":" + minutes + ":" + new_seconds;
-          }
-
-          function seek(time) {
-              let audio = document.getElementById("sp-audio-stream");
-              audio.currentTime = time;
-          }
-
-          function init() {
-              let audio = document.getElementById("sp-audio-stream");
-              audio.addEventListener("play", function() {document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/pause-button.svg' | absolute_url }}')"});
-              audio.addEventListener("pause", function() {document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/play-button.svg' | absolute_url }}')"});
-              audio.addEventListener("timeupdate", progress);
-          }
-
-          function progress() {
-              let progress = document.getElementById("sp-red-progress");
-              let audio = document.getElementById("sp-audio-stream");
-
-              document.getElementById("sp-audio-current-time").innerText = format_time(audio.currentTime);
-              document.getElementById("sp-audio-duration").innerText = format_time(audio.duration);
-
-              progress.style.width = (Math.round(audio.currentTime / audio.duration * 100).toString()) + "%";
-          }
-
-          function forward() {
-              let audio = document.getElementById("sp-audio-stream");
-              let timestamps = [
-                {% for annotation in audio_object.annotations %}
-                    {{ annotation.time }},
-                {% endfor %}
-              ]
-              let current = audio.currentTime;
-              audio.currentTime = timestamps.find(x => x > current);
-          }
-
-          function rewind() {
-              let audio = document.getElementById("sp-audio-stream");
-              let timestamps = [
-                {% for annotation in audio_object.annotations %}
-                    {{ annotation.time }},
-                {% endfor %}
-              ]
-              let current = audio.currentTime;
-              let index = timestamps.findIndex(x => x > current);
-              audio.currentTime = timestamps[index - 1];
-          }
-
-          function play() {
-              let audio = document.getElementById("sp-audio-stream");
-              if (audio.paused) {
-                  audio.play();
-              } else {
-                  audio.pause();
-              }
-          }
-
-          function mouse_over() {
-              let info = document.getElementById("scrub-info");
-              let bar = document.getElementById("scrub-bar");
-              let rect = bar.getBoundingClientRect();
-              let currentTime = get_current_time(mouse_x);
-
-              info.textContent = format_time(currentTime);
-              info.style.visibility = "visible";
-              info.style.left = (mouse_x - rect.x).toString() + "px";
-          }
-
-          function mouse_off() {
-              document.getElementById("scrub-info").style.visibility = "hidden";
-          }
-
-          function move(e) {
-              mouse_x = e.clientX;
-          }
-
-          function get_current_time(mouse_x) {
-              let bar = document.getElementById("scrub-bar");
-              let rect = bar.getBoundingClientRect();
-              let percent = (mouse_x - rect.left) / (rect.right - rect.left);
-              let audio = document.getElementById("sp-audio-stream");
-              return audio.duration * percent;
-          }
-
-          function scrub() {
-              let audio = document.getElementById("sp-audio-stream");
-              audio.currentTime = get_current_time(mouse_x);
-              let progress = document.getElementById("sp-red-progress");
-              progress.style.width = (Math.round(percent * 100).toString()) + "%";
-          }
-
-          document.onmousemove = move;
-          window.addEventListener("DOMContentLoaded", init);
-
-
-      </script>
-
       <div class="sp-audio-red-wrapper">
           <div class="sp-audio-red-block"></div>
-
-          <div class="sp-audio-player">
-              <div class="sp-audio-featured-image">
-                  <img src="{{ audio_object.medium }}">
-              </div>
-              <div class="sp-audio-controls">
-                  <h1>{{ audio_object.title }}</h1>
-                  <div id="scrub-bar" class="sp-runtime" onclick="scrub()" onmousemove="mouse_over()" onmouseout="mouse_off()">
-                      <div id="scrub-info">This is a test</div>
-                      <div id="sp-red-progress" class="sp-red"></div>
-                      <div class="sp-white"></div>
-                  </div>
-                  <div class="sp-time-display">
-                      <span id="sp-audio-current-time">00:00:00</span> <span id="sp-audio-duration">00:00:00</span>
-                  </div>
-                  <div class="sp-buttons">
-                      <button class="sp-back" onclick="rewind()"></button>
-                      <button class="sp-play" onclick="play()" id="sp-play-button"></button>
-                      <button class="sp-forward" onclick="forward()"></button>
-                  </div>
-                  <audio id="sp-audio-stream" src="{{ audio_object.stream }}"></audio>
-              </div>
-          </div>
+          {% include player.html aviary_id=page.iden %}
       </div>
       <div id='wax-main'>
         <div>
@@ -154,7 +28,7 @@
               <h3>Time Stamped Sections</h3>
               {% for annotation in audio_object.annotations %}
               <div class="sp-timestamp">
-                <p>{{ annotation.value }}: <a onclick="seek({{ annotation.time }})">{{ annotation.formatted }}</a></p>
+                <p>{{ annotation.title }}: <a onclick="seek({{ annotation.time }})">{{ annotation.formatted }}</a></p>
               </div>
               {% endfor %}
             </div>
