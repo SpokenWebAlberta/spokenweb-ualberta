@@ -1,6 +1,6 @@
 <script>
   function move_carousel_object(amount) {
-    const chunk = 148;
+    const chunk = 224;
     const offset = 15;
     let items = document.querySelectorAll(".sp-object-item");
     const size = items.length - 1;
@@ -45,7 +45,7 @@
           {% assign data = site.data.objects[item_id] %}
             {% if data != null %}
 
-            <div class='gallery-item sp-object-item all'>
+            <div class='gallery-item sp-object-item all' style="translate: 0;">
               <a href='{{ "objects/" | append: item_id | relative_url }}'>
                 <div class='hovereffect'>
                   <img class='img-responsive gallery-thumb' src='{{ data.thumbnail_small }}'/>
