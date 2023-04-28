@@ -4,6 +4,7 @@ title: 'Jars Balan'
 author: Chelsea Miya
 publish_date: 2022-10-27
 permalink: /exhibits/jarsBalan/
+featured_image: /img/JarsBalan-icon.jpg
 featured_objects: 
   - 59239
   - 59263

@@ -460,6 +460,10 @@ Image Captions
 
     }
 
+    .figure.centre {
+      max-width: 500px;
+    }
+
     .figure.right {
       max-width: 400px;
       float: right;
@@ -853,11 +857,11 @@ input:focus {
 
     .gallery-item {
       padding: 0;
-      margin-right: .5rem;
+      margin-right: 1.5rem;
       background-color: #ffffff;
       height: $thumbnail-height;
       width: $thumbnail-width;
-      border: 1px grey solid;
+      border: 2px $caption-color solid;
       flex-shrink: 0;
       transition: translate 0.25s ease-in-out;
 
