@@ -90,8 +90,6 @@ menu:
         link: '/about/'
       - label: 'Collection'
         link: '/collection/'
-      - label: 'Audio'
-        link: '/audio'
       - label: 'Search'
         link: '/search'
   - label: 'Events'

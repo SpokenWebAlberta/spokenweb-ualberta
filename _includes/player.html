@@ -1,0 +1,175 @@
+{% assign audio_data = site.data.objects[include.aviary_id] %}
+{% assign start = include.start | default: 0 %}
+{% assign end = include.end | default: 100000 %}
+
+
+<div class="sp-audio-wrapper">
+    <div class="sp-audio-player">
+        <script>
+            let mouse_x = 0.0;
+            const timestamps = [
+                {{ start }},
+                {% for annotation in audio_data.annotations %}
+                    {% if annotation.time > start %}
+                        {% if annotation.time < end %}
+                            {{ annotation.time }},
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {{ end }},
+            ]
+
+            // Utilities
+            function format_time(seconds) {
+                // Converts an integer time into a displayable time string.
+                let hours = Math.floor(seconds / 3600).toString().padStart(2, "0");
+                let minutes = Math.floor(seconds / 60).toString().padStart(2, "0");
+                let new_seconds = Math.floor(seconds % 60).toString().padStart(2, "0");
+                return hours + ":" + minutes + ":" + new_seconds;
+            }
+
+            function get_current_time(mouse_x) {
+                // Takes a position of a mouse and turns it into an indicated time in seconds.
+                let bar = document.getElementById("scrub-bar");
+                let rect = bar.getBoundingClientRect();
+                let percent = (mouse_x - rect.left) / (rect.right - rect.left);
+                let audio = document.getElementById("sp-audio-stream");
+                return audio.duration * percent;
+            }
+
+            function update() {
+                // Run this to update UI to latest version.
+                let progress = document.getElementById("sp-red-progress");
+                let audio = document.getElementById("sp-audio-stream");
+
+                if (audio.currentTime < {{ start }}) {
+                    audio.currentTime = {{ start }};
+                }
+
+                if (audio.currentTime >= {{ end }}) {
+                    audio.pause();
+                    audio.currentTime = {{ end }};
+                }
+
+                let duration = {{ end | minus: start }};
+                if (audio.duration < duration) {
+                    duration = audio.duration;
+                }
+
+                let start_time = audio.currentTime - {{ start }};
+
+                document.getElementById("sp-audio-current-time").innerText = format_time(start_time);
+                document.getElementById("sp-audio-duration").innerText = format_time(duration);
+
+                let percent = (start_time) / duration * 100;
+                progress.style.width = (Math.round(percent).toString()) + "%";
+            }
+
+            // Events
+            function init() {
+                let audio = document.getElementById("sp-audio-stream");
+                audio.addEventListener("play", function () {
+                    document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/pause-button.svg' | absolute_url }}')"
+                });
+                audio.addEventListener("pause", function () {
+                    document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/play-button.svg' | absolute_url }}')"
+                });
+                audio.addEventListener("timeupdate", update);
+                audio.addEventListener("durationchange", update);
+            }
+
+            function forward() {
+                let audio = document.getElementById("sp-audio-stream");
+                let current = audio.currentTime;
+                let found = timestamps.find(x => x > current);
+                if (found !== undefined) {
+                    audio.currentTime = found;
+                }
+                update();
+            }
+
+            function rewind() {
+                let audio = document.getElementById("sp-audio-stream");
+                let current = audio.currentTime;
+                let index = timestamps.findIndex(x => x >= (current - 1));
+
+                if (index > 0) {
+                    index -= 1;
+                }
+                audio.currentTime = timestamps[index];
+                update();
+            }
+
+            function play() {
+                let audio = document.getElementById("sp-audio-stream");
+
+                if (audio.currentTime >= {{ end }}) {
+                    audio.currentTime = {{ start }};
+                }
+
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+                update();
+            }
+
+            function seek(time) {
+                let audio = document.getElementById("sp-audio-stream");
+                audio.currentTime = time;
+                update();
+            }
+
+            function mouse_over() {
+                let info = document.getElementById("scrub-info");
+                let bar = document.getElementById("scrub-bar");
+                let rect = bar.getBoundingClientRect();
+                let currentTime = get_current_time(mouse_x);
+
+                info.textContent = format_time(currentTime);
+                info.style.visibility = "visible";
+                info.style.left = (mouse_x - rect.x).toString() + "px";
+            }
+
+            function mouse_off() {
+                document.getElementById("scrub-info").style.visibility = "hidden";
+            }
+
+            function move(e) {
+                mouse_x = e.clientX;
+            }
+
+            function scrub() {
+                let audio = document.getElementById("sp-audio-stream");
+                audio.currentTime = get_current_time(mouse_x);
+                update();
+            }
+
+            document.onmousemove = move;
+            window.addEventListener("DOMContentLoaded", init);
+        </script>
+
+        <div class="sp-audio-featured-image">
+            <img src="{{ audio_data.thumbnail_medium }}">
+        </div>
+        <div class="sp-audio-controls">
+            <h1>{{ audio_data.title }}</h1>
+            <div id="scrub-bar" class="sp-runtime" onclick="scrub()" onmousemove="mouse_over()"
+                 onmouseout="mouse_off()">
+                <div id="scrub-info">This is a test</div>
+                <div id="sp-red-progress" class="sp-red"></div>
+                <div class="sp-white"></div>
+            </div>
+            <div class="sp-time-display">
+                <span id="sp-audio-current-time">00:00:00</span> <span id="sp-audio-duration">00:00:00</span>
+            </div>
+            <div class="sp-buttons">
+                <button class="sp-back" onclick="rewind()"></button>
+                <button class="sp-play" onclick="play()" id="sp-play-button"></button>
+                <button class="sp-forward" onclick="forward()"></button>
+            </div>
+            <audio id="sp-audio-stream" src="{{ audio_data.stream }}"></audio>
+        </div>
+    </div>
+</div>
