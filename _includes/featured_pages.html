@@ -1,12 +1,12 @@
 <script>
   function move_carousel_page(amount) {
-    const chunk = 148;
-    let offset = 15;
+    const chunk = 224;
+    let offset = 0;
     let items = document.querySelectorAll(".sp-page-item");
-    const size = items.length - 1;
+    const size = items.length;
 
     let container = document.getElementById("wax-gallery-pages");
-    let num_visible = Math.floor(container.offsetWidth / chunk) - 1;
+    let num_visible = Math.floor(container.offsetWidth / chunk);
     let max_offset = ((size - num_visible) * chunk) - offset;
 
     if (num_visible >= items.length) {
@@ -42,7 +42,7 @@
         {% for new_page in site.pages %}
           {% if new_page.title == item_id %}
             {% assign thumbnail = new_page.featured_image | default: 'img/digtape.jpg' | relative_url %}
-            <div class='gallery-item sp-page-item all'>
+            <div class='gallery-item sp-page-item all' style="translate: 0;">
               <a href='{{ new_page.url | relative_url }}'>
                 <div class='hovereffect'>
                   <img class='img-responsive gallery-thumb' src='{{ thumbnail }}'/>
