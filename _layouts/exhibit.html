@@ -13,3 +13,13 @@ layout: default
 </div>
 
 {{ content }}
+
+<div class="fixed-audio">
+  {% include player.html aviary_id=page.featured_objects %}
+</div>
+
+<style>
+  #wax-footer {
+    padding-bottom: 150px !important;
+  }
+</style>

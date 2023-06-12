@@ -12,6 +12,9 @@ from math import ceil
 template = """---
 layout: object
 iden: {iden}
+title: {title}
+thumbnail_small: {thumbnail}
+{metadata}
 ---
 """
 
@@ -21,9 +24,11 @@ def fix(value):
         return ""
     elif isinstance(value, int):
         return value
-    elif '"' in value:
-        return value.replace('"', "'")
-    return value
+    elif isinstance(value, str):
+        test = value.replace('"', "'")
+        return f'"{test}"'
+    else:
+        raise Exception(f"unknown metadata type: {type(value)}")
 
 
 if __name__ == "__main__":
@@ -86,28 +91,21 @@ if __name__ == "__main__":
         }
 
         # Create object page
+
+        metadata_string = ""
+        for i in metadata:
+            metadata_string += f'{i["key"].replace(" ", "_")}: {fix(i["value"])}\n'
+
         with open(f"objects/{row['aviary ID']}.md", "w+") as f:
-            print(template.format(iden=fix(row["aviary ID"])), file=f)
+            params = {
+                "iden": fix(row["aviary ID"]),
+                "title": fix(manifest["label"]["en"][0]),
+                "thumbnail": fix(thumbnail),
+                "metadata": metadata_string.strip(),
+            }
+
+            print(template.format(**params), file=f)
 
     # Create main data index
     with open("_data/objects.yml", "w+") as f:
         yaml.dump(manifest_data, f)
-
-    # Create search index
-    objects_index = []
-    for name, entry in manifest_data.items():
-        objects_index.append({
-            "iden": name,
-            "title": entry["title"],
-            "thumbnail": entry["thumbnail_small"],
-            "lunr_id": len(objects_index),
-            "permalink": f"/objects/{name}",
-            **{i["key"]: i["value"] for i in entry["metadata"]}
-        })
-
-    # Create objects search index.
-    with open("search/objects.json", "w+") as f:
-        print("---", file=f)
-        print("layout: none", file=f)
-        print("---", file=f)
-        print(json.dumps(objects_index, indent=4), file=f)

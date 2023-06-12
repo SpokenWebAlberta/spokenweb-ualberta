@@ -1,6 +1,6 @@
 {% assign placeholder = include.placeholder | default: 'Search... ' %}
 
-{% assign key = page.search | default: 'objects' %}
+{% assign key = page.search | default: 'pages' %}
 {% assign config = site.search[key] %}
 {% assign index = config.index | absolute_url %}
 {%- capture fields -%}

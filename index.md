@@ -4,7 +4,6 @@ featured_pages:
   - 'Jars Balan'
   - 'Voiceprint'
   - 'Celebrations'
-
 ---
 
 ## Sounding Literature
