@@ -18,10 +18,12 @@
   }
 
   .sp-metadata {
+    border-top: 2px solid lightgray;
     padding: 0 1em;
   }
 
   .sp-annotations {
+    border-top: 2px solid lightgray;
     text-align: right;
     padding: 0 1em;
     a {
@@ -130,7 +132,7 @@
 
   .sp-audio-featured-image {
     img {
-      max-height: 250px;
+      max-height: 125px;
     }
   }
 
@@ -272,9 +274,6 @@
         h1 {
           font-size: 1.5rem !important;
         }
-      }
-      .sp-audio-featured-image {
-        width: 100px;
       }
     }
   }
