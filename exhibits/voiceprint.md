@@ -1,10 +1,12 @@
 ---
 layout: exhibit
 title: 'Voiceprint'
+subtitle: '1980-1983'
 author: Chelsea Miya
 publish_date: 2022-10-27
 permalink: /exhibits/voiceprint/
-featured_image: /img/VoiceprintTape-icon.jpg
+featured_image: ../img/nagra-tape.jpeg
+description: 'Campus radio show explores speech, language, communications technology, and literary arts in a changing world.'
 featured_objects:
   - 59254
   - 59258
