@@ -1,10 +1,12 @@
 ---
 layout: exhibit
 title: 'Jars Balan'
+subtitle: 'Radio Host'
 author: Chelsea Miya
 publish_date: 2022-10-27
 permalink: /exhibits/jarsBalan/
-featured_image: /img/JarsBalan-icon.jpg
+featured_image: ../img/JarsBalan-icon.jpg
+description: 'Host and creator of <i>Voiceprint</i>, <i>Paper Tygers</i>, and <i>Celebrations</i>.'
 featured_objects: 
   - 59239
   - 59263
