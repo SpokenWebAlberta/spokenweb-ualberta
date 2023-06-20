@@ -1,56 +1,35 @@
 <!-- Featured Exhibits Carousel -->
-
 <div id='wax-gallery-objects-container' class='wax-gallery-container full-width'>
   <div class='wax-inline-container'>
-<div class="carousel-new">
-  <div class="carousel__nav">
-   <span id="moveLeft" class="carousel__arrow">
-        <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
-    <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
-</svg>
-    </span>
-    <span id="moveRight" class="carousel__arrow" >
-      <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
-  <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
-</svg>    
-    </span>
+    <div class="carousel-new">
+      <div class="carousel__nav">
+       <span id="moveLeft" class="carousel__arrow">
+            <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+            </svg>
+        </span>
+        <span id="moveRight" class="carousel__arrow" >
+          <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+            <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+          </svg>
+        </span>
+      </div>
+      {% for page in site.pages %}
+        {% if page.layout == "exhibit" %}
+            <div class="carousel-item">
+              <div class="carousel-item__image", style="background-image: {{ page.featured_image }}"></div>
+              <div class="carousel-item__info">
+                <div class="carousel-item__container">
+                <h2 class="carousel-item__subtitle">{{ page.subtitle }}</h2>
+                <h1 class="carousel-item__title">{{ page.title }}</h1>
+                <p class="carousel-item__description">{{ page.description }}</p>
+                <a href="exhibits/voiceprint/" class="carousel-item__btn">Visit Exhibit</a>
+                  </div>
+              </div>
+            </div>
+        {% endif %}
+      {% endfor %}
   </div>
-  <div class="carousel-item carousel-item--1">
-    <div class="carousel-item__image"></div>
-    <div class="carousel-item__info">
-      <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">1980-1983</h2>
-      <h1 class="carousel-item__title">Voiceprint</h1>
-      <p class="carousel-item__description">Campus radio show explores speech, language, communications technology, and literary arts in a changing world.</p>
-      <a href="exhibits/voiceprint/" class="carousel-item__btn">Visit Exhibit</a>
-        </div>
-    </div>
-  </div>
-  <div class="carousel-item carousel-item--2">
-    <div class="carousel-item__image"></div>
-    <div class="carousel-item__info">
-      <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">Radio Host</h2>
-      <h1 class="carousel-item__title">Jars Balan</h1>
-      <p class="carousel-item__description">Host and creator of <i>Voiceprint</i>, <i>Paper Tygers</i>, and <i>Celebrations</i>.</p>
-      <a href="exhibits/jarsBalan/" class="carousel-item__btn">Visit Exhibit</a>
-        </div>
-    </div>
-  </div>
-    <div class="carousel-item carousel-item--3">
-    <div class="carousel-item__image"></div>
-    <div class="carousel-item__info">
-      <div class="carousel-item__container">
-      <h2 class="carousel-item__subtitle">1983-1984</h2>
-      <h1 class="carousel-item__title">Celebrations</h1>
-      <p class="carousel-item__description">Interviews with U Alberta's iconic Writers-in-Residence.</p>
-      <a href="exhibits/Celebrations/" class="carousel-item__btn">Visit Exhibit</a>
-        </div>
-    </div>
-  </div>
-  
-</div>
-</div>
 </div>
 
 <script>
