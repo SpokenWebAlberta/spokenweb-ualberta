@@ -95,9 +95,11 @@ if __name__ == "__main__":
         # Metadata
         metadata = []
         for meta in manifest["metadata"]:
+            value = meta["value"]["en"][0].replace("<p>", "").replace("</p>", "")
+
             metadata.append({
                 "key": meta["label"]["en"][0],
-                "value": meta["value"]["en"][0],
+                "value": value,
             })
 
         # Duration

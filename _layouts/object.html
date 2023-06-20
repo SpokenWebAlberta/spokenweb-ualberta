@@ -2,8 +2,6 @@
 <html lang='en-us'>
   {% include head.html %}
   <body>
-
-
     <div id='sp-fullscreen'>
       {% include header.html %}
       {% assign audio_object = site.data.objects[page.iden] %}
@@ -60,9 +58,9 @@
 
       {% include footer.html %}
     </div>
+    <script src="{{ '/assets/bootstrap/bootstrap.min.js' | absolute_url }}"></script>
+    <script src="{{ '/assets/popper.min.js' | absolute_url }}"></script>
   </body>
-  <script type='text/javascript' async defer src='{{ "/assets/bootstrap/bootstrap.min.js" | absolute_url }}'></script>
-  <script type='text/javascript' async defer src='{{ "/assets/popper.min.js" | absolute_url }}'></script>
 </html>
 
 
