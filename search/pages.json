@@ -1,0 +1,23 @@
+---
+---
+[
+  {% for page in site.pages %}{
+    "lunr_id": {{ forloop.index | minus: 1 }},
+    "title": "{{ page.title }}",
+    "author": "{{ page.author }}",
+    "publish_date": "{{ page.publish_date }}",
+    "thumbnail": "{{ page.thumbnail_small }}",
+    "permalink": "{{ page.url }}",
+    "Rights Statement": "{{ page.Rights_Statement }}",
+    "Duration": "{{ page.Duration }}",
+    "Agent": "{{ page.Agent }}",
+    "Date": "{{ page.Date }}",
+    "Language": "{{ page.Language }}",
+    "Format": "{{ page.Format }}",
+    "Subject": "{{ page.Subject }}",
+    "Type": "{{ page.Type }}",
+    "Note": "{{ page.Note }}",
+    "Event Location": "{{ page.Event_Location }}"
+  }{% if forloop.last == false %},{% endif %}
+  {% endfor %}
+]
