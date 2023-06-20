@@ -61,18 +61,23 @@ kramdown:
 # and running `$ bundle exec rake wax:search` .
 
 search:
-  objects:
-    index: '/search/objects.json' # file the index will get written to
+  pages:
+    index: '/search/pages.json' # file the index will get written to
     fields: # the metadata fields to index
       - title
-      - date
+      - author
+      - publish_date
+      - Rights Statement
+      - Duration
       - Agent
+      - Date
       - Language
       - Format
       - Subject
-      - Identifier
       - Type
+      - Note
       - Event Location
+
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS

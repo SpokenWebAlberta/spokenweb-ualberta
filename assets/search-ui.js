@@ -1,14 +1,4 @@
 // Methods and jQuery UI for Wax search box
-function excerptedString(str) {
-  str = str || ''; // handle null > string
-  if (str.length < 40) {
-    return str;
-  }
-  else {
-    return `${str.substring(0, 40)} ...`;
-  }
-}
-
 function getThumbnail(item, url) {
   if ('thumbnail' in item) {
     return `<img class='sq-thumb-sm' src='${item.thumbnail}'/>`
@@ -19,18 +9,8 @@ function getThumbnail(item, url) {
 }
 
 function displayResult(item, fields, url) {
-  var pid   = item.iden;
-  var label = item.title || 'Untitled';
   var link  = item.permalink;
   var thumb = getThumbnail(item, url);
-  var meta  = []
-
-  for (i in fields) {
-    fieldLabel = fields[i];
-    if (fieldLabel in item ) {
-      meta.push(`<b>${fieldLabel}:</b> ${excerptedString(item[fieldLabel])}`);
-    }
-  }
   return `<div class="result"><a href="${url}${link}">${thumb} <p><span class="title">${item.title}</span></p></a></div>`;
 }
 
@@ -69,5 +49,5 @@ function startSearchUI(fields, indexFile, url) {
       el.value = myParam;
       el.dispatchEvent(new Event('input', {'bubbles': true}));
     }
-  });
+  }).fail(function() { console.log("failed to get json")});
 }
