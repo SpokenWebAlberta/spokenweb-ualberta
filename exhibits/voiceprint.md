@@ -20,8 +20,7 @@ featured_objects:
   <figcaption>Fig. 1. <i>Voiceprint</i> recording on Ampex</figcaption>
 </div>
 
-
-**Voiceprint: Speech, Language, Communications Technology, and Literary Arts in a Changing World** was a University of Alberta campus radio show that aired on CKUA from 1980 to 1983 (UAlberta Archives, No. 88-47). The series was created and hosted by then-masters student Jars Balan. Terri Wynnyk, a political science student, was the production assistant. Notable guests included: Stephen Scobie, Douglas Barbour, Ann Cameron, and Margaret Atwood. 
+**Voiceprint: Speech, Language, Communications Technology, and Literary Arts in a Changing World** was a University of Alberta campus radio show that aired on CKUA from 1980 to 1983 (UAlberta Archives, No. 88-47). The series was created and hosted by then-masters student Jars Balan. Terri Wynnyk, a political science student, was the production assistant. Notable guests included: Stephen Scobie, Douglas Barbour, Ann Cameron, and Margaret Atwood.
 
 **Balan was recruited to work on the show by Roman Onufrijchuk**, executive producer of The University of Alberta’s Department of Radio and Television. At the time, CKUA had signed a new licensing deal with the Alberta Educational Communications Corporation (ACCESS). As such, the station was eager for educational programming.[^1][^2]
 
