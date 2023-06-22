@@ -210,8 +210,12 @@
                 <h1 id="sp-audio-stream-title"></h1>
             </a>
             <div class="sp-audio-timer">
-                <div class="sp-time-display">
-                    <span id="sp-audio-current-time">00:00:00</span> <span id="sp-audio-duration">00:00:00</span>
+                <div class="sp-buttons">
+                    <button class="sp-skip-back" onclick="next_track(-1)"></button>
+                    <button class="sp-back" onclick="rewind()"></button>
+                    <button class="sp-play" onclick="play()" id="sp-play-button"></button>
+                    <button class="sp-forward" onclick="forward()"></button>
+                    <button class="sp-skip-forward" onclick="next_track(1)"></button>
                 </div>
                 <div id="scrub-bar" class="sp-runtime" onclick="scrub()" onmousemove="mouse_over()"
                      onmouseout="mouse_off()">
@@ -219,13 +223,9 @@
                     <div id="sp-red-progress" class="sp-red"></div>
                     <div class="sp-white"></div>
                 </div>
-            </div>
-            <div class="sp-buttons">
-                <button class="sp-back" onclick="next_track(-1)"></button>
-                <button class="sp-back" onclick="rewind()"></button>
-                <button class="sp-play" onclick="play()" id="sp-play-button"></button>
-                <button class="sp-forward" onclick="forward()"></button>
-                <button class="sp-forward" onclick="next_track(1)"></button>
+                <div class="sp-time-display">
+                    <span id="sp-audio-current-time">00:00:00</span> <span id="sp-audio-duration">00:00:00</span>
+                </div>
             </div>
         </div>
     </div>
