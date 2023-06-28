@@ -58,6 +58,8 @@ featured_objects:
 
 **<i>Celebrations</i> is a special series, enabling us in the 21st century to listen across the decades to literary luminaries of Canada** who are no longer with us (such as Phyllis Webb and Douglas Barbour), or to hear their younger selves laughing, joking, and doing what they did best at the time: performing their work and inspiring students of the day to literary greatness.
 
+[Browse Collection](https://ualberta.aviaryplatform.com/collections/1783){: .btn2 .collect target="_blank"}
+
 ---
 
 ### Notes

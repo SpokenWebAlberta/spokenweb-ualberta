@@ -270,7 +270,6 @@ h2 {
 
   .btn2 {
     display: inline-block;
-    font-size: 0.5rem;
     background-color: $bg-color;
     margin-top: $more-margin;
     margin-bottom: $super-margin;
@@ -434,7 +433,6 @@ main page
 
     .btn2 {
       display: inline-block;
-      font-size: 0.5rem;
       background-color: $brand-red;
       margin-top: $more-margin;
       margin-bottom: $super-margin;
@@ -450,6 +448,16 @@ main page
     .btn2:hover {
       background-color: $accent-dark;
       text-decoration: none;
+    }
+
+    .collect {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      width: 17em;
+      text-align: center;
+      margin-top: $super-margin;
+  
     }
 
     /*

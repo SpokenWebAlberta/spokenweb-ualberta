@@ -51,6 +51,8 @@ Radio historians Erika Engstrom[^6], Caroline Mitchell[^7], Susan Carter[^8], St
 
 **The SpokenWeb Podcast episode “Academics on Air,”** released on May 2nd, 2022, explores Voiceprint’s innovative approach to public, community-focused scholarship.[^16] The podcast producers, Nick Beauchesne, Chelsea Miya, and Ariel Kroon, describe how they “rediscovered” the literary radio series during the process of digitizing the University of Alberta Archives’ radio collection. While their research initially focused on the series’ literary guests, the trio were impressed with the Voiceprint’s unique format and experimental sound design, all the more so because the show was a grassroots project, created and produced by students. As Kroon says in the podcast, the University of Alberta SpokenWeb team have become “fans” of the show. With the digitization of the collection, we hope that the series will continue to find new listeners.
 
+[Browse Collection](https://ualberta.aviaryplatform.com/collections/1783){: .btn2 .collect target="_blank"}
+
 
 ---
 
