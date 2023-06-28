@@ -14,6 +14,6 @@ permalink: /symposium/
 
 **After the Symposium, SpokenWeb Network members are invited to take part in the SpokenWeb Institute from May 4-5**, a series of workshops and training activities designed in collaboration with UAlberta's Sound Studies Institute.
 
-To learn more and register visit the [Official SpokenWeb 2023 Symposium Website](https://app.groupize.com/e/spokenweb-2023-symposium).
+To learn more and register visit the [SpokenWeb 2023 Symposium Website](https://spokenweb.ca/symposia/#/spokenweb-symposium-2023){: target="_blank"}.
 
 [Register](https://app.groupize.com/e/spokenweb-2023-symposium){: .btn2}

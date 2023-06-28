@@ -54,6 +54,8 @@ Of the three radio shows Balan produced for RTV/CKUA, <i>Voiceprint</i> had the 
 
 **Today, Balan is best known for his work as an activist and leader in the Ukrainian community.** He is the former Director of the Canadian Institute of Ukrainian Studies (CIUS) at the University of Alberta, a position he held from 2017-2020, and he currently serves as the administrative coordinator of the Peter and Doris Kule Ukrainian Canadian Studies Centre at CIUS.[^5] His editorials on the Russian invasion of the Ukraine have appeared in <i>The National Post</i>,[^6] <i>The Edmonton Journal</i>,[^7] and <i>The Conversation</i>.[^8] Though his days as a campus radio host are past, Balan never lost his love of radio and of literature, and lately he has been experimenting with visual poems that celebrate his Ukrainian heritage.
 
+[Browse Collection](https://ualberta.aviaryplatform.com/collections/1783){: .btn2 .collect target="_blank"}
+
 ---
 
 ### Notes
