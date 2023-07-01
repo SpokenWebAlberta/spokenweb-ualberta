@@ -1,6 +1,7 @@
 ---
 layout: event
 title: 2023 SpokenWeb Symposium-Insitute
+event_date:
 event_start: 2023-05-1
 event_end: 2023-05-5
 event_location: The University of Alberta

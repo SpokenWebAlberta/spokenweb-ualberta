@@ -403,30 +403,30 @@ main page
       margin-top: $margin;
       margin-bottom: $super-margin;
 
-      .event-location {
+      .event-location, .event-room, .event-date, .event-time, .event-start, .event-end {
         margin-top: 0rem;
         margin-bottom: 0rem;
         font-size: 1rem;
         font-weight: 500;
         text-transform: uppercase;
       }
+
+      .event-room, .event-time {
+        margin-left: 1rem;
+      }
+
+      .event-date, .event-location {
+        font-weight: 600;
+        margin-top: 1rem;
+      }
+
       .event-title {
         margin: 0rem;
         padding-bottom: $less-margin;
       }
-      .event-start {
-        margin: 0rem;
-        font-size: 1rem;
-        font-weight: 500;
-        text-transform: uppercase;
 
-      }
-      .event-end {
-        margin: 0rem;
-        font-size: 1rem;
-        font-weight: 500;
-        text-transform: uppercase;
-
+      .event-date:empty {
+        display: none;
       }
 
     }
