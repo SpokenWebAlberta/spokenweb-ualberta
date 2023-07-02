@@ -7,7 +7,7 @@ event_start:
 event_end:
 event_location: University of Alberta [Virtual]
 event_room:
-permalink: /right-managements-of-your-rights-management-process/
+permalink: /events/right-managements-of-your-rights-management-process/
 featured_image: img/noun-human-rights.png
 description: "Virtual seminar on rights management for audio collections."
 ---

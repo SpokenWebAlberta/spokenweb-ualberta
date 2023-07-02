@@ -11,12 +11,13 @@ layout: default
       {{ page.event_date | date: "%A, %B %d, %Y" }}
       </time>
   </h3>
-  <h3 class='event-time'>{{ page.event_time }}</h3>
+  <h3 class='event-time'>{{ page.event_time}}
+  </h3>
   <h3 class='event-start'>
     <time datetime='{{ page.publish_date | date_to_xmlschema }}'>
-      {{ page.event_start | date: "%B %d" }}
+      {{ page.event_start | date: "%B %d - " }}
       </time>
-    <time datetime='{{ page.publish_date | date_to_xmlschema }}'> - 
+    <time datetime='{{ page.publish_date | date_to_xmlschema }}'>
         {{ page.event_end | date: "%B %d, %Y" }}
       </time>
   </h3>

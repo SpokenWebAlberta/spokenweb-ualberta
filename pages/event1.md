@@ -7,7 +7,7 @@ event_start:
 event_end:
 event_location: The University of Alberta
 event_room: Salter Reading Room, HC-3-95
-permalink: /conversation-on-listening-methodologies-with-professor-kit-dobson/
+permalink: /events/conversation-on-listening-methodologies-with-professor-kit-dobson/
 featured_image: img/Kit-Dobson.jpeg
 description: "Join us for a conversation with author Kit Dobson on methodologies of listening and the ways they might open up alternative forms for scholars."
 ---
