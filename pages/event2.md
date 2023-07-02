@@ -7,7 +7,7 @@ event_start:
 event_end:
 event_location: The University of Alberta
 event_room: Digital Scholarship Centre, Visualisation Lab
-permalink: /minimal-computing/
+permalink: /events/minimal-computing/
 featured_image: img/Gil-profile.jpeg
 description: "Intro to 'Minimal Computing' with Alex Gil."
 ---
