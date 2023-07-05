@@ -9,7 +9,7 @@ title: All Exhibits
 <ul>
 {% for temp in site.pages %}
     {% if temp.url contains "/exhibits/" %}
-        <li><a href="{{ temp.url }}">{{temp.title}}</a></li>
+        <li><a href="{{ temp.url | relative_url }}">{{temp.title}}</a></li>
     {% endif %}
 {% endfor %}
 </ul>

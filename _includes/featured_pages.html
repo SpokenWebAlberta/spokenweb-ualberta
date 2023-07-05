@@ -28,7 +28,7 @@
                         <h1 class="carousel-item__title">{{ temp.title }}</h1>
                         <p class="carousel-item__description">{{ temp.description }}</p>
                         {% if temp.event_date %}
-                        <p class="carousel-item__date">
+                        <div class="carousel-item__date">
                             <p class='event-start'>
                                 <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
                                   {{ temp.event_date | date: "%B %d, %Y" }}
@@ -39,7 +39,7 @@
                                   </time>
                                 {% endif %}
                             </p>
-                        </p>
+                        </div>
                         {% endif %}
                         <a href="{{ temp.url | relative_url }}" class="carousel-item__btn">Visit {{ label }}</a>
                     </div>
