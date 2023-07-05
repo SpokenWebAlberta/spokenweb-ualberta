@@ -4,6 +4,14 @@ permalink: /featured_events
 title: Featured Events
 ---
 
+<h2>Latest Events</h2>
+
+Latest Events
+
+<h3>Network Wide Events </h3>
+
+For more events hosted at institutes across the SpokenWeb Network, visit the SpokenWeb mainpage.
+
 {% assign items = "" | split: "," %}
 
 {% for temp in site.pages %}
@@ -23,3 +31,5 @@ title: Featured Events
 {% endfor %}
 
 {% include featured_pages.html label="Event" items=final %}
+
+[Network-Wide Events](https://spokenweb.ca/events/){: .btn2}
