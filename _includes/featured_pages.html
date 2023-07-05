@@ -1,4 +1,7 @@
 <!-- Featured Exhibits Carousel -->
+{% assign label = include.label | default: "Exhibit" %}
+{% assign items = page.featured_pages | default: include.items %}
+
 <div id='wax-gallery-objects-container' class='wax-gallery-container full-width'>
     <div class='wax-inline-container'>
         <div class="carousel-new">
@@ -14,20 +17,36 @@
                     </svg>
                 </span>
             </div>
-            {% for page in site.pages %}
-            {% if page.layout == "exhibit" %}
+            {% for title in items %}
+            {% for temp in site.pages %}
+            {% if title == temp.title %}
             <div class="carousel-item">
-                <div class="carousel-item__image" style="background-image: url({{ page.featured_image }})"></div>
+                <div class="carousel-item__image" style="background-image: url({{ temp.featured_image | absolute_url }})"></div>
                 <div class="carousel-item__info">
                     <div class="carousel-item__container">
-                        <h2 class="carousel-item__subtitle">{{ page.subtitle }}</h2>
-                        <h1 class="carousel-item__title">{{ page.title }}</h1>
-                        <p class="carousel-item__description">{{ page.description }}</p>
-                        <a href="exhibits/voiceprint/" class="carousel-item__btn">Visit Exhibit</a>
+                        <h2 class="carousel-item__subtitle">{{ temp.subtitle }}</h2>
+                        <h1 class="carousel-item__title">{{ temp.title }}</h1>
+                        <p class="carousel-item__description">{{ temp.description }}</p>
+                        {% if temp.event_date %}
+                        <p class="carousel-item__date">
+                            <p class='event-start'>
+                                <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
+                                  {{ temp.event_date | date: "%B %d, %Y" }}
+                                </time>
+                                {% if temp.event_end %}
+                                  <time datetime='{{ page.publish_date | date_to_xmlschema }}'> -
+                                      {{ temp.event_end | date: "%B %d, %Y" }}
+                                  </time>
+                                {% endif %}
+                            </p>
+                        </p>
+                        {% endif %}
+                        <a href="{{ temp.url | relative_url }}" class="carousel-item__btn">Visit {{ label }}</a>
                     </div>
                 </div>
             </div>
             {% endif %}
+            {% endfor %}
             {% endfor %}
         </div>
     </div>

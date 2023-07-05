@@ -1,14 +1,13 @@
 ---
 layout: event
 title: Readings and Discussion Featuring UAlberta Writer-in-Residence Ifeoma Chinwuba and Edmonton Poet Laureate Titilope Sonuga
-event_date: 2022-002-07
+event_date: 2022-02-07
 event_time: 11:00 AM MT
-event_start:
 event_end:
 event_location: University of Alberta [Virtual]
 event_room:
-permalink: /writer-in-residence-ifeoma-chinwuba-and-edmonton-poet-laureate-titilope-sonuga/
-featured_image: img/poster_Jan14.jpeg
+permalink: /events/writer-in-residence-ifeoma-chinwuba-and-edmonton-poet-laureate-titilope-sonuga/
+featured_image: /img/poster_Jan14.jpeg
 description: "Virtual seminar on rights management for audio collections."
 ---
 

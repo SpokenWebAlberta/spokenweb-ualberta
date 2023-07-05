@@ -5,7 +5,7 @@ subtitle: '1983-1984'
 author: Ariel Kroon
 publish_date: 2023-04-14
 permalink: /exhibits/celebrations/
-featured_image: img/celebrations-portraits.png
+featured_image: /img/celebrations-portraits.png
 description: "Interviews with U Alberta's iconic Writers-in-Residence."
 featured_objects:
   - 59248

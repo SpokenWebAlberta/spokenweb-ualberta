@@ -106,7 +106,10 @@
                 audio.src = annotations.get(track_value).get("stream");
                 audio.load();
                 document.getElementById("sp-audio-stream-image").src = annotations.get(track_value).get("thumbnail");
-                document.getElementById("sp-audio-stream-title").textContent = annotations.get(track_value).get("title");
+
+                let index = (tracks.indexOf(current_audio) + 1).toString() + "/" + tracks.length.toString() + ": ";
+
+                document.getElementById("sp-audio-stream-title-link").textContent = index + annotations.get(track_value).get("title");
                 document.getElementById("sp-audio-stream-image-link").href = '{{ "/objects" | absolute_url }}/' + current_audio.toString();
                 document.getElementById("sp-audio-stream-title-link").href = '{{ "/objects" | absolute_url }}/' + current_audio.toString();
 
@@ -206,9 +209,7 @@
             </a>
         </div>
         <div class="sp-audio-controls">
-            <a id="sp-audio-stream-title-link" href="">
-                <h1 id="sp-audio-stream-title"></h1>
-            </a>
+            <p id="sp-audio-stream-title"><a id="sp-audio-stream-title-link" href=""></a></p>
             <div class="sp-audio-timer">
                 <div class="sp-buttons">
                     <button class="sp-skip-back" onclick="next_track(-1)"></button>

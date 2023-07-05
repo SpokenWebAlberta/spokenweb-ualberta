@@ -3,12 +3,11 @@ layout: event
 title: The Universals and Particulars of Minimal Computing
 event_date: 2022-10-28
 event_time: 2:00-3:00 PM MT
-event_start:
 event_end:
 event_location: The University of Alberta
 event_room: Digital Scholarship Centre, Visualisation Lab
-permalink: /minimal-computing/
-featured_image: img/Gil-profile.jpeg
+permalink: /events/minimal-computing/
+featured_image: /img/Gil-profile.jpeg
 description: "Intro to 'Minimal Computing' with Alex Gil."
 ---
 <div class = "figure">
