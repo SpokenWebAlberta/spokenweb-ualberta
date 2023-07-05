@@ -4,10 +4,12 @@ permalink: /exhibits/
 title: All Exhibits
 ---
 
-<h2 class='page-title'>Curated Audio Exhibits</h2>
+<h2 class='page-title'>{{ page.title }}</h2>
 
 <ul>
-<li><a href="../exhibits/voiceprint/">Voiceprint</a></li>
-<li><a href="../exhibits/jarsBalan/">Jars Balan</a></li>
-<li><a href="../exhibits/celebrations/">Celebrations</a></li>
+{% for temp in site.pages %}
+    {% if temp.url contains "/exhibits/" %}
+        <li><a href="{{ temp.url | relative_url }}">{{temp.title}}</a></li>
+    {% endif %}
+{% endfor %}
 </ul>

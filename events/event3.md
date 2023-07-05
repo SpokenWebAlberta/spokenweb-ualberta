@@ -1,14 +1,13 @@
 ---
 layout: event
 title: Right Management of Your Rights Management Process
-event_date: 2023-002-08
+event_date: 2023-02-08
 event_time: 11:00-1PM MT
-event_start:
 event_end:
 event_location: University of Alberta [Virtual]
 event_room:
 permalink: /events/right-managements-of-your-rights-management-process/
-featured_image: img/noun-human-rights.png
+featured_image: /img/noun-human-rights.png
 description: "Virtual seminar on rights management for audio collections."
 ---
 

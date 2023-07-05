@@ -1,14 +1,13 @@
 ---
 layout: event
 title: Conversation on Listening Methodologies with Kit Dobson
-event_date: 2022-010-12
+event_date: 2022-10-12
 event_time: 3:00-4:30 PM MT
-event_start:
 event_end:
 event_location: The University of Alberta
 event_room: Salter Reading Room, HC-3-95
 permalink: /events/conversation-on-listening-methodologies-with-professor-kit-dobson/
-featured_image: img/Kit-Dobson.jpeg
+featured_image: /img/Kit-Dobson.jpeg
 description: "Join us for a conversation with author Kit Dobson on methodologies of listening and the ways they might open up alternative forms for scholars."
 ---
 <div class = "figure">

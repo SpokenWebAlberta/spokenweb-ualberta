@@ -1,11 +1,11 @@
 ---
 layout: event
 title: 2023 SpokenWeb Symposium-Insitute
-event_date:
-event_start: 2023-05-1
+event_date: 2023-05-1
 event_end: 2023-05-5
 event_location: The University of Alberta
-permalink: /symposium/
+permalink: /events/symposium/
+featured_image: /img/Symposium-Logo-Black-nobg.png
 ---
 <div class = "figure">
   <img src="{{ '/img/Symposium-Logo-Black-nobg.png' | absolute_url }}" width="600" />
