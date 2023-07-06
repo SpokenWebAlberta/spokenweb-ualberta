@@ -12,7 +12,7 @@ title: All Events
 
 {% for temp in site.pages %}
     {% if temp.url contains "/events/" %}
-        {% if temp.event_date %}
+        {% if temp.event_date != nil %}
             {% assign items = items | push: temp %}
         {% endif %}
     {% endif %}
