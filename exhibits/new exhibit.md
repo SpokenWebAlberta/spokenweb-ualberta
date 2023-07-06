@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: 'Celebrations'
+title: 'new exhibit'
 subtitle: '1983-1984'
 author: Ariel Kroon
 publish_date: 2023-04-14
