@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Conversation on Listening Methodologies with Kit Dobson
-event_date: 2022-10-12
+event_date: "2022-10-12"
 event_time: 3:00-4:30 PM MT
 event_end:
 event_location: The University of Alberta
