@@ -1,7 +1,7 @@
 ---
 layout: event
 title: The Universals and Particulars of Minimal Computing
-event_date: 2022-10-28
+event_date: "2022-10-28"
 event_time: 2:00-3:00 PM MT
 event_end:
 event_location: The University of Alberta

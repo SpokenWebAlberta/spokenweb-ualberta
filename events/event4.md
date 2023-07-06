@@ -1,7 +1,7 @@
 ---
 layout: event
 title: UAlberta Writer-in-Residence Ifeoma Chinwuba and Edmonton Poet Laureate Titilope Sonuga
-event_date: 2022-02-07
+event_date: "2022-02-07"
 event_time: 11:00 AM MT
 event_end:
 event_location: University of Alberta [Virtual]

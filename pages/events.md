@@ -6,7 +6,6 @@ title: All Events
 
 <h2 class='page-title'>{{ page.title }}</h2>
 
-<ul>
 
 {% assign items = "" | split: "," %}
 
@@ -20,7 +19,8 @@ title: All Events
 
 {% assign items = items | sort: "event_date" %}
 
-{% for temp in items %}
+<ul>
+    {% for temp in items %}
     <div>
         <img src="{{ temp.featured_image | absolute_url }}">
         <div>
@@ -43,6 +43,6 @@ title: All Events
         </div>
     </div>
     <hr>
-{% endfor %}
+    {% endfor %}
 </ul>
 

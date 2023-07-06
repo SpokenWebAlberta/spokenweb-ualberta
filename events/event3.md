@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Right Management of Your Rights Management Process
-event_date: 2023-02-08
+event_date: "2023-02-08"
 event_time: 11:00-1PM MT
 event_end:
 event_location: University of Alberta [Virtual]
