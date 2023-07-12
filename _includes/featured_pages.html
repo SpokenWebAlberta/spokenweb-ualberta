@@ -31,13 +31,16 @@
                         <div class="carousel-item__date">
                             <p class='event-start'>
                                 <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
-                                  {{ temp.event_date | date: "%B %d, %Y" }}
+                                  {{ temp.event_date | date: "%B %-d" }}
                                 </time>
                                 {% if temp.event_end %}
                                   <time datetime='{{ page.publish_date | date_to_xmlschema }}'> -
-                                      {{ temp.event_end | date: "%B %d, %Y" }}
+                                      {{ temp.event_end | date: "%B %-d" }}
                                   </time>
                                 {% endif %}
+                                <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
+                                  {{ temp.event_date | date: ", %Y" }}
+                                </time>
                             </p>
                         </div>
                         {% endif %}

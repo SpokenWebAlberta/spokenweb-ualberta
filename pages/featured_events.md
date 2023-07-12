@@ -26,8 +26,8 @@ title: Featured Events
 
 {% include featured_pages.html label="Event" items=final %}
 
+<hr class="network">
+
 <h3>Network Wide Events </h3>
 
-For more events hosted at institutes across the SpokenWeb Network, visit the SpokenWeb mainpage.
-
-[Network-Wide Events](https://spokenweb.ca/events/){: .btn2}
+For more events hosted at institutes across the SpokenWeb Network, visit the [SpokenWeb Network Mainpage](https://spokenweb.ca/events/).

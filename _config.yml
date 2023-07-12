@@ -99,10 +99,10 @@ menu:
         link: '/search'
   - label: 'Events'
     sub:
-      - label: "All Events"
+      - label: "Latest Events"
+        link: '/featured_events/'
+      - label: "Archive"
         link: '/events/'
-      - label: "Featured Events"
-        link: '/featured_events'
   - label: 'Featured Exhibits'
     sub:
       - label: 'Voiceprint'
