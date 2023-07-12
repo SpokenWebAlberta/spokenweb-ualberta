@@ -17,7 +17,7 @@ title: All Events
     {% endif %}
 {% endfor %}
 
-{% assign items = items | sort: "event_date" %}
+{% assign items = items | sort: "event_date" | reverse %}
 
 <ul>
     {% for temp in items %}
