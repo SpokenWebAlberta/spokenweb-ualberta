@@ -21,26 +21,27 @@ title: All Events
 
 <ul>
     {% for temp in items %}
-    <div>
-        <img src="{{ temp.featured_image | absolute_url }}">
+    <div class='event-blog'>
         <div>
-            <div>
-                <h2>{{ temp.subtitle }}</h2>
-                <h1>{{ temp.title }}</h1>
-                <p>{{ temp.description }}</p>
-                <h3 class='event-start'>
-                    <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
-                      {{ temp.event_date | date: "%B %d" }}
+            <h2>{{ temp.subtitle }}</h2>
+            <h1 class='event-title'>{{ temp.title }}</h1>
+            <h3 class='event-start'>
+                <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
+                    {{ temp.event_date | date: "%B %-d" }}
+                </time>
+                {% if temp.event_end %}
+                    <time datetime='{{ temp.publish_date | date_to_xmlschema }}'> -
+                        {{ temp.event_end | date: "%B %-d" }}
                     </time>
-                    {% if temp.event_end %}
-                      <time datetime='{{ temp.publish_date | date_to_xmlschema }}'> -
-                          {{ temp.event_end | date: "%B %d, %Y" }}
-                      </time>
-                    {% endif %}
-                  </h3>
-                <a href="{{ temp.url | relative_url }}" class="carousel-item__btn">Visit Event</a>
-            </div>
+                {% endif %}
+                <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
+                    {{ temp.event_date | date: ", %Y" }}
+                </time>
+            </h3>
         </div>
+        <img src="{{ temp.featured_image | absolute_url }}">
+        <p>{{ temp.description }}</p>
+        <a href="{{ temp.url | relative_url }}" class="carousel-item__btn">Learn More</a>
     </div>
     <hr>
     {% endfor %}

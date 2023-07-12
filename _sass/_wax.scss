@@ -415,7 +415,7 @@ main page
         margin-left: 1rem;
       }
 
-      .event-date, .event-location {
+      .event-start, .event-location {
         font-weight: 600;
         margin-top: 1rem;
       }
@@ -429,6 +429,36 @@ main page
         display: none;
       }
 
+    }
+
+    ul {
+      padding-left: 0rem;
+    }
+    .event-blog {
+      max-width: 600px;
+      .event-title {
+        margin: 0rem;
+        padding-bottom: none;
+        font-size: 1.75rem;
+        @media (max-width: 700px) {
+          font-size: 1.25rem;
+        }
+      }
+      .event-start {
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin: $less-margin;
+        @media (max-width: 700px) {
+          font-weight: 400;
+        }
+      }
+      p {
+        font-weight: 500;
+        margin-top: $less-margin;
+      }
+      img {
+        max-height: 300px;
+      }
     }
 
     .btn2 {
