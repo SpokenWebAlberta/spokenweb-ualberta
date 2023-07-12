@@ -8,8 +8,9 @@ event_location: The University of Alberta
 event_room: Digital Scholarship Centre, Visualisation Lab
 permalink: /events/minimal-computing/
 featured_image: /img/Gil-profile.jpeg
-description: "Alex Gil walks-through minimal computing as a critical practice, inviting us to reflect on the "inherent tension between universals and particulars, the global and the local, choice and necessity."'
+description: "An introduction to minimal computing as critical practice with Alex Gil."
 ---
+
 <div class = "figure">
   <img src="{{ '/img/Gil-profile.jpeg' | absolute_url }}" width="400" />
 </div>
