@@ -8,7 +8,7 @@ event_location: University of Alberta [Virtual]
 event_room:
 permalink: /events/writer-in-residence-ifeoma-chinwuba-and-edmonton-poet-laureate-titilope-sonuga/
 featured_image: /img/poster_Jan14.jpeg
-description: "Virtual seminar on rights management for audio collections."
+description: "SpokenWeb UAlberta and the Department of English and Film Studies at the University of Alberta are pleased to present a dual reading and discussion featuring three prominent Edmonton-based authors."
 ---
 
 <div class = "figure">

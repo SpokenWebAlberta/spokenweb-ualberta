@@ -6,12 +6,6 @@ title: Featured Events
 
 <h2>Latest Events</h2>
 
-Latest Events
-
-<h3>Network Wide Events </h3>
-
-For more events hosted at institutes across the SpokenWeb Network, visit the SpokenWeb mainpage.
-
 {% assign items = "" | split: "," %}
 
 {% for temp in site.pages %}
@@ -31,5 +25,9 @@ For more events hosted at institutes across the SpokenWeb Network, visit the Spo
 {% endfor %}
 
 {% include featured_pages.html label="Event" items=final %}
+
+<h3>Network Wide Events </h3>
+
+For more events hosted at institutes across the SpokenWeb Network, visit the SpokenWeb mainpage.
 
 [Network-Wide Events](https://spokenweb.ca/events/){: .btn2}
