@@ -20,7 +20,7 @@
 
 title:            'SpokenWeb UAlberta'
 description:      'Audiotextual Collection'
-url:              'https://cmiya.github.io'
+url:              'https://spokenwebalberta.github.io'
 baseurl:          '/spokenweb-ualberta'
 copyright:        'copyright SpokenWeb, 2023'
 logo:             '/assets/logo-white.png'
@@ -120,7 +120,7 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://github.com/cmiya/spokenweb-ualberta'
+      link: 'https://github.com/SpokenWebAlberta/spokenweb-ualberta'
     - label: 'Our Team'
       link: '/team'
     - label: 'Contact'
