@@ -100,7 +100,7 @@ menu:
   - label: 'Events'
     sub:
       - label: "Latest Events"
-        link: '/featured_events/'
+        link: '/featured_events'
       - label: "Archive"
         link: '/events/'
   - label: 'Featured Exhibits'
