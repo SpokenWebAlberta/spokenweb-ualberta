@@ -15,7 +15,11 @@ download_url=$(echo $artifact_info | jq -r ".artifacts[0].archive_download_url")
 echo $download_url
 
 #   \
-http_code=$(curl --write-out "%{http_code}\n" -L -o "${temp_folder}/download.zip" -H "Authorization: Bearer $github_token" "$download_url")
+http_code=$(curl -L \
+  --write-out "%{http_code}\n" \
+  -o "${temp_folder}/download.zip" \
+  -H "Authorization: Bearer $github_token" \
+  "$download_url")
 
 if [[ "${http_code}" == "403" ]]
 then
