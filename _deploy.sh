@@ -10,11 +10,10 @@ artifact_info=$(curl -L \
   -H "X-GitHub-Api-Version: 2022-11-28" \
   https://api.github.com/repos/SpokenWebAlberta/spokenweb-ualberta/actions/artifacts)
 
-download_url=$(echo $artifact_info | jq -r ".artifacts[0].archive_download_url")
+download_url=$(echo "$artifact_info" | jq -r ".artifacts[0].archive_download_url")
 
-echo $download_url
+echo "$download_url"
 
-#   \
 http_code=$(curl -L \
   --write-out "%{http_code}\n" \
   -o "${temp_folder}/download.zip" \
