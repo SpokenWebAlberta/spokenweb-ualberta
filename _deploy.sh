@@ -22,7 +22,7 @@ http_code=$(curl -L \
 
 if [[ "${http_code}" == "403" ]]
 then
-  echo "I do not have permision to download artifact file, is my github_token still valid?"
+  echo "I do not have permission to download artifact file, is my github_token still valid?"
 elif [[ "${http_code}" != "200" ]]
 then
   echo "Got code: ${http_code}"
