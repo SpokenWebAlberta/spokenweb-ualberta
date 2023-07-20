@@ -4,11 +4,14 @@ featured_pages:
   - 'Jars Balan'
   - 'Voiceprint'
   - 'Celebrations'
+  - 'New Exhibit'
 ---
 
 ## Sounding Literature
 
 <hr>
+
+This site is currently having it's deploy tested.
 
 Welcome to The SpokenWeb at the University of Alberta in Edmonton, Canada. We're part of the larger SpokenWeb Network of researchers across Canada and the United States.
 
