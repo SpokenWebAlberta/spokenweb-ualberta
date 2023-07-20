@@ -77,6 +77,25 @@
 }
 
 @media (max-width: $format-switch) {
+  .fixed-audio {height: 160px !important;}
+
+  .sp-audio-player .sp-audio-controls {padding-left: 1rem !important; padding-right: 1rem !important;}
+  .sp-audio-player .sp-audio-controls .sp-audio-timer {margin: 0rem !important; }
+  .sp-audio-player .sp-audio-controls #sp-audio-stream-title {
+    line-height: 1.5rem !important; 
+    position: relative !important; 
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sp-audio-player .sp-audio-controls #sp-audio-stream-title-link {
+    margin: 0 !important;
+    max-width: none !important;
+  
+  }
+  
+  
   .sp-objects-content {
     flex-direction: column;
 
