@@ -2,7 +2,6 @@ github_token="<bearer_token>"
 deploy_loc="<folder_to_deploy_to>"
 temp_folder="<temporary_working_folder>"
 
-mkdir -p "${deploy_loc}"
 mkdir -p "${temp_folder}"
 
 artifact_info=$(curl -L \
@@ -23,12 +22,17 @@ http_code=$(curl -L \
 if [[ "${http_code}" == "403" ]]
 then
   echo "I do not have permission to download artifact file, is my github_token still valid?"
+elif [[ "${http_code}" == "410" ]]
+then
+  echo "The build artifacts have expired, please re-run build."
 elif [[ "${http_code}" != "200" ]]
 then
   echo "Got code: ${http_code}"
   echo "Failed to download for other reasons. Please try again later, and if this problem persists the build script is likely broken."
 else
   unzip -d ${temp_folder} "${temp_folder}/download.zip"
+  rm -R "$deploy_loc"
+  mkdir -p "${deploy_loc}"
   tar -xvf "${temp_folder}/artifact.tar" -C "$deploy_loc"
 fi
 
