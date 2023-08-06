@@ -2,7 +2,7 @@
 
 {% assign key = page.search | default: 'pages' %}
 {% assign config = site.search[key] %}
-{% assign index = config.index | absolute_url %}
+{% assign index = config.index | relative_url %}
 {%- capture fields -%}
   {%- for field in config.fields -%}
     {{ field }}{% unless forloop.last %}|||{% endunless %}
@@ -17,12 +17,12 @@
   <div id='results'></div>
 </div>
 
-<script type='text/javascript' src="{{ '/assets/elasticlunr.min.js' | absolute_url }}"></script>
-<script type='text/javascript' src="{{ '/assets/search-ui.js' | absolute_url }}"></script>
+<script type='text/javascript' src="{{ '/assets/elasticlunr.min.js' | relative_url }}"></script>
+<script type='text/javascript' src="{{ '/assets/search-ui.js' | relative_url }}"></script>
 <script type='text/javascript'>
   var fields    = {{ fields | jsonify }};
   var indexFile = "{{ index }}";
-  var url       = "{{ '' | absolute_url }}";
+  var url       = "{{ '' | relative_url }}";
 
   $(document).ready(function() {
     startSearchUI(fields, indexFile, url);
