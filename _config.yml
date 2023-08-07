@@ -20,7 +20,6 @@
 
 title:            'SpokenWeb UAlberta'
 description:      'Audiotextual Collection'
-url:              'https://spokenwebalberta.github.io'
 baseurl:          '/spokenweb-ualberta'
 copyright:        'copyright SpokenWeb, 2023'
 logo:             '/assets/logo-white.png'

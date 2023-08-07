@@ -21,7 +21,7 @@
             {% for temp in site.pages %}
             {% if title == temp.title %}
             <div class="carousel-item">
-                <div class="carousel-item__image" style="background-image: url({{ temp.featured_image | absolute_url }})"></div>
+                <div class="carousel-item__image" style="background-image: url({{ temp.featured_image | relative_url }})"></div>
                 <div class="carousel-item__info">
                     <div class="carousel-item__container">
                         <h2 class="carousel-item__subtitle">{{ temp.subtitle }}</h2>

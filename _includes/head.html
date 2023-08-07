@@ -5,10 +5,10 @@
     {{ site.title }}{% if page.label %} | {{ page.label }}{% elsif page.title %} | {{ page.title }}{% endif %}
   </title>
 
-  <link rel='icon' type='image/png' href="{{ 'img/logo.png' | absolute_url }}">
-  <link rel='stylesheet' href="{{ '/assets/styles.css' | absolute_url }}">
+  <link rel='icon' type='image/png' href="{{ 'img/logo.png' | relative_url }}">
+  <link rel='stylesheet' href="{{ '/assets/styles.css' | relative_url }}">
 
-  <script src="{{ '/assets/jquery-3.2.1.min.js' | absolute_url }}"></script>
+  <script src="{{ '/assets/jquery-3.2.1.min.js' | relative_url }}"></script>
 
  <!-- fonts -->
  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
