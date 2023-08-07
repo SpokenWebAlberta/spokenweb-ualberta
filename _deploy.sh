@@ -31,9 +31,11 @@ then
   echo "Failed to download for other reasons. Please try again later, and if this problem persists the build script is likely broken."
 else
   unzip -d ${temp_folder} "${temp_folder}/download.zip"
-  rm -R "$deploy_loc"
-  mkdir -p "${deploy_loc}"
-  tar -xvf "${temp_folder}/artifact.tar" -C "$deploy_loc"
+  rm -R $deploy_loc/*
+  #mkdir -p "${deploy_loc}"
+  mkdir -p "${temp_folder}/_site"
+  tar -xvf "${temp_folder}/artifact.tar" -C "${temp_folder}/_site"
+  cp -r "${temp_folder}/_site/." "${deploy_loc}/"
 fi
 
 rm -R "${temp_folder}"
