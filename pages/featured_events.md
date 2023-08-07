@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /featured_events
+permalink: /featured_events/
 title: Featured Events
 ---
 
