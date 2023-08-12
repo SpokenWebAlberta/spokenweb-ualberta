@@ -6,17 +6,20 @@ layout: default
   <h1 class='event-title'>{{ page.title }}</h1>
   <h3 class='event-location'> {{ page.event_location }}</h3>
   <h3 class='event-room'>{{ page.event_room }}</h3>
-  <h3 class='event-time'>{{ page.event_time }}</h3>
   <h3 class='event-start'>
     <time datetime='{{ page.event_date | date_to_xmlschema }}'>
-      {{ page.event_date | date: "%B %d" }}
+      {{ page.event_date | date: "%B %-d" }}
     </time>
     {% if page.event_end %}
       <time datetime='{{ page.publish_date | date_to_xmlschema }}'> -
-          {{ page.event_end | date: "%B %d, %Y" }}
+          {{ page.event_end | date: "%B %-d" }}
       </time>
     {% endif %}
+    <time datetime='{{ page.event_date | date_to_xmlschema }}'>
+      {{ page.event_date | date: ", %Y" }}
+    </time>
   </h3>
+  <h3 class='event-time'>{{ page.event_time }}</h3>
 </div>
 
 {{ content }}

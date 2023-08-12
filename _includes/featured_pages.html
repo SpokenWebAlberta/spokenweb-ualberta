@@ -21,7 +21,7 @@
             {% for temp in site.pages %}
             {% if title == temp.title %}
             <div class="carousel-item">
-                <div class="carousel-item__image" style="background-image: url({{ temp.featured_image | absolute_url }})"></div>
+                <div class="carousel-item__image" style="background-image: url({{ temp.featured_image | relative_url }})"></div>
                 <div class="carousel-item__info">
                     <div class="carousel-item__container">
                         <h2 class="carousel-item__subtitle">{{ temp.subtitle }}</h2>
@@ -31,13 +31,16 @@
                         <div class="carousel-item__date">
                             <p class='event-start'>
                                 <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
-                                  {{ temp.event_date | date: "%B %d, %Y" }}
+                                  {{ temp.event_date | date: "%B %-d" }}
                                 </time>
                                 {% if temp.event_end %}
                                   <time datetime='{{ page.publish_date | date_to_xmlschema }}'> -
-                                      {{ temp.event_end | date: "%B %d, %Y" }}
+                                      {{ temp.event_end | date: "%B %-d" }}
                                   </time>
                                 {% endif %}
+                                <time datetime='{{ temp.event_date | date_to_xmlschema }}'>
+                                  {{ temp.event_date | date: ", %Y" }}
+                                </time>
                             </p>
                         </div>
                         {% endif %}

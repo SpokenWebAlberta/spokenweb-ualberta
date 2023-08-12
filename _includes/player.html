@@ -88,10 +88,10 @@
 
                 let audio = document.getElementById("sp-audio-stream");
                 audio.addEventListener("play", function () {
-                    document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/pause-button.svg' | absolute_url }}')"
+                    document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/pause-button.svg' | relative_url }}')"
                 });
                 audio.addEventListener("pause", function () {
-                    document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/play-button.svg' | absolute_url }}')"
+                    document.getElementById("sp-play-button").style.backgroundImage = "url('{{ '/img/play-button.svg' | relative_url }}')"
                 });
                 audio.addEventListener("timeupdate", update);
                 audio.addEventListener("durationchange", update);
@@ -110,8 +110,8 @@
                 let index = (tracks.indexOf(current_audio) + 1).toString() + "/" + tracks.length.toString() + ": ";
 
                 document.getElementById("sp-audio-stream-title-link").textContent = index + annotations.get(track_value).get("title");
-                document.getElementById("sp-audio-stream-image-link").href = '{{ "/objects" | absolute_url }}/' + current_audio.toString();
-                document.getElementById("sp-audio-stream-title-link").href = '{{ "/objects" | absolute_url }}/' + current_audio.toString();
+                document.getElementById("sp-audio-stream-image-link").href = '{{ "/objects" | relative_url }}/' + current_audio.toString();
+                document.getElementById("sp-audio-stream-title-link").href = '{{ "/objects" | relative_url }}/' + current_audio.toString();
 
                 if (!paused) {
                     audio.play();
@@ -205,7 +205,7 @@
 
         <div class="sp-audio-featured-image">
             <a id="sp-audio-stream-image-link" href="">
-                <img src="{{ "img/cassette.svg" | absolute_url }}" alt="" id="sp-audio-stream-image">
+                <img src="{{ "img/cassette.svg" | relative_url }}" alt="" id="sp-audio-stream-image">
             </a>
         </div>
         <div class="sp-audio-controls">

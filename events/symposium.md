@@ -6,6 +6,7 @@ event_end: 2023-05-5
 event_location: The University of Alberta
 permalink: /events/symposium/
 featured_image: /img/Symposium-Logo-Black-nobg.png
+description: 'UAlberta hosts the 2023 SpokenWeb Research Symposium on the theme of "Reverb: Echo-Locations of Sound and Space.'
 ---
 <div class = "figure">
   <img src="{{ '/img/Symposium-Logo-Black-nobg.png' | absolute_url }}" width="600" />

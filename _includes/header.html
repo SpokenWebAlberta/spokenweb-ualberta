@@ -4,8 +4,8 @@
       <p class='header-logos'>
         {% for item in site.footer.logos %}
         {% assign link = item.link | default: '#' %}
-        <a href="{{ link | absolute_url }}" aria-label="Logo link to resource">
-          <img src='{{ item.img | absolute_url }}' alt="logo"/>
+        <a href="{{ link | relative_url }}" aria-label="Logo link to resource">
+          <img src='{{ item.img | relative_url }}' alt="logo"/>
         </a>
         {% endfor %}
       </p>
@@ -23,18 +23,18 @@
                 </a>
                 <div class='dropdown-menu' aria-labelledby='wax-{{ item.label | slugify }}-dropdown'>
                   {% for sub in item.sub %}
-                    <a class='dropdown-item' href='{{ sub.link | absolute_url }}'>{{ sub.label }}</a>
+                    <a class='dropdown-item' href='{{ sub.link | relative_url }}'>{{ sub.label }}</a>
                   {% endfor %}
                 </div>
               </li>
             {% else %}
               <li class='nav-item'>
-                <a class='nav-link' href='{{ item.link | absolute_url }}'>{{ item.label }}</a>
+                <a class='nav-link' href='{{ item.link | relative_url }}'>{{ item.label }}</a>
               </li>
             {% endif %}
           {% endfor %}
         </ul>
     </div>
-    <form class='search-block' onsubmit="submit_test()" method="GET" action="{{ 'search/' | absolute_url }}"><input type="text" placeholder="" name="search" id="sp-search-form"></form>
+    <form class='search-block' onsubmit="submit_test()" method="GET" action="{{ '/search' | relative_url }}"><input type="text" placeholder="" name="search" id="sp-search-form"></form>
   </div>
  </nav>

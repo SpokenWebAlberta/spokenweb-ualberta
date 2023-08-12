@@ -50,7 +50,9 @@ responsive header
 */
 
 @media (max-width: $format-switch) {
-  .wax-inline-container-header { background-color: $brand-red !important; }
+  .wax-inline-container-header { background-color: $brand-red !important; 
+    .search-block {display: none !important; }
+  }
   .nav-link:hover {background-color: $accent-dark !important; }
   .nav-link:active {background-color: $accent-dark !important; }
   .navbar-nav { .nav-item { background-color: $brand-red!important; } }
@@ -61,11 +63,13 @@ responsive header
   .navbar-nav { text-align: left; }
   .navbar-collapse {flex-basis: 100% !important; }
   .navbar-nav { padding-left: 1.5rem !important; padding-right: 1.5rem !important; padding-bottom: 1.5rem !important; padding-top: 0rem !important; }
-  .navbar-toggler {margin-right: 3rem !important; }
-  .col-header {padding-right: 0rem !important; }
-  .search-block {display: none !important; }
-  
-
+  .navbar-toggler {margin: 1rem !important; margin-left: 0rem !important; }
+  .col-header {padding-right: 0rem !important; padding-left: 0rem !important; min-width: 280px !important; }
+  #wax-footer { padding-bottom: 3rem !important; }
+  #splash-main h2 {margin-left: 4rem !important; }
+  #splash-main p {margin-left: 4rem !important; }
+  #splash-main #wax-content hr {margin-right: 2rem !important; }
+  #wax-main {padding-bottom: 2rem !important;}
 }
 
 
@@ -195,7 +199,6 @@ splash page
     background-image: none;
   }
 
-
   #wax-content {
     margin: 0rem;
 
@@ -305,10 +308,6 @@ main page
   //padding-top: $margin;
   padding-bottom: 5rem;
 
-  @media (max-width: 700px) {
-    padding-bottom: 0rem !important;
-  }
-
   h1, h2, h3, h4, h5, h5, h6 {
     margin-bottom: $less-margin;
     margin-top: $more-margin;
@@ -362,7 +361,7 @@ main page
   }
 
   .footnotes ol {
-    padding-left: 0;
+    padding-left: 1rem;
   }
 
   li {
@@ -372,6 +371,21 @@ main page
     line-height: 2rem;
     max-width: 100%;
   }
+
+
+/*
+
+Exhibit/Events
+
+*/
+hr.bioline {
+  border-top: 1px solid red;
+}
+
+hr.network {
+  margin-top: $super-margin;
+  margin-bottom: $super-margin;
+}
 
   #wax-content {
     .exhibit-meta {
@@ -415,7 +429,7 @@ main page
         margin-left: 1rem;
       }
 
-      .event-date, .event-location {
+      .event-start, .event-location {
         font-weight: 600;
         margin-top: 1rem;
       }
@@ -429,6 +443,36 @@ main page
         display: none;
       }
 
+    }
+
+    ul {
+      padding-left: 0rem;
+    }
+    .event-blog {
+      max-width: 600px;
+      .event-title {
+        margin: 0rem;
+        padding-bottom: none;
+        font-size: 1.75rem;
+        @media (max-width: 700px) {
+          font-size: 1.25rem;
+        }
+      }
+      .event-start {
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin: $less-margin;
+        @media (max-width: 700px) {
+          font-weight: 400;
+        }
+      }
+      p {
+        font-weight: 500;
+        margin-top: $less-margin;
+      }
+      img {
+        max-height: 300px;
+      }
     }
 
     .btn2 {
@@ -495,6 +539,9 @@ Image Captions
       float: left;
       margin: 1em;
       max-width: 125px;
+      @media (max-width: 700px) {
+        float: left !important;
+      }
     }
 
     .contact {
@@ -1096,6 +1143,18 @@ Carousel New Container Test
     }
 }
 
+.carousel-item__date {
+    transform: translateY(25%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s all ease-in-out;
+    p.event-start {
+      color: #7e7e7e;
+      font-weight: 500;
+    }
+
+}
+
 .carousel-item--1 .carousel-item__image{
   background-image: url('../img/nagra-tape.jpeg');
 }
@@ -1190,7 +1249,7 @@ Carousel New Container Test
   visibility:visible;
 }
 
-.active .carousel-item__subtitle, .active .carousel-item__title, .active .carousel-item__description,.active .carousel-item__btn{
+.active .carousel-item__subtitle, .active .carousel-item__title, .active .carousel-item__date, .active .carousel-item__description,.active .carousel-item__btn{
     transform: translateY(0);
     opacity: 1;
   transition: 0.6s all ease-in-out;
