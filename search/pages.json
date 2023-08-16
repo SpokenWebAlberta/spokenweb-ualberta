@@ -17,6 +17,7 @@
     "Subject": "{{ page.Subject }}",
     "Type": "{{ page.Type }}",
     "Note": "{{ page.Note }}",
+    "Content": "{{ page.content }}",
     "Event Location": "{{ page.Event_Location }}"
   }{% if forloop.last == false %},{% endif %}
   {% endfor %}
