@@ -17,7 +17,7 @@
     "Subject": "{{ page.Subject }}",
     "Type": "{{ page.Type }}",
     "Note": "{{ page.Note }}",
-    "Content": "{{ page.content }}",
+    "Content": "{{ page.content | escape }}",
     "Event Location": "{{ page.Event_Location }}"
   }{% if forloop.last == false %},{% endif %}
   {% endfor %}
