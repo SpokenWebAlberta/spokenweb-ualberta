@@ -820,7 +820,7 @@ input::placeholder {
 }
 
 input:focus {
-  outline: none;
+  outline: none !important;
   background-image: none;
   transition: .2s;
 }
@@ -834,13 +834,25 @@ input:focus {
     margin-bottom: $more-margin;
   }
 
+  #search:focus {
+    border-color: darkgray !important;
+    outline: 3px solid rgba(187, 186, 186, 0.497) !important;
+    box-shadow: none;
+  }
+
   #results {
     margin: 0;
+    
+    .results-info {
+      font-weight: 600;
+      color: #5d5d5d;
+    }
+    
     .result {
       padding: 1em;
 
       a {
-        color: $text-color;
+        color: grey;
         text-decoration: none;
         display: flex;
         justify-content: flex-start;
@@ -858,12 +870,15 @@ input:focus {
 
           .title {
             color: $accent-light;
+            font-size: large;
+            font-weight: 500;
+            
           }
         }
       }
 
       &:hover {
-        background-color: $neutral;
+        background-color: rgba(226, 225, 225, 0.289);
 
       }
     }
