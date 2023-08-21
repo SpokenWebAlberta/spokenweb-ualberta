@@ -836,35 +836,18 @@ input:focus {
 
   #results {
     margin: 0;
-    .result {
+    .search-result {
       padding: 1em;
-
-      a {
-        color: $text-color;
-        text-decoration: none;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-wrap: nowrap;
-
-        img {
-          float: left;
-          width: 50px;
-        }
-
-        p {
-          margin: 0 !important;
-          padding: 0;
-
-          .title {
-            color: $accent-light;
-          }
-        }
+      border-bottom: 1px solid black;
+      .search-title {
+        color: red;
       }
 
-      &:hover {
-        background-color: $neutral;
+      .search-type {
+        text-transform:capitalize;
+      }
 
+      .search-description {
       }
     }
   }

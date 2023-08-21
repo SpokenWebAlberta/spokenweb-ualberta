@@ -11,7 +11,7 @@ featured_pages:
 
 <hr>
 
-This site is currently having it's deploy tested.
+This site is currently having its deploy tested.
 
 Welcome to The SpokenWeb at the University of Alberta in Edmonton, Canada. We're part of the larger SpokenWeb Network of researchers across Canada and the United States.
 
