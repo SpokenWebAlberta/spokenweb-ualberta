@@ -12,6 +12,15 @@ function setObject(type) {
 }
 
 
+function setDescription(desc) {
+  if (desc !== null) {
+    return `<p class=\"search-description\">${desc}</p>`;
+  } else {
+    return "";
+  }
+}
+
+
 function displayResult(item, fields, url) {
   let type = setObject(item.layout)
 
@@ -21,7 +30,7 @@ function displayResult(item, fields, url) {
         <div class="search-inner-results">
           <p class="search-title">${item.title}</p>
           <p class="search-type">${type}</p>
-          <p class="search-description">${item.description}</p>
+          ${setDescription(item.description)}
         </div>
       </a>
     </div>`;
