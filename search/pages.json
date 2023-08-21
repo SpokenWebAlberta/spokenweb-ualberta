@@ -19,7 +19,7 @@
     "Note": {{ page.Note | jsonify }},
     "Event Location": {{ page.Event_Location | jsonify }},
     "description": {{ page.description | jsonify }},
-    "Content": {{ page.content | jsonify }},
+    "content": {{ page.content | jsonify }},
     "layout": {{ page.layout | jsonify }}
   }{% if forloop.last == false %},{% endif %}
   {% endfor %}
