@@ -1,17 +1,30 @@
 // Methods and jQuery UI for Wax search box
-function getThumbnail(item, url) {
-  if ('thumbnail' in item) {
-    return `<img class='sq-thumb-sm' src='${item.thumbnail}'/>`
-  }
-  else {
-    return '';
+
+
+function setObject(type) {
+  if (type === "object") {
+    return "Audio";
+  } else if (type === "default") {
+    return "Page";
+  } else {
+    return type;
   }
 }
 
+
 function displayResult(item, fields, url) {
-  var link  = item.permalink;
-  var thumb = getThumbnail(item, url);
-  return `<div class="result"><a href="${url}${link}">${thumb} <p><span class="title">${item.title}</span></p></a></div>`;
+  let type = setObject(item.layout)
+
+  return `
+    <div class="search-result">
+      <a href="${url}${item.permalink}">
+        <div class="search-inner-results">
+          <p class="search-title">${item.title}</p>
+          <p class="search-type">${type}</p>
+          <p class="search-description">${item.description}</p>
+        </div>
+      </a>
+    </div>`;
 }
 
 function startSearchUI(fields, indexFile, url) {
