@@ -63,6 +63,7 @@ search:
   pages:
     index: '/search/pages.json' # file the index will get written to
     fields: # the metadata fields to index
+      - description
       - title
       - author
       - publish_date
@@ -76,6 +77,8 @@ search:
       - Type
       - Note
       - Event Location
+      - content
+      - layout
 
 
 # --------------------------------------------------------------
