@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: '/team/'
+title: 'Our Team'
+description: 'Meet the SpokenWeb UAlberta team.'
 ---
 
 <h6 class = 'page-title'>Our Team</h6>

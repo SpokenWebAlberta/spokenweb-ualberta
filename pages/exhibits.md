@@ -2,6 +2,7 @@
 layout: default
 permalink: /exhibits/
 title: All Exhibits
+description: 'Archive of exhibits.'
 ---
 
 <h2 class='page-title'>{{ page.title }}</h2>

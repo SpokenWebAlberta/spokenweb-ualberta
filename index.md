@@ -1,10 +1,12 @@
 ---
-layout: splash_layout
+layout: welcome
 featured_pages:
   - 'Jars Balan'
   - 'Voiceprint'
   - 'Celebrations'
   - 'New Exhibit'
+title: 'SpokenWeb UAlberta'
+description: 'Welcome to the SpokenWeb at the University of Alberta.'
 ---
 
 ## Sounding Literature
