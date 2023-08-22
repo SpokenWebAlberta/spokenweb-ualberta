@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /collection/
+description: 'Rights Management Statement'
 ---
 
 <h2 class='page-title'>About Our Collection</h2>
