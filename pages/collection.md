@@ -1,7 +1,8 @@
 ---
 layout: default
 permalink: /collection/
-description: 'Rights Management Statement'
+description: 'This collection is made available for non-commercial research and educational purposes...'
+title: 'About Our Collection'
 ---
 
 <h2 class='page-title'>About Our Collection</h2>
