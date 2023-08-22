@@ -2,6 +2,7 @@
 layout: default
 permalink: /featured_events/
 title: Featured Events
+description: "Explore SpokenWeb UAlberta's featured events."
 ---
 
 <h2>Latest Events</h2>

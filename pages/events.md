@@ -2,6 +2,7 @@
 layout: default
 permalink: /events/
 title: All Events
+description: 'Archive of upcoming and past events.'
 ---
 
 <h2 class='page-title'>{{ page.title }}</h2>
