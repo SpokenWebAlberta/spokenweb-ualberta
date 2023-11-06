@@ -12,6 +12,8 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{ '/img/bio/Mike.jpg' | absolute_url }}" /></div>
 **Michael O'Driscoll** brings needed expertise in archive theory, poetry and poetics, and material culture studies and strong leadership and organizational skills from extensive administrative experience as a journal editor, national association executive member, project leader, and major conference organizer. <br><br>
 
+<div class = "figure bio">Tjhis is some text.</div>
+
 
 <div class = "figure bio"><img src="{{ '/img/bio/Rockwell.jpg' | absolute_url }}" /></div>
 **Geoffrey Rockwell** directs the Kule Institute for Advanced Study.  His expertise in the development of research tools for the humanities, the design of interactive multimedia, the archiving of digital research data, and the development of data standards for the humanities will support work on prototypes of web interactives and the multiple areas involving data methods for documentation, standards, protocols in our digital archive projects.
