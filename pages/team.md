@@ -10,15 +10,15 @@ description: 'Meet the SpokenWeb UAlberta team.'
 ### Affiliated Faculty
 
 <div class = "figure bio"><img src="{{ '/img/bio/Mike.jpg' | absolute_url }}" /></div>
-**Michael O'Driscoll** brings needed expertise in archive theory, poetry and poetics, and material culture studies and strong leadership and organizational skills from extensive administrative experience as a journal editor, national association executive member, project leader, and major conference organizer. <br><br>
+**Michael O'Driscoll** brings needed expertise in archive theory, poetry and poetics, and material culture studies and strong leadership and organizational skills from extensive administrative experience as a journal editor, national association executive member, project leader, and major conference organizer. He is the Director of the Kule Institute for Advanced Study. <br><br>
 
 
 <div class = "figure bio"><img src="{{ '/img/bio/Rockwell.jpg' | absolute_url }}" /></div>
-**Geoffrey Rockwell** directs the Kule Institute for Advanced Study.  His expertise in the development of research tools for the humanities, the design of interactive multimedia, the archiving of digital research data, and the development of data standards for the humanities will support work on prototypes of web interactives and the multiple areas involving data methods for documentation, standards, protocols in our digital archive projects.
+**Geoffrey Rockwell** His expertise in the development of research tools for the humanities, the design of interactive multimedia, the archiving of digital research data, and the development of data standards for the humanities will support work on prototypes of web interactives and the multiple areas involving data methods for documentation, standards, protocols in our digital archive projects.
 
 
 <div class = "figure bio"><img src="{{ '/img/bio/Luyk.jpg' | absolute_url }}" /></div>
-**Sean Luyk** works to digitize, presever, and provide access to U Alberta audio and contributes to research on the use of audio recordings in virtual research environments.<br><br><br>
+**Sean Luyk** Digital Curation Librarian who works to digitize, preserve, and provide access to UAlberta audio and contributes to research on the use of audio recordings in virtual research environments, including ethical curation.<br><br><br>
 
 ### Research Associates  
 
@@ -28,7 +28,7 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{ '/img/bio/Kroon.jpg' | absolute_url }}" /></div>
 **Ariel Kroon** is a recent graduate of U of A. Her PhD thesis studied narratives of crisis in Canadian post-apocalyptic science fiction from 1948-1989, and what contemporary Canadians can learn from them. She is interested in the ways that the attitudes of the past shape our future-oriented imaginaries and actions in the present. She has published in SFRA Review and The Goose, and is currently a non-fiction editor at Solarpunk Magazine. Research interests of hers include post-humanist feminist theory and philosophy, ecocriticism, and solarpunk. Connect with her on YouTube, at Academia.edu, or her personal blog.
 
-### Graduate Research Assistants
+### Research Assistants
 
 <div class = "figure bio"><img src="{{ '/img/bio/Beaulieu.jpg' | absolute_url }}" /></div>
 **Maddie Beaulieu** is a fourth year English and Art, Design, and Visual Culture undergraduate student at the University of Alberta. Their research interests include materiality, feminism, and collaboration in small press; visual and concrete poetry; and contemporary speculative fiction. As part of the SpokenWeb team, she assists with locating and reproducing ephemera related to the literary audio collection.
