@@ -37,8 +37,8 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{ '/img/bio/Trotter.jpg' | absolute_url }}" /></div>
 **Maia Trotter** (she/her) lives, studies and works on Treaty 6 territory. Maia is a second-year Master of Library and Information Studies student at the University of Alberta. She received her Bachelor of English Honours from Simon Fraser University. Her current research interests are focused on community and feminist-driven metadata practices in digital initiatives, and the emotive evocations of sounds of public spaces like libraries.
 
-<div class = "figure bio"><img src="{{ '/img/bio/Morrison.jpg' | absolute_url }}" /></div>
-**Zach Morrison** is a PhD student in the department of English and Film Studies at the University of Alberta. His research interests include late twentieth century American culture and criticism, psychoanalytic and post-psychoanalytic theory, anti-psychiatry, and affect theory. <br><br>
+<div class = "figure bio"><img src="{{ '/img/bio/.jpg' | absolute_url }}" /></div>
+**Zach Morrison**  is an MA student in the Department of English and Film Studies at the University of Alberta. She conducts research in the field of early modern theatre and women’s writing. Previously, Xuege participated in two nationally funded projects focusing on British theatre. She also presented her work, which examines the influence of antiquity in Early Modern English women’s translations, at the Sixteenth Century Society's Annual Conference. As a Graduate Research Assistant, Xuege is tasked with creating metadata and indexes for the Aviary repository. <br><br>
 
 ### Graphic Designer
 
