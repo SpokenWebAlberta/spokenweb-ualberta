@@ -30,12 +30,12 @@ description: 'Meet the SpokenWeb UAlberta team.'
 
 ### Research Assistants
 
-<div class = "figure bio"><img src="{{ '/img/bio/Sarah_Aug23.jpg' | absolute_url }}" /></div>
-**Sarah Freeman** is an undergraduate student at the University of Alberta, studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
-
-
 <div class = "figure bio"><img src="{{ '/img/bio/Trotter.jpg' | absolute_url }}" /></div>
 **Maia Trotter** (she/her) lives, studies and works on Treaty 6 territory. Maia is a second-year Master of Library and Information Studies student at the University of Alberta. She received her Bachelor of English Honours from Simon Fraser University. Her current research interests are focused on community and feminist-driven metadata practices in digital initiatives, and the emotive evocations of sounds of public spaces like libraries.
+<div class = "figure bio"><img src="{{ '/img/bio/Sarah_Aug23.jpg' | absolute_url }}" /></div>
+
+**Sarah Freeman** is an undergraduate student at the University of Alberta, studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant./></div>
+
 
 <div class = "figure bio"><img src="{{ '/img/bio/Xuege Wu 1.jpeg' | absolute_url }}" /></div>
 **Xuege Wu** is an MA student in the Department of English and Film Studies at the University of Alberta. She conducts research in the field of early modern theatre and women’s writing. Previously, Xuege participated in two nationally funded projects focusing on British theatre. She also presented her work, which examines the influence of antiquity in Early Modern English women’s translations, at the Sixteenth Century Society's Annual Conference. As a Graduate Research Assistant, Xuege is tasked with creating metadata and indexes for the Aviary repository.
