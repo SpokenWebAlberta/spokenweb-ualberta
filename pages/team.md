@@ -33,6 +33,7 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{ '/img/bio/Sarah_Aug23.jpg' | absolute_url }}" /></div>
 **Sarah Freeman** is an undergraduate student at the University of Alberta, studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
 
+
 <div class = "figure bio"><img src="{{ '/img/bio/Trotter.jpg' | absolute_url }}" /></div>
 **Maia Trotter** (she/her) lives, studies and works on Treaty 6 territory. Maia is a second-year Master of Library and Information Studies student at the University of Alberta. She received her Bachelor of English Honours from Simon Fraser University. Her current research interests are focused on community and feminist-driven metadata practices in digital initiatives, and the emotive evocations of sounds of public spaces like libraries.
 
@@ -41,6 +42,8 @@ description: 'Meet the SpokenWeb UAlberta team.'
 
 <div class = "figure bio"><img src="{{ '/img/bio/catalina_torres.jpeg' | absolute_url }}" /></div>
 **Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, ghostwriter, and Senior Editor/Publisher. <br><br>
+
+
 
 ### Graphic Designer
 
