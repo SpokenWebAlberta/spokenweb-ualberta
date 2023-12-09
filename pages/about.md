@@ -14,6 +14,10 @@ description: 'The University of Alberta is an institutional member of the SSHRC 
 </div>
 <br>
 
+<video width="320" height="240" controls>
+  <source src="https://github.com/Torresbe/spokenweb-ualberta/blob/main/img/SpokenWeb2%20(4).mp4" type="video/mp4">
+
+</video>
 ## History
 
 **Ever wonder what happened to all those reel-to-reel or cassette recordings made decades ago that were tucked into cardboard boxes to await future audiences?** In and around university campuses across Canada, thousands of such recordings were made when local or visiting authors presented and discussed their work. However, most of those recordings have never been made publicly available, until now. 
