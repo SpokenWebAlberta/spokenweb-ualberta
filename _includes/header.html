@@ -18,16 +18,15 @@
           {% for item in site.menu %}
             {% if item.sub %}
               <li class='nav-item dropdown'>
-    <a class='nav-link dropdown-toggle' href='#' id='media-stories-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-        Media Stories
-    </a>
-    <div class='dropdown-menu' aria-labelledby='media-stories-dropdown'>
-        <a class='dropdown-item' href='/https://www.cbc.ca/listen/live-radio/1-17-edmonton-am/clip/16020058-preserving-sound-canadas-literary-history'>Audio File</a>
-        <a class='dropdown-item' href='/https://nationalpost.com/news/canada/vast-digital-trove-of-canadian-greats'>Background</a>
-        <!-- Añade aquí más enlaces a artículos como elementos de lista -->
-    </div>
-</li>
-
+                <a class='nav-link dropdown-toggle' href='#' id='wax-{{ item.label | slugify }}-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                  {{ item.label }}
+                </a>
+                <div class='dropdown-menu' aria-labelledby='wax-{{ item.label | slugify }}-dropdown'>
+                  {% for sub in item.sub %}
+                    <a class='dropdown-item' href='{{ sub.link | relative_url }}'>{{ sub.label }}</a>
+                  {% endfor %}
+                </div>
+              </li>
             {% else %}
               <li class='nav-item'>
                 <a class='nav-link' href='{{ item.link | relative_url }}'>{{ item.label }}</a>
