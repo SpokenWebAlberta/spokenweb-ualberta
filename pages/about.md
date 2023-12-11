@@ -15,7 +15,7 @@ description: 'The University of Alberta is an institutional member of the SSHRC 
 <br>
 
 <video width="320" height="240" controls>
-  <source src="https://github.com/Torresbe/spokenweb-ualberta/blob/main/img/SpokenWeb2%20(4).mp4" type="video/mp4">
+  <source src="[https://github.com/Torresbe/spokenweb-ualberta/blob/main/img/SpokenWeb2%20(4).mp4" type="video/mp4](https://youtu.be/p8UF3GIZbjk?si=5LAPux9FUE92rtHo.)">
 
 </video>
 ## History
