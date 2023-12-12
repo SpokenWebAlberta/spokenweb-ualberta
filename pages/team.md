@@ -30,7 +30,7 @@ description: 'Meet the SpokenWeb UAlberta team.'
 
 ### Research Assistants
 
-<div class = "figure bio"><img src="{{ '/img/bio/Sarah-dic08.jpg' | absolute_url }}" /></div>
+<div class = "figure bio"><img src="{{ '/img/bio/Sarah-Freeman.jpeg' | absolute_url }}" /></div>
 **Sarah Freeman** is an undergraduate student at the University of Alberta, studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
 
 <div class = "figure bio"><img src="{{ '/img/bio/Trotter.jpg' | absolute_url }}" /></div>
