@@ -14,9 +14,9 @@ description: 'The University of Alberta is an institutional member of the SSHRC 
 </div>
 <br>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p8UF3GIZbjk?si=X6LaJa-kU_awmES9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/TUeFioRhuDQ](https://www.youtube.com/watch?v=p8UF3GIZbjk)" frameborder="0" allowfullscreen></iframe>
 
 ## History
 
