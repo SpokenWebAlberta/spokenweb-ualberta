@@ -1,5 +1,5 @@
 ---
-layout: Ifeoma Chinwuba New Novel 
+layout: event 
 title: Sons of the East Events
 event_date: "2023-12-20"
 event_time: 2:00-4:00 PM MT
