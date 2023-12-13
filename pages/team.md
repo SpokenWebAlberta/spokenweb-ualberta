@@ -45,7 +45,7 @@ description: 'Meet the SpokenWeb UAlberta team.'
 **Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, ghostwriter, and Senior Editor/Publisher. 
 
 <div class = "figure bio"><img src="{{ '/img/bio/Sarah-dic08.jpg' | absolute_url }}" /></div>
-**Sarah Freeman** is an undergraduate student at the University of Alberta. She is studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant. fefefefefefefefefefefefefefeffefefefef.
+**Sarah Freeman** is an undergraduate student at the University of Alberta. She is studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
 <br><br><br>
 
 
