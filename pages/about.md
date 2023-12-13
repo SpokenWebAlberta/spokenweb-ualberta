@@ -17,6 +17,11 @@ description: 'The University of Alberta is an institutional member of the SSHRC 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p8UF3GIZbjk?si=X6LaJa-kU_awmES9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+<audio controls>
+  <source src="https://cbcradiolive.akamaized.net/hls/live/2041031/ES_R1EQQ/master.m3u8" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 
 ## History
 
