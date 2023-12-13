@@ -544,6 +544,10 @@ Image Captions
       }
     }
 
+    .figure.bio img {
+      clear: left;
+    }
+    
     .contact {
       max-width: 500px;
       display: block;
