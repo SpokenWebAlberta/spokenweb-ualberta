@@ -1,14 +1,14 @@
 ---
 layout: event
 title: Sons of the East Events
-event_date: "2023-11-28"
-event_time: 8:00-9:30 AM MT
-event_end:
+event_date: "2023-12-20"
+event_time: 2:00 PM MT
+event_end:-4:00 PM MT
 event_location: Google Meet
 event_room: Salter Reading Room, HC-3-95
 permalink: /events/event5/
-featured_image: /img/Kit-Dobson.jpeg
-description: "Join us for a conversation with author Kit Dobson on methodologies of listening and the ways they might open up alternative forms for scholars."
+featured_image: /img/Sons_of_the_East_Events.jpg
+description: "The Department of English and Film Studies is delighted to welcome Ifeoma Chinwuba, Writer in Residence 2021-22, for a pair of events celebrating her new novel, Sons of the East, published this year by Griots Lounge."
 ---
 <div class = "figure">
   <img src="{{ '/img/Sons_of_the_East_Events.jpg' | absolute_url }}" width="600" />
