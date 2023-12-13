@@ -18,6 +18,5 @@ description: "The Department of English and Film Studies is delighted to welcome
 
 These events are supported by the Department of English and Film Studies and by SpokenWeb. 
 
-<div class = "figure">
-  <img src="{{ '/img/CLC-Logo-2023.png' | absolute_url }}" width="400" />
+
 </div>
