@@ -6,7 +6,7 @@ event_time: 2:00-4:00 PM MT
 event_end:
 event_location: Humanities Centre
 event_room: Salter Reading Room, HC-3-95 or https://us02web.zoom.us/j/81821182148#success
-permalink: /events/event5.md/
+permalink: /events/event5/
 featured_image: /img/Sons_of_the_East_Events13.jpg
 description: "SpokenWeb UAlberta and the Department of English and Film Studies at the University of Alberta are pleased to present Ifeoma Chinwuba and her new novel published by Griots Lounge 2023."
 ---
