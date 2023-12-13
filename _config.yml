@@ -114,12 +114,12 @@ menu:
       - label: 'Celebrations'
         link: '/exhibits/celebrations/'
 
-  - label: 'Medis Stories'
+  - label: 'Media Stories'
     sub:
       - label: 'Story 1'
         link: '/stories/story1/'
       
-  - label: 'Events'  
+   
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
