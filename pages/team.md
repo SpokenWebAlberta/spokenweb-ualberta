@@ -30,8 +30,7 @@ description: 'Meet the SpokenWeb UAlberta team.'
 
 ### Research Assistants
 
-<div class = "figure bio"><img src="{{ '/img/bio/Sarah-Freeman.jpeg' | absolute_url }}" /></div>
-**Sarah Freeman** is an undergraduate student at the University of Alberta, studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
+
 
 <div class = "figure bio"><img src="{{ '/img/bio/Trotter.jpg' | absolute_url }}" /></div>
 **Maia Trotter** (she/her) lives, studies and works on Treaty 6 territory. Maia is a second-year Master of Library and Information Studies student at the University of Alberta. She received her Bachelor of English Honours from Simon Fraser University. Her current research interests are focused on community and feminist-driven metadata practices in digital initiatives, and the emotive evocations of sounds of public spaces like libraries.
@@ -39,8 +38,15 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{ '/img/bio/Xuege-Wudic8.jpeg' | absolute_url }}" /></div>
 **Xuege Wu** is an MA student in the Department of English and Film Studies at the University of Alberta. She conducts research in the field of early modern theatre and women’s writing. Previously, Xuege participated in two nationally funded projects focusing on British theatre. She also presented her work, which examines the influence of antiquity in Early Modern English women’s translations, at the Sixteenth Century Society's Annual Conference. As a Graduate Research Assistant, Xuege is tasked with creating metadata and indexes for the Aviary repository.
 
+<div class = "figure bio"><img src="{{ '/img/bio/Dube-Caitlyn.jpeg' | absolute_url }}" /></div>
+**Caitlyn Dubé** is a PhD student at the University of Alberta, aiding UAlberta’s SpokenWeb team with its digital archival processes (metadata and timestamping). As a Research Assistant with a passion for moving the social sciences into public-facing formats, Caitlyn brings to SpokenWeb her expertise in content & copy editing, literary analysis, music production, and graphic design & illustration. 
+
 <div class = "figure bio"><img src="{{ '/img/bio/catalina-torres.jpeg' | absolute_url }}" /></div>
-**Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, ghostwriter, and Senior Editor/Publisher. <br><br><br>
+**Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, ghostwriter, and Senior Editor/Publisher. 
+
+<div class = "figure bio"><img src="{{ '/img/bio/Sarah-Freeman.jpeg' | absolute_url }}" /></div>
+**Sarah Freeman** is an undergraduate student at the University of Alberta. She is studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
+<br><br><br>
 
 
 
