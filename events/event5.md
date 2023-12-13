@@ -2,11 +2,11 @@
 layout: event
 title: Sons of the East Events
 event_date: "2023-12-20"
-event_time: 2:00 PM MT
-event_end:-4:00 PM MT
-event_location: Google Meet
+event_time: 2:00-4:00 PM MT
+event_end:
+event_location: Humanities Centre
 event_room: Salter Reading Room, HC-3-95
-permalink: /events/event5/
+permalink: /events/event5.md/
 featured_image: /img/Sons_of_the_East_Events.jpg
 description: "The Department of English and Film Studies is delighted to welcome Ifeoma Chinwuba, Writer in Residence 2021-22, for a pair of events celebrating her new novel, Sons of the East, published this year by Griots Lounge."
 ---
