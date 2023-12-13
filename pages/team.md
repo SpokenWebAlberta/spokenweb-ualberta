@@ -38,7 +38,7 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{ '/img/bio/Xuege-Wudic8.jpeg' | absolute_url }}" /></div>
 **Xuege Wu** is an MA student in the Department of English and Film Studies at the University of Alberta. She conducts research in the field of early modern theatre and women’s writing. Previously, Xuege participated in two nationally funded projects focusing on British theatre. She also presented her work, which examines the influence of antiquity in Early Modern English women’s translations, at the Sixteenth Century Society's Annual Conference. As a Graduate Research Assistant, Xuege is tasked with creating metadata and indexes for the Aviary repository.
 
-<div class = "figure bio"><img src="{{ '/img/bio/Dube-Caitlyn13.jpeg' | absolute_url }}" /></div>
+<div class = "figure bio"><img src="{{ '/img/bio/Dube_Caitlyn.jpeg' | absolute_url }}" /></div>
 **Caitlyn Dubé** is a PhD student at the University of Alberta, aiding UAlberta’s SpokenWeb team with its digital archival processes (metadata and timestamping). As a Research Assistant with a passion for moving the social sciences into public-facing formats, Caitlyn brings to SpokenWeb her expertise in content & copy editing, literary analysis, music production, and graphic design & illustration. 
 
 <div class = "figure bio"><img src="{{ '/img/bio/catalina-torres.jpeg' | absolute_url }}" /></div>
