@@ -114,6 +114,13 @@ menu:
       - label: 'Celebrations'
         link: '/exhibits/celebrations/'
 
+  - label: 'Media Stories'
+    sub:
+      - label: 'Story 1'
+        link: '/stories/story1/'
+      
+   
+
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
 # --------------------------------------------------------------

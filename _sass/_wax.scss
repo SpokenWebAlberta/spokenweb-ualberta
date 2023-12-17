@@ -537,6 +537,7 @@ Image Captions
 
     .figure.bio {
       float: left;
+      clear: left; /* fix indento of headshots*/
       margin: 1em;
       max-width: 125px;
       @media (max-width: 700px) {
@@ -544,6 +545,7 @@ Image Captions
       }
     }
 
+    
     .contact {
       max-width: 500px;
       display: block;
