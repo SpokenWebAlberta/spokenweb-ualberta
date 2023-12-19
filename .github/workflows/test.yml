@@ -12,6 +12,6 @@ jobs:
         with:
           bundler-cache: true
       - name: install
-        run: gem install bundler && bundle
+        run: gem install bundler -v 2.4.22 && bundle
       - name: test
         run: bundle exec rake wax:test
