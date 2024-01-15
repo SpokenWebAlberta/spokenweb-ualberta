@@ -44,8 +44,6 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{ '/img/bio/Dube_Caitlyn.jpeg' | absolute_url }}" /></div>
 **Caitlyn Dubé** is a PhD student at the University of Alberta, aiding UAlberta’s SpokenWeb team with its digital archival processes (metadata and timestamping). As a Research Assistant with a passion for moving the social sciences into public-facing formats, Caitlyn brings to SpokenWeb her expertise in content & copy editing, literary analysis, music production, and graphic design & illustration. 
 
-<div class = "figure bio"><img src="{{ '/img/bio/catalina-torres.jpeg' | absolute_url }}" /></div>
-**Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, ghostwriter, and Senior Editor/Publisher. 
 
 
 <br><br><br>
