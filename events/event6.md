@@ -8,7 +8,7 @@ event_location: Art and Convocation Old Building
 event_room: Arts Student Lounge
 permalink: /events/event6/
 featured_image: 
-description: "Join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term. The series dates will be Friday February 2, Friday March 1, Thursday April 4, Thursday May 2."
+description: "Join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term. The series dates will be: February 2, March 1, April 4, May 2."
 ---
 
 <div class = "figure">
