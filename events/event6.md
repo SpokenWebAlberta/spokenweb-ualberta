@@ -7,7 +7,7 @@ event_end:
 event_location: Art and Convocation Old Building 
 event_room: Arts Student Lounge
 permalink: /events/event6/
-featured_image: <img src="{{ '/img/SpokenWest Template 2024(1).jpg' | absolute_url }}" width="600" />
+featured_image: /img/SpokenWest Template 2024(1).jpg'
 </div>
 description: "A local Listening Series. Join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term. "
 ---
