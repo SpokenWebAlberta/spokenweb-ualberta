@@ -1,6 +1,6 @@
 ---
 layout: event 
-title: SpokenWest:A local Listening Series
+title: SpokenWest
 event_date: "2024-02-02"
 event_time: 2:30-3:30 PM MT
 event_end:
@@ -8,18 +8,21 @@ event_location: Art and Convocation Old Building
 event_room: Arts Student Lounge
 permalink: /events/event6/
 featured_image: 
-description: "Join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term. The series dates will be: February 2, March 1, April 4, May 2."
+description: ":SpokenWest: A local Listening Series. Join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term. "
 ---
 
 <div class = "figure">
-  <img src="{{ '/img/Sons of the East Events NEW PLACE.jpg' | absolute_url }}" width="600" />
+  <img src="{{ '/img/SpokenWest Template 2024(1).jpg' | absolute_url }}" width="600" />
 </div>
 
-**The Department of English and Film Studies is delighted to welcome Ifeoma Chinwuba, Writer in Residence 2021-22**, for a pair of events celebrating her new novel, Sons of the East, published this year by Griots Lounge. Ifeoma is an award-winning writer, whose books include Merchants of Flesh (ANA Prose Prize 2004) Fearless, Waiting for Maria (ANA Prose Prize 2008; longlist of Commonwealth Writers Prize 2008). African Romance (2013) and Head Boy (2019). During her tenure as Writer in Residence at the University of Alberta, Ifeoma edited "The Pandemic And Me," a collection of short stories from different writers, and wrote Sons of the East, a novel focused on an entrepreneurial Igbo family "beset by rivalry, chauvinism, and infidelity," and a work that is already receiving glowing reviews.
+**Please join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term**. The series will feature SpokenWeb's local collection of unique historical recordings of literary performances in the Department of English and Film Studies. Each hour-long session will offer some of the highlights of the collection, capturing some very special moments in Edmonton's literary history. 
 
-Please join us on Wednesday, **December 20th from 2:00-4:00 in Old Arts Student Lounge (Room 232)**, as Ifeoma reads from her novel and considers "The Cultural and Intellectual Tradition of Modern African Literature" in conversation with author Darlington Chibueze Anuonye. Anuonye is a PhD student at the University of Nebraska-Lincoln and the curator of Selfies and Signatures: An Afro Anthology of Short Stories, co-editor (with Ezechi Onyerionwu) of Daybreak: An Anthology of Nigerian Short Fiction and editor of the international anthology of writings, Through the Eye of a Needle: Art in the Time of Coronavirus, and The Good Teacher: A Collection of Essays in Honour of Isidore Diala and Samuel Anthony Itodo. "Unbound," an anthology of contemporary Nigerian poetry, co-edited with Nduka Otiono, 2011 UAlberta PhD graduate, award-winning writer and Director of the Institute of African Studies at Carleton University, is forthcoming in 2024 in North America and Nigeria by Griots Lounge and Narrative Landscape. This event will be hybrid: you are welcome to join us in person in the Salter Reading Room or to join online.
+The sessions will take place in the Old Arts Student Lounge from 2:30-3:30 on the scheduled dates below. These will be, we hope, low-key, relaxing moments of listening and reflection, with a very short introduction and a few minutes of casual discussion to close things off.
 
-On **December 20th from 7:00-8:30 Ifeoma will launch Sons of the East at Audrey's Books, 10702 Jasper Avenue**. This event will be in-person only. Copies of Sons of the East will be available for purchase. Please join us just ahead of the holidays to celebrate Ifeoma Chinwuba's new novel.
+**First up, on Friday, February 2nd**, is celebrated Canadian poet and former EFS Writer in Residence Phyllis Webb, introduced by our late friend and colleague Professor Douglas Barbour. Webb delivers an extraordinary performance of her work to a bustling room in the depths of winter some forty-three years ago. For more details, please see the poster below.
+
+The series dates will be Friday **February 2, Friday March 1, Thursday April 4, Thursday May 2**. Please mark these on your calendars and encourage others to join in.
+
 
 
 These events are supported by the Department of English and Film Studies and by SpokenWeb. 
