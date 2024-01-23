@@ -7,12 +7,12 @@ event_end:
 event_location: Old Arts Student Lounge
 event_room: Room 232 or https://us02web.zoom.us/j/81821182148
 permalink: /events/event5/
-featured_image: /img/SpokenWest Template 2024(1.2).jpg
+featured_image: Sons of the East Events NEW PLACE.jpg
 description: "SpokenWeb UAlberta and the Department of English and Film Studies at the University of Alberta are pleased to present Ifeoma Chinwuba and her new novel published by Griots Lounge 2023."
 ---
 
 <div class = "figure">
-  <img src="{{ '/img/SpokenWest Template 2024(1.2).jpg' | absolute_url }}" width="600" />
+  <img src="{{ 'Sons of the East Events NEW PLACE.jpg' | absolute_url }}" width="600" />
 </div>
 
 **The Department of English and Film Studies is delighted to welcome Ifeoma Chinwuba, Writer in Residence 2021-22**, for a pair of events celebrating her new novel, Sons of the East, published this year by Griots Lounge. Ifeoma is an award-winning writer, whose books include Merchants of Flesh (ANA Prose Prize 2004) Fearless, Waiting for Maria (ANA Prose Prize 2008; longlist of Commonwealth Writers Prize 2008). African Romance (2013) and Head Boy (2019). During her tenure as Writer in Residence at the University of Alberta, Ifeoma edited "The Pandemic And Me," a collection of short stories from different writers, and wrote Sons of the East, a novel focused on an entrepreneurial Igbo family "beset by rivalry, chauvinism, and infidelity," and a work that is already receiving glowing reviews.
