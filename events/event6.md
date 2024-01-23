@@ -7,12 +7,12 @@ event_end:
 event_location: Art and Convocation Old Building 
 event_room: Arts Student Lounge
 permalink: /events/event6/
-featured_image: /img/SpokenWest Template 2024(1).jpg
+featured_image: /img/SpokenWest Template 2024(1.1) .jpg
 description: "A local Listening Series. Join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term. "
 ---
 
 <div class = "figure">
-  <img src="{{ '/img/SpokenWest Template 2024(1).jpg' | absolute_url }}" width="600" />
+  <img src="{{ '/img/SpokenWest Template 2024(1.1) .jpg' | absolute_url }}" width="600" />
 </div>
 
 **Please join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term**. The series will feature SpokenWeb's local collection of unique historical recordings of literary performances in the Department of English and Film Studies. Each hour-long session will offer some of the highlights of the collection, capturing some very special moments in Edmonton's literary history. 
