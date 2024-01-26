@@ -21,7 +21,7 @@ The sessions will take place in the Old Arts Student Lounge from 2:30-3:30 on th
 
 **First up, on Friday, February 2nd**, is celebrated Canadian poet and former EFS Writer in Residence Phyllis Webb, introduced by our late friend and colleague Professor Douglas Barbour. Webb delivers an extraordinary performance of her work to a bustling room in the depths of winter some forty-three years ago. For more details, please see the poster below.
 
-The series dates will be **Friday February 2, Friday March 1, Thursday April 4, Thursday May 2**. Please mark these on your calendars and encourage others to join in.
+The series dates will be **Friday February 2, Friday March 8, Thursday April 4, Thursday May 2**. Please mark these on your calendars and encourage others to join in.
 
 
 
