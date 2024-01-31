@@ -46,7 +46,7 @@ jobs:
         run: python3 _generate.py
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
           ruby-version: '3.1'
           bundler-cache: true
@@ -64,7 +64,7 @@ jobs:
 
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v1
 
   # Deployment job
   deploy:
