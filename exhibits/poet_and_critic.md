@@ -54,14 +54,14 @@ Perhaps this augmented reality also results from the shock of gathering for a gr
 
 In “The Finale,” the last poem of the broadsheet, Douglas Barbour reflects upon the conference’s lasting impact:
 
-We hold the silence, new
-after three days of noisy talk
-as we thread the night back
+We hold the silence, new  
+after three days of noisy talk  
+as we thread the night back  
 to our bed.
 
-	  On all sides, 
-in moonlight
-the pale blue fields
+&nbsp;&nbsp;&nbsp;On all sides,   
+in moonlight  
+the pale blue fields  
 stretch infinitely wayward and pure.[^13]
 
 Over fifty years later, the reverberations of Poet & Critic ’69 stretch on. The conference is a snapshot of the careers of poets and scholars of that moment, many of whom remain prolific to this day. It’s also an artifact of a distinctive moment not just in Canadian poetry, but in history and culture on a larger scale. 
