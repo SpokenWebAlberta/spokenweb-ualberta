@@ -1,6 +1,6 @@
 ---
 layout: exhibit
-title: "'Poet & Critic '69'"
+title: "Poet & Critic '69"
 subtitle: '1969'
 author: Sarah Freeman and Xuege Wu
 publish_date: 2024-01-27
@@ -39,7 +39,7 @@ In the recordings, we can hear poets from diverse generations engaging in lighth
 Coverage of the conference reflected this amiable atmosphere. Clive Cardinal, who presented on German and Polish-Canadian poetry, called the conference an “enormous success.”[^7] Richmond, the Montreal Star reporter, noted “the absence of ‘cliqueism,’” declaring, “As for the lowlights, leave them to the nit-pickers. This was a conference to boost not to knock.”[^8] Stanley Cooperman, a Vancouver Sun reporter, described the “entertaining fireworks” that emerged from both presenters and the audience, and cited a series of “[h]igh points” from the conference, including performances by George Jones, Irving Layton, and Guy Robert.[^9]
 
 
-**<i>The Recordings</i>**
+**<i>The Prints</i>**
 
 Poets’ responses to the conference were captured in a special edition of The Merry Devil of Edmonton, a poetry broadsheet. The broadsheet’s editors, Douglas Barbour and Stephen Scobie, were members of the Poet & Critic ’69 organizing committee. Their conference edition of Merry Devil includes works written during the conference by attending poets. 
 
