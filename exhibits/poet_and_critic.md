@@ -13,10 +13,7 @@ featured_objects:
 ---
 
 <div class = "figure left">
-  <img src="{{ '<iframe src="https://archive.org/embed/p-c-programme-uaa-1995-131-636-002-2-1" width="560" height="384" 
-  frameborder="0" 
-  webkitallowfullscreen="true"
-  mozallowfullscreen="true" allowfullscreen></iframe>' | absolute_url }}"/>
+  <img src="{{ 'img/digtape.jpg' | absolute_url }}"/>
   <figcaption>Fig. 1. Poet & Critic ’69 Conference Program Inner Page, Wilfred Watson fonds, University of Alberta Archives.</figcaption>
 </div>
 
