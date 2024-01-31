@@ -13,7 +13,10 @@ featured_objects:
 ---
 
 <div class = "figure left">
-  <img src="{{ '/img/celebrations-portraits.png' | absolute_url }}"/>
+  <img src="{{ '<iframe
+    src="https://archive.org/embed/p-c-programme-uaa-1995-131-636-002-2-1" width="560"
+    height="384" frameborder="0" webkitallowfullscreen="true"
+    mozallowfullscreen="true" allowfullscreen></iframe>' | absolute_url }}"/>
   <figcaption>Fig. 1. University of Alberta's Writers-in-Residence Alumni. <i>The Edmonton Journal</i>, 19 Mar. 1983.</figcaption>
 </div>
 
