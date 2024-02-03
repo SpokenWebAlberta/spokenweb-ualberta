@@ -11,11 +11,10 @@ featured_objects:
   - sw176
 
 ---
-https://archive.org/details/p-c-programme-uaa-1995-131-636-002-2-1/mode/2up?ui=embed&view=theater&wrapper=false
-<div class = "figure left">
-  <img src="{{ '<iframe src=https://archive.org/details/p-c-programme-uaa-1995-131-636-002-2-1/mode/2up?ui=embed&view=theater&wrapper=false
-  mozallowfullscreen="true" allowfullscreen></iframe>' | absolute_url }}"/>
-  <figcaption>Fig. 1. Poet & Critic ’69 Conference Program Inner Page, Wilfred Watson fonds, University of Alberta Archives.</figcaption>
+</div>
+<iframe src="https://archive.org/embed/p-c-programme-uaa-1995-131-636-002-2-1/page/0/mode/2up?ui=embed" width="100%" height="700" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+<figcaption>Fig. 1. Poet & Critic ’69 Conference Program Inner Page, Wilfred Watson fonds, University of Alberta Archives.</figcaption>
 </div>
 
 **<i>The Conference</i>**
