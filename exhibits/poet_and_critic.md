@@ -14,7 +14,7 @@ featured_objects:
 
 <iframe src="https://archive.org/embed/p-c-programme-uaa-1995-131-636-002-2-1/page/0/mode/2up?ui=embed" width="100%" height="700" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
-<div class = "figure left">
+<div class = "figure">
 <figcaption> Fig. 1. Poet & Critic ’69 Conference Program Inner Page, Wilfred Watson fonds, University of Alberta Archives. </figcaption>
 </div>
 
@@ -45,7 +45,7 @@ Coverage of the conference reflected this amiable atmosphere. Clive Cardinal, wh
 Poets’ responses to the conference were captured in a special edition of The Merry Devil of Edmonton, a poetry broadsheet. The broadsheet’s editors, Douglas Barbour and Stephen Scobie, were members of the Poet & Critic ’69 organizing committee. Their conference edition of Merry Devil includes works written during the conference by attending poets. 
 
 <div class = "figure left">
-    <img src="{{ /img/merry_devil.jpg | absolute_url }}" width="250" height="400"/>
+    <img src="{{ /img/merry_devil.jpg | absolute_url }}" width="100" height="63"/>
   <figcaption>Fig. 2. “The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.</figcaption>
 </div>
 
