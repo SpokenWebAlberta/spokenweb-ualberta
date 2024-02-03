@@ -5,7 +5,7 @@ subtitle: '1969'
 author: Sarah Freeman and Xuege Wu
 publish_date: 2024-01-27
 permalink: /exhibits/poet_and_critic/
-featured_image: //img/merry_devil.jpg
+featured_image: /img/merry_devil.jpg
 description: "Interviews with U Alberta's iconic Writers-in-Residence."
 featured_objects:
   - sw176
@@ -14,8 +14,9 @@ featured_objects:
 
 <iframe src="https://archive.org/embed/p-c-programme-uaa-1995-131-636-002-2-1/page/0/mode/2up?ui=embed" width="100%" height="700" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
-<figcaption> Fig. 1. Poet & Critic ’69 Conference Program Inner Page, Wilfred Watson fonds, University of Alberta Archives. </figcaption>
-
+<div class = "figure">
+  <figcaption> Fig. 1. Poet & Critic ’69 Conference Program Inner Page, Wilfred Watson fonds, University of Alberta Archives. </figcaption>
+</div>
 
 **<i>The Conference</i>**
 
@@ -44,7 +45,7 @@ Coverage of the conference reflected this amiable atmosphere. Clive Cardinal, wh
 Poets’ responses to the conference were captured in a special edition of The Merry Devil of Edmonton, a poetry broadsheet. The broadsheet’s editors, Douglas Barbour and Stephen Scobie, were members of the Poet & Critic ’69 organizing committee. Their conference edition of Merry Devil includes works written during the conference by attending poets. 
 
 <div class = "figure left">
-  <img src="{{ /img/merry_devil.jpg | absolute_url }}" width="500"/>
+  <img src="{{ /img/merry_devil.jpg | absolute_url }}" width="300" height="500"/>
   <figcaption>Fig. 2. “The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.</figcaption>
 </div>
 
@@ -54,7 +55,7 @@ Perhaps this augmented reality also results from the shock of gathering for a gr
 
 In “The Finale,” the last poem of the broadsheet, Douglas Barbour reflects upon the conference’s lasting impact:
 
-We hold the silence, new  
+*We hold the silence, new  
 after three days of noisy talk  
 as we thread the night back  
 to our bed.
@@ -62,7 +63,7 @@ to our bed.
 &nbsp;&nbsp;&nbsp;On all sides,   
 in moonlight  
 the pale blue fields  
-stretch infinitely wayward and pure.[^13]
+stretch infinitely wayward and pure.*[^13]
 
 Over fifty years later, the reverberations of Poet & Critic ’69 stretch on. The conference is a snapshot of the careers of poets and scholars of that moment, many of whom remain prolific to this day. It’s also an artifact of a distinctive moment not just in Canadian poetry, but in history and culture on a larger scale. 
 
