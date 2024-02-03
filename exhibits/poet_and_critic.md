@@ -45,7 +45,7 @@ Coverage of the conference reflected this amiable atmosphere. Clive Cardinal, wh
 Poets’ responses to the conference were captured in a special edition of The Merry Devil of Edmonton, a poetry broadsheet. The broadsheet’s editors, Douglas Barbour and Stephen Scobie, were members of the Poet & Critic ’69 organizing committee. Their conference edition of Merry Devil includes works written during the conference by attending poets. 
 
 <div class = "figure left">
-    <img src="{{ /img/merry_devil.jpg | absolute_url }}" width="100" height="63"/>
+    <img src="{{ /img/merry_devil.jpg | absolute_url }}" width="250" height="430"/>
   <figcaption>Fig. 2. “The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.</figcaption>
 </div>
 
@@ -54,6 +54,7 @@ There is a palpable sense of altered reality in these poems, as if the collectiv
 Perhaps this augmented reality also results from the shock of gathering for a group of people used to an often-solitary career, for whom communication was rarely so instantaneous. The broadsheet itself is an indication to this closeness; Elizabeth Brewster and Pat Lowther’s poems about bill bissett’s reading are accompanied by illustrations created by bissett and Atwood. Guy Robert’s poem is noted as having been “[t]ranslated by G. Robert & M. Atwood, five minutes before their poetry reading.”[^12]
 
 In “The Finale,” the last poem of the broadsheet, Douglas Barbour reflects upon the conference’s lasting impact:
+
 
 *We hold the silence, new  
 after three days of noisy talk  
