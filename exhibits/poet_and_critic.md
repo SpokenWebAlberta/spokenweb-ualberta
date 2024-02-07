@@ -45,7 +45,7 @@ Coverage of the conference reflected this amiable atmosphere. Clive Cardinal, wh
 Poets’ responses to the conference were captured in a special edition of The Merry Devil of Edmonton, a poetry broadsheet. The broadsheet’s editors, Douglas Barbour and Stephen Scobie, were members of the Poet & Critic ’69 organizing committee. Their conference edition of Merry Devil includes works written during the conference by attending poets. 
 
 <div class = "figure left">
-    <img src="{{ /img/merry_devil.jpg | absolute_url }}"/>
+    <img src="{{ /img/poetandcritic2.jpg | absolute_url }}"/>
   <figcaption>Fig. 2. “The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.</figcaption>
 </div>
 
