@@ -5,7 +5,7 @@ subtitle: '1969'
 author: Sarah Freeman and Xuege Wu
 publish_date: 2024-01-27
 permalink: /exhibits/poet_and_critic/
-featured_image: /img/merry_devil.jpg
+featured_image: /img/poet_and_critic69_cover.png
 description: "Interviews with U Alberta's iconic Writers-in-Residence."
 featured_objects:
   - sw176
@@ -45,7 +45,7 @@ Coverage of the conference reflected this amiable atmosphere. Clive Cardinal, wh
 Poets’ responses to the conference were captured in a special edition of The Merry Devil of Edmonton, a poetry broadsheet. The broadsheet’s editors, Douglas Barbour and Stephen Scobie, were members of the Poet & Critic ’69 organizing committee. Their conference edition of Merry Devil includes works written during the conference by attending poets. 
 
 <div class = "figure left">
-    <img src="{{ /img/merry_devil.jpg | absolute_url }}" width="250" height="430"/>
+    <img src="{{ /img/merry_devil.jpg | absolute_url }}"/>
   <figcaption>Fig. 2. “The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.</figcaption>
 </div>
 
