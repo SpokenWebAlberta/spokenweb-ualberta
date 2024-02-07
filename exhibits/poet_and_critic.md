@@ -24,7 +24,7 @@ The Poet & Critic Conference took place at the University of Alberta from Novemb
 
 Leading up to the conference, the Edmonton Journal reported that it was “expected to be the largest event of its kind ever held in this country,” with over 200 participants, as well as “the first bilingual conference, the first to bring together academic critics and poetics, and the first to include the poetry of minority ethnic groups."[^1]
 
-Presenters at the conference included many notable figures in Canadian poetry. Among these were Margaret Atwood, Gwendolyn MacEwen, Guy Robert, Dorothy Livesay, Jean-Guy Pilon Cécile Cloutier, Eli Mandel, and Earle Birney. Montreal Star reporter John Richmond described the lineup as “a whole chunk of the Oxford Book of Canadian Verse made flesh.”[^2] In all, around 40 poets and critics were invited as delegates to the conference, one-third of whom hailed from Quebec. Other attendees included students and faculty from across Canada."[^3]
+Presenters at the conference included many notable figures in Canadian poetry. Among these were Margaret Atwood, Gwendolyn MacEwen, Guy Robert, Dorothy Livesay, Jean-Guy Pilon Cécile Cloutier, Eli Mandel, and Earle Birneyand, and the then 26-year-old Inuit poet Mary Carpenter. Montreal Star reporter John Richmond described the lineup as “a whole chunk of the Oxford Book of Canadian Verse made flesh.”[^2] In all, around 40 poets and critics were invited as delegates to the conference, one-third of whom hailed from Quebec. Other attendees included students and faculty from across Canada."[^3]
 
 The conference’s five sessions comprised paper presentations, round tables, and poetry readings in English and French. There were also various social events and a banquet for delegates.
 
