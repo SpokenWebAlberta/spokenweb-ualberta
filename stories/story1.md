@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /stories/story1/
-title: Audio Interview
-description: 'intervview.'
+title: SpokenWeb UAlberta in the News
+description: 'interview.'
 ---
 
 <h2 class='page-title'>{{ page.title }}</h2>
