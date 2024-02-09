@@ -1,6 +1,7 @@
 github_token="<bearer_token>"
-deploy_loc="<folder_to_deploy_to>"
-temp_folder="<temporary_working_folder>"
+deploy_loc="/var/sites/spokenweb.ualberta.ca"
+temp_folder="${HOME}/tmp"
+site_prefix="spokenweb-ualberta"
 
 mkdir -p "${temp_folder}"
 
@@ -19,7 +20,7 @@ http_code=$(curl -L \
   -H "Authorization: Bearer $github_token" \
   "$download_url")
 
-if [[ "${http_code}" == "403" ]]
+if [[ "${http_code}" == "403" ]] || [[ "${http_code}" == "401" ]]
 then
   echo "I do not have permission to download artifact file, is my github_token still valid?"
 elif [[ "${http_code}" == "410" ]]
@@ -31,11 +32,12 @@ then
   echo "Failed to download for other reasons. Please try again later, and if this problem persists the build script is likely broken."
 else
   unzip -d ${temp_folder} "${temp_folder}/download.zip"
-  rm -R $deploy_loc/*
-  #mkdir -p "${deploy_loc}"
   mkdir -p "${temp_folder}/_site"
   tar -xvf "${temp_folder}/artifact.tar" -C "${temp_folder}/_site"
-  cp -r "${temp_folder}/_site/." "${deploy_loc}/"
+  rm -R $deploy_loc/*
+  chgrp -R spokenweb "${temp_folder}/_site"
+  cp -rp "${temp_folder}/_site/." "${deploy_loc}/${site_prefix}/"
+  cp -p "${temp_folder}/_site/index.html" "${deploy_loc}/index.html"
 fi
 
 rm -R "${temp_folder}"
