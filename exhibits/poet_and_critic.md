@@ -6,7 +6,7 @@ author: Sarah Freeman and Xuege Wu
 publish_date: 2024-01-27
 permalink: /exhibits/poet_and_critic/
 featured_image: /img/poet_and_critic69_cover.png
-description: "Interviews with U Alberta's iconic Writers-in-Residence."
+description: "Learn more about Alberta’s landmark 1969 poetry conference."
 featured_objects:
   - sw176
 
