@@ -61,9 +61,9 @@ In “The Finale,” the last poem of the broadsheet, Douglas Barbour reflects u
 *We hold the silence, new  
 after three days of noisy talk  
 as we thread the night back  
-to our bed.
+to our bed.*
 
-&nbsp;&nbsp;&nbsp;On all sides,   
+&nbsp;&nbsp;&nbsp;*On all sides,   
 in moonlight  
 the pale blue fields  
 stretch infinitely wayward and pure.*[^13]
