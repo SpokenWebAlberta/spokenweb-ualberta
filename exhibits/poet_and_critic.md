@@ -52,10 +52,10 @@ Poets’ responses to the conference were captured in a special edition of The M
 <!-- Pop-Up -->
 <div id="popup1" class="overlay">
     <div class="popup">
-        <h3>The Merry Devil of Edmonton</h3>
+        <h4>The Merry Devil of Edmonton</h4>
         <a class="close" href="#">&times;</a>
         <div class="content">
-            <img src="https://torresbe.github.io/spokenweb-ualberta/img/poet_critic_scan2.jpg" alt="“The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.">
+            <img src="https://torresbe.github.io/spokenweb-ualberta/img/poet_critic_scan2.jpg" alt="Fig. 2.“The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.">
 
         </div>
     </div>
