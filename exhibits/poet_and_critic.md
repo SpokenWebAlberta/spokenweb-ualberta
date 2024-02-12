@@ -46,10 +46,20 @@ Coverage of the conference reflected this amiable atmosphere. Clive Cardinal, wh
 Poets’ responses to the conference were captured in a special edition of The Merry Devil of Edmonton, a poetry broadsheet. The broadsheet’s editors, Douglas Barbour and Stephen Scobie, were members of the Poet & Critic ’69 organizing committee. Their conference edition of Merry Devil includes works written during the conference by attending poets. 
 
 
-<div class = "figure">
-    <img src="{{ /img/poet_critic_scan2.jpg | absolute_url }}"/>
-    <figcaption> Fig. 2. “The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives. </figcaption>
+
+<a href="#popup1" id="open-popup">Click here to open</a>
+
+<!-- Pop-Up -->
+<div id="popup1" class="overlay">
+    <div class="popup">
+        <h2>Título del Pop-Up</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+            <img src="/img/poet_critic_scan2.jpg" alt="“The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.">
+        </div>
+    </div>
 </div>
+
 
 There is a palpable sense of altered reality in these poems, as if the collective literary re-imagining of the conference is slipping into the real world. For Earle Birney, the plane ride to Edmonton feels like “walking / back on air."[^10] Of bill bissett’s poetry reading, Pat Lowther writes, “[t]his room will swing / like tatters on a vine.”[^11]
 
