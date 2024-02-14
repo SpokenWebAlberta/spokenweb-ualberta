@@ -10,12 +10,12 @@ description: 'SpokenWeb is a literary research network, dedicated to studying li
 
 
 **"Stories of SpokenWeb"** 
-Produced by Katherine McLeod & Cheryl Gladu
-Season 1, Episode 1: October 7, 2019
+*Produced by Katherine McLeod & Cheryl Gladu
+*Season 1, Episode 1: October 7, 2019
 
-EPISODE SUMMARY
-For this inaugural episode of the SpokenWeb Podcast, Katherine McLeod seeks to answer these questions by speaking with SpokenWeb researchers Jason Camlot, Annie Murray, Michael O’Driscoll, Roma Kail, Karis Shearer, and Deanna Fong. All of their stories involve a deep interest in literary audio recordings and all of their stories, or nearly all, start with a box of tapes…
-[Season 1, Episode 1](https://spokenweb.ca/podcast/episodes/stories-of-spokenweb/)
+*EPISODE SUMMARY
+*For this inaugural episode of the SpokenWeb Podcast, Katherine McLeod seeks to answer these questions by speaking with SpokenWeb researchers Jason Camlot, Annie Murray, Michael O’Driscoll, Roma Kail, Karis Shearer, and Deanna Fong. All of their stories involve a deep interest in literary audio recordings and all of their stories, or nearly all, start with a box of tapes…
+*[Season 1, Episode 1](https://spokenweb.ca/podcast/episodes/stories-of-spokenweb/)
 
 **“Sounds of Trance Formation: An Interview with Penn Kemp”**
 Produced by Nicholas Beauchesne
