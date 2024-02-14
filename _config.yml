@@ -118,8 +118,10 @@ menu:
 
   - label: 'Media Stories'
     sub:
-      - label: 'Story 1'
-        link: '/stories/story1/'
+      - label: 'News'
+        link: '/stories/news/'
+      - label: 'podcast_series'
+        link: '/stories/podcast_series/'
       
    
 
