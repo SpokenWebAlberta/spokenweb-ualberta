@@ -48,8 +48,13 @@ Season 4, Episode 4
 [Visit SpokenWeb Podcast](https://spokenweb.ca/podcast/episodes/shortcuts-live-talking-with-ariel-kroon-nick-beauchesne-and-chelsea-miya/)
 
 **“Ambient Connection: The Sounds of Public Library Spaces”**
+
 Produced by Maia Trotter
 Season 4, Episode 7: June 5, 2023
+
+EPISODE SUMMARY
+In this episode, Maia Trotter—SpokenWeb research assistant and recent graduate of the MLIS program at the University of Alberta—explores what libraries actually sound like. Featuring interviews with three staff members at the Edmonton Public Library Stanley A. Milner branch and her own personal reflections, this episode considers how the sounds of library spaces have changed over time, and the connection between those sounds and the ways that libraries can make us feel.
+
 [Visit SpokenWeb Podcast](https://spokenweb.ca/podcast/episodes/ambient-connection-the-sounds-of-public-library-spaces/)
 
 
