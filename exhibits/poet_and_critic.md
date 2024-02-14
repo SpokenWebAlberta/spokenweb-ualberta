@@ -16,7 +16,7 @@ featured_objects:
     height="700" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
  <div class = "figure"> 
-  <figcaption style="display: none"> Fig. 1. Poet & Critic ’69 Conference Program Inner Page, Wilfred Watson fonds, University of Alberta Archives. </figcaption>
+  <figcaption style="display: block"> Fig. 1. Poet & Critic ’69 Conference Program Inner Page, Wilfred Watson fonds, University of Alberta Archives. </figcaption>
 </div>
 
 **<i>The Conference</i>**
