@@ -5,11 +5,11 @@ title: UAlberta on the SpokenWeb Podcast Series
 description: 'SpokenWeb is a literary research network, dedicated to studying literature through sound. But how did this project begin? What kinds of literary recordings inspired it and where were they found? And what happened next in order for these recordings to be heard?'
 ---
 
-<h2 class='page-title'>{{ page.Podcast_Series }}</h2>
+<h6 class="page-title">UAlberta on the SpokenWeb Podcast Series</h6>
 
 
 
-**"Stories of SpokenWeb"**
+### **"Stories of SpokenWeb"**
 
 Produced by Katherine McLeod & Cheryl Gladu
 
@@ -19,32 +19,44 @@ EPISODE SUMMARY
 
 For this inaugural episode of the SpokenWeb Podcast, Katherine McLeod seeks to answer these questions by speaking with SpokenWeb researchers Jason Camlot, Annie Murray, Michael O’Driscoll, Roma Kail, Karis Shearer, and Deanna Fong. All of their stories involve a deep interest in literary audio recordings and all of their stories, or nearly all, start with a box of tapes…
 
-*[Season 1, Episode 1](https://spokenweb.ca/podcast/episodes/stories-of-spokenweb/)
+## [Season 1, Episode 1](https://spokenweb.ca/podcast/episodes/stories-of-spokenweb/)
 
-**“Sounds of Trance Formation: An Interview with Penn Kemp”**
+### **“Sounds of Trance Formation: An Interview with Penn Kemp”**
+
 Produced by Nicholas Beauchesne
+
 Season 2, Episode 3: December 7, 2020
 
 EPISODE SUMMARY
-For Penn Kemp, poetry is magic made manifest. While her subjects are varied, and her interests and approaches have evolved over the years, Kemp has always understood the power of spoken word to evoke emotion, shift consciousness, and shape the world. Drawing on a syncretic blend of spiritual philosophy informed by Buddhist, Hindu, and Celtic wisdom traditions, Kemp’s work is imminent and transcendent, embodied and cerebral. The words on the page produce certain effects, while the voices in the air produce others altogether. How do these effects complement and contradict one another? How does literary sound produce bodily effects and altered states of consciousness? Where will the trance take us, as listeners?
-[Season 2, Episode 3](https://spokenweb.ca/podcast/episodes/sounds-of-trance-formation-an-interview-with-penn-kemp/)
 
-**“Drum Codes [Part 1]: The Language of Talking Drums”**
+For Penn Kemp, poetry is magic made manifest. While her subjects are varied, and her interests and approaches have evolved over the years, Kemp has always understood the power of spoken word to evoke emotion, shift consciousness, and shape the world. Drawing on a syncretic blend of spiritual philosophy informed by Buddhist, Hindu, and Celtic wisdom traditions, Kemp’s work is imminent and transcendent, embodied and cerebral. The words on the page produce certain effects, while the voices in the air produce others altogether. How do these effects complement and contradict one another? How does literary sound produce bodily effects and altered states of consciousness? Where will the trance take us, as listeners?
+
+## [Season 2, Episode 3](https://spokenweb.ca/podcast/episodes/sounds-of-trance-formation-an-interview-with-penn-kemp/)
+
+### **“Drum Codes [Part 1]: The Language of Talking Drums”**
+
 Produced by Chelsea Miya and Sean Luyk
+
 Season 2, Episode 4: January 11, 2021
 
-EPISODE SUMMARY
-For hundreds of years, the Yorùbá people of West African have used “talking drums” to send messages across great distances. West African languages are highly musical, full of rising and falling tones. The pitch of talking drums can be adjusted to mimic these tones, so drummers can “speak” to one another. The drummer encodes the language, converting it into drum patterns, and in the process, poeticizes it. 
-[Season 2, Episode 4](https://spokenweb.ca/podcast/episodes/drum-codes-pt-1-the-language-of-talking-drums/)
 
-**“Listening Ethically to the Spoken Word”**
+EPISODE SUMMARY
+
+For hundreds of years, the Yorùbá people of West African have used “talking drums” to send messages across great distances. West African languages are highly musical, full of rising and falling tones. The pitch of talking drums can be adjusted to mimic these tones, so drummers can “speak” to one another. The drummer encodes the language, converting it into drum patterns, and in the process, poeticizes it. 
+
+## [Season 2, Episode 4](https://spokenweb.ca/podcast/episodes/drum-codes-pt-1-the-language-of-talking-drums/)
+
+### **“Listening Ethically to the Spoken Word”**
 
 Produced by Deanna Fong and Michael O’Driscoll
+
 Season 2, Episode 7: April 5, 2021
 
 EPISODE SUMMARY
+
 This episode is a series of interviews with Humanities scholars Mathieu Aubin, Clint Burnham, Treena Chambers, and T.L. Cowan about their approaches to the ethics of listening in their own research. We join Deanna Fong and Mike O’Driscoll as they step back to listen to the ethical practices of expert listeners. They’ll guide us through the production, collection, preservation, and reception of spoken word performances, as we hear from a performance artist, an oral historian, a curator, and a cultural analyst on what ethical listening means to them.
-[Season 2, Episode 7](https://spokenweb.ca/podcast/episodes/listening-ethically-to-the-spoken-word/)
+
+## [Season 2, Episode 7](https://spokenweb.ca/podcast/episodes/listening-ethically-to-the-spoken-word/)
 
 
 **“Shortcuts: Listening Communities: The Introductions of Douglas Barbour”**
@@ -53,8 +65,10 @@ Produced by Michael O’Driscoll
 Season 3, Episode 6: March 21, 2022
 
 EPISODE SUMMARY 
+
 Our guest-producer this month, Michael O’Driscoll, invites us to listen to the introductions of the late Douglas Barbour (March 21, 1940 – Sept 25, 2021) from readings held at the University of Alberta. What are we listening to when we hear introductory remarks from past readings spliced together? By asking us to listen to remember, this episode remembers Barbour in his element —in sonic performance — and what we hear in the selected recordings is a combination both of poetic sound and sounds of deep care as he welcomes each writer to the microphone. 
-[Season 3, Episode 6](https://spokenweb.ca/podcast/episodes/listening-communities-the-introductions-of-douglas-barbour/)
+
+## [Season 3, Episode 6](https://spokenweb.ca/podcast/episodes/listening-communities-the-introductions-of-douglas-barbour/)
 
 
 **“Academics on Air”**
