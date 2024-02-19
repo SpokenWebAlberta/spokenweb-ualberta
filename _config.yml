@@ -113,6 +113,17 @@ menu:
         link: '/exhibits/jarsBalan/'
       - label: 'Celebrations'
         link: '/exhibits/celebrations/'
+      - label: "Poet & Critic '69"
+        link: '/exhibits/poet_and_critic/'
+
+  - label: 'Media Stories'
+    sub:
+      - label: 'News'
+        link: '/stories/news/'
+      - label: 'podcast_series'
+        link: '/stories/podcast_series/'
+      
+   
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS

@@ -10,36 +10,49 @@ description: 'Meet the SpokenWeb UAlberta team.'
 ### Affiliated Faculty
 
 <div class = "figure bio"><img src="{{ '/img/bio/Mike.jpg' | absolute_url }}" /></div>
-**Michael O'Driscoll** brings needed expertise in archive theory, poetry and poetics, and material culture studies and strong leadership and organizational skills from extensive administrative experience as a journal editor, national association executive member, project leader, and major conference organizer. <br><br>
+**Michael O'Driscoll** brings needed expertise in archive theory, poetry and poetics, and material culture studies and strong leadership and organizational skills from extensive administrative experience as a journal editor, national association executive member, project leader, and major conference organizer. He is the Director of the Kule Institute for Advanced Study. <br><br>
 
 <div class = "figure bio">Tjhis is some text.</div>
 
 
 <div class = "figure bio"><img src="{{ '/img/bio/Rockwell.jpg' | absolute_url }}" /></div>
-**Geoffrey Rockwell** directs the Kule Institute for Advanced Study.  His expertise in the development of research tools for the humanities, the design of interactive multimedia, the archiving of digital research data, and the development of data standards for the humanities will support work on prototypes of web interactives and the multiple areas involving data methods for documentation, standards, protocols in our digital archive projects.
+**Geoffrey Rockwell** His expertise in the development of research tools for the humanities, the design of interactive multimedia, the archiving of digital research data, and the development of data standards for the humanities will support work on prototypes of web interactives and the multiple areas involving data methods for documentation, standards, protocols in our digital archive projects.
 
 
 <div class = "figure bio"><img src="{{ '/img/bio/Luyk.jpg' | absolute_url }}" /></div>
-**Sean Luyk** works to digitize, presever, and provide access to U Alberta audio and contributes to research on the use of audio recordings in virtual research environments.<br><br><br>
+**Sean Luyk** is a Digital Curation Librarian who works to digitize, preserve, and provide access to UAlberta audio and contributes to research on the use of audio recordings in virtual research environments, including ethical curation.<br><br><br>
 
 ### Research Associates  
 
 <div class = "figure bio"><img src="{{ '/img/bio/Miya.jpg' | absolute_url }}" /></div>
-**Chelsea Miya** is a current Research Associate and past Postdoctoral Fellow with the SpokenWeb and Digital Initiatives at the University of Alberta. Her research and teaching interests include critical code studies, nineteenth-century American literature, and the digital humanities. She also produces episodes for the <i>The SpokenWeb Podcast</i> and you can hear her work in the episodes "Sounds of Data," "Academics on Air," and "Drum Codes."
+**Chelsea Miya**  is a Postdoctoral Fellow with the Sherman Centre for Digital Scholarship at McMaster University. Her research and teaching interests include critical code studies, nineteenth-century American literature, and the digital humanities. She also produces episodes for the <i>The SpokenWeb Podcast</i> and you can hear her work in the episodes "Sounds of Data," "Academics on Air," and "Drum Codes."
 
-<div class = "figure bio"><img src="{{ '/img/bio/Kroon.jpg' | absolute_url }}" /></div>
-**Ariel Kroon** is a recent graduate of U of A. Her PhD thesis studied narratives of crisis in Canadian post-apocalyptic science fiction from 1948-1989, and what contemporary Canadians can learn from them. She is interested in the ways that the attitudes of the past shape our future-oriented imaginaries and actions in the present. She has published in SFRA Review and The Goose, and is currently a non-fiction editor at Solarpunk Magazine. Research interests of hers include post-humanist feminist theory and philosophy, ecocriticism, and solarpunk. Connect with her on YouTube, at Academia.edu, or her personal blog.
+<div class = "figure bio"><img src="{{ '/img/bio/Ariel Kroon headshot 1.jpg' | absolute_url }}" /></div>
+**Ariel Kroon** (she/her) is an independent settler scholar. She has given talks and workshops on topics including but not limited to rights management for archival audio, climate anxiety, genre fiction, and Canadian literature, and co-hosts and produces the podcast <a href="https://solarpunkpresents.com/" target="_blank">Solarpunk Presents</a>. Her academic work has appeared in <a href="https://sfrareview.org/2021/04/23/living-beyond-the-end-times-an-argument-for-queer-utopianism/" target="_blank">*SFRA Review*</a>, <a href="https://scholars.wlu.ca/thegoose/vol18/iss1/2/" target="_blank">*The Goose*</a>, <a href="https://ojs.library.ubc.ca/index.php/canlit/article/view/187498" target="_blank">*Canadian Literature*</a> and the SpokenWeb Podcast episode <a href="https://spokenweb.ca/podcast/episodes/academics-on-air/" target="_blank">“Academics on Air.”</a> Connect with her at <a href="https://arielkroon.ca/" target="_blank">arielkroon.ca</a>.
 
-### Graduate Research Assistants
+### Research Assistants
 
-<div class = "figure bio"><img src="{{ '/img/bio/Beaulieu.jpg' | absolute_url }}" /></div>
-**Maddie Beaulieu** is a fourth year English and Art, Design, and Visual Culture undergraduate student at the University of Alberta. Their research interests include materiality, feminism, and collaboration in small press; visual and concrete poetry; and contemporary speculative fiction. As part of the SpokenWeb team, she assists with locating and reproducing ephemera related to the literary audio collection.
+
 
 <div class = "figure bio"><img src="{{ '/img/bio/Trotter.jpg' | absolute_url }}" /></div>
 **Maia Trotter** (she/her) lives, studies and works on Treaty 6 territory. Maia is a second-year Master of Library and Information Studies student at the University of Alberta. She received her Bachelor of English Honours from Simon Fraser University. Her current research interests are focused on community and feminist-driven metadata practices in digital initiatives, and the emotive evocations of sounds of public spaces like libraries.
 
-<div class = "figure bio"><img src="{{ '/img/bio/Morrison.jpg' | absolute_url }}" /></div>
-**Zach Morrison** is a PhD student in the department of English and Film Studies at the University of Alberta. His research interests include late twentieth century American culture and criticism, psychoanalytic and post-psychoanalytic theory, anti-psychiatry, and affect theory. <br><br>
+<div class = "figure bio"><img src="{{ '/img/bio/Xuege-Wudic8.jpeg' | absolute_url }}" /></div>
+**Xuege Wu** is an MA student in the Department of English and Film Studies at the University of Alberta. She conducts research in the field of early modern theatre and women’s writing. Previously, Xuege participated in two nationally funded projects focusing on British theatre. She also presented her work, which examines the influence of antiquity in Early Modern English women’s translations, at the Sixteenth Century Society's Annual Conference. As a Graduate Research Assistant, Xuege is tasked with creating metadata and indexes for the Aviary repository.
+
+<div class = "figure bio"><img src="{{ '/img/bio/Sarah-dic08.jpg' | absolute_url }}" /></div>
+**Sarah Freeman** is an undergraduate student at the University of Alberta. She is studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
+
+<div class = "figure bio"><img src="{{ '/img/bio/Dube_Caitlyn.jpeg' | absolute_url }}" /></div>
+**Caitlyn Dubé** is a PhD student at the University of Alberta, aiding UAlberta’s SpokenWeb team with its digital archival processes (metadata and timestamping). As a Research Assistant with a passion for moving the social sciences into public-facing formats, Caitlyn brings to SpokenWeb her expertise in content & copy editing, literary analysis, music production, and graphic design & illustration. 
+
+<div class = "figure bio"><img src="{{ '/img/bio/catalina-torres.jpeg' | absolute_url }}" /></div>
+**Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, ghostwriter, and Senior Editor/Publisher. 
+
+
+<br><br><br>
+
+
 
 ### Graphic Designer
 
