@@ -44,21 +44,37 @@ Coverage of the conference reflected this amiable atmosphere. Clive Cardinal, wh
 
 Poets’ responses to the conference were captured in a special edition of The Merry Devil of Edmonton, a poetry broadsheet. The broadsheet’s editors, Douglas Barbour and Stephen Scobie, were members of the Poet & Critic ’69 organizing committee. Their conference edition of Merry Devil includes works written during the conference by attending poets. 
 
-
-
-<a href="#popup1" id="open-popup">Click here to open</a>
-
 <!-- Pop-Up -->
-<div id="popup1" class="overlay">
-    <div class="popup">
-        <h4>The Merry Devil of Edmonton</h4>
-        <a class="close" href="#">&times;</a>
-        <div class="content">
-            <img src="https://torresbe.github.io/spokenweb-ualberta/img/poet_critic_scan2.jpg" alt="Fig. 2.“The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.">
 
+<div class="overlay">
+    <div class="popup" id="popup1">
+        <h4>The Merry Devil of Edmonton</h4>
+        <a id="close" class="close" href="#!" style="display: none">&times;</a>
+        <div class="content">
+            <img id="small-image" src="{{ '/img/poet_critic_scan2-small.jpg' | absolute_url }}" alt="Fig. 2.“The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.">
+            <img id="large-image" style="display: none" src="{{ '/img/poet_critic_scan2.jpg' | absolute_url }}" alt="Fig. 2.“The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.">
         </div>
     </div>
+    
+    <a href="#!"><p id="enlarge">Click to enlarge.</p></a>
+
 </div>
+
+<script>
+    document.getElementById("enlarge").onclick = () => {
+        document.getElementById("small-image").style.display = "none";
+        document.getElementById("large-image").style.display = "block";
+        document.getElementById("enlarge").style.display = "none";
+        document.getElementById("close").style.display = "block";
+    };
+
+    document.getElementById("close").onclick = () => {
+        document.getElementById("small-image").style.display = "block";
+        document.getElementById("large-image").style.display = "none";
+        document.getElementById("enlarge").style.display = "block";
+        document.getElementById("close").style.display = "none";
+    };
+</script>
 
 
 There is a palpable sense of altered reality in these poems, as if the collective literary re-imagining of the conference is slipping into the real world. For Earle Birney, the plane ride to Edmonton feels like “walking / back on air."[^10] Of bill bissett’s poetry reading, Pat Lowther writes, “[t]his room will swing / like tatters on a vine.”[^11]
