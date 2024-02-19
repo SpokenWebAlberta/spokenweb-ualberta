@@ -1,7 +1,6 @@
 ---
 layout: welcome
 featured_pages:
-  - "Poet & Critic '69"
   - 'Jars Balan'
   - 'Voiceprint'
   - 'Celebrations'
