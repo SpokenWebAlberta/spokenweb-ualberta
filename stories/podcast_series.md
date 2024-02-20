@@ -19,7 +19,7 @@ EPISODE SUMMARY
 
 For this inaugural episode of the SpokenWeb Podcast, Katherine McLeod seeks to answer these questions by speaking with SpokenWeb researchers Jason Camlot, Annie Murray, Michael O’Driscoll, Roma Kail, Karis Shearer, and Deanna Fong. All of their stories involve a deep interest in literary audio recordings and all of their stories, or nearly all, start with a box of tapes…
 
-## [Season 1, Episode 1](https://spokenweb.ca/podcast/episodes/stories-of-spokenweb/)
+# [Season 1, Episode 1](https://spokenweb.ca/podcast/episodes/stories-of-spokenweb/)
 
 ### **“Sounds of Trance Formation: An Interview with Penn Kemp”**
 
@@ -31,7 +31,7 @@ EPISODE SUMMARY
 
 For Penn Kemp, poetry is magic made manifest. While her subjects are varied, and her interests and approaches have evolved over the years, Kemp has always understood the power of spoken word to evoke emotion, shift consciousness, and shape the world. Drawing on a syncretic blend of spiritual philosophy informed by Buddhist, Hindu, and Celtic wisdom traditions, Kemp’s work is imminent and transcendent, embodied and cerebral. The words on the page produce certain effects, while the voices in the air produce others altogether. How do these effects complement and contradict one another? How does literary sound produce bodily effects and altered states of consciousness? Where will the trance take us, as listeners?
 
-## [Season 2, Episode 3](https://spokenweb.ca/podcast/episodes/sounds-of-trance-formation-an-interview-with-penn-kemp/)
+# [Season 2, Episode 3](https://spokenweb.ca/podcast/episodes/sounds-of-trance-formation-an-interview-with-penn-kemp/)
 
 ### **“Drum Codes [Part 1]: The Language of Talking Drums”**
 
