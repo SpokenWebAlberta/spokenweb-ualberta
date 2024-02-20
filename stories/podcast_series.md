@@ -8,7 +8,7 @@ description: 'SpokenWeb is a literary research network, dedicated to studying li
 <h6 class="page-title">UAlberta on the SpokenWeb Podcast Series</h6>
 
 
-SpokenWeb is a literary research network, dedicated to studying literature through sound. But how did this project begin? What kinds of literary recordings inspired it and where were they found? And what happened next in order for these recordings to be heard?
+*SpokenWeb is a literary research network, dedicated to studying literature through sound. But how did this project begin? What kinds of literary recordings inspired it and where were they found? And what happened next in order for these recordings to be heard?*
 
 
 
