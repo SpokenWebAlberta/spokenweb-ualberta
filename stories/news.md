@@ -1,4 +1,4 @@
-*---
+---
 layout: default
 permalink: /stories/news/
 title: SpokenWeb UAlberta in the News
