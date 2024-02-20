@@ -18,7 +18,7 @@ description: 'Archive of upcoming and past events.'
     {% endif %}
 {% endfor %}
 
-{% assign items = items | sort: "event_date" | reverse %}
+{% assign items = items | sort: "event_date" | reverse | shift %}
 
 <ul>
     {% for temp in items %}
@@ -40,7 +40,7 @@ description: 'Archive of upcoming and past events.'
                 </time>
             </h3>
         </div>
-        <img src="{{ temp.featured_image | absolute_url }}">
+        <img src="{{ temp.featured_image | absolute_url }}" alt="Featured image for event.">
         <p>{{ temp.description }}</p>
         <a href="{{ temp.url | relative_url }}" class="carousel-item__btn">Learn More</a>
     </div>
