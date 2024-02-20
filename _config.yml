@@ -120,7 +120,7 @@ menu:
     sub:
       - label: 'News'
         link: '/stories/news/'
-      - label: 'podcast_series'
+      - label: 'podcast series'
         link: '/stories/podcast_series/'
       
    
