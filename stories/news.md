@@ -1,4 +1,4 @@
----
+*---
 layout: default
 permalink: /stories/news/
 title: SpokenWeb UAlberta in the News
@@ -7,7 +7,7 @@ description: 'interviews.'
 
 ## **"A New Frontier of Literary Engagement"** 
 
-SpokenWeb's network of digitized audio recordings brings new life to Canada's literary heritage
+*SpokenWeb's network of digitized audio recordings brings new life to Canada's literary heritage*
 
 Donna McKinnon 
 
@@ -21,7 +21,7 @@ Faculty of Arts, 03 August 2018
 
 ## **“Lit sounds: U of A experts help to rescue treasure trove of audio cultural history”** 
 
-Professor and librarian team up to salvage tens of thousands of lost recordings across North America.
+*Professor and librarian team up to salvage tens of thousands of lost recordings across North America*
 
 Geoff McMaster
 
