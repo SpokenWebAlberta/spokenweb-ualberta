@@ -21,3 +21,6 @@ Come join the SpokenWeb team for our monthly series Of hour-long listening sessi
 **Second up, on Friday, March 8th**, On this special evening 38 years ago, some of the brightest lights of prairie literature gathered at a gala to mark the ten year aniversary of NeWest Press. Join us to listen in on performance highlights from celebrated authors **Rudy Wiebe, Aritha van Herk, Douglas Barbour, Smaro Kamboureli, Henry Kreise,** and others.
 
 The series dates will be **Friday March 8, Thursday April 4, Thursday May 2**. Please mark these on your calendars and encourage others to join in.
+
+
+These events are supported by the Department of English and Film Studies and by SpokenWeb. 
