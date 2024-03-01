@@ -1,27 +1,27 @@
 ---
 layout: event 
 title: SpokenWest
-event_date: "2024-02-02"
+event_date: "2024-03-08"
 event_time: 2:30-3:30 PM MT
 event_end:
 event_location: Art and Convocation Old Building 
 event_room: Arts Student Lounge
 permalink: /events/event6/
-featured_image: /img/spokewest_2024.png
+featured_image: /img/spokenwest_carousel.jpg
 description: "A local Listening Series. Join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term. "
 ---
 
 <div class = "figure">
-  <img src="{{ '/img/spokewest_2024.png' | absolute_url }}" width="600" />
+  <img src="{{ 'img/Spoken_West2_event.jpg' | absolute_url }}" width="600" />
 </div>
 
-**Please join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term**. The series will feature SpokenWeb's local collection of unique historical recordings of literary performances in the Department of English and Film Studies. Each hour-long session will offer some of the highlights of the collection, capturing some very special moments in Edmonton's literary history. 
+**Please join SpokenWeb UAlberta for the first in a series of special listening events to take place this Winter Term**. 
+> Home to Canada's longest running Writer-In-Residence Program, the Department of English and Film Studies has for decades been a centre for literary performance Many of those events are captured on analogue audio tapes, unique historical recordings now available to lis teners for the f rst t me
+Come join the SpokenWeb team for our monthly series Of hour-long listening sessions as we his the lights and turn up the sound to relive these exciting moments in our collective story.
 
-The sessions will take place in the Old Arts Student Lounge from 2:30-3:30 on the scheduled dates below. These will be, we hope, low-key, relaxing moments of listening and reflection, with a very short introduction and a few minutes of casual discussion to close things off.
+**Second up, on Friday, March 8th**, On this special evening 38 years ago, some of the brightest lights of prairie literature gathered at a gala to mark the ten year aniversary of NeWest Press. Join us to listen in on performance highlights from celebrated authors **Rudy Wiebe, Aritha van Herk, Douglas Barbour, Smaro Kamboureli, Henry Kreise,** and others.
 
-**First up, on Friday, February 2nd**, is celebrated Canadian poet and former EFS Writer in Residence Phyllis Webb, introduced by our late friend and colleague Professor Douglas Barbour. Webb delivers an extraordinary performance of her work to a bustling room in the depths of winter some forty-three years ago. For more details, please see the poster below.
-
-The series dates will be **Friday February 2, Friday March 8, Thursday April 4, Thursday May 2**. Please mark these on your calendars and encourage others to join in.
+The series dates will be **Friday March 8, Thursday April 4, Thursday May 2**. Please mark these on your calendars and encourage others to join in.
 
 
 
