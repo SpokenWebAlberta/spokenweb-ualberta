@@ -1,3 +1,4 @@
+---
 layout: event 
 title: SpokenWest
 event_date: "2024-03-08"
