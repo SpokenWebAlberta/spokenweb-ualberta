@@ -46,17 +46,17 @@ Poets’ responses to the conference were captured in a special edition of The M
 
 <!-- Pop-Up -->
 
-<div class="overlay">
+<div id="overlay" class="overlay">
     <div class="popup" id="popup1">
         <h4>The Merry Devil of Edmonton</h4>
-        <a id="close" class="close" href="#!" style="display: none">&times;</a>
+        <a id="close" class="close" href="#overlay" style="display: none">&times;</a>
         <div class="content">
             <img id="small-image" src="{{ '/img/poet_critic_scan2-small.jpg' | absolute_url }}" alt="Fig. 2.“The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.">
             <img id="large-image" style="display: none" src="{{ '/img/poet_critic_scan2.jpg' | absolute_url }}" alt="Fig. 2.“The Merry Devil of Edmonton”, Periodical, vol. 1, no. 2, January 1970, University of Alberta Archives.">
         </div>
     </div>
     
-    <a href="#!"><p id="enlarge">Click to enlarge.</p></a>
+    <a href="#overlay"><p id="enlarge">Click to enlarge.</p></a>
 
 </div>
 
