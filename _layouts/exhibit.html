@@ -12,9 +12,13 @@ layout: default
   </p>
 </div>
 
+{% if page.feature_objects %}
+
 <div class="fixed-audio">
   {% include player.html aviary_id=page.featured_objects %}
 </div>
+
+{% endif %}
 
 <style>
   #wax-footer {
