@@ -25,4 +25,4 @@ description: "Three members of SpokenWeb UAlberta’s research team will be spea
 
 
 
-[Register for this event here] (https://epl.bibliocommons.com/events/65c27ef13803773e0030b677)
+[Register for this event here](https://epl.bibliocommons.com/events/65c27ef13803773e0030b677)
