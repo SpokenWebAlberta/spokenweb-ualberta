@@ -4,7 +4,7 @@ title: EPL On The Edge Speaker Series
 event_date: "2024-03-26"
 event_time: 7:00PM- 8:30PM MT 
 event_end: 
-event_location: https://epl.bibliocommons.com/events/65c27ef13803773e0030b677
+event_location: 
 event_room: Online
 permalink: /events/event7/
 featured_image: img/EPL.jpg
@@ -25,4 +25,4 @@ description: "Three members of SpokenWeb UAlberta’s research team will be spea
 
 
 
-
+[Register for this event here] (https://epl.bibliocommons.com/events/65c27ef13803773e0030b677)
