@@ -6,7 +6,7 @@ event_time: 7:00PM- 8:30PM MT
 event_end: 
 event_location: 
 event_room: Online
-permalink: /events/event7/
+permalink: /events/event7EPL/
 featured_image: img/EPL.jpg
 description: "Three members of SpokenWeb UAlberta’s research team will be speaking about their work"
 ---
