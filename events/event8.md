@@ -7,7 +7,7 @@ event_time: 2:30-3:30 PM MT
 event_end:
 event_location: Arts and Convocation Old Building 
 event_room: Arts Student Lounge
-permalink: /events/event6/
+permalink: /events/event8/
 featured_image: /img/spokenwest_carousel.jpg
 description: "A local Listening Series. Join SpokenWeb UAlberta for a series of special listening events to take place this Winter Term. "
 ---
