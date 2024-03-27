@@ -16,7 +16,7 @@ description: "A local Listening Series. Join SpokenWeb UAlberta for a series of 
   <img src="{{ 'img/spokenwest_3.png' | absolute_url }}" width="600" />
 </div>
 
-SpokenWest: A Local Listening Series
+**SpokenWest: A Local Listening Series**
 
 >Home to Canada’s longest running Writer-In-Residence Program, the Department of English and Film Studies has for decades been a centre for literary performance. Many of those events are captured on analogue audio tapes, unique historical recordings now available to listeners for the first time
 
