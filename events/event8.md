@@ -1,7 +1,6 @@
-
 ---
 layout: event 
-title: SpokenWest
+title: SpokenWest (2024)
 event_date: "2024-04-04"
 event_time: 2:30-3:30 PM MT
 event_end:
