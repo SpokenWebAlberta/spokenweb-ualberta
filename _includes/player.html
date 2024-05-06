@@ -7,6 +7,16 @@
         <script>
             let mouse_x = 0.0;
 
+            {% for iden in include.aviary_id %}
+                {% assign test = iden | plus: 0 %}
+                {% unless site.data.objects[test] %}
+                    console.log(
+                        {{ iden }}
+                    )
+                {% endunless %}
+            {% endfor %}
+
+
             const tracks = [
                 {% for iden in include.aviary_id %}
                     {% assign test = iden | plus: 0 %}

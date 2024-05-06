@@ -113,6 +113,8 @@ menu:
         link: '/exhibits/jarsBalan/'
       - label: 'Celebrations'
         link: '/exhibits/celebrations/'
+      - label: 'Poet and Critic'
+        link: '/exhibits/poet_and_critic/'
 
   - label: 'Media Stories'
     sub:
