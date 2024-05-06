@@ -7,8 +7,9 @@ publish_date: 2024-01-27
 permalink: /exhibits/poet_and_critic/
 featured_image: /img/poet_and_critic69_cover.png
 description: "Learn more about Alberta’s landmark 1969 poetry conference."
-
-
+featured_objects: 
+  - 120295
+  - 120297
 ---
 <iframe
     src="https://archive.org/embed/p-c-programme-uaa-1995-131-636-002-2-1?ui=embed" width="100%"
