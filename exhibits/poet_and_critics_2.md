@@ -9,7 +9,6 @@ featured_image: /img/poet_and_critic69_cover.png
 description: "Learn more about Alberta’s landmark 1969 poetry conference."
 featured_objects: 
   - 124170
-
 ---
 
 **<i>On and Off the Record: Poet & Critic ’69</i>**
