@@ -29,7 +29,11 @@ Interestingly, in the recording Birney mentions another poet, Stephen Scobie, wh
 Regardless of the intent behind this strategy, the Anti-Conference indeed provided an opportunity for young poets and students at the University of Alberta to interact and even collaborate with established poets. The Gateway, U of A’s official student newspaper, reported that the Anti-Conference featured anonymous poetry readings, interpretation of poems through dance and drama, and “an extension” of Scobie’s exhibition through body painting.[^8] The mixed arts presented at the Anti-Conference resonate with Birney’s lecture on mixed media, highlighting the impact of media advancements in the 1960s, including the proliferation of television and innovations in recording technology, on literature and the arts.
 
 
-IMAGE***IMAGE***
+<div class = "figure centre">
+  <img src="{{ '/img/Article_poet_n_critics_2.png' | absolute_url }}"/>
+   <figcaption>Fig. 1. A news article describing the Anti-Conference. “All in the Name of Art….” Edmonton Journal (1911-), Nov 21, 1969, p. 29?</figcaption>
+</div>
+
 
 Fig. 1. A news article describing the Anti-Conference. “All in the Name of Art….” Edmonton Journal (1911-), Nov 21, 1969, p. 29. 
 
