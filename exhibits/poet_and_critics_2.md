@@ -8,10 +8,8 @@ permalink: /exhibits/poet_and_critics_2/
 featured_image: /img/poet_and_critic69_cover.png
 description: "Learn more about Alberta’s landmark 1969 poetry conference."
 featured_objects: 
-  - 124170
+  - 959c53gk4w
 ---
-
-
 
 In their review of sound studies’ evolution over recent decades, SpokenWeb project members Jason Camlot and Katherine McLeod **have identified sound as not just a supplementary attribute of poetry and other literary forms, but as a fundamental element in comprehending literary works.**[^1] Sound studies, they argue, not only illuminates the structure and aesthetics of literary texts but also showcases how these works interact with their social and cultural contexts.[^2] **Building on this foundation, Michael O’Driscoll and Kristen Smith delve deeper into the relationship between recordings and printed materials, posing the question, “What remains on the record, and what stays off?”**[^3] Recordings from the Poet & Critic ’69 Conference capture many moments not found in published poetry collections or autobiographies, offering valuable insights that “encourage research into the theories and contexts of literary production, transmission, reception, circulation, and community.”[^4]
 
