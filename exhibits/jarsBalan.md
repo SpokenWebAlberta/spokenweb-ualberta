@@ -8,32 +8,32 @@ permalink: /exhibits/jarsBalan/
 featured_image: /img/JarsBalan-icon.jpg
 description: 'Host and creator of <i>Voiceprint</i>, <i>Paper Tygers</i>, and <i>Celebrations</i>.'
 featured_objects: 
-  - 59239
-  - 59263
-  - 59241
-  - 59240
-  - 59242
-  - 59229
-  - 59256
-  - 59257
-  - 59252
-  - 59253
-  - 59251
-  - 59230
-  - 59235
-  - 59234
-  - 59233
-  - 59236
-  - 59238
-  - 59237
-  - 59248
-  - 59250
-  - 59245
-  - 59249
-  - 59246
-  - 59243
-  - 59244
-  - 59247
+  - 696zw19b2j
+  - 4746q1t59n
+  - n29p26qz71
+  - 833mw2931g
+  - dr2p55f88m
+  - b56d21s981
+  - pc2t43jz2g
+  - rb6vx06z66
+  - xk84j0c06r
+  - pz51g0jv50
+  - ht2g73802p
+  - h98z89336g
+  - s17sn0207p
+  - c824b2z04t
+  - pg1hh6d170
+  - np1wd3qv20
+  - ff3kw58b8p
+  - 0k26970m5q
+  - th8bg2jb4r
+  - g15t72863h
+  - 8911n7zh7x
+  - r20rr1qh2r
+  - n58cf9k545
+  - rb6vx06z5w
+  - 513tt4gb5h
+  - 9w08w38v79
 ---
 
 

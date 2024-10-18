@@ -3,7 +3,8 @@ import os
 import shutil
 import pathlib
 
-import requests
+import json
+# import requests
 import yaml
 
 template = """---
@@ -42,33 +43,36 @@ def get_all_idens():
 
 def process_csv(path):
     all_objects = get_all_idens()
-    results = {}
-    with open(path) as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            iden = int(row["aviary ID"])
-            if iden in all_objects:
-                results[iden] = row["PURL"].split("/")[-1]
 
-    return results
+    with open(path) as f:
+        for row in f:
+            iden = row.strip()
+            if iden in all_objects:
+                yield iden
 
 
 if __name__ == "__main__":
     shutil.rmtree("objects", ignore_errors=True)
     os.makedirs("objects")
 
-    path = "_data/data.csv"
+    path = "_data/subset.txt"
 
     # Create manifest data
     manifest_data = {}
-    for aviary_id, permanent_id in process_csv(path).items():
-        manifest_url = f"https://ualberta.aviaryplatform.com/iiif/{permanent_id}/manifest"
-        manifest = requests.get(manifest_url).json()
+    for permanent_id in process_csv(path):
+        # manifest_url = f"https://ualberta.aviaryplatform.com/iiif/{permanent_id}/manifest"
+        # manifest = requests.get(manifest_url).json()
+        try:
+            with open(f"manifests/{permanent_id}.json") as f:
+                manifest = json.load(f)
+        except FileNotFoundError:
+            print(permanent_id, "File not scrapped")
+            continue
 
         try:
             thumbnail = manifest["thumbnail"][0]["id"]
         except KeyError:
-            print(aviary_id, permanent_id, "data missing")
+            print(permanent_id, "data missing")
             continue
 
         # Get annotations
@@ -105,7 +109,7 @@ if __name__ == "__main__":
         hours = int(manifest["items"][0]["duration"] // 3600)
         duration = manifest["items"][0]["duration"]
 
-        manifest_data[aviary_id] = {
+        manifest_data[permanent_id] = {
             "thumbnail_small": thumbnail,
             "thumbnail_medium": thumbnail.replace("small", "medium"),
             "annotations": annotations,
@@ -120,9 +124,9 @@ if __name__ == "__main__":
         for i in metadata:
             metadata_string += f'{i["key"].replace(" ", "_")}: {fix(i["value"])}\n'
 
-        with open(f"objects/{aviary_id}.md", "w+") as f:
+        with open(f"objects/{permanent_id}.md", "w+") as f:
             params = {
-                "iden": fix(aviary_id),
+                "iden": fix(permanent_id),
                 "title": fix(manifest["label"]["en"][0]),
                 "thumbnail": fix(thumbnail),
                 "metadata": metadata_string.strip(),

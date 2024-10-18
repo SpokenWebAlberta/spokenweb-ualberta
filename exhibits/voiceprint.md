@@ -8,10 +8,9 @@ permalink: /exhibits/voiceprint/
 featured_image: /img/nagra-tape.jpeg
 description: 'Campus radio show explores speech, language, communications technology, and literary arts in a changing world.'
 featured_objects:
-  - 59254
-  - 59258
-  - 59265
-  
+  - n00zp3wt51
+  - hh6c24rh8s
+  - v40js9j81j
 ---
 
 

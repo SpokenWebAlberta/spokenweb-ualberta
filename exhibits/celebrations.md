@@ -8,17 +8,17 @@ permalink: /exhibits/celebrations/
 featured_image: /img/celebrations-portraits.png
 description: "Interviews with U Alberta's iconic Writers-in-Residence."
 featured_objects:
-  - 59248
-  - 59263
-  - 59250
-  - 59230
-  - 59239
-  - 59235
-  - 59242
-  - 59253
-  - 59251
-  - 59257
-  - 59241
+  - th8bg2jb4r
+  - 4746q1t59n
+  - g15t72863h
+  - h98z89336g
+  - 696zw19b2j
+  - s17sn0207p
+  - dr2p55f88m
+  - pz51g0jv50
+  - ht2g73802p
+  - rb6vx06z66
+  - n29p26qz71
 ---
 
 <div class = "figure left">
