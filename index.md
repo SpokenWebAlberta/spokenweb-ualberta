@@ -1,11 +1,10 @@
 ---
 layout: welcome
 featured_pages:
-  - "Poet & Critic '69"
-  - 'Celebrations'
-  - 'Voiceprint'
-  - 'Jars Balan'
-
+    - "Poet & Critic '69"
+    - 'Celebrations'
+    - 'Voiceprint'
+    - 'Jars Balan'
 
 title: 'SpokenWeb UAlberta'
 description: 'Welcome to the SpokenWeb at the University of Alberta.'

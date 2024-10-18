@@ -7,21 +7,10 @@
         <script>
             let mouse_x = 0.0;
 
-            {% for iden in include.aviary_id %}
-                {% assign test = iden | plus: 0 %}
-                {% unless site.data.objects[test] %}
-                    console.log(
-                        {{ iden }}
-                    )
-                {% endunless %}
-            {% endfor %}
-
-
             const tracks = [
                 {% for iden in include.aviary_id %}
-                    {% assign test = iden | plus: 0 %}
-                    {% if site.data.objects[test] %}
-                        {{ iden }},
+                    {% if site.data.objects[iden] %}
+                        "{{ iden }}",
                     {% endif %}
                 {% endfor %}
             ]
@@ -30,7 +19,7 @@
 
             const annotations = new Map([
                 {% for iden in include.aviary_id %}
-                    [{{ iden }}, new Map([
+                    ["{{ iden }}", new Map([
                         ["stream", "{{ site.data.objects[iden].stream }}"],
                         ["thumbnail", "{{ site.data.objects[iden].thumbnail_medium }}"],
                         ["title", "{{ site.data.objects[iden].title }}"],
@@ -113,6 +102,7 @@
                 current_audio = track_value;
                 let audio = document.getElementById("sp-audio-stream");
                 let paused = audio.paused;
+
                 audio.src = annotations.get(track_value).get("stream");
                 audio.load();
                 document.getElementById("sp-audio-stream-image").src = annotations.get(track_value).get("thumbnail");
