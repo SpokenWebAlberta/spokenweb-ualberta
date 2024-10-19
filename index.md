@@ -1,6 +1,7 @@
 ---
 layout: welcome
 featured_pages:
+    - "On and Off the Record: Poet & Critic ’69"
     - "Poet & Critic '69"
     - 'Celebrations'
     - 'Voiceprint'

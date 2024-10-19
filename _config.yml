@@ -115,6 +115,8 @@ menu:
         link: '/exhibits/celebrations/'
       - label: 'Poet and Critic'
         link: '/exhibits/poet_and_critic/'
+      - label: 'Poet and Critic part 2'
+        link: '/exhibits/poet_and_critics_2/'
 
   - label: 'Media Stories'
     sub:
