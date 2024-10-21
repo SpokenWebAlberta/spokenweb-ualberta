@@ -61,7 +61,8 @@ Poets need not be performing for their speech to have significance. In fact, in 
 
 ---
 
-Notes
+### Notes
+
 Fig. 1. A news article describing the anti-Conference. “All in the Name of Art….” Edmonton Journal (1911-), Nov 21, 1969, p. 29. 
 
 [^1]: Camlot, Jason, and Katherine McLeod. “Introduction: New Sonic Approaches in Literary Studies.” ESC: English Studies in Canada, vol. 46, no. 2–4, 2020, p. 3.
