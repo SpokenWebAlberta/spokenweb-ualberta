@@ -42,7 +42,7 @@ description: 'Meet the SpokenWeb UAlberta team.'
 **Sarah Freeman** is an undergraduate student at the University of Alberta. She is studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
 
 <div class = "figure bio"><img src="{{'/img/bio/Natasha DAmours photo.jpg' | absolute_url }}" /></div>
-**Natasha D'Amour** is an MLIS student at the University of Alberta. She has a Bachelor of Fine Arts in Writing from the University of Victoria, with a minor in Digital and Interactive Media in the Arts. Her past experience has ranged from virtual reality film production to printing and bookbinding, and she is currently working at Bruce Peel Special Collections.
+**Natasha D'Amours** is an MLIS student at the University of Alberta. She has a Bachelor of Fine Arts in Writing from the University of Victoria, with a minor in Digital and Interactive Media in the Arts. Her past experience has ranged from virtual reality film production to printing and bookbinding, and she is currently working at Bruce Peel Special Collections.
 
 <div class = "figure bio"><img src="{{ '/img/bio/catalina-torres.jpeg' | absolute_url }}" /></div>
 **Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, writer, and Senior Editor/Publisher. 
