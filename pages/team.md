@@ -41,6 +41,9 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{ '/img/bio/Sarah-dic08.jpg' | absolute_url }}" /></div>
 **Sarah Freeman** is an undergraduate student at the University of Alberta. She is studying English with a minor in Computing Science. Some of her interests include humanities computing, time-based media, and literary sound studies. She is excited to be joining the SpokenWeb team as a Research Assistant.
 
+<div class = "figure bio"><img src="{{ '/img/bio/Michael-MacKenzie.png' | absolute_url }}" /></div>
+**Michael MacKenzie** is a PhD Student in English and Film Studies at the University of Alberta, studying the circulation of desires for neotenous embodiment and physical growth resistance in youth across literature, film, video games, and medical discourses. His interests are in psychoanalysis, Do-It-Yourself trans* and queer studies, and speculative fiction.
+
 <div class = "figure bio"><img src="{{'/img/bio/Natasha DAmours photo.jpg' | absolute_url }}" /></div>
 **Natasha D'Amours** is an MLIS student at the University of Alberta. She has a Bachelor of Fine Arts in Writing from the University of Victoria, with a minor in Digital and Interactive Media in the Arts. Her past experience has ranged from virtual reality film production to printing and bookbinding, and she is currently working at Bruce Peel Special Collections.
 
