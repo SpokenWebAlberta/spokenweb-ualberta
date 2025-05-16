@@ -14,7 +14,7 @@ featured_objects:
 In their review of sound studies’ evolution over recent decades, SpokenWeb project members Jason Camlot and Katherine McLeod **have identified sound as not just a supplementary attribute of poetry and other literary forms, but as a fundamental element in comprehending literary works.**[^1] Sound studies, they argue, not only illuminates the structure and aesthetics of literary texts but also showcases how these works interact with their social and cultural contexts.[^2] **Building on this foundation, Michael O’Driscoll and Kristen Smith delve deeper into the relationship between recordings and printed materials, posing the question, “What remains on the record, and what stays off?”**[^3] Recordings from the Poet & Critic ’69 Conference capture many moments not found in published poetry collections or autobiographies, offering valuable insights that “encourage research into the theories and contexts of literary production, transmission, reception, circulation, and community.”[^4]
 
 
-**<i>Earle Birney’s Lecture and the Anti-Conference**</i>**
+**<i>Earle Birney’s Lecture and the Anti-Conference</i>**
 
 
 An illustrative example can be found in Earle Birney’s lecture titled “Poetry and Media Mixing,” delivered at the University of Alberta’s Students’ Union Building (SUB) in the Poet & Critic Conference.[^5] In this lecture, Birney traces the interplay of poetry with various media, including sound and images, starting from the musical notation on medieval manuscripts ([00:00:00-00:01:59](https://ualberta.aviaryplatform.com/r/959c53gk4w?media=242028&e=119)). He explores the contributions of Dadaist Kurt Schwitters and modernist poet E. E. Cummings to sound poems ([00:02:42-00:05:21](https://ualberta.aviaryplatform.com/r/959c53gk4w?media=242028&t=162&e=321)), and discusses his own experiments with concrete poems ([beginning at 00:11:06](https://ualberta.aviaryplatform.com/r/959c53gk4w?media=242028&t=666)). This recording not only reveals the historical background and influences of some of the most active advocates of the global concrete poem movement in the 1960s, such as Birney, bill bissett, and bpNichol, but also highlights their collaboration with British poet Bob Cobbing ([00:09:14-00:10:13](https://ualberta.aviaryplatform.com/r/959c53gk4w?media=242028&t=554&e=613)), further demonstrating the movement’s international impact and interaction.
@@ -61,7 +61,8 @@ Poets need not be performing for their speech to have significance. In fact, in 
 
 ---
 
-###Notes
+### Notes
+
 Fig. 1. A news article describing the anti-Conference. “All in the Name of Art….” Edmonton Journal (1911-), Nov 21, 1969, p. 29. 
 
 [^1]: Camlot, Jason, and Katherine McLeod. “Introduction: New Sonic Approaches in Literary Studies.” ESC: English Studies in Canada, vol. 46, no. 2–4, 2020, p. 3.
