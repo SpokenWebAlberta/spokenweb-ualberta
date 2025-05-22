@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /stories/podcast_series/
 title: UAlberta on the SpokenWeb Podcast Series
 description: 'SpokenWeb is a literary research network, dedicated to studying literature through sound. But how did this project begin? What kinds of literary recordings inspired it and where were they found? And what happened next in order for these recordings to be heard?'

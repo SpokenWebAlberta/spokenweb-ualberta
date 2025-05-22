@@ -1,11 +1,6 @@
-{% assign placeholder = include.placeholder | default: 'Search... ' %}
-
-{% assign key = page.search | default: 'pages' %}
-{% assign config = site.search[key] %}
-{% assign index = config.index | relative_url %}
 {%- capture fields -%}
-  {%- for field in config.fields -%}
-    {{ field }}{% unless forloop.last %}|||{% endunless %}
+  {%- for field in site.search.fields -%}
+    {{ field }}|
   {%- endfor -%}
 {%- endcapture -%}
 {% assign fields = fields | split: '|||' | uniq %}
@@ -19,12 +14,9 @@
 
 <script type='text/javascript' src="{{ '/assets/elasticlunr.min.js' | relative_url }}"></script>
 <script type='text/javascript' src="{{ '/assets/search-ui.js' | relative_url }}"></script>
-<script type='text/javascript'>
-  var fields    = {{ fields | jsonify }};
-  var indexFile = "{{ index }}";
-  var url       = "{{ '' | relative_url }}";
-
-  $(document).ready(function() {
-    startSearchUI(fields, indexFile, url);
-  });
+<script defer type='text/javascript'>
+  let fields    = "{{ fields }}".slice(0, -1).split("|");
+  let indexFile = "{{ site.search.index }}";
+  let url =       "{{ '' | relative_url }}"
+  startSearchUI(indexFile, fields, url);
 </script>

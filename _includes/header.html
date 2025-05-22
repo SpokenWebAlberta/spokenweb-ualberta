@@ -1,40 +1,40 @@
-<nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
-  <div class='wax-inline-container-header'>
-    <div class='col-header'>
-      <p class='header-logos'>
-        {% for item in site.footer.logos %}
-        {% assign link = item.link | default: '#' %}
-        <a href="{{ link | relative_url }}" aria-label="Logo link to resource">
-          <img src='{{ item.img | relative_url }}' alt="logo"/>
-        </a>
-        {% endfor %}
-      </p>
-    </div>
-      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
-        <span class='navbar-toggler-icon'></span>
-      </button>
-      <div class='collapse navbar-collapse' id="wax-header-navbar">
-        <ul class='nav navbar-nav justify-content-end'>
-          {% for item in site.menu %}
-            {% if item.sub %}
-              <li class='nav-item dropdown'>
-                <a class='nav-link dropdown-toggle' href='#' id='wax-{{ item.label | slugify }}-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-                  {{ item.label }}
-                </a>
-                <div class='dropdown-menu' aria-labelledby='wax-{{ item.label | slugify }}-dropdown'>
-                  {% for sub in item.sub %}
-                    <a class='dropdown-item' href='{{ sub.link | relative_url }}'>{{ sub.label }}</a>
-                  {% endfor %}
-                </div>
-              </li>
-            {% else %}
-              <li class='nav-item'>
-                <a class='nav-link' href='{{ item.link | relative_url }}'>{{ item.label }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-    </div>
-    <form class='search-block' onsubmit="submit_test()" method="GET" action="{{ '/search' | relative_url }}"><input type="text" placeholder="" name="search" id="sp-search-form"></form>
+<script defer src="{{ '/assets/menu.js' | relative_url }}"></script>
+<div class='sp-header'>
+  <div class='col-header'>
+    <p>
+      {% for item in site.footer.logos %}
+      {% assign link = item.link | default: '#' %}
+      <a href="{{ link | relative_url }}" aria-label="Logo link to resource">
+        <img src='{{ item.img | relative_url }}' alt="logo"/>
+      </a>
+      {% endfor %}
+    </p>
+    <button class='navbar-toggler' id="navbar-toggler" type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
   </div>
- </nav>
+
+  <nav class='sp-navbar' id="sp-navbar">
+    <ul>
+      {% for item in site.menu %}
+        {% if item.sub %}
+          <li class='nav-item dropdown'>
+            <a class='nav-link dropdown-toggle' href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+              {{ item.label }}
+            </a>
+            <div class='dropdown-menu' aria-labelledby='wax-{{ item.label | slugify }}-dropdown'>
+              {% for sub in item.sub %}
+                <a class='dropdown-item' href='{{ sub.link | relative_url }}'>{{ sub.label }}</a>
+              {% endfor %}
+            </div>
+          </li>
+        {% else %}
+          <li class='nav-item'>
+            <a class='nav-link' href='{{ item.link | relative_url }}'>{{ item.label }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+  <form class='search-block' onsubmit="submit_test()" method="GET" action="{{ '/search' | relative_url }}"><input type="text" placeholder="" name="search" id="sp-search-form"></form>
+</div>

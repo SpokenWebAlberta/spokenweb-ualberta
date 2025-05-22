@@ -1,0 +1,131 @@
+@use 'variables' as *;
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-expand-lg {
+  height: auto;
+}
+
+
+.navbar-nav {
+  height: 100%;
+  max-width: $max-width;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.nav-item {
+  margin: 0.5em;
+  flex-wrap: wrap;
+  margin-right: 0.5em;
+  position: relative;
+}
+
+.dropdown-menu {
+  margin-top: 0.5em;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: rgba(0,0,0,0);
+  border: 0;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid rgba(0,0,0,0);
+  border-bottom: 0;
+  border-left: .3em solid rgba(0,0,0,0);
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+#wax-header .navbar-nav .nav-link {
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 0.5em;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.wax-inline-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-grow: 1;
+  height: 150px;
+}
+
+.navbar-toggler {
+
+  font-size: 1.25rem;
+  border: 1px solid black;
+  padding: 0.25em 0.5em;
+  border-radius: 5px;
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-image: none;
+    background-size: auto;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+}
+
+@media (max-width: $format-switch) {
+  .wax-inline-container-header {
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+    flex-grow: 0;
+    align-items: left;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

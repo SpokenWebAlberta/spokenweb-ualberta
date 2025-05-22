@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: '/team/'
 title: 'Our Team'
 description: 'Meet the SpokenWeb UAlberta team.'

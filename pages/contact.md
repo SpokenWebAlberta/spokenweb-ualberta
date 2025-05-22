@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /contact/
 title: 'Contact Us'
 description: 'For more information, or to explore opportunities to work with the SpokenWeb at the University of Alberta, please contact...'

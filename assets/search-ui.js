@@ -2,13 +2,14 @@
 
 
 function setObject(type) {
-  if (type === "object") {
-    return "Audio";
-  } else if (type === "default") {
-    return "Page";
-  } else {
-    return type;
-  }
+    console.log(type);
+    if (type === "object") {
+        return "Audio";
+    } else if (type === "default") {
+        return "Page";
+    } else {
+        return type;
+    }
 }
 
 
@@ -22,9 +23,11 @@ function setDescription(desc) {
 
 
 function displayResult(item, fields, url) {
-  let type = setObject(item.layout)
+    console.log(item);
 
-  return `
+    let type = setObject(item.layout)
+
+  let inner_html = `
     <div class="search-result">
       <a href="${url}${item.permalink}">
         <div class="search-inner-results">
@@ -34,42 +37,71 @@ function displayResult(item, fields, url) {
         </div>
       </a>
     </div>`;
+
+  let wrapper = document.createElement('div');
+  wrapper.innerHTML = inner_html;
+
+  return wrapper.firstElementChild;
 }
 
-function startSearchUI(fields, indexFile, url) {
-  $.getJSON(indexFile, function(store) {
-    var index  = new elasticlunr.Index;
+function startSearchUI(indexfile, fields, url) {
+    fetch(url + indexfile)
+        .then((response) => {
+            return response.json();
+        })
+        .then(store => {
 
-    index.saveDocument(false);
-    index.setRef('lunr_id');
+            var index = elasticlunr(function () {
+                for (let field in fields) {
+                    this.addField(fields[field]);
+                }
+                this.addField("body");
+                this.setRef('lunr_id');
+            });
 
-    for (i in fields) { index.addField(fields[i]); }
-    for (i in store)  { index.addDoc(store[i]); }
+            for (let row in store) {
+                index.addDoc(store[row]);
+            }
 
-    $('input#search').on('input', function() {
-      var results_div = $('#results');
-      var query       = $(this).val();
-      var results     = index.search(query, { boolean: 'AND', expand: true });
+            document.querySelector('input#search').addEventListener('input', function() {
 
-      results_div.empty();
-      results_div.append(`<p class="results-info">Displaying ${results.length} results</p>`);
+                let results_div = document.querySelector('#results');
+                let query       = this.value;
+                let results     = index.search(query, { boolean: 'AND', expand: true });
 
-      for (var r in results) {
-        var ref    = results[r].ref;
-        var item   = store[ref];
-        var result = displayResult(item, fields, url);
+                console.log(query);
+                console.log(results);
 
-        results_div.append(result);
-      }
-    });
 
-    const urlParams = new URLSearchParams(window.location.search);
-    const myParam = urlParams.get('search');
+                while (results_div.firstChild) {
+                  results_div.removeChild(results_div.firstChild)
+                }
 
-    if (myParam !== null) {
-      let el = document.getElementById('search');
-      el.value = myParam;
-      el.dispatchEvent(new Event('input', {'bubbles': true}));
-    }
-  }).fail(function() { console.log("failed to get json")});
+                let new_child = document.createElement("p")
+                new_child.classList.add("results-info")
+                new_child.textContent = `Displaying ${results.length} results`
+
+                results_div.appendChild(new_child);
+
+                for (let r in results) {
+                    let ref    = results[r].ref;
+                    let item   = store[ref];
+                    let result = displayResult(item, fields, url);
+
+                    console.log(result);
+
+                    results_div.appendChild(result);
+                }
+            });
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const myParam = urlParams.get('search');
+
+            if (myParam !== null) {
+              let el = document.getElementById('search');
+              el.value = myParam;
+              el.dispatchEvent(new Event('input', {'bubbles': true}));
+            }
+        });
+         // .fail(function() { console.log("failed to get json")});
 }

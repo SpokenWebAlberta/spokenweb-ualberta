@@ -1,10 +1,16 @@
-@import 'bootstrap';
+@use 'variables' as *;
 
 /*
 
 main body & containers
 
 */
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
 
 html, body {
   width: 100vw;
@@ -49,121 +55,7 @@ responsive header
 
 */
 
-@media (max-width: $format-switch) {
-  .wax-inline-container-header { background-color: $brand-red !important; 
-    .search-block {display: none !important; }
-  }
-  .nav-link:hover {background-color: $accent-dark !important; }
-  .nav-link:active {background-color: $accent-dark !important; }
-  .navbar-nav { .nav-item { background-color: $brand-red!important; } }
-  .dropdown-menu { border-color: $bg-color !important; }
-  .nav-link {padding-left: 0.5rem !important;}
-  .dropdown-item { display: flex; flex-direction: column; }
-  .justify-content-end { justify-content: flex-end !important; }
-  .navbar-nav { text-align: left; }
-  .navbar-collapse {flex-basis: 100% !important; }
-  .navbar-nav { padding-left: 1.5rem !important; padding-right: 1.5rem !important; padding-bottom: 1.5rem !important; padding-top: 0rem !important; }
-  .navbar-toggler {margin: 1rem !important; margin-left: 0rem !important; }
-  .col-header {padding-right: 0rem !important; padding-left: 0rem !important; min-width: 280px !important; }
-  #wax-footer { padding-bottom: 3rem !important; }
-  #splash-main h2 {margin-left: 4rem !important; }
-  #splash-main p {margin-left: 4rem !important; }
-  #splash-main #wax-content hr {margin-right: 2rem !important; }
-  #wax-main {padding-bottom: 2rem !important;}
-}
-
-
-/*
-
-header & nav bar
-
-*/
-
-.navbar-collapse {
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-#wax-header {
-  width: 100vw;
-  text-transform: uppercase;
-  font-family: $heading-font;
-  color: $text-color;
-  z-index: 100000;
-  letter-spacing: 0.075rem;
-
-  .header-logos {
-    padding-top: 1rem;
-    a {
-      text-decoration: none;
-    }
-    img {
-      height: 50px;
-    }
-  }
-
-  .col-header {
-    padding: 2rem;
-    background-color: $brand-red;
-    min-width: 297.33px;
-  }
-
-  .navbar-brand {
-    font-weight: 400;
-    background-color: $brand-red;
-    font-size: 1.8rem;
-  }
-
-  .navbar-brand:hover {
-    color: $accent-dark;
-  }
-
-  .navbar-toggler {
-    background-color: $brand-red;
-    border-color: $accent-dark;
-    vertical-align: middle;
-    margin: 2rem;
-
-  }
-
-  button:focus {
-    outline: 1px dotted;
-    outline: 1px auto $brand-red
-  }
-
-
-  .navbar-nav {
-    padding: 1rem 1rem 1rem 4.5rem;
-
-    .nav-item {
-      background-color: $neutral;
-    }
-    .nav-link {
-      font-weight: 400;
-      color: $text-color-dark;
-      letter-spacing: 1px;
-    }
-    .nav-link:hover {
-      background-color: #343434 ;
-
-    }
-    .nav-link:active {
-      background-color: #343434;
-    }
-    .dropdown-menu {
-      background-color: $bg-color;
-      border-color: $neutral;
-      .dropdown-item:focus {
-        background-color: transparent;
-      }
-    }
-  }
-}
-
+#splash-main h2 {margin-left: 4rem; font-size: 2rem; font-weight: 500;}
 
 /*
 
@@ -171,7 +63,7 @@ content section
 
 */
 
-#sp-fullscreen {
+.sp-fullscreen {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -198,8 +90,9 @@ splash page
     background-image: none;
   }
 
-  #wax-content {
-    margin: 0rem;
+  .content {
+    //margin: 0rem;
+    max-width: $max-width;
 
     hr {
       border: 1px solid white;
@@ -208,20 +101,19 @@ splash page
 
   }
 
-  #splash-red {
+  .splash-red {
     min-width: 297.33px;
-    height: 100%;
+    height: 600px;
     background-color: $brand-red;
     background-repeat: no-repeat;
     background-image: url("../img/record-splash.png");
     background-position: left 32px bottom 25px;
     background-size: 275px;
+    content: "";
 
-    @media (max-width: 700px) {
+    @media (max-width: $format-switch) {
       display: none;
     }
-    
-
   }
 
   h1, h2, h3, h4, h5, h5, h6 {
@@ -372,19 +264,20 @@ main page
   }
 
 
+
 /*
 
 Exhibit/Events
 
 */
-hr.bioline {
-  border-top: 1px solid red;
-}
+  hr.bioline {
+    border-top: 1px solid red;
+  }
 
-hr.network {
-  margin-top: $super-margin;
-  margin-bottom: $super-margin;
-}
+  hr.network {
+    margin-top: $super-margin;
+    margin-bottom: $super-margin;
+  }
 
   #wax-content {
     .exhibit-meta {
@@ -653,33 +546,34 @@ Image Captions
       height: 40px
     }
   }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .wax-inline-container-footer {
-  @extend .container;
   margin: 0 auto;
   max-width: 90%;
   width: 2000px;
-  overflow: flex-wrap;
   text-align: center;
 }
 
 .wax-inline-container-header {
   background-color: $neutral;
-  @extend .container;
+  display: flex;
+  width: 100%;
   /*margin: 0 auto; */
   max-width: 100%;
-  overflow: flex-wrap;
   text-align: center;
 
 }
 
 .wax-inline-container {
-  @extend .container;
   margin: 0 auto;
   max-width: 90%;
   width: $max-width;
-  overflow: flex-wrap;
 }
 
 .full-width {
@@ -813,6 +707,8 @@ input {
   background-position: right 1em center;
   background-size: 20px;
   border: none;
+  line-height: inherit;
+  font-size: inherit;
 
   &:focus {
     outline: none !important;
@@ -1011,10 +907,10 @@ Carousel New Container Test
     height: 100%;
     display: flex !important;
     max-width: 900px;
-    max-height: 550px;   
+    max-height: 550px;
     overflow: hidden;
     position: relative !important;
-  
+
 }
 
 .carousel-item {
@@ -1044,11 +940,11 @@ Carousel New Container Test
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
+
     display: -webkit-flex;
   -webkit-justify-content: center;
   -webkit-flex-direction: column;
-  
+
   order: 1;
   left: 0;
   margin: auto;
@@ -1071,11 +967,11 @@ Carousel New Container Test
     order: 2;
     align-self: flex-end;
     flex-basis: 60%;
-  
+
       -webkit-order: 2;
     -webkit-align-self: flex-end;
     -webkit-flex-basis: 60%;
-  
+
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1098,7 +994,7 @@ Carousel New Container Test
     font-size: 13px !important;
     text-transform: uppercase !important;
     margin: 0;
-    color: #7E7E7E !important;    
+    color: #7E7E7E !important;
     font-weight: 700 !important;
     transform: translateY(25%);
     opacity: 0;

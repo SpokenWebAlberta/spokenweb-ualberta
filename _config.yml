@@ -52,34 +52,44 @@ kramdown:
  enable_coderay: false
 
 # --------------------------------------------------------------
-# SEARCH INDEX SETTINGS
+# Search Config
+# --------------------------------------------------------------
+search:
+  index: /search/pages.json
+  fields:
+    - title
+    - subtitle
+    - author
+    - publish_date
+    - event_room
+    - event_date
+    - event_time
+    - event_location
+    - description
+    - agent
+    - date
+    - date_first_ingested
+    - duration
+    - format
+    - language
+    - note
+    - rights_statement
+    - subject
+    - type
+
+# --------------------------------------------------------------
+# DEFAULT CONFIGURATION
 # --------------------------------------------------------------
 # You can create multiple search indexes below (though only one is
 # recommended!) by specifying
 # an `index` file to write it to and some `collections` for it to index
 # and running `$ bundle exec rake wax:search` .
 
-search:
-  pages:
-    index: '/search/pages.json' # file the index will get written to
-    fields: # the metadata fields to index
-      - description
-      - title
-      - author
-      - publish_date
-      - Rights Statement
-      - Duration
-      - Agent
-      - Date
-      - Language
-      - Format
-      - Subject
-      - Type
-      - Note
-      - Event Location
-      - content
-      - layout
-
+defaults:
+  - scope:
+      path: objects
+    values:
+      layout: object
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
