@@ -1,4 +1,3 @@
-import csv
 import os
 import shutil
 import pathlib
@@ -8,11 +7,7 @@ import json
 import yaml
 
 template = """---
-layout: object
 iden: {iden}
-title: {title}
-thumbnail_small: {thumbnail}
-{metadata}
 ---
 """
 
@@ -51,7 +46,59 @@ def process_csv(path):
                 yield iden
 
 
-if __name__ == "__main__":
+def process_manifest(permanent_id, manifest):
+    # Get annotations
+    annotations = []
+    annotation_data = manifest["items"][0]["annotations"]
+    if len(annotation_data) > 0:
+        for annot in annotation_data[0]["items"]:
+            time = annot["target"].split("=")[-1].split(",")
+
+            secs = float(time[0])
+            hours = int(secs // 3600)
+            minutes = int(secs // 60)
+            seconds = int(secs % 60)
+
+            annotations.append({
+                "title": annot["body"][0]["value"],
+                "time": secs,
+                "formatted": f"({hours:02}:{minutes:02}:{seconds:02})"
+            })
+
+    # Get stream link
+    stream_link = manifest["items"][0]["items"][0]["items"][0]["body"]["id"]
+
+    # Get thumbnail
+    thumbnail = manifest["thumbnail"][0]["id"]
+
+    # Collect metadata
+    metadata = {}
+    for meta in manifest["metadata"]:
+        value = meta["value"]["en"][0].replace("<p>", "").replace("</p>", "").replace('"', "'")
+        key = meta["label"]["en"][0].replace(" ", "_").lower()
+        metadata[key] = value
+
+    return {
+        "iden": permanent_id,
+        "thumbnail_small": thumbnail,
+        "thumbnail_medium": thumbnail.replace("small", "medium"),
+        "annotations": annotations,
+        "title": manifest["label"]["en"][0],
+        "stream": stream_link.split("?")[0],
+        "metadata": metadata,
+    }
+
+
+def create_object_page(permanent_id):
+    with open(f"objects/{permanent_id}.md", "w+") as f:
+        params = {
+            "iden": permanent_id,
+        }
+
+        print(template.format(**params), file=f)
+
+
+def main():
     shutil.rmtree("objects", ignore_errors=True)
     os.makedirs("objects")
 
@@ -75,65 +122,13 @@ if __name__ == "__main__":
             print(permanent_id, "data missing")
             continue
 
-        # Get annotations
-        annotations = []
-        annotation_data = manifest["items"][0]["annotations"]
-        if len(annotation_data) > 0:
-            for annot in annotation_data[0]["items"]:
-                time = annot["target"].split("=")[-1].split(",")
-
-                secs = float(time[0])
-                hours = int(secs // 3600)
-                minutes = int(secs // 60)
-                seconds = int(secs % 60)
-
-                annotations.append({
-                    "title": annot["body"][0]["value"],
-                    "time": secs,
-                    "formatted": f"({hours:02}:{minutes:02}:{seconds:02})"
-                })
-
-        stream_link = manifest["items"][0]["items"][0]["items"][0]["body"]["id"]
-
-        # Metadata
-        metadata = []
-        for meta in manifest["metadata"]:
-            value = meta["value"]["en"][0].replace("<p>", "").replace("</p>", "")
-
-            metadata.append({
-                "key": meta["label"]["en"][0],
-                "value": value,
-            })
-
-        # Duration
-        hours = int(manifest["items"][0]["duration"] // 3600)
-        duration = manifest["items"][0]["duration"]
-
-        manifest_data[permanent_id] = {
-            "thumbnail_small": thumbnail,
-            "thumbnail_medium": thumbnail.replace("small", "medium"),
-            "annotations": annotations,
-            "metadata": metadata,
-            "title": manifest["label"]["en"][0],
-            "stream": stream_link.split("?")[0],
-        }
-
-        # Create object page
-
-        metadata_string = ""
-        for i in metadata:
-            metadata_string += f'{i["key"].replace(" ", "_")}: {fix(i["value"])}\n'
-
-        with open(f"objects/{permanent_id}.md", "w+") as f:
-            params = {
-                "iden": fix(permanent_id),
-                "title": fix(manifest["label"]["en"][0]),
-                "thumbnail": fix(thumbnail),
-                "metadata": metadata_string.strip(),
-            }
-
-            print(template.format(**params), file=f)
+        manifest_data[permanent_id] = process_manifest(permanent_id, manifest)
+        create_object_page(permanent_id)
 
     # Create main data index
     with open("_data/objects.yml", "w+") as f:
         yaml.dump(manifest_data, f)
+
+
+if __name__ == "__main__":
+    main()

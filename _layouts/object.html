@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<html lang='en-us'>
-  {% include head.html %}
-  <body>
-    <div id='sp-fullscreen'>
-      {% include header.html %}
+---
+layout: default
+---
       {% assign audio_object = site.data.objects[page.iden] %}
       <div id='wax-main'>
         <div id="wax-content" class='wax-inline-container'>
           <div class='exhibit-meta'>
-            <h1 class='exhibit-title'>{{ page.title }}</h1>
-            {% if page.author %}
-              <h3 class='exhibit-author'>By {{ page.author }}</h3>
-            {% endif %}
+            <h1 class='exhibit-title'>{{ audio_object.title }}</h1>
             <p class='exhibit-date' >Published on
               <time datetime='{{ page.publish_date | date_to_xmlschema }}'>
-              {{ page.Date | date: "%A, %B %d, %Y" }}
+              {{ audio_object.metadata.date | date: "%A, %B %d, %Y" }}
               </time>
             </p>
           </div>
@@ -27,7 +21,7 @@
             <div class="sp-metadata">
               <h3>About</h3>
               {% for metadata in audio_object.metadata %}
-              <p><b>{{ metadata.key }}:</b><br> {{ metadata.value }}</p>
+              <p><b>{{ metadata[0] }}:</b><br> {{ metadata[1] }}</p>
               {% endfor %}
             </div>
             {% if audio_object.annotations.size > 0 %}
@@ -55,13 +49,3 @@
           padding-bottom: 150px !important;
         }
       </style>
-
-      {% include footer.html %}
-    </div>
-    <script src="{{ '/assets/bootstrap/bootstrap.min.js' | relative_url }}"></script>
-    <script src="{{ '/assets/popper.min.js' | relative_url }}"></script>
-  </body>
-</html>
-
-
-

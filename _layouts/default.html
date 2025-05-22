@@ -4,17 +4,10 @@
 
   <body>
     <time datetime='{{ 'now' | date: '%Y-%m-%d %H:%M' }}'></time>
-    <div id='sp-fullscreen'>
+    <div class='sp-fullscreen'>
       {% include header.html %}
-
-      <div id='wax-main'>
-        <div id='wax-content' class='wax-inline-container'>
-          {{ content }}
-        </div>
-      </div>
+      {{ content }}
       {% include footer.html %}
     </div>
-    <script src="{{ '/assets/bootstrap/bootstrap.min.js' | relative_url }}"></script>
-    <script src="{{ '/assets/popper.min.js' | relative_url }}"></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /collection/
 description: 'This collection is made available for non-commercial research and educational purposes...'
 title: 'About Our Collection'

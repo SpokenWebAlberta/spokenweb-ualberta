@@ -1,0 +1,37 @@
+$logo: url("{{ '/assets/logo-white.png' | relative_url }}");
+
+// Fonts
+$body-font:       'Montserrat', 'sans-serif';
+$heading-font:    'Montserrat', 'sans-serif';
+$sub-font:        'Lato', 'sans-serif';
+
+// Dimensions
+$thumbnail-height: 200px;
+$thumbnail-width:  200px;
+
+// Colors
+$text-color:      #414141;
+$text-color-dark: #ffffff;
+$bg-color:        #ffffff;
+$caption-color:   #f5efef;
+$banner-color:    #868684;
+$brand-red:       #F53E3E;
+$neutral:         #404040;
+$accent-light:    #823726;
+$footnote:        #cc9767;
+$accent-dark:     #d13333;
+
+// Layout
+$max-width:       800px;
+$format-switch:   991px;
+
+// Spacing
+$less-margin:     1.0rem;
+$margin:          1.5rem;
+$more-margin:     2.0rem;
+$super-margin:    3.0rem;
+
+// Heights
+$viewer-height:   550px;
+$parallax-height: 350px;
+$footer-height:   250px; 

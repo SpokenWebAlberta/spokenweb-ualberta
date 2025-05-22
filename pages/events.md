@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /events/
 title: All Events
 description: 'Archive of upcoming and past events.'
