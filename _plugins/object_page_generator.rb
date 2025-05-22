@@ -21,10 +21,14 @@ module ObjectGenerator
       @ext      = '.md'      # the extension.
       @name     = "#{object_id}.md" # basically @basename + @ext.
 
+      object_data = site.data["objects"][object_id]
+
       # Initialize data hash with a key pointing to all posts under current category.
       # This allows accessing the list in a template via `page.linked_docs`.
       @data = {
         'iden' => object_id,
+        'title' => object_data["title"],
+        'description' => object_data["description"],
       }
 
       # Look up front matter defaults scoped to type `categories`, if given key
