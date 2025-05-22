@@ -15,7 +15,3 @@ Gemfile.lock
 wax_tasks
 .gems/
 .~lock.*
-
-# Our own deploy
-_data/objects.yml
-objects/*
