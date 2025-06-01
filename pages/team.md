@@ -51,7 +51,11 @@ description: 'Meet the SpokenWeb UAlberta team.'
 **Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, writer, and Senior Editor/Publisher. 
 
 
-<br><br><br>
+### Technical Web Support
 
-
+<div class = "figure bio"><img src="{{ '/img/bio/ryan-chartier.jpg' | absolute_url }}" /></div>
+**Ryan Chartier** (he/him) He is a freelance software developer with an MA in Digital Humanities and an 
+interest in all things to do with minimal computing; recently, he devised and taught a course on minimal computing (with Dr 
+Chelsea Miya) at DH@Guelph, and much of his previous work has been in support of university research projects. 
+You can read more about past and ongoing initiatives at [https://blog.ryan-chartier.net](https://blog.ryan-chartier.net).
 
