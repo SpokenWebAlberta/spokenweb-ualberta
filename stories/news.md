@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /stories/news/
 title: SpokenWeb UAlberta in the News
 description: 'interviews.'

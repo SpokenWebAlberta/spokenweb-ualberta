@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
 description: 'The University of Alberta is an institutional member of the SSHRC SpokenWeb Partnership, which aims to develop collaborative approaches to literary historical study, digital development...'

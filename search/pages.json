@@ -4,23 +4,37 @@
   {% for page in site.pages %}{
     "lunr_id": {{ forloop.index | minus: 1 }},
     "title": {{ page.title | jsonify }},
+    "description": {{ page.description |  jsonify }},
+    "layout": {{ page.layout | jsonify }},
+
+    {% comment %}
+      metadata used by exhibits
+    {% endcomment %}
+    "subtitle": {{ page.subtitle | jsonify }},
     "author": {{ page.author | jsonify }},
     "publish_date": {{ page.publish_date | jsonify }},
-    "thumbnail": {{ page.thumbnail_small | jsonify }},
-    "permalink": {{ page.url | jsonify }},
-    "Rights Statement": {{ page.Rights_Statement | jsonify }},
-    "Duration": {{ page.Duration | jsonify }},
-    "Agent": {{ page.Agent | jsonify }},
-    "Date": {{ page.Date | jsonify }},
-    "Language": {{ page.Language | jsonify }},
-    "Format": {{ page.Format | jsonify }},
-    "Subject": {{ page.Subject | jsonify }},
-    "Type": {{ page.Type | jsonify }},
-    "Note": {{ page.Note | jsonify }},
-    "Event Location": {{ page.Event_Location | jsonify }},
-    "description": {{ page.description | jsonify }},
-    "content": {{ page.content | jsonify }},
-    "layout": {{ page.layout | jsonify }}
+
+    {% comment %}
+      metadata used by events
+    {% endcomment %}
+    "event_room": {{ page.event_room | jsonify }},
+    "event_date": {{ page.event_date | jsonify }},
+    "event_time": {{ page.event_time | jsonify }},
+    {% comment %}
+      metadata used by objects
+    {% endcomment %}
+
+    {% if page.iden %}
+      {% assign audio_object = site.data.objects[page.iden] %}
+      {% for metadata in audio_object.metadata %}
+          "{{ metadata[0] }}": "{{ metadata[1] }}",
+      {% endfor %}
+
+    {% else %}
+      "event_location": {{ page.event_location | jsonify }},
+    {% endif %}
+
+    "permalink": {{ page.url | jsonify }}
   }{% if forloop.last == false %},{% endif %}
   {% endfor %}
 ]

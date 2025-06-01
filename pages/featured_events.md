@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /featured_events/
 title: Featured Events
 description: "Explore SpokenWeb UAlberta's featured events."

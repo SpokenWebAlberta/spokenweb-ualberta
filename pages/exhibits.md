@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /exhibits/
 title: All Exhibits
 description: 'Archive of exhibits.'
