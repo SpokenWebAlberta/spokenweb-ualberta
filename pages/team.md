@@ -47,9 +47,12 @@ description: 'Meet the SpokenWeb UAlberta team.'
 <div class = "figure bio"><img src="{{'/img/bio/Natasha DAmours photo.jpg' | absolute_url }}" /></div>
 **Natasha D'Amours** is an MLIS student at the University of Alberta. She has a Bachelor of Fine Arts in Writing from the University of Victoria, with a minor in Digital and Interactive Media in the Arts. Her past experience has ranged from virtual reality film production to printing and bookbinding, and she is currently working at Bruce Peel Special Collections.
 
+<br>
+
 <div class = "figure bio"><img src="{{ '/img/bio/catalina-torres.jpeg' | absolute_url }}" /></div>
 **Catalina Torres-Benjumea** MA in Digital Humanities at the University of Alberta, as a Research Assistant at SpokenWeb, is actively exploring minimal computing as a decolonizing tool. Her career spans roles as an independent editor, writer, and Senior Editor/Publisher. 
 
+<br>
 
 ### Technical Web Support
 
@@ -58,4 +61,3 @@ description: 'Meet the SpokenWeb UAlberta team.'
 interest in all things to do with minimal computing; recently, he devised and taught a course on minimal computing (with Dr 
 Chelsea Miya) at DH@Guelph, and much of his previous work has been in support of university research projects. 
 You can read more about past and ongoing initiatives at [https://blog.ryan-chartier.net](https://blog.ryan-chartier.net).
-
