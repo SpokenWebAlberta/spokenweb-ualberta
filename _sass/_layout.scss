@@ -133,17 +133,17 @@ splash page
     word-wrap: break-word;
   }
   
-h2 {
-  margin-bottom: 2rem;
-  margin-left: 5rem;
-}
+  h2 {
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+  }
 
   a {
     color: $banner-color;
     font-weight: 700;
     text-decoration: none;
   }
-  
+
   a:hover {
     text-decoration: underline;
     color: whitesmoke;
@@ -176,7 +176,8 @@ h2 {
     letter-spacing: 0.39px;
     transition-duration: 0.4s;
     margin-bottom: 5rem;
-        }
+  }
+
   .btn2:hover {
     background-color: $banner-color;
     text-decoration: none;
@@ -396,7 +397,58 @@ Exhibit/Events
   
     }
 
-    /*
+/*
+Team Page
+*/
+
+    .team-bio {
+      .bio {
+        display: flex;
+        flex-direction: row;
+
+        .team-img {
+          flex-basis: 150px;
+          flex-grow: 0;
+          flex-shrink: 0;
+          padding: 0;
+          margin-right: 1em;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+
+        }
+      }
+      margin-bottom: 1em;
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    }
+
+    .former-student-wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      p {
+        flex-basis: 33%;
+        flex-grow: 0;
+        flex-shrink: 0;
+      }
+
+      @media (max-width: 700px) {
+        p {
+          flex-basis: 50%;
+        }
+      }
+
+
+    }
+
+/*
 
 Image Captions
 
