@@ -62,9 +62,9 @@ bio="(she/her) is an undergraduate student at the University of Alberta. She is 
 %}
 
 {% include team_member.html
-src="/img/cassette.svg"
+src="/img/bio/IMG_4361.jpeg"
 name="Alyssa Laboucan"
-bio="..."
+bio="is a master’s student in English and Film Studies at the University of Alberta. She holds a Bachelor of Arts in English from Kwantlen Polytechnic University. Previously, she worked as an archival research assistant with Dr. Jennifer Hardwick on a project with the Indigenous burlesque group Virago Nation. Alyssa’s research interests include Indigenous and Black literature, children’s and young adult literature, and Victorian Gothic fiction."
 %}
 
 
