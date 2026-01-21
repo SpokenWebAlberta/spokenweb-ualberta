@@ -113,7 +113,7 @@ EPISODE SUMMARY
 
 
 
-### **“Shortcuts Live! Talking with Ariel Kroon, Nick Beauchesne, and Chelsea Miya**
+### **“Shortcuts Live! Talking with Ariel Kroon, Nick Beauchesne, and Chelsea Miya"**
 
 Produced by Katherine McLeod
 
@@ -140,8 +140,44 @@ EPISODE SUMMARY
 [Season 4, Episode 7](https://spokenweb.ca/podcast/episodes/ambient-connection-the-sounds-of-public-library-spaces/)
 
 
+### **"Algo-Rhythms"**
+
+Produced by Chelsea Miya & Nicholas Beauchesne
+
+Season 5, Episode 8: July 1, 2024
+
+EPISODE SUMMARY
+
+> How can artists harness algorithmic processes to generate poetry, music, and dance? And what can we learn from the 
+> longer history of creative coding and early experiments in human-computer collaboration? In this live episode recorded during June’s 2024 SpokenWeb Symposium, producers Nicholas Beauchesne and Chelsea Miya venture into the roots and future directions of algorithmic art. Thank you to interviewees Michael O’Driscoll, Kevin William Davis, and Kate Sicchio, as well as the live studio audience.
+
+[Season 5, Episode 8](https://spokenweb.ca/podcast/episodes/algo-rhythms/)
 
 
+### **"Sound & Seconds: A Roundtable on Timestamping for Literary Archives"**
+
+Produced by Natasha D'Amours, Michael MacKenzie, Sarah Freeman, Xuege Wu
+
+Season 6, Episode 6: May 19, 2025
+
+EPISODE SUMMARY
+
+> How does timestamping shape the preservation and curation of literary sound? This roundtable episode brings 
+> together four SpokenWeb researchers––Jason Camlot, Tanya Clement, and Mike O’Driscoll in conversation with moderator Michael MacKenzie––to explore this deceptively simple yet profoundly complex question. What emerges is a layered, multidisciplinary view of timestamping, not just as a technical task, but as an archival, aesthetic, and philosophical practice.
+
+[Season 6, Episode 6](https://spokenweb.ca/podcast/episodes/sound-seconds/)
 
 
+### **"The SpokenWeb Symposia Retrospective: Celebrating Sound Studies"**
+
+Produced by Nicholas Beauchesne and Chelsea Miya
+
+Season 6, Episode 9: August 4, 2025
+
+EPISODE SUMMARY
+
+> This “farewell” podcast episode was recorded live at the SpokenWeb Institute on May 17, 2025, at the University of 
+> British Columbia Okanagan campus, Kelowna, BC. Producers Nick Beauchesne and Chelsea Miya, with host Maia Harris, lead an audio-visual journey exploring the roots and evolution of SpokenWeb’s Symposia and Institutes from 2019 through 2025.
+
+[Season 6, Episode 9](https://spokenweb.ca/podcast/episodes/the-spokenweb-symposia-retrospective-celebrating-sound-studies/)
 

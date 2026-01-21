@@ -18,7 +18,7 @@ description: 'Archive of upcoming and past events.'
     {% endif %}
 {% endfor %}
 
-{% assign items = items | sort: "event_date" | reverse | shift %}
+{% assign items = items | sort: "event_date" | reverse %}
 
 <ul>
     {% for temp in items %}

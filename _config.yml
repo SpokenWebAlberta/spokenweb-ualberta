@@ -117,6 +117,8 @@ menu:
         link: '/events/'
   - label: 'Featured Exhibits'
     sub:
+      - label: SpokenWeb UAlberta in 360
+        link: https://ndamours14.github.io/360resounding/
       - label: 'Voiceprint'
         link: '/exhibits/voiceprint/'
       - label: 'Jars Balan'

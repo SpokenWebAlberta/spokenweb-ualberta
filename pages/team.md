@@ -32,7 +32,7 @@ bio="is a Digital Curation Librarian who works to digitize, preserve, and provid
 {% include team_member.html 
 src="/img/bio/Miya.jpg" 
 name="Chelsea Miya" 
-bio="is a Postdoctoral Fellow with the Sherman Centre for Digital Scholarship at McMaster University. Her research and teaching interests include critical code studies, nineteenth-century American literature, and the digital humanities. She also produces episodes for the <i>The SpokenWeb Podcast</i> and you can hear her work in the episodes 'Sounds of Data,' 'Academics on Air,' and 'Drum Codes."
+bio="is a Postdoctoral Fellow with the Sherman Centre for Digital Scholarship at McMaster University. Her research and teaching interests include critical code studies, nineteenth-century American literature, and the digital humanities. She also produces episodes for the <i>The SpokenWeb Podcast</i> and you can hear her work in the episodes 'Sounds of Data,' 'Academics on Air,' and 'Drum Codes.'"
 %}
 
 {% include team_member.html

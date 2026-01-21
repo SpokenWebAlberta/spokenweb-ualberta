@@ -12,6 +12,14 @@ description: 'The University of Alberta is an institutional member of the SSHRC 
   <img src="{{ '/img/team.jpg' | absolute_url }}"/>
   <figcaption>The UAlberta team at SpokenWeb Symposium 2022 in Montreal.</figcaption>
 </div>
+
+<br>
+
+<div class = "figure">
+  <img src="{{ '/img/IMG_1332.png' | absolute_url }}"/>
+  <figcaption>Some of the UAlberta team at the 2025 SpokenWeb Symposium in Kelowna.</figcaption>
+</div>
+
 <br>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p8UF3GIZbjk?si=X6LaJa-kU_awmES9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
